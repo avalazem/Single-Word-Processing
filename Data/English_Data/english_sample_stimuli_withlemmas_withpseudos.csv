@@ -1,0 +1,211 @@
+Word,Lexicality,Size,Length,Frequency,Zipf Frequency,Morphology,Part of Speech,Phonemes,Condition,Root,Lemma,Zipf Lemma Frequency
+infertile,real,long,9,low,2.86,complex,NOUN,"['IH2', 'N', 'F', 'ER1', 'T', 'AH0', 'L']",RLLC,,fertile,3.62
+egotistic,real,long,8,low,1.98,complex,ADJ,"['IY2', 'G', 'AH0', 'T', 'IH1', 'S', 'T', 'IH0', 'K']",RLLC,,ego,4.02
+tartness,real,long,8,low,1.86,complex,NOUN,"['T', 'AA1', 'R', 'T']",RLLC,,tart,3.37
+adaptable,real,long,9,low,3.12,complex,ADJ,"['AH0', 'D', 'AE1', 'P', 'T', 'AH0', 'B', 'AH0', 'L']",RLLC,,adapt,3.98
+whisperer,real,long,9,low,2.81,complex,NOUN,"['W', 'IH1', 'S', 'P', 'ER0', 'ER0']",RLLC,,whisper,3.74
+tattooist,real,long,9,low,1.99,complex,NOUN,"['T', 'AE1', 'T', 'AH0', 'S', 'T']",RLLC,,tattoo,4.14
+cubical,real,long,7,low,2.05,complex,ADJ,"['K', 'YUW1', 'B', 'IH0', 'K', 'AH0', 'L']",RLLC,,cube,3.82
+tearful,real,long,7,low,2.99,complex,ADJ,"['T', 'IH1', 'R', 'F', 'AH0', 'L']",RLLC,,tear,4.35
+reliant,real,long,7,low,3.41,complex,ADJ,"['R', 'IH0', 'L', 'AY1', 'AH0', 'N', 'T']",RLLC,,rely,4.29
+fatally,real,long,7,low,3.33,complex,ADV,"['F', 'EY1', 'T', 'AH0', 'L', 'IY0']",RLLC,,fatal,4.1
+defiant,real,long,7,low,3.21,complex,ADJ,"['D', 'IH0', 'F', 'AY1', 'AH0', 'N', 'T']",RLLC,,defy,3.42
+sourness,real,long,8,low,2.05,complex,NOUN,"['S', 'AW1', 'R', 'N', 'AH0', 'S']",RLLC,,sour,3.88
+disembark,real,long,9,low,2.68,complex,VERB,"['D', 'IH0', 'S', 'IH0', 'M', 'B', 'AA1', 'R', 'K']",RLLC,,embark,3.4
+impolite,real,long,8,low,2.62,complex,ADJ,"['IH0', 'M', 'P', 'AH0', 'L', 'AY2', 'T']",RLLC,,polite,3.92
+woefully,real,long,8,low,2.92,complex,ADV,"['W', 'OW1', 'F', 'AH0', 'L', 'IY0']",RLLC,,woe,3.31
+etiquette,real,long,9,low,3.4,simple,NOUN,"['EH1', 'T', 'AH0', 'K', 'AH0', 'T']",RLLS,,etiquette,3.4
+hedgehog,real,long,8,low,3.25,simple,PROPN,"['HH', 'EH1', 'JH', 'HH', 'AA2', 'G']",RLLS,,hedgehog,3.25
+fumigate,real,long,8,low,1.87,simple,VERB,"['F', 'Y', 'UW1', 'M', 'AH0', 'G', 'EY2', 'T']",RLLS,,fumigate,1.87
+avalanche,real,long,9,low,3.48,simple,NOUN,"['AE1', 'V', 'AH0', 'L', 'AE2', 'N', 'CH']",RLLS,,avalanche,3.48
+chameleon,real,long,9,low,3.1,simple,NOUN,"['CH', 'AH0', 'M', 'EH1', 'L', 'IY0', 'AH0', 'N']",RLLS,,chameleon,3.1
+boomerang,real,long,9,low,3.06,simple,NOUN,"['B', 'UW1', 'M', 'ER0', 'AE2', 'NG']",RLLS,,boomerang,3.06
+frisbee,real,long,7,low,2.96,simple,PROPN,"['F', 'R', 'IH1', 'S', 'B', 'IY0']",RLLS,,frisbee,2.96
+satchel,real,long,7,low,2.9,simple,NOUN,"['S', 'AE1', 'CH', 'AH0', 'L']",RLLS,,satchel,2.9
+whither,real,long,7,low,2.52,simple,ADV,"['W', 'IH1', 'DH', 'ER0']",RLLS,,whither,2.52
+savanna,real,long,7,low,2.83,simple,NOUN,"['S', 'AH0', 'V', 'AE1', 'N', 'AH0']",RLLS,,savanna,2.83
+giraffe,real,long,7,low,3.32,simple,NOUN,"['JH', 'ER0', 'AE1', 'F']",RLLS,,giraffe,3.32
+scrabble,real,long,8,low,3.04,simple,NOUN,"['S', 'K', 'R', 'AE1', 'B', 'AH0', 'L']",RLLS,,scrabble,3.04
+blaspheme,real,long,9,low,2.16,simple,VERB,"['B', 'L', 'AE1', 'S', 'F', 'IY0', 'M']",RLLS,,blaspheme,2.16
+trombone,real,long,8,low,2.97,simple,NOUN,"['T', 'R', 'AA0', 'M', 'B', 'OW1', 'N']",RLLS,,trombone,2.97
+gargoyle,real,long,8,low,2.63,simple,NOUN,"['G', 'AA1', 'R', 'G', 'OY2', 'L']",RLLS,,gargoyle,2.63
+shears,real,short,6,low,2.9,complex,NOUN,"['SH', 'IY1', 'R', 'Z']",RSLC,,shear,3.4
+combs,real,short,5,low,3.17,complex,NOUN,"['K', 'OW1', 'M', 'Z']",RSLC,,comb,3.52
+shyly,real,short,5,low,2.42,complex,ADV,"['SH', 'AY1', 'L', 'IY0']",RSLC,,shy,4.16
+surfer,real,short,6,low,3.3,complex,NOUN,"['S', 'ER1', 'F', 'ER0']",RSLC,,surf,3.86
+orally,real,short,6,low,3.12,complex,ADV,"['AO1', 'R', 'AH0', 'L', 'IY0']",RSLC,,oral,4.26
+oxen,real,short,4,low,2.9,complex,PROPN,"['AA1', 'K', 'S', 'AH0', 'N']",RSLC,,ox,3.47
+idly,real,short,4,low,2.93,complex,ADV,"['AY1', 'D', 'L', 'IY0']",RSLC,,idle,3.7
+pods,real,short,4,low,3.45,complex,NOUN,"['P', 'AA1', 'D', 'Z']",RSLC,,pod,3.71
+sows,real,short,4,low,2.59,complex,VERB,"['S', 'OW1', 'Z']",RSLC,,sow,3.38
+mugs,real,short,4,low,3.24,complex,NOUN,"['M', 'AH1', 'G', 'Z']",RSLC,,mug,3.71
+unzip,real,short,5,low,2.55,complex,VERB,"['AH0', 'N', 'Z', 'IH1', 'P']",RSLC,,zip,3.87
+inhale,real,short,6,low,3.25,complex,VERB,"['IH0', 'N', 'HH', 'EY1', 'L']",RSLC,,hale,3.6
+mended,real,short,6,low,2.72,complex,VERB,"['M', 'EH1', 'N', 'D', 'IH0', 'D']",RSLC,,mend,3.33
+mixer,real,short,5,low,3.5,complex,NOUN,"['M', 'IH1', 'K', 'S', 'ER0']",RSLC,,mix,4.71
+lamer,real,short,5,low,2.17,complex,NOUN,"['L', 'EY1', 'M', 'ER0']",RSLC,,lame,3.95
+jersey,real,short,6,high,4.66,simple,NOUN,"['JH', 'ER1', 'Z', 'IY0']",RSHS,,jersey,4.66
+sword,real,short,5,high,4.37,simple,NOUN,"['S', 'AO1', 'R', 'D']",RSHS,,sword,4.37
+phone,real,short,5,high,5.3,simple,NOUN,"['F', 'OW1', 'N']",RSHS,,phone,5.3
+camera,real,short,6,high,4.87,simple,NOUN,"['K', 'AE1', 'M', 'ER0', 'AH0']",RSHS,,camera,4.87
+strong,real,short,6,high,5.22,simple,ADJ,"['S', 'T', 'R', 'AO1', 'NG']",RSHS,,strong,5.22
+dare,real,short,4,high,4.31,simple,VERB,"['D', 'EH1', 'R']",RSHS,,dare,4.31
+rain,real,short,4,high,4.71,simple,NOUN,"['R', 'EY1', 'N']",RSHS,,rain,4.71
+tank,real,short,4,high,4.57,simple,NOUN,"['T', 'AE1', 'NG', 'K']",RSHS,,tank,4.57
+iron,real,short,4,high,4.74,simple,NOUN,"['AY1', 'ER0', 'N']",RSHS,,iron,4.74
+bear,real,short,4,high,4.71,simple,VERB,"['B', 'EH1', 'R']",RSHS,,bear,4.71
+radio,real,short,5,high,5.01,simple,NOUN,"['R', 'EY1', 'D', 'IY0', 'OW2']",RSHS,,radio,5.01
+cherry,real,short,6,high,4.18,simple,NOUN,"['CH', 'EH1', 'R', 'IY0']",RSHS,,cherry,4.18
+guitar,real,short,6,high,4.48,simple,NOUN,"['G', 'IH0', 'T', 'AA1', 'R']",RSHS,,guitar,4.48
+large,real,short,5,high,5.39,simple,ADJ,"['L', 'AA1', 'R', 'JH']",RSHS,,large,5.39
+truck,real,short,5,high,4.64,simple,NOUN,"['T', 'R', 'AH1', 'K']",RSHS,,truck,4.64
+establish,real,long,9,high,4.46,simple,VERB,"['IH0', 'S', 'T', 'AE1', 'B', 'L', 'IH0', 'SH']",RLHS,,establish,4.46
+shoulder,real,long,8,high,4.5,simple,NOUN,"['SH', 'OW1', 'L', 'D', 'ER0']",RLHS,,shoulder,4.5
+straight,real,long,8,high,5.04,simple,ADJ,"['S', 'T', 'R', 'EY1', 'T']",RLHS,,straight,5.04
+satellite,real,long,9,high,4.33,simple,NOUN,"['S', 'AE1', 'T', 'AH0', 'L', 'AY2', 'T']",RLHS,,satellite,4.33
+character,real,long,9,high,5.11,simple,NOUN,"['K', 'EH1', 'R', 'IH0', 'K', 'T', 'ER0']",RLHS,,character,5.11
+immediate,real,long,9,high,4.52,simple,ADJ,"['IH0', 'M', 'IY1', 'D', 'IY0', 'AH0', 'T']",RLHS,,immediate,4.52
+gravity,real,long,7,high,4.21,simple,NOUN,"['G', 'R', 'AE1', 'V', 'AH0', 'T', 'IY0']",RLHS,,gravity,4.21
+village,real,long,7,high,4.82,simple,NOUN,"['V', 'IH1', 'L', 'AH0', 'JH']",RLHS,,village,4.82
+natural,real,long,7,high,5.11,simple,ADJ,"['N', 'AE1', 'CH', 'ER0', 'AH0', 'L']",RLHS,,natural,5.11
+despite,real,long,7,high,5.0,simple,SCONJ,"['D', 'IH0', 'S', 'P', 'AY1', 'T']",RLHS,,despite,5.0
+kitchen,real,long,7,high,4.65,simple,NOUN,"['K', 'IH1', 'CH', 'AH0', 'N']",RLHS,,kitchen,4.65
+sandwich,real,long,8,high,4.13,simple,NOUN,"['S', 'AE1', 'N', 'D', 'W', 'IH0', 'CH']",RLHS,,sandwich,4.13
+architect,real,long,9,high,4.08,simple,NOUN,"['AA1', 'R', 'K', 'AH0', 'T', 'EH2', 'K', 'T']",RLHS,,architect,4.08
+gorgeous,real,long,8,high,4.35,simple,ADJ,"['G', 'AO1', 'R', 'JH', 'AH0', 'S']",RLHS,,gorgeous,4.35
+calendar,real,long,8,high,4.3,simple,NOUN,"['K', 'AE1', 'L', 'AH0', 'N', 'D', 'ER0']",RLHS,,calendar,4.3
+peddle,real,short,6,low,2.76,simple,VERB,"['P', 'EH1', 'D', 'AH0', 'L']",RSLS,,peddle,2.76
+hoist,real,short,5,low,3.12,simple,VERB,"['HH', 'OY1', 'S', 'T']",RSLS,,hoist,3.12
+acorn,real,short,5,low,3.08,simple,NOUN,"['EY1', 'K', 'AO0', 'R', 'N']",RSLS,,acorn,3.08
+ramble,real,short,6,low,2.85,simple,VERB,"['R', 'AE1', 'M', 'B', 'AH0', 'L']",RSLS,,ramble,2.85
+mingle,real,short,6,low,3.21,simple,VERB,"['M', 'IH1', 'NG', 'G', 'AH0', 'L']",RSLS,,mingle,3.21
+quiver,real,short,6,low,2.84,simple,NOUN,"['K', 'W', 'IH1', 'V', 'ER0']",RSLS,,quiver,2.84
+ajar,real,short,4,low,2.57,simple,ADJ,"['AH0', 'JH', 'AA1', 'R']",RSLS,,ajar,2.57
+balk,real,short,4,low,2.72,simple,VERB,"['B', 'AO1', 'K']",RSLS,,balk,2.72
+lore,real,short,4,low,3.55,simple,NOUN,"['L', 'AO1', 'R']",RSLS,,lore,3.55
+rake,real,short,4,low,3.38,simple,VERB,"['R', 'EY1', 'K']",RSLS,,rake,3.38
+heft,real,short,4,low,2.75,simple,NOUN,"['HH', 'EH1', 'F', 'T']",RSLS,,heft,2.75
+scour,real,short,5,low,2.97,simple,VERB,"['S', 'K', 'AW1', 'ER0']",RSLS,,scour,2.97
+trifle,real,short,6,low,2.93,simple,VERB,"['B', 'UH1', 'L', 'AH0', 'T']",RSLS,,trifle,2.93
+broom,real,short,5,low,3.42,simple,VERB,"['B', 'R', 'UW1', 'M']",RSLS,,broom,3.42
+leery,real,short,5,low,2.58,simple,ADJ,"['L', 'IH1', 'R', 'IY0']",RSLS,,leery,2.58
+beautiful,real,long,9,high,5.22,complex,ADJ,"['B', 'Y', 'UW1', 'T', 'IH0', 'F', 'AH0', 'L']",RLHC,,beauty,4.75
+northern,real,long,8,high,4.85,complex,ADJ,"['N', 'AO1', 'R', 'DH', 'ER0', 'N']",RLHC,,north,5.34
+pictures,real,long,8,high,4.92,complex,NOUN,"['P', 'IH1', 'K', 'CH', 'ER0', 'Z']",RLHC,,picture,5.13
+seriously,real,long,9,high,4.94,complex,ADV,"['S', 'IH1', 'R', 'IY0', 'AH0', 'S', 'L', 'IY0']",RLHC,,serious,5.1
+disappear,real,long,9,high,4.09,complex,VERB,"['D', 'IH2', 'S', 'AH0', 'P', 'IH1', 'R']",RLHC,,appear,4.85
+receiving,real,long,9,high,4.59,complex,VERB,"['R', 'AH0', 'S', 'IY1', 'V', 'IH0', 'NG']",RLHC,,receive,4.85
+genetic,real,long,7,high,4.34,complex,ADJ,"['JH', 'AH0', 'N', 'EH1', 'T', 'IH0', 'K']",RLHC,,gene,4.36
+officer,real,long,7,high,5.03,complex,NOUN,"['AO1', 'F', 'AH0', 'S', 'ER0']",RLHC,,office,5.4
+illegal,real,long,7,high,4.68,complex,ADJ,"['IH2', 'L', 'IY1', 'G', 'AH0', 'L']",RLHC,,legal,5.08
+coastal,real,long,7,high,4.19,complex,ADJ,"['K', 'OW1', 'S', 'T', 'AH0', 'L']",RLHC,,coast,4.87
+farmers,real,long,7,high,4.43,complex,NOUN,"['F', 'AA1', 'R', 'M', 'ER0', 'Z']",RLHC,,farm,4.75
+mentally,real,long,8,high,4.2,complex,ADV,"['M', 'EH1', 'N', 'T', 'AH0', 'L', 'IY0']",RLHC,,mental,4.83
+criminals,real,long,9,high,4.15,complex,NOUN,"['K', 'R', 'IH1', 'M', 'AH0', 'N', 'AH0', 'L', 'Z']",RLHC,,crime,4.89
+disagree,real,long,8,high,4.09,complex,VERB,"['D', 'IH0', 'S', 'AH0', 'G', 'R', 'IY1']",RLHC,,agree,4.97
+clinical,real,long,8,high,4.51,complex,ADJ,"['K', 'L', 'IH1', 'N', 'AH0', 'K', 'AH0', 'L']",RLHC,,clinic,4.21
+hearts,real,short,6,high,4.44,complex,NOUN,"['HH', 'AA1', 'R', 'T', 'S']",RSHC,,heart,5.31
+daily,real,short,5,high,5.07,complex,ADV,"['D', 'EY1', 'L', 'IY0']",RSHC,,day,5.95
+actor,real,short,5,high,4.65,complex,NOUN,"['AE1', 'K', 'T', 'ER0']",RSHC,,act,5.3
+writes,real,short,6,high,4.36,complex,VERB,"['R', 'AY1', 'T', 'S']",RSHC,,write,5.03
+across,real,short,6,high,5.25,complex,ADP,"['AH0', 'K', 'R', 'AO1', 'S']",RSHC,,cross,5.0
+trains,real,short,6,high,4.27,complex,NOUN,"['T', 'R', 'EY1', 'N', 'Z']",RSHC,,train,4.96
+worn,real,short,4,high,4.26,complex,VERB,"['W', 'AO1', 'R', 'N']",RSHC,,wear,4.92
+user,real,short,4,high,4.69,complex,NOUN,"['Y', 'UW1', 'Z', 'ER0']",RSHC,,use,5.81
+unit,real,short,4,high,4.96,complex,NOUN,"['Y', 'UW1', 'N', 'AH0', 'T']",RSHC,,unit,4.95
+easy,real,short,4,high,5.29,complex,ADJ,"['IY1', 'Z', 'IY0']",RSHC,,ease,4.34
+lets,real,short,4,high,4.51,complex,VERB,"['L', 'EH1', 'T', 'S']",RSHC,,let,5.6
+stars,real,short,5,high,4.86,complex,NOUN,"['S', 'T', 'AA1', 'R', 'Z']",RSHC,,star,5.19
+deaths,real,short,6,high,4.53,complex,NOUN,"['D', 'EH1', 'TH', 'S']",RSHC,,death,5.4
+boats,real,short,5,high,4.25,complex,NOUN,"['B', 'OW1', 'T', 'S']",RSHC,,boat,4.71
+lived,real,short,5,high,4.88,complex,VERB,"['L', 'AY1', 'V', 'D']",RSHC,,live,5.54
+disinherit,real, long,10,low,1.92,complex,VERB,"['D', 'IH0', 'S', 'IH0', 'N', 'HH', 'EH1', 'R', 'IH0', 'T']",RLLC,herit,inherit,3.52
+invigorate,real, long,10,low,2.32,complex,VERB,"['IH2', 'N', 'V', 'IH1', 'G', 'ER0', 'EY2', 'T']",RLLC,vigor,vigor,3.03
+scepticism,real, long,10,low,2.94,complex,NOUN,"['S', 'K', 'EH1', 'T', 'AH0', 'S', 'IH0', 'Z', 'AH0', 'M']",RLLC,sceptic,sceptic,2.5
+vengefully,real, long,10,low,1.37,complex,ADV,"['V', 'EH1', 'N', 'JH', 'F', 'AH0', 'L', 'IY0']",RLLC,venge,vengeful,1.62
+allurement,real, long,10,low,1.39,complex,NOUN,['AH0 L UH1 R M AH0 N T'],RLLC,allure,allure,3.15
+translator,real, long,10,high,3.93,complex,NOUN,"['T', 'R', 'AE1', 'N', 'S', 'L', 'EY0', 'T', 'ER0']",RLHC,translate,translate,3.93
+impossible,real, long,10,high,4.78,complex,ADJ,"['IH2', 'N', 'AE1', 'K', 'T', 'AH0', 'V', 'EY2', 'T']",RLHC,possible,possible,5.36
+disclosure,real, long,10,high,4.0,complex,NOUN,"['D', 'IH0', 'S', 'K', 'L', 'OW1', 'ZH', 'ER0']",RLHC,clos,close,5.36
+theatrical,real, long,10,high,3.68,complex,ADJ,"['TH', 'IH0', 'AE1', 'T', 'R', 'IH0', 'K', 'AH0', 'L']",RLHC,theatric,theatre,4.52
+vertically,real, long,10,high,3.46,complex,ADV,"['V', 'ER0', 'T', 'IH1', 'K', 'L', 'IY0']",RLHC,vertical,vertical,4.15
+understand,real, long,10,high,5.37,simple,VERB,"['UH1', 'N', 'D', 'ER0', 'S', 'T', 'AE1', 'N', 'D']",RLHS,,understand,5.37
+experience,real, long,10,high,5.27,simple,NOUN,"['IH0', 'K', 'S', 'P', 'IH1', 'R', 'IY0', 'AH0', 'N', 'S']",RLHS,,experience,5.27
+discipline,real, long,10,high,4.23,simple,NOUN,"['D', 'IH1', 'S', 'AH0', 'P', 'L', 'IH0', 'N']",RLHS,,discipline,4.23
+phenomenon,real, long,10,high,4.13,simple,NOUN,"['F', 'AH0', 'N', 'AA1', 'M', 'AH0', 'N']",RLHS,,phenomenon,4.13
+restaurant,real, long,10,high,4.68,simple,NOUN,"['R', 'EH1', 'S', 'T', 'AH0', 'R', 'AA0', 'N', 'T']",RLHS,,restaurant,4.68
+chinchilla,real, long,10,low,2.57,simple,NOUN,"['CH', 'IH0', 'N', 'CH', 'IH1', 'L', 'AH0']",RLLS,,chinchilla,2.57
+shenanigan,real, long,10,low,1.53,simple,NOUN,"['SH', 'AH0', 'N', 'AE1', 'N', 'IH0', 'G', 'AH0', 'N']",RLLS,,shenanigan,1.53
+leprechaun,real, long,10,low,2.69,simple,NOUN,"['L', 'EH1', 'P', 'R', 'AH0', 'K', 'AO1', 'N']",RLLS,,leprechaun,2.69
+hieroglyph,real, long,10,low,1.98,simple,NOUN,"['H', 'AY0', 'ER0', 'AH0', 'G', 'L', 'IH1', 'F']",RLLS,,hieroglyph,1.98
+palindrome,real, long,10,low,2.7,simple,NOUN,"['P', 'AE1', 'L', 'AH0', 'D', 'R', 'OW2', 'M']",RLLS,,palindrome,2.17
+nonsory,pseudo,long,7,,,complex,,"['N', 'AA1', 'N', 'S', 'ER0', 'IY0']",PLC,,,
+remoral,pseudo,long,7,,,complex,,"['R', 'IY0', 'M', 'AO1', 'R', 'AH0', 'L']",PLC,,,
+tensory,pseudo,long,7,,,complex,,"['T', 'EH1', 'N', 'S', 'ER0', 'IY0']",PLC,,,
+fatcher,pseudo,long,7,,,complex,,"['F', 'AE1', 'CH', 'ER0']",PLC,,,
+watally,pseudo,long,7,,,complex,,"['W', 'AO1', 'T', 'AH0', 'L', 'IY0']",PLC,,,
+unkinter,pseudo,long,8,,,complex,,"['AH2', 'N', 'K', 'IH1', 'N', 'T', 'ER0']",PLC,,,
+dishaven,pseudo,long,8,,,complex,,"['D', 'IH0', 'S', 'HH', 'EY1', 'V', 'AH0', 'N']",PLC,,,
+trustler,pseudo,long,8,,,complex,,"['T', 'R', 'AH1', 'S', 'T', 'ER0', 'L']",PLC,,,
+sprindly,pseudo,long,8,,,complex,,"['S', 'P', 'R', 'IH1', 'N', 'D', 'L', 'IY0']",PLC,,,
+impolder,pseudo,long,8,,,complex,,"['IH0', 'M', 'P', 'OW1', 'L', 'D', 'ER0']",PLC,,,
+procreach,pseudo,long,9,,,complex,,"['P', 'R', 'OW1', 'K', 'R', 'IY0', 'AE2', 'K']",PLC,,,
+rederlity,pseudo,long,9,,,complex,,"['R', 'EH1', 'D', 'ER0', 'AH0', 'L', 'T', 'IY0']",PLC,,,
+distfully,pseudo,long,9,,,complex,,"['D', 'IH1', 'S', 'T', 'F', 'AH0', 'L', 'IY0']",PLC,,,
+reodeness,pseudo,long,9,,,complex,,"['R', 'IY1', 'AH0', 'D', 'IY2', 'N', 'S', 'AH0', 'Z']",PLC,,,
+immerlize,pseudo,long,9,,,complex,,"['IH1', 'M', 'ER0', 'L', 'AY2', 'Z']",PLC,,,
+forizon,pseudo,long,7,,,simple,,"['F', 'AO1', 'R', 'IH0', 'Z', 'AA0', 'N']",PLS,,,
+gentass,pseudo,long,7,,,simple,,"['JH', 'EH1', 'N', 'T', 'S']",PLS,,,
+amalanx,pseudo,long,7,,,simple,,"['AE1', 'M', 'AH0', 'L', 'AA2', 'N', 'S', 'K']",PLS,,,
+iridict,pseudo,long,7,,,simple,,"['IH0', 'R', 'IH1', 'D', 'IH0', 'K', 'T']",PLS,,,
+brinbow,pseudo,long,7,,,simple,,"['B', 'R', 'IH1', 'N', 'B', 'OW0']",PLS,,,
+freasite,pseudo,long,8,,,simple,,"['F', 'R', 'IY1', 'Z', 'IH0', 'T']",PLS,,,
+garadign,pseudo,long,8,,,simple,,"['G', 'AE1', 'R', 'AH0', 'G', 'AH0', 'N', 'D']",PLS,,,
+conflite,pseudo,long,8,,,simple,,"['K', 'AH0', 'N', 'F', 'L', 'AY1', 'T']",PLS,,,
+hospency,pseudo,long,8,,,simple,,"['HH', 'AA1', 'S', 'P', 'AH0', 'N', 'S', 'IY0']",PLS,,,
+currease,pseudo,long,8,,,simple,,"['K', 'ER0', 'IY1', 'S']",PLS,,,
+insterday,pseudo,long,9,,,simple,,"['IH1', 'N', 'S', 'T', 'ER0', 'D', 'EY2']",PLS,,,
+chamerane,pseudo,long,9,,,simple,,"['CH', 'AE1', 'M', 'ER0', 'N', 'EY2']",PLS,,,
+artillise,pseudo,long,9,,,simple,,"['AA1', 'R', 'T', 'AH0', 'L', 'AY2', 'Z']",PLS,,,
+surricane,pseudo,long,9,,,simple,,"['S', 'ER1', 'AH0', 'K', 'EY2', 'N']",PLS,,,
+boomelege,pseudo,long,9,,,simple,,"['B', 'UW1', 'M', 'AH0', 'L', 'AH0', 'JH']",PLS,,,
+duid,pseudo,short,4,,,simple,,"['D', 'UW1', 'D']",PSS,,,
+foab,pseudo,short,4,,,simple,,"['F', 'OW1', 'B']",PSS,,,
+alab,pseudo,short,4,,,simple,,"['AH0', 'L', 'AA1', 'B']",PSS,,,
+hyma,pseudo,short,4,,,simple,,"['HH', 'AY1', 'M', 'AH0']",PSS,,,
+daip,pseudo,short,4,,,simple,,"['D', 'EY1', 'P']",PSS,,,
+abosh,pseudo,short,5,,,simple,,"['AH0', 'B', 'AA1', 'SH']",PSS,,,
+lirce,pseudo,short,5,,,simple,,"['R', 'IH1', 'S']",PSS,,,
+bryst,pseudo,short,5,,,simple,,"['B', 'R', 'IH1', 'S', 'T']",PSS,,,
+clect,pseudo,short,5,,,simple,,"['K', 'L', 'EH1', 'K', 'T']",PSS,,,
+drall,pseudo,short,5,,,simple,,"['D', 'R', 'AO1', 'L']",PSS,,,
+rearce,pseudo,short,6,,,simple,,"['R', 'IY1', 'S']",PSS,,,
+japhen,pseudo,short,6,,,simple,,"['JH', 'AE1', 'F', 'AH0', 'N']",PSS,,,
+wrivol,pseudo,short,6,,,simple,,"['R', 'AY1', 'V', 'AH0', 'L']",PSS,,,
+courch,pseudo,short,6,,,simple,,"['K', 'AO1', 'R', 'CH']",PSS,,,
+puivon,pseudo,short,6,,,simple,,"['P', 'W', 'IH1', 'V', 'AH0', 'N']",PSS,,,
+hexy,pseudo,short,4,,,complex,,"['HH', 'EH1', 'K', 'S', 'IY0']",PSC,,,
+juns,pseudo,short,4,,,complex,,"['JH', 'AH1', 'N', 'Z']",PSC,,,
+nory,pseudo,short,4,,,complex,,"['N', 'AO1', 'R', 'IY0']",PSC,,,
+rewn,pseudo,short,4,,,complex,,"['R', 'UW1', 'N']",PSC,,,
+onts,pseudo,short,4,,,complex,,"['AA1', 'N', 'T', 'S']",PSC,,,
+entew,pseudo,short,5,,,complex,,"['EH1', 'N', 'T', 'W', 'IY0']",PSC,,,
+lauly,pseudo,short,5,,,complex,,"['L', 'AO1', 'L', 'IY0']",PSC,,,
+betor,pseudo,short,5,,,complex,,"['B', 'EH1', 'T', 'ER0']",PSC,,,
+plars,pseudo,short,5,,,complex,,"['P', 'L', 'AA1', 'R', 'Z']",PSC,,,
+damer,pseudo,short,5,,,complex,,"['D', 'EY1', 'M', 'ER0']",PSC,,,
+flants,pseudo,short,6,,,complex,,"['F', 'L', 'AE1', 'N', 'T', 'S']",PSC,,,
+icones,pseudo,short,6,,,complex,,"['IY1', 'K', 'OW0', 'N', 'Z']",PSC,,,
+encask,pseudo,short,6,,,complex,,"['IH0', 'N', 'K', 'AA1', 'S', 'K']",PSC,,,
+misbar,pseudo,short,6,,,complex,,"['S', 'IH0', 'S', 'B', 'AA1', 'R']",PSC,,,
+counds,pseudo,short,6,,,complex,,"['K', 'AW1', 'N', 'D', 'Z']",PSC,,,
+submingers,pseudo,long,10,,,complex,,"['S', 'AH0', 'B', 'M', 'IH1', 'N', 'JH', 'ER0', 'Z']",PLC,,,
+chriniable,pseudo,long,10,,,complex,,"['K', 'R', 'IH0', 'N', 'IY1', 'AH0', 'B', 'AH0', 'L']",PLC,,,
+alassfully,pseudo,long,10,,,complex,,"['AH0', 'L', 'AE1', 'S', 'F', 'U0', 'L', 'IY0']",PLC,,,
+digrersher,pseudo,long,10,,,complex,,"['D', 'IH0', 'G', 'R', 'IH1', 'SH', 'ER0']",PLC,,,
+phounching,pseudo,long,10,,,complex,,"['F', 'AW1', 'N', 'CH', 'IH0', 'NG']",PLC,,,
+thildhoust,pseudo,long,10,,,simple,,"['TH', 'IH1', 'L', 'D', 'HH', 'AW1', 'S', 'T']",PLS,,,
+gormassime,pseudo,long,10,,,simple,,"['G', 'AO1', 'R', 'M', 'AE0', 'S', 'IH1', 'M']",PLS,,,
+tescoucous,pseudo,long,10,,,simple,,"['T', 'EH1', 'S', 'K', 'UW0', 'K', 'AH0', 'S']",PLS,,,
+driternoon,pseudo,long,10,,,simple,,"['D', 'R', 'IH1', 'T', 'ER0', 'N', 'UW1', 'N']",PLS,,,
+noocantong,pseudo,long,10,,,simple,,"['N', 'UW1', 'K', 'AE0', 'N', 'T', 'AO1', 'NG']",PLS,,,

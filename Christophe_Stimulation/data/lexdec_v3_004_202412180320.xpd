@@ -1,0 +1,33 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Wed Dec 18 2024 03:20:17
+#--EXPERIMENT INFO
+#e mainfile: lexdec_v3.py
+#e sha1: 5e1b0c
+#e modules: 
+#e Experiment: Lexical Decision
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 4
+subject_id,cat,word,respkey,RT
+4,W,leprechaun,f,860
+4,W,unit,f,712
+4,W,ajar,f,751
+4,W,giraffe,f,715
+4,W,tank,f,679
+4,W,disappear,f,687
+4,W,illegal,f,607
+4,W,savanna,f,600
+4,W,cherry,f,504
+4,W,leery,f,1023
+4,W,sourness,f,558
+4,W,whither,f,1067
+4,W,shears,f,561
+4,W,sword,f,550
+4,W,oxen,f,652
+4,P,sprindly,f,449
+4,P,garadign,None,None
+4,P,impolder,None,None
+4,W,character,f,1288
+4,W,architect,f,674
+4,P,insterday,None,None
+4,W,idly,None,None
