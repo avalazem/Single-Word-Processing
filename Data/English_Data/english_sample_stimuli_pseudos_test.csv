@@ -1,0 +1,71 @@
+Word,Lexicality,Size,Length,Frequency,Zipf Frequency,Morphology,Part of Speech,Phonemes,Condition,Root,Lemma,Zipf Lemma Frequency,Min Levenshtein Distance
+nonsory,pseudo,long,7,,,complex,,"['N', 'AA1', 'N', 'S', 'ER0', 'IY0']",PLC,,,,2
+remoral,pseudo,long,7,,,complex,,"['R', 'IY0', 'M', 'AO1', 'R', 'AH0', 'L']",PLC,,,,1
+tensory,pseudo,long,7,,,complex,,"['T', 'EH1', 'N', 'S', 'ER0', 'IY0']",PLC,,,,1
+fatcher,pseudo,long,7,,,complex,,"['F', 'AE1', 'CH', 'ER0']",PLC,,,,1
+watally,pseudo,long,7,,,complex,,"['W', 'AO1', 'T', 'AH0', 'L', 'IY0']",PLC,,,,1
+unkinter,pseudo,long,8,,,complex,,"['AH2', 'N', 'K', 'IH1', 'N', 'T', 'ER0']",PLC,,,,1
+dishaven,pseudo,long,8,,,complex,,"['D', 'IH0', 'S', 'HH', 'EY1', 'V', 'AH0', 'N']",PLC,,,,1
+trustler,pseudo,long,8,,,complex,,"['T', 'R', 'AH1', 'S', 'T', 'ER0', 'L']",PLC,,,,1
+sprindly,pseudo,long,8,,,complex,,"['S', 'P', 'R', 'IH1', 'N', 'D', 'L', 'IY0']",PLC,,,,1
+impolder,pseudo,long,8,,,complex,,"['IH0', 'M', 'P', 'OW1', 'L', 'D', 'ER0']",PLC,,,,2
+procreach,pseudo,long,9,,,complex,,"['P', 'R', 'OW1', 'K', 'R', 'IY0', 'AE2', 'K']",PLC,,,,2
+rederlity,pseudo,long,9,,,complex,,"['R', 'EH1', 'D', 'ER0', 'AH0', 'L', 'T', 'IY0']",PLC,,,,3
+distfully,pseudo,long,9,,,complex,,"['D', 'IH1', 'S', 'T', 'F', 'AH0', 'L', 'IY0']",PLC,,,,1
+reodeness,pseudo,long,9,,,complex,,"['R', 'IY1', 'AH0', 'D', 'IY2', 'N', 'S', 'AH0', 'Z']",PLC,,,,2
+immerlize,pseudo,long,9,,,complex,,"['IH1', 'M', 'ER0', 'L', 'AY2', 'Z']",PLC,,,,2
+forizon,pseudo,long,7,,,simple,,"['F', 'AO1', 'R', 'IH0', 'Z', 'AA0', 'N']",PLS,,,,1
+gentass,pseudo,long,7,,,simple,,"['JH', 'EH1', 'N', 'T', 'S']",PLS,,,,2
+amalanx,pseudo,long,7,,,simple,,"['AE1', 'M', 'AH0', 'L', 'AA2', 'N', 'S', 'K']",PLS,,,,2
+iridict,pseudo,long,7,,,simple,,"['IH0', 'R', 'IH1', 'D', 'IH0', 'K', 'T']",PLS,,,,1
+brinbow,pseudo,long,7,,,simple,,"['B', 'R', 'IH1', 'N', 'B', 'OW0']",PLS,,,,2
+freasite,pseudo,long,8,,,simple,,"['F', 'R', 'IY1', 'Z', 'IH0', 'T']",PLS,,,,2
+garadign,pseudo,long,8,,,simple,,"['G', 'AE1', 'R', 'AH0', 'G', 'AH0', 'N', 'D']",PLS,,,,2
+conflite,pseudo,long,8,,,simple,,"['K', 'AH0', 'N', 'F', 'L', 'AY1', 'T']",PLS,,,,1
+hospency,pseudo,long,8,,,simple,,"['HH', 'AA1', 'S', 'P', 'AH0', 'N', 'S', 'IY0']",PLS,,,,3
+currease,pseudo,long,8,,,simple,,"['K', 'ER0', 'IY1', 'S']",PLS,,,,2
+coallency,pseudo,long,9,,,simple,,"['K', 'OW0', 'AA1', 'L', 'N', 'AH0', 'S', 'N', 'IY0']",PLS,,,,2
+chamerane,pseudo,long,9,,,simple,,"['CH', 'AE1', 'M', 'ER0', 'N', 'EY2']",PLS,,,,2
+artillise,pseudo,long,9,,,simple,,"['AA1', 'R', 'T', 'AH0', 'L', 'AY2', 'Z']",PLS,,,,2
+desperest,pseudo,long,9,,,simple,,"['D', 'EH1', 'S', 'P', 'ER0', 'IH0', 'S', 'T']",PLS,,,,2
+boomelege,pseudo,long,9,,,simple,,"['B', 'UW1', 'M', 'AH0', 'L', 'AH0', 'JH']",PLS,,,,3
+duid,pseudo,short,4,,,simple,,"['D', 'UW1', 'D']",PSS,,,,1
+foab,pseudo,short,4,,,simple,,"['F', 'OW1', 'B']",PSS,,,,1
+alab,pseudo,short,4,,,simple,,"['AH0', 'L', 'AA1', 'B']",PSS,,,,1
+hyma,pseudo,short,4,,,simple,,"['HH', 'AY1', 'M', 'AH0']",PSS,,,,1
+daip,pseudo,short,4,,,simple,,"['D', 'EY1', 'P']",PSS,,,,1
+abosh,pseudo,short,5,,,simple,,"['AH0', 'B', 'AA1', 'SH']",,,,,1
+lirce,pseudo,short,5,,,simple,,"['R', 'IH1', 'S']",PSS,,,,1
+bryst,pseudo,short,5,,,simple,,"['B', 'R', 'IH1', 'S', 'T']",PSS,,,,1
+clect,pseudo,short,5,,,simple,,"['K', 'L', 'EH1', 'K', 'T']",PSS,,,,1
+drall,pseudo,short,5,,,simple,,"['D', 'R', 'AO1', 'L']",PSS,,,,1
+rearce,pseudo,short,6,,,simple,,"['R', 'IY1', 'S']",PSS,,,,1
+japhen,pseudo,short,6,,,simple,,"['JH', 'AE1', 'F', 'AH0', 'N']",PSS,,,,2
+wrivol,pseudo,short,6,,,simple,,"['R', 'AY1', 'V', 'AH0', 'L']",PSS,,,,1
+courch,pseudo,short,6,,,simple,,"['K', 'AO1', 'R', 'CH']",PSS,,,,1
+puivon,pseudo,short,6,,,simple,,"['P', 'W', 'IH1', 'V', 'AH0', 'N']",PSS,,,,2
+hexy,pseudo,short,4,,,complex,,"['HH', 'EH1', 'K', 'S', 'IY0']",PSC,,,,1
+juns,pseudo,short,4,,,complex,,"['JH', 'AH1', 'N', 'Z']",PSC,,,,1
+nory,pseudo,short,4,,,complex,,"['N', 'AO1', 'R', 'IY0']",PSC,,,,1
+rewn,pseudo,short,4,,,complex,,"['R', 'UW1', 'N']",PSC,,,,1
+onts,pseudo,short,4,,,complex,,"['AA1', 'N', 'T', 'S']",PSC,,,,1
+entew,pseudo,short,5,,,complex,,"['EH1', 'N', 'T', 'W', 'IY0']",PSC,,,,1
+garla,pseudo,short,5,,,complex,,"['G', 'AA1', 'R', 'L', 'AH0']",PSC,,,,1
+betit,pseudo,short,5,,,complex,,"['B', 'EH1', 'T', 'IH0', 'T']",PSC,,,,1
+lidip,pseudo,short,5,,,complex,,"['L', 'AY1', 'D', 'AH0', 'P']",PSC,,,,2
+enade,pseudo,short,5,,,complex,,"['EH0', 'N', 'EY1', 'D']",PSC,,,,1
+flants,pseudo,short,6,,,complex,,"['F', 'L', 'AE1', 'N', 'T', 'S']",PSC,,,,2
+icones,pseudo,short,6,,,complex,,"['IY1', 'K', 'OW0', 'N', 'Z']",PSC,,,,1
+encask,pseudo,short,6,,,complex,,"['IH0', 'N', 'K', 'AA1', 'S', 'K']",PSC,,,,1
+misbar,pseudo,short,6,,,complex,,"['S', 'IH0', 'S', 'B', 'AA1', 'R']",PSC,,,,1
+counds,pseudo,short,6,,,complex,,"['K', 'AW1', 'N', 'D', 'Z']",PSC,,,,1
+submingers,pseudo,long,10,,,complex,,"['S', 'AH0', 'B', 'M', 'IH1', 'N', 'JH', 'ER0', 'Z']",PLC,,,,3
+chriniable,pseudo,long,10,,,complex,,"['K', 'R', 'IH0', 'N', 'IY1', 'AH0', 'B', 'AH0', 'L']",PLC,,,,2
+alassfully,pseudo,long,10,,,complex,,"['AH0', 'L', 'AE1', 'S', 'F', 'U0', 'L', 'IY0']",PLC,,,,2
+digrersher,pseudo,long,10,,,complex,,"['D', 'IH0', 'G', 'R', 'IH1', 'SH', 'ER0']",PLC,,,,3
+phounching,pseudo,long,10,,,complex,,"['F', 'AW1', 'N', 'CH', 'IH0', 'NG']",PLC,,,,2
+thildhoust,pseudo,long,10,,,simple,,"['TH', 'IH1', 'L', 'D', 'HH', 'AW1', 'S', 'T']",PLS,,,,3
+gormassime,pseudo,long,10,,,simple,,"['G', 'AO1', 'R', 'M', 'AE0', 'S', 'IH1', 'M']",PLS,,,,3
+tescoucous,pseudo,long,10,,,simple,,"['T', 'EH1', 'S', 'K', 'UW0', 'K', 'AH0', 'S']",PLS,,,,3
+driternoon,pseudo,long,10,,,simple,,"['D', 'R', 'IH1', 'T', 'ER0', 'N', 'UW1', 'N']",PLS,,,,3
+noocantong,pseudo,long,10,,,simple,,"['N', 'UW1', 'K', 'AE0', 'N', 'T', 'AO1', 'NG']",PLS,,,,3
