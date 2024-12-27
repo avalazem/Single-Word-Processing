@@ -1,0 +1,30 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Wed Dec 18 2024 09:57:30
+#--EXPERIMENT INFO
+#e mainfile: audiovis.py
+#e sha1: 018f26
+#e modules: 
+#e Experiment: HiRes Experiment
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 4
+subject_id,condition,time,stype,id,target_time
+4,,191,"text,infertile,200"
+4,,2191,"text,egotistic,2200"
+4,,4192,"text,tartness,4200"
+4,,6191,"text,adaptable,6200"
+4,,8191,"text,whisperer,8200"
+4,,10191,"text,tattooist,10200"
+4,,12191,"text,cubical,12200"
+4,,14191,"text,tearful,14200"
+4,,16192,"text,reliant,16200"
+4,,18191,"text,fatally,18200"
+4,,20191,"text,defiant,20200"
+4,,22191,"text,sourness,22200"
+4,,24191,"text,disembark,24200"
+4,,26191,"text,impolite,26200"
+4,,28191,"text,woefully,28200"
+4,,30240,"blank,blank,30200"
+4,,30256,"text,etiquette,30200"
+4,,32198,"blank,blank,32200"
+4,,32205,"text,hedgehog,32200"

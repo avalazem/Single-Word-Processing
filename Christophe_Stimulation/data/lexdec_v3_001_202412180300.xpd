@@ -1,0 +1,20 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Wed Dec 18 2024 03:00:55
+#--EXPERIMENT INFO
+#e mainfile: lexdec_v3.py
+#e sha1: 5e1b0c
+#e modules: 
+#e Experiment: Lexical Decision
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,cat,word,respkey,RT
+1,W,egotistic,f,1572
+1,W,illegal,None,None
+1,P,thildhoust,j,1692
+1,P,boomelege,f,623
+1,P,submingers,j,1369
+1,P,entew,f,429
+1,W,stars,f,885
+1,P,impolder,j,1265
+1,P,gormassime,f,587

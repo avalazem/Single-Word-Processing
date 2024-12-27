@@ -1,0 +1,265 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Dec 18 2024 09:55:26
+#sha1: 018f26
+#modules: 
+#display: size=(1220, 700), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+4632,stdout,received,"Pandas(Index=0, onset=200, type='text', stim='infertile')"
+4641,stdout,received,"Pandas(Index=1, onset=2200, type='text', stim='egotistic')"
+4643,stdout,received,"Pandas(Index=2, onset=600, type='text', stim='tartness')"
+4645,stdout,received,"Pandas(Index=3, onset=800, type='text', stim='adaptable')"
+4647,stdout,received,"Pandas(Index=4, onset=1000, type='text', stim='whisperer')"
+4650,stdout,received,"Pandas(Index=5, onset=1200, type='text', stim='tattooist')"
+4654,stdout,received,"Pandas(Index=6, onset=1400, type='text', stim='cubical')"
+4655,stdout,received,"Pandas(Index=7, onset=1600, type='text', stim='tearful')"
+4658,stdout,received,"Pandas(Index=8, onset=1800, type='text', stim='reliant')"
+4659,stdout,received,"Pandas(Index=9, onset=2000, type='text', stim='fatally')"
+4661,stdout,received,"Pandas(Index=10, onset=2200, type='text', stim='defiant')"
+4663,stdout,received,"Pandas(Index=11, onset=2400, type='text', stim='sourness')"
+4666,stdout,received,"Pandas(Index=12, onset=2600, type='text', stim='disembark')"
+4668,stdout,received,"Pandas(Index=13, onset=2800, type='text', stim='impolite')"
+4670,stdout,received,"Pandas(Index=14, onset=3000, type='text', stim='woefully')"
+4671,stdout,received,"Pandas(Index=15, onset=3200, type='text', stim='etiquette')"
+4673,stdout,received,"Pandas(Index=16, onset=3400, type='text', stim='hedgehog')"
+4675,stdout,received,"Pandas(Index=17, onset=3600, type='text', stim='fumigate')"
+4679,stdout,received,"Pandas(Index=18, onset=3800, type='text', stim='avalanche')"
+4681,stdout,received,"Pandas(Index=19, onset=4000, type='text', stim='chameleon')"
+4682,stdout,received,"Pandas(Index=20, onset=4200, type='text', stim='boomerang')"
+4685,stdout,received,"Pandas(Index=21, onset=4400, type='text', stim='frisbee')"
+4686,stdout,received,"Pandas(Index=22, onset=4600, type='text', stim='satchel')"
+4689,stdout,received,"Pandas(Index=23, onset=4800, type='text', stim='whither')"
+4692,stdout,received,"Pandas(Index=24, onset=5000, type='text', stim='savanna')"
+4694,stdout,received,"Pandas(Index=25, onset=5200, type='text', stim='giraffe')"
+4696,stdout,received,"Pandas(Index=26, onset=5400, type='text', stim='scrabble')"
+4698,stdout,received,"Pandas(Index=27, onset=5600, type='text', stim='blaspheme')"
+4701,stdout,received,"Pandas(Index=28, onset=5800, type='text', stim='trombone')"
+4704,stdout,received,"Pandas(Index=29, onset=6000, type='text', stim='gargoyle')"
+4706,stdout,received,"Pandas(Index=30, onset=6200, type='text', stim='shears')"
+4708,stdout,received,"Pandas(Index=31, onset=6400, type='text', stim='combs')"
+4710,stdout,received,"Pandas(Index=32, onset=6600, type='text', stim='shyly')"
+4712,stdout,received,"Pandas(Index=33, onset=6800, type='text', stim='surfer')"
+4714,stdout,received,"Pandas(Index=34, onset=7000, type='text', stim='orally')"
+4716,stdout,received,"Pandas(Index=35, onset=7200, type='text', stim='oxen')"
+4718,stdout,received,"Pandas(Index=36, onset=7400, type='text', stim='idly')"
+4720,stdout,received,"Pandas(Index=37, onset=7600, type='text', stim='pods')"
+4721,stdout,received,"Pandas(Index=38, onset=7800, type='text', stim='sows')"
+4724,stdout,received,"Pandas(Index=39, onset=8000, type='text', stim='mugs')"
+4725,stdout,received,"Pandas(Index=40, onset=8200, type='text', stim='unzip')"
+4727,stdout,received,"Pandas(Index=41, onset=8400, type='text', stim='inhale')"
+4730,stdout,received,"Pandas(Index=42, onset=8600, type='text', stim='mended')"
+4732,stdout,received,"Pandas(Index=43, onset=8800, type='text', stim='mixer')"
+4733,stdout,received,"Pandas(Index=44, onset=9000, type='text', stim='lamer')"
+4735,stdout,received,"Pandas(Index=45, onset=9200, type='text', stim='jersey')"
+4737,stdout,received,"Pandas(Index=46, onset=9400, type='text', stim='sword')"
+4739,stdout,received,"Pandas(Index=47, onset=9600, type='text', stim='phone')"
+4741,stdout,received,"Pandas(Index=48, onset=9800, type='text', stim='camera')"
+4743,stdout,received,"Pandas(Index=49, onset=10000, type='text', stim='strong')"
+4745,stdout,received,"Pandas(Index=50, onset=10200, type='text', stim='dare')"
+4746,stdout,received,"Pandas(Index=51, onset=10400, type='text', stim='rain')"
+4748,stdout,received,"Pandas(Index=52, onset=10600, type='text', stim='tank')"
+4750,stdout,received,"Pandas(Index=53, onset=10800, type='text', stim='iron')"
+4751,stdout,received,"Pandas(Index=54, onset=11000, type='text', stim='bear')"
+4753,stdout,received,"Pandas(Index=55, onset=11200, type='text', stim='radio')"
+4755,stdout,received,"Pandas(Index=56, onset=11400, type='text', stim='cherry')"
+4757,stdout,received,"Pandas(Index=57, onset=11600, type='text', stim='guitar')"
+4759,stdout,received,"Pandas(Index=58, onset=11800, type='text', stim='large')"
+4761,stdout,received,"Pandas(Index=59, onset=12000, type='text', stim='truck')"
+4762,stdout,received,"Pandas(Index=60, onset=12200, type='text', stim='establish')"
+4764,stdout,received,"Pandas(Index=61, onset=12400, type='text', stim='shoulder')"
+4766,stdout,received,"Pandas(Index=62, onset=12600, type='text', stim='straight')"
+4768,stdout,received,"Pandas(Index=63, onset=12800, type='text', stim='satellite')"
+4769,stdout,received,"Pandas(Index=64, onset=13000, type='text', stim='character')"
+4771,stdout,received,"Pandas(Index=65, onset=13200, type='text', stim='immediate')"
+4773,stdout,received,"Pandas(Index=66, onset=13400, type='text', stim='gravity')"
+4775,stdout,received,"Pandas(Index=67, onset=13600, type='text', stim='village')"
+4776,stdout,received,"Pandas(Index=68, onset=13800, type='text', stim='natural')"
+4778,stdout,received,"Pandas(Index=69, onset=14000, type='text', stim='despite')"
+4780,stdout,received,"Pandas(Index=70, onset=14200, type='text', stim='kitchen')"
+4783,stdout,received,"Pandas(Index=71, onset=14400, type='text', stim='sandwich')"
+4785,stdout,received,"Pandas(Index=72, onset=14600, type='text', stim='architect')"
+4787,stdout,received,"Pandas(Index=73, onset=14800, type='text', stim='gorgeous')"
+4789,stdout,received,"Pandas(Index=74, onset=15000, type='text', stim='calendar')"
+4792,stdout,received,"Pandas(Index=75, onset=15200, type='text', stim='peddle')"
+4794,stdout,received,"Pandas(Index=76, onset=15400, type='text', stim='hoist')"
+4795,stdout,received,"Pandas(Index=77, onset=15600, type='text', stim='acorn')"
+4797,stdout,received,"Pandas(Index=78, onset=15800, type='text', stim='ramble')"
+4799,stdout,received,"Pandas(Index=79, onset=16000, type='text', stim='mingle')"
+4801,stdout,received,"Pandas(Index=80, onset=16200, type='text', stim='quiver')"
+4803,stdout,received,"Pandas(Index=81, onset=16400, type='text', stim='ajar')"
+4805,stdout,received,"Pandas(Index=82, onset=16600, type='text', stim='balk')"
+4807,stdout,received,"Pandas(Index=83, onset=16800, type='text', stim='lore')"
+4809,stdout,received,"Pandas(Index=84, onset=17000, type='text', stim='rake')"
+4811,stdout,received,"Pandas(Index=85, onset=17200, type='text', stim='heft')"
+4813,stdout,received,"Pandas(Index=86, onset=17400, type='text', stim='scour')"
+4814,stdout,received,"Pandas(Index=87, onset=17600, type='text', stim='trifle')"
+4817,stdout,received,"Pandas(Index=88, onset=17800, type='text', stim='broom')"
+4819,stdout,received,"Pandas(Index=89, onset=18000, type='text', stim='leery')"
+4821,stdout,received,"Pandas(Index=90, onset=18200, type='text', stim='beautiful')"
+4822,stdout,received,"Pandas(Index=91, onset=18400, type='text', stim='northern')"
+4824,stdout,received,"Pandas(Index=92, onset=18600, type='text', stim='pictures')"
+4827,stdout,received,"Pandas(Index=93, onset=18800, type='text', stim='seriously')"
+4829,stdout,received,"Pandas(Index=94, onset=19000, type='text', stim='disappear')"
+4831,stdout,received,"Pandas(Index=95, onset=19200, type='text', stim='receiving')"
+4833,stdout,received,"Pandas(Index=96, onset=19400, type='text', stim='genetic')"
+4835,stdout,received,"Pandas(Index=97, onset=19600, type='text', stim='officer')"
+4838,stdout,received,"Pandas(Index=98, onset=19800, type='text', stim='illegal')"
+4840,stdout,received,"Pandas(Index=99, onset=20000, type='text', stim='coastal')"
+4842,stdout,received,"Pandas(Index=100, onset=20200, type='text', stim='farmers')"
+4843,stdout,received,"Pandas(Index=101, onset=20400, type='text', stim='mentally')"
+4845,stdout,received,"Pandas(Index=102, onset=20600, type='text', stim='criminals')"
+4847,stdout,received,"Pandas(Index=103, onset=20800, type='text', stim='disagree')"
+4850,stdout,received,"Pandas(Index=104, onset=21000, type='text', stim='clinical')"
+4852,stdout,received,"Pandas(Index=105, onset=21200, type='text', stim='hearts')"
+4854,stdout,received,"Pandas(Index=106, onset=21400, type='text', stim='daily')"
+4856,stdout,received,"Pandas(Index=107, onset=21600, type='text', stim='actor')"
+4858,stdout,received,"Pandas(Index=108, onset=21800, type='text', stim='writes')"
+4860,stdout,received,"Pandas(Index=109, onset=22000, type='text', stim='across')"
+4861,stdout,received,"Pandas(Index=110, onset=22200, type='text', stim='trains')"
+4863,stdout,received,"Pandas(Index=111, onset=22400, type='text', stim='worn')"
+4865,stdout,received,"Pandas(Index=112, onset=22600, type='text', stim='user')"
+4867,stdout,received,"Pandas(Index=113, onset=22800, type='text', stim='unit')"
+4868,stdout,received,"Pandas(Index=114, onset=23000, type='text', stim='easy')"
+4870,stdout,received,"Pandas(Index=115, onset=23200, type='text', stim='lets')"
+4872,stdout,received,"Pandas(Index=116, onset=23400, type='text', stim='stars')"
+4873,stdout,received,"Pandas(Index=117, onset=23600, type='text', stim='deaths')"
+4875,stdout,received,"Pandas(Index=118, onset=23800, type='text', stim='boats')"
+4877,stdout,received,"Pandas(Index=119, onset=24000, type='text', stim='lived')"
+4878,stdout,received,"Pandas(Index=120, onset=24200, type='text', stim='disinherit')"
+4880,stdout,received,"Pandas(Index=121, onset=24400, type='text', stim='invigorate')"
+4883,stdout,received,"Pandas(Index=122, onset=24600, type='text', stim='scepticism')"
+4885,stdout,received,"Pandas(Index=123, onset=24800, type='text', stim='vengefully')"
+4888,stdout,received,"Pandas(Index=124, onset=25000, type='text', stim='allurement')"
+4891,stdout,received,"Pandas(Index=125, onset=25200, type='text', stim='translator')"
+4893,stdout,received,"Pandas(Index=126, onset=25400, type='text', stim='impossible')"
+4895,stdout,received,"Pandas(Index=127, onset=25600, type='text', stim='disclosure')"
+4897,stdout,received,"Pandas(Index=128, onset=25800, type='text', stim='theatrical')"
+4900,stdout,received,"Pandas(Index=129, onset=26000, type='text', stim='vertically')"
+4903,stdout,received,"Pandas(Index=130, onset=26200, type='text', stim='understand')"
+4905,stdout,received,"Pandas(Index=131, onset=26400, type='text', stim='experience')"
+4907,stdout,received,"Pandas(Index=132, onset=26600, type='text', stim='discipline')"
+4910,stdout,received,"Pandas(Index=133, onset=26800, type='text', stim='phenomenon')"
+4912,stdout,received,"Pandas(Index=134, onset=27000, type='text', stim='restaurant')"
+4914,stdout,received,"Pandas(Index=135, onset=27200, type='text', stim='chinchilla')"
+4916,stdout,received,"Pandas(Index=136, onset=27400, type='text', stim='shenanigan')"
+4920,stdout,received,"Pandas(Index=137, onset=27600, type='text', stim='leprechaun')"
+4921,stdout,received,"Pandas(Index=138, onset=27800, type='text', stim='hieroglyph')"
+4923,stdout,received,"Pandas(Index=139, onset=28000, type='text', stim='palindrome')"
+4925,stdout,received,"Pandas(Index=140, onset=28200, type='text', stim='nonsory')"
+4927,stdout,received,"Pandas(Index=141, onset=28400, type='text', stim='remoral')"
+4929,stdout,received,"Pandas(Index=142, onset=28600, type='text', stim='tensory')"
+4931,stdout,received,"Pandas(Index=143, onset=28800, type='text', stim='fatcher')"
+4932,stdout,received,"Pandas(Index=144, onset=29000, type='text', stim='watally')"
+4935,stdout,received,"Pandas(Index=145, onset=29200, type='text', stim='unkinter')"
+4936,stdout,received,"Pandas(Index=146, onset=29400, type='text', stim='dishaven')"
+4938,stdout,received,"Pandas(Index=147, onset=29600, type='text', stim='trustler')"
+4939,stdout,received,"Pandas(Index=148, onset=29800, type='text', stim='sprindly')"
+4941,stdout,received,"Pandas(Index=149, onset=30000, type='text', stim='impolder')"
+4943,stdout,received,"Pandas(Index=150, onset=30200, type='text', stim='procreach')"
+4944,stdout,received,"Pandas(Index=151, onset=30400, type='text', stim='rederlity')"
+4946,stdout,received,"Pandas(Index=152, onset=30600, type='text', stim='distfully')"
+4948,stdout,received,"Pandas(Index=153, onset=30800, type='text', stim='reodeness')"
+4950,stdout,received,"Pandas(Index=154, onset=31000, type='text', stim='immerlize')"
+4951,stdout,received,"Pandas(Index=155, onset=31200, type='text', stim='forizon')"
+4953,stdout,received,"Pandas(Index=156, onset=31400, type='text', stim='gentass')"
+4955,stdout,received,"Pandas(Index=157, onset=31600, type='text', stim='amalanx')"
+4956,stdout,received,"Pandas(Index=158, onset=31800, type='text', stim='iridict')"
+4958,stdout,received,"Pandas(Index=159, onset=32000, type='text', stim='brinbow')"
+4960,stdout,received,"Pandas(Index=160, onset=32200, type='text', stim='freasite')"
+4962,stdout,received,"Pandas(Index=161, onset=32400, type='text', stim='garadign')"
+4964,stdout,received,"Pandas(Index=162, onset=32600, type='text', stim='conflite')"
+4966,stdout,received,"Pandas(Index=163, onset=32800, type='text', stim='hospency')"
+4968,stdout,received,"Pandas(Index=164, onset=33000, type='text', stim='currease')"
+4970,stdout,received,"Pandas(Index=165, onset=33200, type='text', stim='insterday')"
+4972,stdout,received,"Pandas(Index=166, onset=33400, type='text', stim='chamerane')"
+4973,stdout,received,"Pandas(Index=167, onset=33600, type='text', stim='artillise')"
+4976,stdout,received,"Pandas(Index=168, onset=33800, type='text', stim='surricane')"
+4978,stdout,received,"Pandas(Index=169, onset=34000, type='text', stim='boomelege')"
+4979,stdout,received,"Pandas(Index=170, onset=34200, type='text', stim='duid')"
+4981,stdout,received,"Pandas(Index=171, onset=34400, type='text', stim='foab')"
+4983,stdout,received,"Pandas(Index=172, onset=34600, type='text', stim='alab')"
+4985,stdout,received,"Pandas(Index=173, onset=34800, type='text', stim='hyma')"
+4987,stdout,received,"Pandas(Index=174, onset=35000, type='text', stim='daip')"
+4988,stdout,received,"Pandas(Index=175, onset=35200, type='text', stim='abosh')"
+4990,stdout,received,"Pandas(Index=176, onset=35400, type='text', stim='lirce')"
+4992,stdout,received,"Pandas(Index=177, onset=35600, type='text', stim='bryst')"
+4994,stdout,received,"Pandas(Index=178, onset=35800, type='text', stim='clect')"
+4996,stdout,received,"Pandas(Index=179, onset=36000, type='text', stim='drall')"
+4998,stdout,received,"Pandas(Index=180, onset=36200, type='text', stim='rearce')"
+5000,stdout,received,"Pandas(Index=181, onset=36400, type='text', stim='japhen')"
+5003,stdout,received,"Pandas(Index=182, onset=36600, type='text', stim='wrivol')"
+5004,stdout,received,"Pandas(Index=183, onset=36800, type='text', stim='courch')"
+5006,stdout,received,"Pandas(Index=184, onset=37000, type='text', stim='puivon')"
+5008,stdout,received,"Pandas(Index=185, onset=37200, type='text', stim='hexy')"
+5010,stdout,received,"Pandas(Index=186, onset=37400, type='text', stim='juns')"
+5012,stdout,received,"Pandas(Index=187, onset=37600, type='text', stim='nory')"
+5015,stdout,received,"Pandas(Index=188, onset=37800, type='text', stim='rewn')"
+5017,stdout,received,"Pandas(Index=189, onset=38000, type='text', stim='onts')"
+5019,stdout,received,"Pandas(Index=190, onset=38200, type='text', stim='entew')"
+5020,stdout,received,"Pandas(Index=191, onset=38400, type='text', stim='lauly')"
+5022,stdout,received,"Pandas(Index=192, onset=38600, type='text', stim='betor')"
+5024,stdout,received,"Pandas(Index=193, onset=38800, type='text', stim='plars')"
+5026,stdout,received,"Pandas(Index=194, onset=39000, type='text', stim='damer')"
+5028,stdout,received,"Pandas(Index=195, onset=39200, type='text', stim='flants')"
+5030,stdout,received,"Pandas(Index=196, onset=39400, type='text', stim='icones')"
+5033,stdout,received,"Pandas(Index=197, onset=39600, type='text', stim='encask')"
+5035,stdout,received,"Pandas(Index=198, onset=39800, type='text', stim='misbar')"
+5037,stdout,received,"Pandas(Index=199, onset=40000, type='text', stim='counds')"
+5039,stdout,received,"Pandas(Index=200, onset=40200, type='text', stim='submingers')"
+5040,stdout,received,"Pandas(Index=201, onset=40400, type='text', stim='chriniable')"
+5043,stdout,received,"Pandas(Index=202, onset=40600, type='text', stim='alassfully')"
+5046,stdout,received,"Pandas(Index=203, onset=40800, type='text', stim='digrersher')"
+5048,stdout,received,"Pandas(Index=204, onset=41000, type='text', stim='phounching')"
+5050,stdout,received,"Pandas(Index=205, onset=41200, type='text', stim='thildhoust')"
+5052,stdout,received,"Pandas(Index=206, onset=41400, type='text', stim='gormassime')"
+5055,stdout,received,"Pandas(Index=207, onset=41600, type='text', stim='tescoucous')"
+5057,stdout,received,"Pandas(Index=208, onset=41800, type='text', stim='driternoon')"
+5059,stdout,received,"Pandas(Index=209, onset=42000, type='text', stim='noocantong')"
+14844,design,log,
+#design: #exp: HiRes Experiment
+#design: #dvn: condition,time,stype,id,target_time
+#design: block_cnt,block_id,trial_cnt,trial_id
+14844,design,logged,
+14844,Experiment,started
+14848,Stimulus,presented,1
+15721,Keyboard,received,t,wait_char
+15723,Stimulus,presented,2
+15914,Stimulus,presented,3
+16315,Stimulus,presented,5
+16515,Stimulus,presented,6
+16715,Stimulus,presented,7
+16914,Stimulus,presented,8
+17115,Stimulus,presented,9
+17315,Stimulus,presented,10
+17515,Stimulus,presented,11
+17715,Stimulus,presented,12
+17915,Stimulus,presented,13
+17934,Stimulus,presented,4
+18115,Stimulus,presented,14
+18315,Stimulus,presented,15
+18515,Stimulus,presented,16
+18714,Stimulus,presented,17
+18915,Stimulus,presented,18
+19115,Stimulus,presented,19
+19315,Stimulus,presented,20
+19515,Stimulus,presented,21
+19715,Stimulus,presented,22
+19915,Stimulus,presented,23
+20115,Stimulus,presented,24
+20315,Stimulus,presented,25
+20515,Stimulus,presented,26
+20715,Stimulus,presented,27
+20915,Stimulus,presented,28
+21115,Stimulus,presented,29
+21315,Stimulus,presented,30
+21515,Stimulus,presented,31
+21715,Stimulus,presented,32
+21915,Stimulus,presented,33
+22115,Stimulus,presented,34
+22315,Stimulus,presented,35
+22414,Experiment,paused
+22418,Stimulus,presented,215
+23335,Keyboard,received,y,wait_char
+23335,Experiment,ended
+23343,Data,saved
+23346,Stimulus,presented,215

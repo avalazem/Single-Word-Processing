@@ -1,0 +1,121 @@
+Word,Root,Wordlength,Structure,Lexicality,Length,Frequency,Morphology,Zipf Frequency,Condition,Notes
+imprévu,vis,7,ppr,real,long,low,complex,3.35,RLLC,"as in vision, visible"
+défonce,fonce,7,pr,real,long,low,complex,3.41,RLLC,
+reliure,li,7,prs,real,long,low,complex,3.12,RLLC,
+coopère,opère,7,pr,real,long,low,complex,2.86,RLLC,
+renégat,nég,7,prs,real,long,low,complex,2.64,RLLC,
+sonorité,son,8,rss,real,long,low,complex,3.17,RLLC,
+enivrant,ivr,8,prs,real,long,low,complex,2.56,RLLC,same root as ébriété
+déplaire,plaire,8,pr,real,long,low,complex,3.28,RLLC,
+dérision,ris,8,prs,real,long,low,complex,3.43,RLLC,
+dévotion,vot,8,prs,real,long,low,complex,3.46,RLLC,same root as vœu and vote
+pesanteur,pes,9,rss,real,long,low,complex,2.97,RLLC,same root as pendre
+indiscret,discr,9,prs,real,long,low,complex,3.11,RLLC,same root as discerner
+infortune,fort,9,prs,real,long,low,complex,2.86,RLLC,same root as fortuit
+décompose,pose,9,ppr,real,long,low,complex,3.25,RLLC,same root as position
+idéaliste,idé,9,rss,real,long,low,complex,3.25,RLLC,
+transperce,perce,10,pr_long,real,long,low,complex,2.62,RLLC,
+royalement,reg,10,rss,real,long,low,complex,3.12,RLLC,"same root as regne, regicide"
+surenchère,chère,10,ppr,real,long,low,complex,3.22,RLLC,"same root as chéri, charitable"
+malicieuse,mal,10,rss,real,long,low,complex,2.57,RLLC,"same root as malin, mal"
+infrarouge,rouge,10,pr_long,real,long,low,complex,3.34,RLLC,
+ensuite,seq,7,pr,real,long,high,complex,5.35,RLHC,root is same as sequence
+dérange,rang,7,pr,real,long,high,complex,4.32,RLHC,root is rang
+injuste,jus,7,pr,real,long,high,complex,4.08,RLHC,modified root to be on par with justice
+justice,jus,7,rs,real,long,high,complex,5.12,RLHC,"same root as juge, judiciaire"
+maladie,mal,7,rss,real,long,high,complex,4.88,RLHC,Mal → malade → maladie
+décision,cis,8,prs,real,long,high,complex,4.97,RLHC,"same root as ciseau, inciser, ciseler, is also the -cide part in régicide, fratricide etc"
+position,pose,8,rs,real,long,high,complex,5.07,RLHC,same root as décompose
+poursuit,seq,8,pr,real,long,high,complex,4.41,RLHC,"same family as suite, sequence"
+deuxième,duo,8,rs,real,long,high,complex,5.24,RLHC,changed root
+sûrement,secur,8,rs,real,long,high,complex,4.7,RLHC,same root as sécurité
+découvert,couv,9,pr_long,real,long,high,complex,4.72,RLHC,"past tense, share root with couvercle"
+seulement,sol,9,rs,real,long,high,complex,5.47,RLHC,"same root as solitaire, soliste"
+américain,améric,9,rs,real,long,high,complex,5.06,RLHC,
+chauffage,cal,9,rs,real,long,high,complex,4.08,RLHC,"same root as chaleur, chaud, calorie"
+également,égal,9,rs,real,long,high,complex,5.59,RLHC,same root as equation
+découverte,couv,10,prs,real,long,high,complex,4.73,RLHC,"this one has a feminine prefix as an adjective, or is a noun ?"
+visibilité,vis,10,rss,real,long,high,complex,4.06,RLHC,
+finalement,fin,10,rss,real,long,high,complex,5.02,RLHC,"same root as définir, confins, affine"
+impossible,pot,10,prs,real,long,high,complex,4.98,RLHC,"same root as pouvoir, omnipotent, potentiel"
+artistique,art,10,rss,real,long,high,complex,4.42,RLHC,"same root as artisanat, artificiel, inertie"
+final,fin,5,rs,real,short,high,complex,4.87,RSHC,
+remet,met,5,pr,real,short,high,complex,4.24,RSHC,"same root as mission, missive, missile"
+malin,mal,5,rs,real,short,high,complex,4.15,RSHC,
+enfin,fin,5,pr,real,short,high,complex,5.47,RSHC,
+usage,us,5,rs,real,short,high,complex,4.83,RSHC,same root as usufruit
+sortie,sort,6,rs,real,short,high,complex,5.13,RSHC,same root as sortilège
+prénom,nom,6,pr,real,short,high,complex,4.48,RSHC,
+joueur,jou,6,rs,real,short,high,complex,4.98,RSHC,
+fierté,fier,6,rs,real,short,high,complex,4.21,RSHC,same root as féroce but not farouche
+normal,norm,6,rs,real,short,high,complex,4.9,RSHC,same root as énorme
+mural,mur,5,rs,real,short,low,complex,2.86,RSLC,
+envol,vol,5,pr,real,short,low,complex,3.44,RSLC,
+nasal,nas,5,rs,real,short,low,complex,2.78,RSLC,
+enfui,fug,5,pr,real,short,low,complex,3.12,RSLC,same root as fugace
+usité,us,5,rs,real,short,low,complex,2.8,RSLC,
+impoli,poli,6,pr,real,short,low,complex,2.99,RSLC,no link with polis like in acropolis
+irréel,réel,6,prs,real,short,low,complex,3.09,RSLC,"root is res, like in république, réifier"
+inapte,apte,6,pr,real,short,low,complex,2.98,RSLC,"same root as copuler, apex"
+bûches,bûche,6,rs,real,short,low,complex,2.98,RSLC,"same root as bois, bosquet, suffix is only for plural"
+noeuds,nod,6,ps,real,short,low,complex,2.98,RSLC,same root as nodule
+puberté,puber,7,rs,real,long,low,complex,3.32,RLLS,"comes with pubère, is complex"
+guignol,guigne,7,rs,real,long,low,complex,3.28,RLLS,"complex, same root as guigner"
+bronche,,7,r,real,long,low,simple,2.66,RLLS,
+haricot,,7,r,real,long,low,simple,3.13,RLLS,
+placide,plaire,7,rs,real,long,low,complex,2.88,RLLS,"same root as plaire, is complex"
+banquise,,8,r,real,long,low,simple,3.16,RLLS,"feels complex, but probably isn’t"
+brouhaha,,8,r,real,long,low,simple,3.04,RLLS,
+brancard,branc,8,rs,real,long,low,complex,2.78,RLLS,same root as branche
+crevette,chèvre,8,rs,real,long,low,complex,3.18,RLLS,same root as chèvre
+corridor,cour,8,rs,real,long,low,complex,3.41,RLLS,same root as courir
+gingembre,,9,r,real,long,low,simple,3.2,RLLS,
+léthargie,leth,9,rs,real,long,low,complex,2.88,RLLS,"complex, goes with lethal"
+sarabande,,9,r,real,long,low,simple,2.27,RLLS,"feels complex, but probably isn’t"
+spaghetti,,9,r,real,long,low,simple,3.25,RLLS,
+habitacle,habit,9,rs,real,long,low,complex,3.23,RLLS,"complex, habiter, habituel"
+coqueluche,,10,r,real,long,low,simple,2.98,RLLS,"feels related to coque but isn’t, is probably simple"
+corbillard,corb,10,rs,real,long,low,complex,2.59,RLLS,"complex, corbeau"
+diaphragme,phragme,10,pr,real,long,low,complex,3.0,RLLS,same root as mesophragme
+rhinocéros,,10,rr,real,long,low,complex,3.39,RLLS,Rhino + acéré
+holocauste,,10,pr,real,long,low,complex,3.37,RLLS,"Holo + causte, like in caustique"
+voiture,veh,7,rs,real,long,high,complex,5.19,RLHS,same root as vehicule
+horizon,horo,7,rs,real,long,high,complex,4.3,RLHS,same root as horogénèse
+courage,cor,7,rs,real,long,high,complex,4.77,RLHS,same root as coeur
+conseil,,7,r,real,long,high,simple,5.38,RLHS,same root as consul
+contrat,tract,7,pr,real,long,high,complex,4.96,RLHS,same root as tracteur
+véhicule,veh,8,rs,real,long,high,complex,4.61,RLHS,"same root as convoyer, invectiver, vecteur, voie"
+beaucoup,,8,rr,real,long,high,complex,5.75,RLHS,Beau + coup
+poubelle,,8,r,real,long,high,simple,4.07,RLHS,proper noun
+immeuble,mobil,8,pr,real,long,high,complex,4.49,RLHS,"same root as meuble, mobile"
+problème,,8,r,real,long,high,simple,5.41,RLHS,"feels like it is pro + blème, except the second part didn’t give anything"
+phénomène,phéno,9,rs,real,long,high,complex,4.62,RLHS,"Phéno + mène, phenotype, energumène"
+enveloppe,velop,9,pr,real,long,high,complex,4.14,RLHS,same root as développer
+caractère,,9,r,real,long,high,simple,4.8,RLHS,
+consensus,sens,9,pr,real,long,high,complex,4.04,RLHS,"same root as sentir, absent, sentiment, présent, sens, sensation, sensible, sensuel, sentence, sentience"
+catalogue,,9,rr,real,long,high,complex,4.29,RLHS,Cata + logue
+lieutenant,,10,rr,real,long,high,complex,4.51,RLHS,Lieu + tenant
+cathédrale,,10,r,real,long,high,simple,4.17,RLHS,"see cathode, catapulte, catholique, I’m not sure"
+hiérarchie,archos,10,pr,real,long,high,complex,4.06,RLHS,"same root as monarchie, oligarchie"
+appartement,,10,prs,real,long,high,complex,4.61,RLHS,same root as partie
+nourriture,nutr,10,rs,real,long,high,simple,4.22,RLHS,"same root as nourrir, nutriment"
+heure,,5,r,real,short,high,simple,5.39,RSHS,
+aussi,,5,r,real,short,high,simple,6.19,RSHS,"same root as ailleurs, autrui, altruisme"
+poule,,5,r,real,short,high,simple,4.21,RSHS,"same root as puérile, poulain"
+hôtel,host,5,rs,real,short,high,complex,4.97,RSHS,"same root as hôte, hôpital"
+bravo,,5,r,real,short,high,simple,4.54,RSHS,
+sombre,ombre,6,pr,real,short,high,complex,4.42,RSHS,same root as ombre
+preuve,,6,r,real,short,high,simple,4.95,RSHS,"same root as approuver, probant"
+argent,arg,6,rs,real,short,high,complex,5.37,RSHS,same root as argile
+beurre,,6,r,real,short,high,simple,4.29,RSHS,"same root as tyrophile, surprisingly"
+guerre,,6,r,real,short,high,simple,5.42,RSHS,
+valse,,5,r,real,short,low,simple,3.36,RSLS,
+magne,,5,r,real,short,low,simple,3.09,RSLS,depends on the meaning
+pitre,,5,r,real,short,low,simple,3.19,RSLS,"same root as piètre, pied"
+gigot,gig,5,rs,real,short,low,complex,2.78,RSLS,same root as gigue
+polar,pol,5,rs,real,short,low,complex,3.44,RSLS,policier
+pollen,,6,r,real,short,low,simple,3.35,RSLS,
+gomina,gom,6,rs,real,short,low,complex,1.5,RSLS,same root as gomme
+magnat,magn,6,rs,real,short,low,complex,3.09,RSLS,same root as magnum
+gratin,grat,6,rs,real,short,low,complex,3.29,RSLS,same root as gratter
+piston,pist,6,rs,real,short,low,complex,3.38,RSLS,same root as piste
