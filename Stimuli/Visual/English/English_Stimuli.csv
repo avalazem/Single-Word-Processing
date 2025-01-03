@@ -1,7 +1,7 @@
 Word,Lexicality,Size,Length,Frequency,Zipf Frequency,Morphology,Part of Speech,Phonemes,Condition,Root,Lemma,Zipf Lemma Frequency
 infertile,real,long,9,low,2.86,complex,NOUN,"['IH2', 'N', 'F', 'ER1', 'T', 'AH0', 'L']",RLLC,,fertile,3.62
 egotistic,real,long,8,low,1.98,complex,ADJ,"['IY2', 'G', 'AH0', 'T', 'IH1', 'S', 'T', 'IH0', 'K']",RLLC,,ego,4.02
-tartness,real,long,8,low,1.86,complex,NOUN,"['T', 'AA1', 'R', 'T']",RLLC,,tart,3.37
+tartness,real,long,8,low,1.86,complex,NOUN,"['T', 'AA1', 'R', 'T', 'N', 'EH0', 'S']",RLLC,,tart,3.37
 adaptable,real,long,9,low,3.12,complex,ADJ,"['AH0', 'D', 'AE1', 'P', 'T', 'AH0', 'B', 'AH0', 'L']",RLLC,,adapt,3.98
 whisperer,real,long,9,low,2.81,complex,NOUN,"['W', 'IH1', 'S', 'P', 'ER0', 'ER0']",RLLC,,whisper,3.74
 tattooist,real,long,9,low,1.99,complex,NOUN,"['T', 'AE1', 'T', 'AH0', 'S', 'T']",RLLC,,tattoo,4.14
@@ -103,7 +103,7 @@ disinherit,real, long,10,low,1.92,complex,VERB,"['D', 'IH0', 'S', 'IH0', 'N', 'H
 invigorate,real, long,10,low,2.32,complex,VERB,"['IH2', 'N', 'V', 'IH1', 'G', 'ER0', 'EY2', 'T']",RLLC,vigor,vigor,3.03
 scepticism,real, long,10,low,2.94,complex,NOUN,"['S', 'K', 'EH1', 'T', 'AH0', 'S', 'IH0', 'Z', 'AH0', 'M']",RLLC,sceptic,sceptic,2.5
 vengefully,real, long,10,low,1.37,complex,ADV,"['V', 'EH1', 'N', 'JH', 'F', 'AH0', 'L', 'IY0']",RLLC,venge,vengeful,1.62
-allurement,real, long,10,low,1.39,complex,NOUN,['AH0 L UH1 R M AH0 N T'],RLLC,allure,allure,3.15
+allurement,real, long,10,low,1.39,complex,NOUN,"['AH0', 'L', 'UH1', 'R', 'M', 'AH0', 'N', 'T']",RLLC,allure,allure,3.15
 translator,real, long,10,high,3.93,complex,NOUN,"['T', 'R', 'AE1', 'N', 'S', 'L', 'EY0', 'T', 'ER0']",RLHC,translate,translate,3.93
 impossible,real, long,10,high,4.78,complex,ADJ,"['IH2', 'N', 'AE1', 'K', 'T', 'AH0', 'V', 'EY2', 'T']",RLHC,possible,possible,5.36
 disclosure,real, long,10,high,4.0,complex,NOUN,"['D', 'IH0', 'S', 'K', 'L', 'OW1', 'ZH', 'ER0']",RLHC,clos,close,5.36

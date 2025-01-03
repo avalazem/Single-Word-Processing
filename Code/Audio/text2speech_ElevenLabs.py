@@ -10,19 +10,20 @@ api_key = "sk_6cf73c0af9252d8c1f456b175541b23fc1d4882dd8cde913"
 client = ElevenLabs(api_key=api_key)
 
 # Load Stimuli dataframe
-csv_path = r'C:\Users\ali_a\Desktop\Single Word Processing Stage\Single Word Processing\Data\English Data\English_Stimuli.csv'
+csv_path = r'C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\English\English_Stimuli.csv'
 stimuli_df = pd.read_csv(csv_path)
 
 # Extract words and place into a list
 word_list = stimuli_df['Word'].to_list()
 
 # Directory to save the MP3 files
-output_dir = r'C:\Users\ali_a\Desktop\Single Word Processing Stage\Single Word Processing\Data\English Data\ElevenLabs_MP3_Files'
+output_dir = r'C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Auditory\English\ElevenLabs_MP3_Files'
 os.makedirs(output_dir, exist_ok=True)
 
 # Define voices
 voices = [
-    {"id": "9BWtsMINqrJLrRacOk9x", "name": "Aria"},  # Example female voice
+    #{"id": "9BWtsMINqrJLrRacOk9x", "name": "Aria"},  # Example female voice
+    {"id": "EXAVITQu4vr4xnSDxMaL", "name": "Sarah"},  # Example female voice
     {"id": "cjVigY5qzO86Huf0OWal", "name": "Eric"}   # Example male voice
 ]
 
