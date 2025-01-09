@@ -1,0 +1,52 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 08 2025 16:45:03
+#sha1: c29c10
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10483,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10483,design,logged,
+10483,Experiment,started
+10516,Stimulus,presented,2
+11877,Keyboard,received, ,wait_char
+11932,Stimulus,presented,1
+12934,Stimulus,presented,0
+13437,Stimulus,presented,5
+18637,Keyboard,received,None,wait_char
+18661,Stimulus,presented,1
+19664,Stimulus,presented,0
+20172,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\hieroglyph_Rocko.wav'
+21461,Keyboard,received,f,wait_char
+21485,Stimulus,presented,1
+22488,Stimulus,presented,0
+23000,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\receiving_Flo.wav'
+24818,Keyboard,received,f,wait_char
+24912,Stimulus,presented,1
+25915,Stimulus,presented,0
+26420,Stimulus,presented,8
+28725,Keyboard,received,f,wait_char
+28753,Stimulus,presented,1
+29755,Stimulus,presented,0
+30264,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\straight_Rocko.wav'
+32805,Keyboard,received,f,wait_char
+32835,Stimulus,presented,1
+33837,Stimulus,presented,0
+34342,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\sows_Rocko.wav'
+39342,Keyboard,received,None,wait_char
+39366,Stimulus,presented,1
+40368,Stimulus,presented,0
+40872,Stimulus,presented,11
+44235,Keyboard,received,f,wait_char
+44261,Stimulus,presented,1
+45263,Stimulus,presented,0
+45770,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\shears_Flo.wav'
+49509,Experiment,paused
+49514,Stimulus,presented,13
+50527,Keyboard,received,y,wait_char
+50527,Experiment,ended
+50532,Data,saved
+50535,Stimulus,presented,13

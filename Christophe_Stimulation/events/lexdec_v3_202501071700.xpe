@@ -1,0 +1,16 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Tue Jan 07 2025 17:00:29
+#sha1: 5e1b0c
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+752,stderr,received,'Traceback (most recent call last):'
+754,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\lexdec_v3.py", line 30, in <module>'
+757,stderr,received,'    control.initialize(exp)'
+758,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\control\\_experiment_control.py", line 478, in initialize'
+759,stderr,received,'    logo = stimuli.Picture(misc.constants.EXPYRIMENT_LOGO_FILE,'
+759,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+759,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_picture.py", line 43, in __init__'
+773,stderr,received,'    raise IOError(u"The picture file \'{0}\' does not exist".format('
+773,stderr,received,"OSError: The picture file 'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\expyriment_logo.png' does not exist"

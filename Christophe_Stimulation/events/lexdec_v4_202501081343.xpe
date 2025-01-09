@@ -1,0 +1,35 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 08 2025 13:43:54
+#sha1: a48b0a
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5995,stderr,received,'Traceback (most recent call last):'
+5995,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py", line 3805, in get_loc'
+6001,stderr,received,'    return self._engine.get_loc(casted_key)'
+6001,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+6001,stderr,received,'  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc'
+6002,stderr,received,'  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc'
+6005,stderr,received,'  File "pandas\\\\_libs\\\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item'
+6005,stderr,received,'  File "pandas\\\\_libs\\\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item'
+6006,stderr,received,"KeyError: 'category'"
+6006,stderr,received,''
+6007,stderr,received,'The above exception was the direct cause of the following exception:'
+6007,stderr,received,''
+6007,stderr,received,'Traceback (most recent call last):'
+6007,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\lexdec_v4.py", line 29, in <module>'
+6008,stderr,received,"    trials = [(row['category'], row['item'], stimuli.TextLine(row['item']))"
+6008,stderr,received,'             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+6008,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\lexdec_v4.py", line 29, in <listcomp>'
+6009,stderr,received,"    trials = [(row['category'], row['item'], stimuli.TextLine(row['item']))"
+6009,stderr,received,'               ~~~^^^^^^^^^^^^'
+6009,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\core\\series.py", line 1121, in __getitem__'
+6011,stderr,received,'    return self._get_value(key)'
+6011,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^'
+6011,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\core\\series.py", line 1237, in _get_value'
+6013,stderr,received,'    loc = self.index.get_loc(label)'
+6013,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^^^^^'
+6013,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py", line 3812, in get_loc'
+6015,stderr,received,'    raise KeyError(key) from err'
+6015,stderr,received,"KeyError: 'category'"

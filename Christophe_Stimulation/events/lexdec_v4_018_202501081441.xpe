@@ -1,0 +1,25 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 08 2025 14:41:34
+#sha1: 980cd6
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10290,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio_male,audio_female,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10290,design,logged,
+10290,Experiment,started
+10484,Stimulus,presented,2
+20466,Keyboard,received, ,wait_char
+20491,Stimulus,presented,1
+21494,Stimulus,presented,0
+21997,Stimulus,presented,5
+22197,stderr,received,'Traceback (most recent call last):'
+22197,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\lexdec_v4.py", line 69, in <module>'
+22198,stderr,received,'    male_audio = stimuli.Audio(male_audio_path)'
+22198,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+22199,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_audio.py", line 51, in __init__'
+22222,stderr,received,'    raise IOError(u"The audio file {0} does not exists".format('
+22223,stderr,received,'OSError: The audio file C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Mac_MP3_Files\\deaths_Alex.wav does not exists'

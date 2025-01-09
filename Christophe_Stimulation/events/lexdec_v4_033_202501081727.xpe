@@ -1,0 +1,46 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 08 2025 17:27:18
+#sha1: 532988
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10168,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10168,design,logged,
+10168,Experiment,started
+10197,Stimulus,presented,2
+11599,Keyboard,received, ,wait_char
+11628,Stimulus,presented,1
+12630,Stimulus,presented,0
+13133,Stimulus,presented,5
+13357,Stimulus,presented,1
+14360,Stimulus,presented,6
+24488,Stimulus,presented,1
+27740,Keyboard,received,f,wait_char
+27769,Stimulus,presented,1
+28771,Stimulus,presented,0
+29274,Stimulus,presented,7
+29499,Stimulus,presented,1
+30502,Stimulus,presented,8
+40528,Stimulus,presented,1
+50528,Keyboard,received,None,wait_char
+50555,Stimulus,presented,1
+51558,Stimulus,presented,0
+52082,Stimulus,presented,1
+52088,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\gargoyle_Daniel.wav'
+53091,Stimulus,presented,10
+58115,Stimulus,presented,1
+63115,Keyboard,received,None,wait_char
+63140,Stimulus,presented,1
+64142,Stimulus,presented,0
+64667,Stimulus,presented,1
+64673,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\rake_Rocko.wav'
+65676,Stimulus,presented,12
+70700,Stimulus,presented,1
+71339,Keyboard,received,q,wait_char
+71339,Experiment,ended
+71344,Data,saved
+71348,Stimulus,presented,13

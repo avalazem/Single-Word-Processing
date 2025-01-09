@@ -1,0 +1,14 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Wed Jan 08 2025 10:20:10
+#--EXPERIMENT INFO
+#e mainfile: lexdec_v4.py
+#e sha1: 2c6bc4
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 7
+subject_id,cat,word,respkey,RT
+7,W,peddle,None,None
+7,W,hoist,None,None
+7,W,discipline,None,None

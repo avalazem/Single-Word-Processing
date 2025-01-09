@@ -1,0 +1,40 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 08 2025 10:20:10
+#sha1: 2c6bc4
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10141,design,log,
+#design: #exp: Single Word Processing
+#design: #dvn: cat,word,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10141,design,logged,
+10141,Experiment,started
+10183,Stimulus,presented,212
+11088,Keyboard,received, ,wait_char
+11266,Stimulus,presented,211
+11469,Stimulus,presented,210
+11972,Stimulus,presented,75
+12424,Stimulus,presented,211
+17424,Keyboard,received,None,wait
+17451,Stimulus,presented,211
+17654,Stimulus,presented,210
+18156,Stimulus,presented,76
+18379,Stimulus,presented,211
+23379,Keyboard,received,None,wait
+23405,Stimulus,presented,211
+23607,Stimulus,presented,210
+24109,Stimulus,presented,132
+24336,Stimulus,presented,211
+29336,Keyboard,received,None,wait
+29361,Stimulus,presented,211
+29563,Stimulus,presented,210
+30065,Stimulus,presented,190
+30291,Stimulus,presented,211
+32705,Experiment,paused
+32710,Stimulus,presented,215
+33300,Keyboard,received,y,wait_char
+33300,Experiment,ended
+33305,Data,saved
+33309,Stimulus,presented,215

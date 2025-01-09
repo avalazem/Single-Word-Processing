@@ -1,0 +1,18 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Wed Jan 08 2025 17:31:16
+#--EXPERIMENT INFO
+#e mainfile: lexdec_v4.py
+#e sha1: a88880
+#e modules: 
+#e Experiment: Single Word Processing with Audio
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 34
+subject_id,word,condition,audio,stimulus_type,response_mode,respkey,RT
+34,scrabble,RLLS,scrabble_Daniel.wav,word,Write,f,0
+34,etiquette,RLLS,etiquette_Flo.wav,word,Covert Read,None,None
+34,receiving,RLHC,receiving_Flo.wav,audio,Covert Read,None,None
+34,clinical,RLHC,clinical_Flo.wav,audio,Covert Read,None,None
+34,beautiful,RLHC,beautiful_Flo.wav,audio,Write,f,0
+34,phounching,PLC,phounching_Daniel.wav,audio,Covert Read,f,0
+34,currease,PLS,currease_Flo.wav,audio,Covert Read,f,0

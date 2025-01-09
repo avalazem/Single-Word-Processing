@@ -1,0 +1,44 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 08 2025 16:41:26
+#sha1: 64cb3b
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10863,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10863,design,logged,
+10863,Experiment,started
+10893,Stimulus,presented,2
+22221,Keyboard,received, ,wait_char
+22249,Stimulus,presented,1
+23252,Stimulus,presented,0
+23755,Stimulus,presented,5
+26712,Keyboard,received,f,wait_char
+26739,Stimulus,presented,1
+27741,Stimulus,presented,0
+28248,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\sourness_Flo.wav'
+35270,Keyboard,received,f,wait_char
+35296,Stimulus,presented,1
+36298,Stimulus,presented,0
+36804,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\writes_Alex.wav'
+39097,Keyboard,received,f,wait_char
+39122,Stimulus,presented,1
+40124,Stimulus,presented,0
+40634,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\disinherit_Flo.wav'
+45718,Keyboard,received,f,wait_char
+45916,Stimulus,presented,1
+46919,Stimulus,presented,0
+47428,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\sows_Rocko.wav'
+50884,Keyboard,received,f,wait_char
+50922,Stimulus,presented,1
+51925,Stimulus,presented,0
+52429,Stimulus,presented,10
+56426,Experiment,paused
+56541,Stimulus,presented,11
+57212,Keyboard,received,y,wait_char
+57212,Experiment,ended
+57217,Data,saved
+57221,Stimulus,presented,11

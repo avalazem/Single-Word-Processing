@@ -1,0 +1,53 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 08 2025 10:59:55
+#sha1: 8f3d50
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10075,design,log,
+#design: #exp: Single Word Processing
+#design: #dvn: cat,word,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10075,design,logged,
+10075,Experiment,started
+10115,Stimulus,presented,212
+11227,Keyboard,received, ,wait_char
+11261,Stimulus,presented,211
+11463,Stimulus,presented,210
+11967,Stimulus,presented,72
+12196,Stimulus,presented,211
+12760,Keyboard,received,f,wait_char
+12815,Stimulus,presented,211
+13017,Stimulus,presented,210
+13521,Stimulus,presented,1
+13753,Stimulus,presented,211
+14458,Keyboard,received,f,wait_char
+14491,Stimulus,presented,211
+14694,Stimulus,presented,210
+15197,Stimulus,presented,144
+15423,Stimulus,presented,211
+15954,Keyboard,received,f,wait_char
+15981,Stimulus,presented,211
+16184,Stimulus,presented,210
+16688,Stimulus,presented,124
+16914,Stimulus,presented,211
+17322,Keyboard,received,f,wait_char
+17348,Stimulus,presented,211
+17552,Stimulus,presented,210
+18055,Stimulus,presented,10
+18281,Stimulus,presented,211
+18673,Keyboard,received,f,wait_char
+18697,Stimulus,presented,211
+18900,Stimulus,presented,210
+19403,Stimulus,presented,51
+19630,Stimulus,presented,211
+23955,Keyboard,received,f,wait_char
+23981,Stimulus,presented,211
+24184,Stimulus,presented,210
+24686,Stimulus,presented,201
+24914,Stimulus,presented,211
+27356,Keyboard,received,q,wait_char
+27356,Experiment,ended
+27362,Data,saved
+27367,Stimulus,presented,215

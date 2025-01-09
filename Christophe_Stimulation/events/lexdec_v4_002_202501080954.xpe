@@ -1,0 +1,53 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 08 2025 09:54:38
+#sha1: 1053bb
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10639,design,log,
+#design: #exp: Single Word Processing
+#design: #dvn: cat,word,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10639,design,logged,
+10639,Experiment,started
+10678,Stimulus,presented,212
+21152,Keyboard,received, ,wait_char
+21196,Stimulus,presented,211
+22198,Stimulus,presented,210
+22701,Stimulus,presented,118
+22926,Stimulus,presented,211
+27956,Stimulus,presented,211
+28958,Stimulus,presented,210
+29461,Stimulus,presented,159
+29685,Stimulus,presented,211
+34709,Stimulus,presented,211
+35712,Stimulus,presented,210
+36215,Stimulus,presented,8
+36445,Stimulus,presented,211
+41469,Stimulus,presented,211
+42472,Stimulus,presented,210
+42975,Stimulus,presented,207
+43218,Stimulus,presented,211
+48261,Stimulus,presented,211
+49264,Stimulus,presented,210
+49767,Stimulus,presented,50
+49992,Stimulus,presented,211
+55017,Stimulus,presented,211
+56019,Stimulus,presented,210
+56522,Stimulus,presented,127
+56746,Stimulus,presented,211
+61772,Stimulus,presented,211
+62775,Stimulus,presented,210
+63278,Stimulus,presented,145
+63506,Stimulus,presented,211
+68540,Stimulus,presented,211
+69543,Stimulus,presented,210
+70045,Stimulus,presented,73
+70274,Stimulus,presented,211
+74031,Experiment,paused
+74037,Stimulus,presented,215
+92808,Keyboard,received,y,wait_char
+92808,Experiment,ended
+92814,Data,saved
+92818,Stimulus,presented,215

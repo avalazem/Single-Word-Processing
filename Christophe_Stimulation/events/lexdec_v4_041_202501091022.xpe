@@ -1,0 +1,47 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 09 2025 10:22:11
+#sha1: 614d78
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10760,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10760,design,logged,
+10760,Experiment,started
+10800,Stimulus,presented,1
+11843,Keyboard,received, ,wait_char
+11846,Stimulus,presented,0
+12350,Stimulus,presented,4
+12601,Stimulus,presented,5
+13604,Stimulus,presented,6
+18588,Keyboard,received,f,wait_char
+18591,Stimulus,presented,0
+19116,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\deaths_Daniel.wav'
+19819,Stimulus,presented,8
+28608,Keyboard,received,f,wait_char
+28610,Stimulus,presented,0
+29114,Stimulus,presented,9
+29562,Stimulus,presented,10
+30566,Stimulus,presented,11
+35823,Keyboard,received,f,wait_char
+35825,Stimulus,presented,0
+36345,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\ramble_Flo.wav'
+37048,Stimulus,presented,13
+41402,Keyboard,received,f,wait_char
+41405,Stimulus,presented,0
+41923,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\character_Rocko.wav'
+42626,Stimulus,presented,15
+44730,Keyboard,received,f,wait_char
+44733,Stimulus,presented,0
+45236,Stimulus,presented,16
+45615,Stimulus,presented,17
+46619,Stimulus,presented,18
+47735,Experiment,paused
+47740,Stimulus,presented,19
+48420,Keyboard,received,y,wait_char
+48420,Experiment,ended
+48426,Data,saved
+48431,Stimulus,presented,19

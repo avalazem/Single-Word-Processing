@@ -1,0 +1,25 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 08 2025 15:49:51
+#sha1: 04899e
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10958,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10958,design,logged,
+10958,Experiment,started
+11018,Stimulus,presented,2
+12229,Keyboard,received, ,wait_char
+12258,Stimulus,presented,1
+13260,Stimulus,presented,0
+13764,Stimulus,presented,5
+13964,stderr,received,'Traceback (most recent call last):'
+13964,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\lexdec_v4.py", line 67, in <module>'
+13965,stderr,received,'    audio = stimuli.Audio(audio_path)'
+13965,stderr,received,'            ^^^^^^^^^^^^^^^^^^^^^^^^^'
+13965,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_audio.py", line 44, in __init__'
+13965,stderr,received,'    raise ValueError("The audio file must be an .ogg or uncompressed .wav file")'
+13965,stderr,received,'ValueError: The audio file must be an .ogg or uncompressed .wav file'

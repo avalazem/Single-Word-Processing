@@ -1,0 +1,35 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 08 2025 15:16:48
+#sha1: fed5d2
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5876,stderr,received,'Traceback (most recent call last):'
+5877,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py", line 3805, in get_loc'
+5880,stderr,received,'    return self._engine.get_loc(casted_key)'
+5880,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+5881,stderr,received,'  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc'
+5882,stderr,received,'  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc'
+5884,stderr,received,'  File "pandas\\\\_libs\\\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item'
+5885,stderr,received,'  File "pandas\\\\_libs\\\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item'
+5885,stderr,received,"KeyError: 'Audio_Male'"
+5886,stderr,received,''
+5886,stderr,received,'The above exception was the direct cause of the following exception:'
+5886,stderr,received,''
+5886,stderr,received,'Traceback (most recent call last):'
+5886,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\lexdec_v4.py", line 30, in <module>'
+5888,stderr,received,"    trials = [(row['Word'], row['Condition'], row['Audio_Male'], row['Audio_Female'])"
+5888,stderr,received,'             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+5888,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\lexdec_v4.py", line 30, in <listcomp>'
+5889,stderr,received,"    trials = [(row['Word'], row['Condition'], row['Audio_Male'], row['Audio_Female'])"
+5889,stderr,received,'                                              ~~~^^^^^^^^^^^^^^'
+5889,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\core\\series.py", line 1121, in __getitem__'
+5890,stderr,received,'    return self._get_value(key)'
+5891,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^'
+5891,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\core\\series.py", line 1237, in _get_value'
+5892,stderr,received,'    loc = self.index.get_loc(label)'
+5892,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^^^^^'
+5892,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py", line 3812, in get_loc'
+5893,stderr,received,'    raise KeyError(key) from err'
+5893,stderr,received,"KeyError: 'Audio_Male'"

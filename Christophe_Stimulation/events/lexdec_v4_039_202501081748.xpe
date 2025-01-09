@@ -1,0 +1,81 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 08 2025 17:48:29
+#sha1: 74ae2c
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+15169,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+15169,design,logged,
+15169,Experiment,started
+15217,Stimulus,presented,1
+16887,Keyboard,received, ,wait_char
+16890,Stimulus,presented,0
+17393,Stimulus,presented,4
+17620,Stimulus,presented,5
+18624,Stimulus,presented,6
+21290,Keyboard,received,f,wait_char
+21293,Stimulus,presented,0
+21796,Stimulus,presented,7
+22019,Stimulus,presented,8
+23023,Stimulus,presented,9
+24759,Keyboard,received,f,wait_char
+24762,Stimulus,presented,0
+25265,Stimulus,presented,10
+25490,Stimulus,presented,11
+26493,Stimulus,presented,12
+27736,Keyboard,received,f,wait_char
+27738,Stimulus,presented,0
+28245,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\straight_Rocko.wav'
+28948,Stimulus,presented,14
+32325,Keyboard,received,f,wait_char
+32327,Stimulus,presented,0
+32830,Stimulus,presented,15
+33058,Stimulus,presented,16
+34061,Stimulus,presented,17
+37835,Keyboard,received,f,wait_char
+37838,Stimulus,presented,0
+38341,Stimulus,presented,18
+38565,Stimulus,presented,19
+39568,Stimulus,presented,20
+44568,Keyboard,received,None,wait_char
+44571,Stimulus,presented,0
+45074,Stimulus,presented,21
+45299,Stimulus,presented,22
+46302,Stimulus,presented,23
+47725,Keyboard,received,f,wait_char
+47728,Stimulus,presented,0
+48237,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\phenomenon_Flo.wav'
+48940,Stimulus,presented,25
+52917,Keyboard,received,f,wait_char
+52919,Stimulus,presented,0
+53428,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\guitar_Rocko.wav'
+54131,Stimulus,presented,27
+58557,Keyboard,received,f,wait_char
+58559,Stimulus,presented,0
+59063,Stimulus,presented,28
+59293,Stimulus,presented,29
+60297,Stimulus,presented,30
+70297,Keyboard,received,None,wait_char
+70300,Stimulus,presented,0
+70808,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\large_Flo.wav'
+71511,Stimulus,presented,32
+76511,Keyboard,received,None,wait_char
+76513,Stimulus,presented,0
+77016,Stimulus,presented,33
+77307,Stimulus,presented,34
+78310,Stimulus,presented,35
+81733,Keyboard,received,f,wait_char
+81735,Stimulus,presented,0
+82238,Stimulus,presented,36
+82464,Stimulus,presented,37
+83467,Stimulus,presented,38
+84481,Experiment,paused
+84486,Stimulus,presented,39
+85349,Keyboard,received,y,wait_char
+85349,Experiment,ended
+85355,Data,saved
+85359,Stimulus,presented,39
