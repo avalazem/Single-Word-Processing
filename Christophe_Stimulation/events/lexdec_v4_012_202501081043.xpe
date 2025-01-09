@@ -1,0 +1,24 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 08 2025 10:43:28
+#sha1: cdcab7
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10836,design,log,
+#design: #exp: Single Word Processing
+#design: #dvn: cat,word,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10836,design,logged,
+10836,Experiment,started
+10867,Stimulus,presented,212
+11583,Keyboard,received, ,wait_char
+11612,Stimulus,presented,211
+12614,Stimulus,presented,210
+13117,Stimulus,presented,108
+13343,Stimulus,presented,211
+13343,stderr,received,'Traceback (most recent call last):'
+13344,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\lexdec_v4.py", line 74, in <module>'
+13346,stderr,received,'    key, rt = exp.keyboard.check([WORD_RESPONSE_KEY, NONW_RESPONSE_KEY, QUIT_KEY])  # Check for keys'
+13347,stderr,received,'    ^^^^^^^'
+13347,stderr,received,'TypeError: cannot unpack non-iterable NoneType object'

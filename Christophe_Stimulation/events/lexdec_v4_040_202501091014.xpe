@@ -1,0 +1,63 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 09 2025 10:14:58
+#sha1: 74ae2c
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10323,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10323,design,logged,
+10323,Experiment,started
+10365,Stimulus,presented,1
+16641,Keyboard,received, ,wait_char
+16646,Stimulus,presented,0
+17258,Stimulus,presented,4
+17645,Stimulus,presented,5
+18649,Stimulus,presented,6
+24085,Keyboard,received,f,wait_char
+24088,Stimulus,presented,0
+24592,Stimulus,presented,7
+24824,Stimulus,presented,8
+25829,Stimulus,presented,9
+27957,Keyboard,received,f,wait_char
+27960,Stimulus,presented,0
+28478,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\phone_Daniel.wav'
+29322,Stimulus,presented,11
+33752,Keyboard,received,f,wait_char
+33754,Stimulus,presented,0
+34290,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\mended_Rocko.wav'
+34993,Stimulus,presented,13
+38782,Keyboard,received,f,wait_char
+38785,Stimulus,presented,0
+39288,Stimulus,presented,14
+39528,Stimulus,presented,15
+40531,Stimulus,presented,16
+43287,Keyboard,received,f,wait_char
+43290,Stimulus,presented,0
+43793,Stimulus,presented,17
+44183,Stimulus,presented,18
+45187,Stimulus,presented,19
+47834,Keyboard,received,f,wait_char
+47836,Stimulus,presented,0
+48340,Stimulus,presented,20
+48564,Stimulus,presented,21
+49568,Stimulus,presented,22
+52896,Keyboard,received,f,wait_char
+52898,Stimulus,presented,0
+53401,Stimulus,presented,23
+53625,Stimulus,presented,24
+54629,Stimulus,presented,25
+58378,Keyboard,received,f,wait_char
+58380,Stimulus,presented,0
+58883,Stimulus,presented,26
+59107,Stimulus,presented,27
+60110,Stimulus,presented,28
+60229,Experiment,paused
+60234,Stimulus,presented,29
+61281,Keyboard,received,y,wait_char
+61281,Experiment,ended
+61287,Data,saved
+61290,Stimulus,presented,29

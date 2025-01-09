@@ -1,0 +1,15 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Wed Jan 08 2025 10:44:01
+#--EXPERIMENT INFO
+#e mainfile: lexdec_v3.py
+#e sha1: 5e1b0c
+#e modules: 
+#e Experiment: Lexical Decision
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 8
+subject_id,cat,word,respkey,RT
+8,W,phone,f,778
+8,W,unzip,None,None
+8,W,allurement,None,None
+8,W,mentally,None,None

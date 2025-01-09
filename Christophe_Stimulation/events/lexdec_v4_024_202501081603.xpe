@@ -1,0 +1,45 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 08 2025 16:03:59
+#sha1: 04899e
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10519,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10519,design,logged,
+10519,Experiment,started
+10548,Stimulus,presented,2
+12002,Keyboard,received, ,wait_char
+12057,Stimulus,presented,1
+13059,Stimulus,presented,0
+13562,Stimulus,presented,5
+13770,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\architect_Flo.wav'
+18029,Keyboard,received,f,wait_char
+18056,Stimulus,presented,1
+19058,Stimulus,presented,0
+19562,Stimulus,presented,7
+19771,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\fumigate_Rocko.wav'
+22086,Keyboard,received,f,wait_char
+22115,Stimulus,presented,1
+23117,Stimulus,presented,0
+23620,Stimulus,presented,9
+23830,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\blaspheme_Flo.wav'
+28769,Keyboard,received,f,wait_char
+28795,Stimulus,presented,1
+29925,Stimulus,presented,0
+30428,Stimulus,presented,11
+30635,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\strong_Rocko.wav'
+35161,Keyboard,received,f,wait_char
+35188,Stimulus,presented,1
+36279,Stimulus,presented,0
+36782,Stimulus,presented,13
+36990,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\boomelege_Rocko.wav'
+38686,Experiment,paused
+38691,Stimulus,presented,15
+39605,Keyboard,received,y,wait_char
+39605,Experiment,ended
+39610,Data,saved
+39615,Stimulus,presented,15
