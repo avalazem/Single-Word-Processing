@@ -1,0 +1,48 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 15:01:47
+#sha1: bc2502
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10237,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,pressed_key,reaction_time
+#design: block_cnt,block_id,trial_cnt,trial_id
+10237,design,logged,
+10237,Experiment,started
+10270,Stimulus,presented,1
+11398,Keyboard,received, ,wait_char
+11401,Stimulus,presented,0
+11904,Stimulus,presented,4
+12134,Stimulus,presented,5
+13137,Stimulus,presented,6
+18138,Keyboard,received,None,wait
+18140,Stimulus,presented,0
+18643,Stimulus,presented,7
+18869,Stimulus,presented,8
+19872,Stimulus,presented,9
+24872,Keyboard,received,None,wait
+24875,Stimulus,presented,0
+25391,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\impossible_Daniel.wav'
+26094,Stimulus,presented,11
+31094,Keyboard,received,None,wait
+31097,Stimulus,presented,0
+31600,Stimulus,presented,12
+31831,Stimulus,presented,13
+32834,Stimulus,presented,14
+37834,Keyboard,received,None,wait
+37947,Stimulus,presented,0
+38468,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\unit_Daniel.wav'
+39171,Stimulus,presented,16
+44172,Keyboard,received,None,wait
+44174,Stimulus,presented,0
+44677,Stimulus,presented,17
+44904,Stimulus,presented,18
+45908,Stimulus,presented,19
+50955,Experiment,paused
+50960,Stimulus,presented,20
+51874,Keyboard,received,y,wait_char
+51874,Experiment,ended
+51880,Data,saved
+51883,Stimulus,presented,20

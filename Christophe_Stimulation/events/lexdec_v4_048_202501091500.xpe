@@ -1,0 +1,29 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 09 2025 15:00:04
+#sha1: ffb4f0
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10340,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10340,design,logged,
+10340,Experiment,started
+10373,Stimulus,presented,1
+11509,Keyboard,received, ,wait_char
+11512,Stimulus,presented,0
+12015,Stimulus,presented,4
+12239,Stimulus,presented,5
+13242,Stimulus,presented,6
+13956,Keyboard,received,f,wait_char
+13958,Stimulus,presented,0
+14478,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\chameleon_Flo.wav'
+15181,Stimulus,presented,8
+15649,Experiment,paused
+15653,Stimulus,presented,9
+16407,Keyboard,received,y,wait_char
+16407,Experiment,ended
+16413,Data,saved
+16417,Stimulus,presented,9

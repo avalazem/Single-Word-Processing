@@ -1,0 +1,28 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 17:10:03
+#sha1: 7644db
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10530,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10530,design,logged,
+10530,Experiment,started
+10560,Stimulus,presented,1
+11888,Keyboard,received, ,wait_char
+11891,Stimulus,presented,0
+12409,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\mingle_Flo.wav'
+13112,Stimulus,presented,5
+23112,Keyboard,received,None,wait
+23115,Stimulus,presented,0
+23633,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\user_Flo.wav'
+24336,Stimulus,presented,7
+25380,Experiment,paused
+25385,Stimulus,presented,8
+26182,Keyboard,received,y,wait_char
+26182,Experiment,ended
+26188,Data,saved
+26191,Stimulus,presented,8

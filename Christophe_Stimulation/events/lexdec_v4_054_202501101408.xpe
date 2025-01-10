@@ -1,0 +1,23 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 14:08:05
+#sha1: 447635
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10692,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10693,design,logged,
+10693,Experiment,started
+10720,Stimulus,presented,1
+14874,Keyboard,received, ,wait_char
+14876,Stimulus,presented,0
+15407,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\sprindly_Rocko.wav'
+16110,Stimulus,presented,5
+16111,stderr,received,'Traceback (most recent call last):'
+16111,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\lexdec_v4.py", line 114, in <module>'
+16112,stderr,received,'    key, rt = exp.keyboard.check([WORD_RESPONSE_KEY, QUIT_KEY])'
+16112,stderr,received,'    ^^^^^^^'
+16112,stderr,received,'TypeError: cannot unpack non-iterable NoneType object'

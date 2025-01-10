@@ -1,0 +1,38 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 14:09:00
+#sha1: 9e0685
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10156,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10156,design,logged,
+10156,Experiment,started
+10185,Stimulus,presented,1
+11041,Keyboard,received, ,wait_char
+11044,Stimulus,presented,0
+11560,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\acorn_Flo.wav'
+12263,Stimulus,presented,5
+22363,Stimulus,presented,0
+22866,Stimulus,presented,6
+23093,Stimulus,presented,7
+24098,Stimulus,presented,8
+29100,Stimulus,presented,0
+29623,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\sourness_Flo.wav'
+30326,Stimulus,presented,10
+35328,Stimulus,presented,0
+35831,Stimulus,presented,11
+36058,Stimulus,presented,12
+37061,Stimulus,presented,13
+47063,Stimulus,presented,0
+47581,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\chameleon_Flo.wav'
+48284,Stimulus,presented,15
+52347,Experiment,paused
+52351,Stimulus,presented,16
+53055,Keyboard,received,y,wait_char
+53055,Experiment,ended
+53061,Data,saved
+53064,Stimulus,presented,16

@@ -1,0 +1,23 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 17:15:59
+#sha1: 0fe98c
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11012,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+11012,design,logged,
+11012,Experiment,started
+11041,Stimulus,presented,1
+12771,Keyboard,received, ,wait_char
+12774,Stimulus,presented,0
+13293,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\immerlize_Rocko.wav'
+13996,Stimulus,presented,5
+13997,stderr,received,'Traceback (most recent call last):'
+13997,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\lexdec_v4.py", line 115, in <module>'
+14000,stderr,received,'    key = exp.keyboard.wait_char()  # Wait for any key press'
+14001,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^^^^'
+14001,stderr,received,"TypeError: Keyboard.wait_char() missing 1 required positional argument: 'char'"

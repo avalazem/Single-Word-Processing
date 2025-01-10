@@ -1,0 +1,16 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Fri Jan 10 2025 15:01:47
+#--EXPERIMENT INFO
+#e mainfile: lexdec_v4.py
+#e sha1: bc2502
+#e modules: 
+#e Experiment: Single Word Processing with Audio
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 67
+subject_id,word,condition,audio,stimulus_type,response_mode,pressed_key,reaction_time
+67,chameleon,RLLS,chameleon_Flo.wav,word,Covert Speech,None,None
+67,actor,RSHC,actor_Alex.wav,word,Covert Speech,None,None
+67,impossible,RLHC,impossible_Daniel.wav,audio,Covert Speech,None,None
+67,mingle,RSLS,mingle_Flo.wav,word,Covert Speech,None,None
+67,unit,RSHC,unit_Daniel.wav,audio,Covert Speech,None,None

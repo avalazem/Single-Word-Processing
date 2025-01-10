@@ -1,0 +1,34 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 15:36:24
+#sha1: e5bd32
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10351,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10351,design,logged,
+10351,Experiment,started
+10398,Stimulus,presented,1
+11503,Keyboard,received, ,wait_char
+11506,Stimulus,presented,0
+12009,Stimulus,presented,4
+12366,Stimulus,presented,5
+13369,Stimulus,presented,6
+23369,Keyboard,received,None,wait
+23372,Stimulus,presented,0
+23890,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\criminals_Rocko.wav'
+24593,Stimulus,presented,8
+34593,Keyboard,received,None,wait
+34595,Stimulus,presented,0
+35099,Stimulus,presented,9
+35326,Stimulus,presented,10
+36329,Stimulus,presented,11
+39809,Experiment,paused
+39813,Stimulus,presented,12
+40471,Keyboard,received,y,wait_char
+40471,Experiment,ended
+40475,Data,saved
+40479,Stimulus,presented,12

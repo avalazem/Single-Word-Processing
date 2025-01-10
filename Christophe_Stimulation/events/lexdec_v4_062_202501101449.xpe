@@ -1,0 +1,24 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 14:49:53
+#sha1: 76e60d
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11051,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+11051,design,logged,
+11051,Experiment,started
+11084,Stimulus,presented,1
+12024,Keyboard,received, ,wait_char
+12027,Stimulus,presented,0
+12532,Stimulus,presented,4
+12809,Stimulus,presented,5
+13812,Stimulus,presented,6
+23813,stderr,received,'Traceback (most recent call last):'
+23813,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\lexdec_v4.py", line 132, in <module>'
+23814,stderr,received,'    if key is None and rt is None:'
+23814,stderr,received,'       ^^^'
+23816,stderr,received,"NameError: name 'key' is not defined"

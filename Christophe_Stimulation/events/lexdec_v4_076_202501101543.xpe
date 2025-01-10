@@ -1,0 +1,23 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 15:43:53
+#sha1: 3262d9
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11622,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+11622,design,logged,
+11622,Experiment,started
+11663,Stimulus,presented,1
+12286,Keyboard,received, ,wait_char
+12289,Stimulus,presented,0
+12804,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\daip_Alex.wav'
+13508,Stimulus,presented,5
+16472,Experiment,paused
+16477,Stimulus,presented,6
+17370,Keyboard,received,y,wait_char
+17370,Experiment,ended
+17379,Stimulus,presented,6

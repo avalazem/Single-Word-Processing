@@ -1,0 +1,42 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 09 2025 15:06:33
+#sha1: bb157b
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10328,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10328,design,logged,
+10328,Experiment,started
+10420,Stimulus,presented,1
+11605,Keyboard,received, ,wait_char
+11608,Stimulus,presented,0
+12126,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\infertile_Daniel.wav'
+12830,Stimulus,presented,5
+22830,Keyboard,received,None,wait_char
+22833,Stimulus,presented,0
+23336,Stimulus,presented,6
+23561,Stimulus,presented,7
+24564,Stimulus,presented,8
+24701,Keyboard,received,f,wait_char
+24704,Stimulus,presented,0
+25207,Stimulus,presented,9
+25433,Stimulus,presented,10
+26436,Stimulus,presented,11
+28733,Keyboard,received,f,wait_char
+28736,Stimulus,presented,0
+29239,Stimulus,presented,12
+29464,Stimulus,presented,13
+30467,Stimulus,presented,14
+31197,Keyboard,received,f,wait_char
+31199,Stimulus,presented,0
+31702,Stimulus,presented,15
+31927,Stimulus,presented,16
+32930,Stimulus,presented,17
+34209,Keyboard,received,q,wait_char
+34209,Experiment,ended
+34214,Data,saved
+34218,Stimulus,presented,18

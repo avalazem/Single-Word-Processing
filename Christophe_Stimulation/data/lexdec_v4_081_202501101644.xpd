@@ -1,0 +1,11 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Fri Jan 10 2025 16:44:34
+#--EXPERIMENT INFO
+#e mainfile: lexdec_v4.py
+#e sha1: eab924
+#e modules: 
+#e Experiment: Single Word Processing with Audio
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 81
+subject_id,word,condition,audio,stimulus_type,response_mode,respkey,RT

@@ -1,0 +1,51 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 09 2025 13:52:01
+#sha1: b13b9d
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+18581,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+18581,design,logged,
+18582,Experiment,started
+18639,Stimulus,presented,1
+32816,Keyboard,received, ,wait_char
+32819,Stimulus,presented,0
+33336,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\guitar_Rocko.wav'
+34040,Stimulus,presented,5
+39864,Keyboard,received,f,wait_char
+39867,Stimulus,presented,0
+40465,Stimulus,presented,6
+40717,Stimulus,presented,7
+41720,Stimulus,presented,8
+51720,Keyboard,received,None,wait_char
+51723,Stimulus,presented,0
+52241,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\sows_Rocko.wav'
+52944,Stimulus,presented,10
+62944,Keyboard,received,None,wait_char
+62946,Stimulus,presented,0
+63462,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\rederlity_Flo.wav'
+64166,Stimulus,presented,12
+74166,Keyboard,received,None,wait_char
+74168,Stimulus,presented,0
+74671,Stimulus,presented,13
+74900,Stimulus,presented,14
+75903,Stimulus,presented,15
+85903,Keyboard,received,None,wait_char
+85905,Stimulus,presented,0
+86409,Stimulus,presented,16
+86637,Stimulus,presented,17
+87640,Stimulus,presented,18
+97640,Keyboard,received,None,wait_char
+97643,Stimulus,presented,0
+98164,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\freasite_Rocko.wav'
+98867,Stimulus,presented,20
+104130,Experiment,paused
+104135,Stimulus,presented,21
+105552,Keyboard,received,y,wait_char
+105552,Experiment,ended
+105559,Data,saved
+105563,Stimulus,presented,21

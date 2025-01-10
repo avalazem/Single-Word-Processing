@@ -1,0 +1,52 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 17:28:11
+#sha1: 95e9c1
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10093,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10093,design,logged,
+10093,Experiment,started
+10121,Stimulus,presented,1
+10923,Keyboard,received, ,wait_char
+10926,Stimulus,presented,0
+11429,Stimulus,presented,4
+11653,Stimulus,presented,5
+12656,Stimulus,presented,6
+13172,Keyboard,received,f,wait_char
+17659,Stimulus,presented,0
+18162,Stimulus,presented,7
+18386,Stimulus,presented,8
+19389,Stimulus,presented,9
+21954,Keyboard,received,f,wait_char
+29392,Stimulus,presented,0
+29896,Stimulus,presented,10
+30120,Stimulus,presented,11
+31123,Stimulus,presented,12
+41123,Keyboard,received,None,wait_char
+41126,Stimulus,presented,0
+41629,Stimulus,presented,13
+41854,Stimulus,presented,14
+42857,Stimulus,presented,15
+47368,Keyboard,received,f,wait_char
+52860,Stimulus,presented,0
+53363,Stimulus,presented,16
+53587,Stimulus,presented,17
+54590,Stimulus,presented,18
+64590,Keyboard,received,None,wait_char
+64593,Stimulus,presented,0
+65096,Stimulus,presented,19
+65319,Stimulus,presented,20
+66323,Stimulus,presented,21
+69101,Keyboard,received,f,wait_char
+71325,Stimulus,presented,0
+71831,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\thildhoust_Flo.wav'
+72534,Stimulus,presented,23
+74132,Keyboard,received,q,wait_char
+74132,Experiment,ended
+74138,Data,saved
+74141,Stimulus,presented,24
