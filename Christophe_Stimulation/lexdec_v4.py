@@ -57,7 +57,7 @@ instructions = stimuli.TextScreen("Instructions",
 
     Press the space bar to start.""")
 
-exp.add_data_variable_names(['word', 'condition', 'audio', 'stimulus_type', 'response_mode', 'respkey', 'RT'])
+exp.add_data_variable_names(['word', 'condition', 'audio', 'stimulus_type', 'response_mode', 'response_key', 'reaction_time'])
 
 control.start(skip_ready_screen=True)
 instructions.present()
@@ -113,9 +113,9 @@ for word, condition, audio, stimulus_type, response_mode in trials:
     # Wait for a response (up to the respective times)
     key, rt = exp.keyboard.wait_char([WORD_RESPONSE_KEY, QUIT_KEY], duration = response_time)
     
-    # If the participant pressed a key (e.g., 'f'), immediately proceed without waiting the full duration
+    # If the participant pressed a key (e.g., 'f'), continue to wait the remaining time
     if key == WORD_RESPONSE_KEY:
-        exp.clock.wait(response_time - rt)  # Immediately proceed
+        exp.clock.wait(response_time - rt)
 
     # Save data (whether the participant pressed 'f' or quit)
     exp.data.add([word, condition, audio, stimulus_type, response_mode, key, rt])
