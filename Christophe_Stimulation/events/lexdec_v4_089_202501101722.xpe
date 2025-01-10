@@ -1,0 +1,34 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 17:22:07
+#sha1: ccc204
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10232,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10232,design,logged,
+10232,Experiment,started
+10267,Stimulus,presented,1
+10811,Keyboard,received, ,wait_char
+10813,Stimulus,presented,0
+11317,Stimulus,presented,4
+11541,Stimulus,presented,5
+12544,Stimulus,presented,6
+22544,Keyboard,received,None,wait
+22547,Stimulus,presented,0
+23050,Stimulus,presented,7
+23275,Stimulus,presented,8
+24278,Stimulus,presented,9
+34278,Keyboard,received,None,wait
+34281,Stimulus,presented,0
+34799,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\actor_Alex.wav'
+35502,Stimulus,presented,11
+38415,Experiment,paused
+38419,Stimulus,presented,12
+39170,Keyboard,received,y,wait_char
+39170,Experiment,ended
+39176,Data,saved
+39179,Stimulus,presented,12

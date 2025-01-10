@@ -1,0 +1,33 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 14:11:53
+#sha1: 9e0685
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10458,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10458,design,logged,
+10458,Experiment,started
+10528,Stimulus,presented,1
+12064,Keyboard,received, ,wait_char
+12067,Stimulus,presented,0
+12584,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\wrivol_Flo.wav'
+13287,Stimulus,presented,5
+18289,Stimulus,presented,0
+18808,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\balk_Daniel.wav'
+19511,Stimulus,presented,7
+24513,Stimulus,presented,0
+25030,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\encask_Rocko.wav'
+25733,Stimulus,presented,9
+30735,Stimulus,presented,0
+31250,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\strong_Daniel.wav'
+31953,Stimulus,presented,11
+33444,Experiment,paused
+33449,Stimulus,presented,12
+34147,Keyboard,received,y,wait_char
+34147,Experiment,ended
+34151,Data,saved
+34155,Stimulus,presented,12

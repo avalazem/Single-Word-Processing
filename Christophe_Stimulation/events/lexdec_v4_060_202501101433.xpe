@@ -1,0 +1,42 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 14:33:56
+#sha1: 316402
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10170,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10170,design,logged,
+10170,Experiment,started
+10260,Stimulus,presented,1
+11688,Keyboard,received, ,wait_char
+11691,Stimulus,presented,0
+12212,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\guitar_Rocko.wav'
+12915,Stimulus,presented,5
+14802,Keyboard,received,f,wait_char
+14805,Stimulus,presented,0
+15308,Stimulus,presented,6
+15604,Stimulus,presented,7
+16607,Stimulus,presented,8
+17191,Keyboard,received,f,wait_char
+17193,Stimulus,presented,0
+17712,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\freasite_Rocko.wav'
+18415,Stimulus,presented,10
+19416,Keyboard,received,f,wait_char
+19419,Stimulus,presented,0
+19940,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\disinherit_Flo.wav'
+20643,Stimulus,presented,12
+21524,Keyboard,received,f,wait_char
+21527,Stimulus,presented,0
+22031,Stimulus,presented,13
+22261,Stimulus,presented,14
+23264,Stimulus,presented,15
+23545,Experiment,paused
+23549,Stimulus,presented,16
+24365,Keyboard,received,y,wait_char
+24365,Experiment,ended
+24371,Data,saved
+24375,Stimulus,presented,16

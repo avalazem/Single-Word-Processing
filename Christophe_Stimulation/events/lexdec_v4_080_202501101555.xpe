@@ -1,0 +1,52 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 15:55:36
+#sha1: e4be52
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10982,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10982,design,logged,
+10982,Experiment,started
+11051,Stimulus,presented,1
+12671,Keyboard,received, ,wait_char
+12674,Stimulus,presented,0
+13177,Stimulus,presented,4
+13416,Stimulus,presented,5
+14421,Stimulus,presented,6
+15389,Keyboard,received,f,wait_char
+15390,stdout,received,'f Key Pressed'
+15393,Stimulus,presented,0
+15909,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\deaths_Daniel.wav'
+16612,Stimulus,presented,8
+17562,Keyboard,received,f,wait_char
+17562,stdout,received,'f Key Pressed'
+17565,Stimulus,presented,0
+18068,Stimulus,presented,9
+18301,Stimulus,presented,10
+19305,Stimulus,presented,11
+19628,Keyboard,received,f,wait_char
+19628,stdout,received,'f Key Pressed'
+19632,Stimulus,presented,0
+20147,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\gargoyle_Daniel.wav'
+20850,Stimulus,presented,13
+21321,Keyboard,received,f,wait_char
+21321,stdout,received,'f Key Pressed'
+21325,Stimulus,presented,0
+21828,Stimulus,presented,14
+22054,Stimulus,presented,15
+23057,Stimulus,presented,16
+23556,Keyboard,received,f,wait_char
+23556,stdout,received,'f Key Pressed'
+23560,Stimulus,presented,0
+24063,Stimulus,presented,17
+24290,Stimulus,presented,18
+25294,Stimulus,presented,19
+25489,Keyboard,received,q,wait_char
+25489,stdout,received,'q Key Pressed'
+25489,Experiment,ended
+25503,Data,saved
+25506,Stimulus,presented,20

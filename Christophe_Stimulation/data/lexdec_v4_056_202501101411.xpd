@@ -1,0 +1,14 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Fri Jan 10 2025 14:11:53
+#--EXPERIMENT INFO
+#e mainfile: lexdec_v4.py
+#e sha1: 9e0685
+#e modules: 
+#e Experiment: Single Word Processing with Audio
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 56
+subject_id,word,condition,audio,stimulus_type,response_mode,respkey,RT
+56,wrivol,PSS,wrivol_Flo.wav,audio,Covert Speech,None,None
+56,balk,RSLS,balk_Daniel.wav,audio,Covert Speech,None,None
+56,encask,PSC,encask_Rocko.wav,audio,Covert Speech,None,None

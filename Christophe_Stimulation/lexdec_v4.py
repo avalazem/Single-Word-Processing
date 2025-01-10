@@ -103,13 +103,19 @@ for word, condition, audio, stimulus_type, response_mode in trials:
         response_text = stimuli.TextLine("WRITE")
     
     response_text.present()
-
+    
+    # Define the response time
+    response_time = SPEECH_WAIT_DURATION if response_mode == "Covert Speech" else WRITING_WAIT_DURATION
+    
+    # Record the start time of the response
+    start_time = exp.clock.time
+    
     # Wait for a response (up to the respective times)
-    key, rt = exp.keyboard.wait_char([WORD_RESPONSE_KEY, QUIT_KEY], duration=SPEECH_WAIT_DURATION if response_mode == "Covert Read" else WRITING_WAIT_DURATION)
+    key, rt = exp.keyboard.wait_char([WORD_RESPONSE_KEY, QUIT_KEY], duration = response_time)
     
     # If the participant pressed a key (e.g., 'f'), immediately proceed without waiting the full duration
     if key == WORD_RESPONSE_KEY:
-        rt = 0  # Immediately proceed
+        exp.clock.wait(response_time - rt)  # Immediately proceed
 
     # Save data (whether the participant pressed 'f' or quit)
     exp.data.add([word, condition, audio, stimulus_type, response_mode, key, rt])

@@ -1,0 +1,28 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 14:59:42
+#sha1: a6deb6
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10578,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,pressed_key,reaction_time
+#design: block_cnt,block_id,trial_cnt,trial_id
+10578,design,logged,
+10578,Experiment,started
+10606,Stimulus,presented,1
+11714,Keyboard,received, ,wait_char
+11717,Stimulus,presented,0
+12220,Stimulus,presented,4
+12444,Stimulus,presented,5
+13448,Stimulus,presented,6
+18448,Keyboard,received,None,wait
+18450,Stimulus,presented,0
+18969,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\foab_Flo.wav'
+18969,stderr,received,'Traceback (most recent call last):'
+18969,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\lexdec_v4.py", line 99, in <module>'
+18970,stderr,received,'    exp.clock.wait(audio_stimulus.duration)  # Use actual audio duration'
+18970,stderr,received,'                   ^^^^^^^^^^^^^^^^^^^^^^^'
+18971,stderr,received,"AttributeError: 'Audio' object has no attribute 'duration'"
+18974,Data,saved
