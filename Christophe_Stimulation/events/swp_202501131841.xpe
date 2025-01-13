@@ -1,0 +1,7 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 18:41:24
+#sha1: 744a7f
+#modules: 
+#display: size=(1536, 960), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2

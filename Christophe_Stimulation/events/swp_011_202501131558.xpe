@@ -1,0 +1,20 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 15:58:37
+#sha1: 98a977
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10479,design,log,
+#design: #exp: Single Word Processing
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,response_key,reaction_time
+#design: block_cnt,block_id,trial_cnt,trial_id
+10479,design,logged,
+10479,Experiment,started
+10529,Stimulus,presented,1
+24679,Keyboard,received, ,wait_char
+24679,stderr,received,'Traceback (most recent call last):'
+24679,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp.py", line 80, in <module>'
+24682,stderr,received,"    When finished, press '{WORD_RESPONSE_KEY()}'."
+24682,stderr,received,'                           ^^^^^^^^^^^^^^^^^^^'
+24682,stderr,received,"TypeError: 'str' object is not callable"

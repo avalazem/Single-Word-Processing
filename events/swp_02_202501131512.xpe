@@ -1,0 +1,64 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 15:12:19
+#sha1: fc281a
+#modules: 
+#display: size=(1536, 960), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+26451,design,log,
+#design: #exp: Single Word Processing
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,response_key,reaction_time
+#design: block_cnt,block_id,trial_cnt,trial_id
+26451,design,logged,
+26451,Experiment,started
+26478,Stimulus,presented,1
+42942,Keyboard,received, ,wait_char
+42980,Stimulus,presented,4
+45169,Keyboard,received, ,wait_char
+45174,Stimulus,presented,0
+45678,Stimulus,presented,5
+45901,Stimulus,presented,6
+46817,Keyboard,received,f,wait_char
+46820,Stimulus,presented,0
+47324,Stimulus,presented,7
+47545,Stimulus,presented,8
+48059,Keyboard,received,f,wait_char
+48063,Stimulus,presented,0
+48567,Stimulus,presented,9
+48787,Stimulus,presented,10
+49128,Keyboard,received,f,wait_char
+49132,Stimulus,presented,0
+49636,Stimulus,presented,11
+49854,Stimulus,presented,12
+50433,Keyboard,received,f,wait_char
+50436,Stimulus,presented,0
+50939,Stimulus,presented,13
+51158,Stimulus,presented,14
+51742,Keyboard,received,f,wait_char
+51746,Stimulus,presented,0
+52250,Stimulus,presented,15
+52468,Stimulus,presented,16
+53157,Keyboard,received,f,wait_char
+53161,Stimulus,presented,0
+53665,Stimulus,presented,17
+53884,Stimulus,presented,18
+54586,Keyboard,received,f,wait_char
+54596,Stimulus,presented,0
+55099,Stimulus,presented,19
+55316,Stimulus,presented,20
+56338,Keyboard,received,f,wait_char
+56342,Stimulus,presented,0
+56846,Stimulus,presented,21
+57064,Stimulus,presented,22
+57924,Keyboard,received,f,wait_char
+57928,Stimulus,presented,0
+58431,Stimulus,presented,23
+58649,Stimulus,presented,24
+59457,Keyboard,received,f,wait_char
+59461,Stimulus,presented,0
+59965,Stimulus,presented,25
+60181,Stimulus,presented,26
+61012,Keyboard,received,q,wait_char
+61012,Experiment,ended
+61022,Data,saved
+61028,Stimulus,presented,27

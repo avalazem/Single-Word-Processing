@@ -1,0 +1,17 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Jan 13 2025 17:17:11
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: 8ed8fa
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 31
+subject_id,
+31,vengefully,RLLC,vengefully_Flo.wav,word,Write,f,497
+31,hyma,PSS,hyma_Rocko.wav,word,Write,f,1230
+31,unit,RSHC,unit_Daniel.wav,word,Write,f,1612
+31,rearce,PSS,rearce_Rocko.wav,word,Write,f,946
+31,foab,PSS,foab_Flo.wav,word,Write,f,883
+31,mended,RSLC,mended_Rocko.wav,word,Write,f,438

@@ -1,0 +1,22 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Jan 13 2025 15:12:19
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: fc281a
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 2
+subject_id,word,condition,audio,stimulus_type,response_mode,response_key,reaction_time
+2,egotistic,RLLC,egotistic_Rocko.wav,word,Covert Speech,f,0
+2,disinherit,RLLC,disinherit_Flo.wav,word,Covert Speech,f,0
+2,scepticism,RLLC,scepticism_Rocko.wav,word,Covert Speech,f,0
+2,sourness,RLLC,sourness_Flo.wav,word,Covert Speech,f,0
+2,tattooist,RLLC,tattooist_Rocko.wav,word,Covert Speech,f,0
+2,vengefully,RLLC,vengefully_Flo.wav,word,Covert Speech,f,0
+2,infertile,RLLC,infertile_Daniel.wav,word,Covert Speech,f,0
+2,adaptable,RLLC,adaptable_Flo.wav,word,Covert Speech,f,0
+2,hieroglyph,RLLS,hieroglyph_Rocko.wav,word,Covert Speech,f,0
+2,etiquette,RLLS,etiquette_Flo.wav,word,Covert Speech,f,0
+2,gargoyle,RLLS,gargoyle_Daniel.wav,word,Covert Speech,q,829

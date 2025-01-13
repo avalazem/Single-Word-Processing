@@ -1,0 +1,19 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 15:42:02
+#sha1: 41677d
+#modules: 
+#display: size=(1536, 960), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10503,design,log,
+#design: #exp: Single Word Processing
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,response_key,reaction_time
+#design: block_cnt,block_id,trial_cnt,trial_id
+10503,design,logged,
+10503,Experiment,started
+10584,Stimulus,presented,1
+15026,Experiment,paused
+15033,Stimulus,presented,4
+16085,Keyboard,received,y,wait_char
+16085,Experiment,ended
+16098,Stimulus,presented,4

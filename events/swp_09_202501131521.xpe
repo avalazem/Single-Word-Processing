@@ -1,0 +1,52 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 15:21:08
+#sha1: 2c69c3
+#modules: 
+#display: size=(1536, 960), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10122,design,log,
+#design: #exp: Single Word Processing
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,response_key,reaction_time
+#design: block_cnt,block_id,trial_cnt,trial_id
+10122,design,logged,
+10122,Experiment,started
+10166,Stimulus,presented,1
+10957,Keyboard,received, ,wait_char
+10998,Stimulus,presented,4
+11376,Keyboard,received, ,wait_char
+11380,Stimulus,presented,0
+11907,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\egotistic_Rocko.wav'
+14425,Keyboard,received,f,wait_char
+14430,Stimulus,presented,0
+14954,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\disinherit_Flo.wav'
+16286,Keyboard,received,f,wait_char
+16290,Stimulus,presented,0
+16813,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\scepticism_Rocko.wav'
+18389,Keyboard,received,f,wait_char
+18392,Stimulus,presented,0
+18913,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\sourness_Flo.wav'
+24114,Keyboard,received,None,wait_char
+24119,Stimulus,presented,0
+24639,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\tattooist_Rocko.wav'
+26099,Keyboard,received,f,wait_char
+26104,Stimulus,presented,0
+26622,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\vengefully_Flo.wav'
+26884,Keyboard,received,f,wait_char
+26887,Stimulus,presented,0
+27404,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\infertile_Daniel.wav'
+28085,Keyboard,received,f,wait_char
+28089,Stimulus,presented,0
+28609,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\adaptable_Flo.wav'
+29735,Keyboard,received,f,wait_char
+29739,Stimulus,presented,0
+30263,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\hieroglyph_Rocko.wav'
+33438,Keyboard,received,f,wait_char
+33441,Stimulus,presented,0
+33961,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\etiquette_Flo.wav'
+38755,Experiment,paused
+38762,Stimulus,presented,15
+40483,Keyboard,received,y,wait_char
+40483,Experiment,ended
+40491,Data,saved
+40497,Stimulus,presented,15

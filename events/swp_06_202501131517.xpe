@@ -1,0 +1,36 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 15:17:46
+#sha1: 40d684
+#modules: 
+#display: size=(1536, 960), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10335,design,log,
+#design: #exp: Single Word Processing
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,response_key,reaction_time
+#design: block_cnt,block_id,trial_cnt,trial_id
+10335,design,logged,
+10335,Experiment,started
+10357,stderr,received,'Traceback (most recent call last):'
+10357,stderr,received,'  File "c:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp.py", line 69, in <module>'
+10358,stderr,received,'    instructions.present()'
+10359,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1188, in present'
+10360,stderr,received,'    self.preload(inhibit_ogl_compress=True)'
+10361,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1076, in preload'
+10362,stderr,received,'    self._get_surface(),'
+10362,stderr,received,'    ^^^^^^^^^^^^^^^^^^^'
+10363,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 495, in _get_surface'
+10364,stderr,received,'    tmp = self._create_surface()'
+10366,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^^'
+10366,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_textscreen.py", line 493, in _create_surface'
+10367,stderr,received,'    surface.blit(box._get_surface(),'
+10367,stderr,received,'                 ^^^^^^^^^^^^^^^^^^'
+10368,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 495, in _get_surface'
+10368,stderr,received,'    tmp = self._create_surface()'
+10369,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^^'
+10370,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_textbox.py", line 344, in _create_surface'
+10371,stderr,received,'    surface = self.render_textrect(self.format_block(_text),'
+10373,stderr,received,'              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+10374,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_textbox.py", line 420, in render_textrect'
+10374,stderr,received,'    raise Exception('
+10375,stderr,received,'Exception: Once word-wrapped,the text string was too tall to fit in the rect.'

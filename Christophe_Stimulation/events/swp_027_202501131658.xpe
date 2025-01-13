@@ -1,0 +1,51 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 16:58:28
+#sha1: 72f90d
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11064,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+11064,design,logged,
+11064,Experiment,started
+11098,Stimulus,presented,2
+12226,Keyboard,received, ,wait_char
+12259,Stimulus,presented,3
+16578,Keyboard,received, ,wait_char
+16581,Stimulus,presented,4
+17100,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\deaths_Daniel.wav'
+17325,Stimulus,presented,6
+26557,Keyboard,received,f,wait_char
+27423,Stimulus,presented,7
+27940,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\trifle_Flo.wav'
+28170,Stimulus,presented,9
+30262,Keyboard,received,f,wait_char
+38180,Stimulus,presented,10
+38686,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\guitar_Rocko.wav'
+38914,Stimulus,presented,12
+40268,Keyboard,received,f,wait_char
+49026,Stimulus,presented,13
+49533,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\insterday_Flo.wav'
+49762,Stimulus,presented,15
+51867,Keyboard,received,f,wait_char
+59765,Stimulus,presented,16
+60280,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\dare_Rocko.wav'
+60509,Stimulus,presented,18
+61621,Keyboard,received,f,wait_char
+70512,Stimulus,presented,19
+71028,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\shears_Flo.wav'
+71253,Stimulus,presented,21
+72523,Keyboard,received,f,wait_char
+81257,Stimulus,presented,22
+81764,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\establish_Flo.wav'
+81991,Stimulus,presented,24
+83410,Keyboard,received,f,wait_char
+91994,Stimulus,presented,25
+92520,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\mended_Rocko.wav'
+92744,Stimulus,presented,27
+93609,Keyboard,received,q,wait_char
+93609,Experiment,ended
+93617,Data,saved
+93621,Stimulus,presented,28

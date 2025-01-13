@@ -1,0 +1,25 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 17:49:51
+#sha1: dd0eec
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10577,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10578,design,logged,
+10578,Experiment,started
+10611,Stimulus,presented,2
+12020,Keyboard,received, ,wait_char
+12047,Stimulus,presented,3
+13742,Keyboard,received, ,wait_char
+13744,Stimulus,presented,4
+14269,Stimulus,presented,5
+14274,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\rake_Rocko.wav'
+15082,Stimulus,presented,5
+16688,Experiment,paused
+16692,Stimulus,presented,7
+17013,Keyboard,received,y,wait_char
+17013,Experiment,ended
+17021,Stimulus,presented,7

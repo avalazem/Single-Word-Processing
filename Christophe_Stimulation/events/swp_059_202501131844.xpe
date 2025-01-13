@@ -1,0 +1,26 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 18:44:12
+#sha1: da397a
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10559,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10559,design,logged,
+10559,Experiment,started
+10726,Stimulus,presented,2
+11251,Keyboard,received, ,wait_char
+11254,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\pencil.png
+11302,Stimulus,presented,3
+12694,Keyboard,received, ,wait_char
+12697,Stimulus,presented,5
+13287,Stimulus,presented,6
+13296,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\hieroglyph_Rocko.wav'
+14705,Stimulus,presented,6
+15367,Experiment,paused
+15373,Stimulus,presented,8
+15915,Keyboard,received,y,wait_char
+15915,Experiment,ended
+15923,Stimulus,presented,8

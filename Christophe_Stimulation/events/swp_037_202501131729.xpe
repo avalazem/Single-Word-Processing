@@ -1,0 +1,24 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 17:29:46
+#sha1: 6de99e
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10729,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10729,design,logged,
+10729,Experiment,started
+10803,Stimulus,presented,2
+12082,Keyboard,received, ,wait_char
+12110,Stimulus,presented,3
+14811,Keyboard,received, ,wait_char
+14814,Stimulus,presented,4
+15340,Stimulus,presented,5
+15348,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\chameleon_Flo.wav'
+15349,stderr,received,'Traceback (most recent call last):'
+15349,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp.py", line 150, in <module>'
+15352,stderr,received,'    exp.clock.wait(audio_stimulus.duration)'
+15353,stderr,received,'                   ^^^^^^^^^^^^^^^^^^^^^^^'
+15353,stderr,received,"AttributeError: 'Audio' object has no attribute 'duration'"

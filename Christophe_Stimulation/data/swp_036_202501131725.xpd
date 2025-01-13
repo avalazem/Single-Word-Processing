@@ -1,0 +1,18 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Jan 13 2025 17:25:39
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: 2c7769
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 36
+subject_id,
+36,sows,RSLC,sows_Rocko.wav,word,Covert Speech,f,3308
+36,thildhoust,PLS,thildhoust_Flo.wav,word,Covert Speech,f,663
+36,pods,RSLC,pods_Rocko.wav,word,Covert Speech,f,693
+36,tescootous,PLS,tescootous_Rocko.wav,word,Covert Speech,f,699
+36,large,RSHS,large_Flo.wav,word,Covert Speech,f,817
+36,mingle,RSLS,mingle_Flo.wav,word,Covert Speech,f,737
+36,phone,RSHS,phone_Daniel.wav,word,Covert Speech,f,405

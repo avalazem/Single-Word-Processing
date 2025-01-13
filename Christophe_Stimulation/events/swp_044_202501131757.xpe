@@ -1,0 +1,21 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 17:57:23
+#sha1: 40dd1f
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10620,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10620,design,logged,
+10620,Experiment,started
+10714,Stimulus,presented,2
+11807,Keyboard,received, ,wait_char
+11836,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\closed_mouth.png
+11850,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\closed_mouth.png
+11856,stderr,received,'Traceback (most recent call last):'
+11856,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp.py", line 125, in <module>'
+11857,stderr,received,'    image.set_position((0, -100))  # Adjust the Y-axis for positioning below the text instructions (adjust as needed)'
+11857,stderr,received,'    ^^^^^^^^^^^^^^^^^^'
+11858,stderr,received,"AttributeError: 'Picture' object has no attribute 'set_position'. Did you mean: '_position'?"

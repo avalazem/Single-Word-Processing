@@ -1,0 +1,21 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 18:00:06
+#sha1: 38eb2d
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11012,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+11012,design,logged,
+11012,Experiment,started
+11202,Stimulus,presented,2
+12053,Keyboard,received, ,wait_char
+12059,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\closed_mouth.png
+12067,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\closed_mouth.png
+12073,stderr,received,'Traceback (most recent call last):'
+12080,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp.py", line 125, in <module>'
+12080,stderr,received,'    image.position((0, -100))  # Adjust the Y-axis for positioning below the text instructions (adjust as needed)'
+12081,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^^^^^'
+12081,stderr,received,"TypeError: 'list' object is not callable"

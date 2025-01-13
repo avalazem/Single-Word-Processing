@@ -1,0 +1,59 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Jan 13 2025 16:25:23
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: 15250c
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 20
+subject_id,
+20,large,RSHS,large_Flo.wav,word,Write,f,1036
+20,character,RLHS,character_Rocko.wav,word,Write,f,4711
+20,beautiful,RLHC,beautiful_Flo.wav,word,Write,f,68
+20,lauly,PSC,lauly_Rocko.wav,word,Write,f,80
+20,trifle,RSLS,trifle_Flo.wav,word,Write,f,88
+20,tattooist,RLLC,tattooist_Rocko.wav,word,Write,f,81
+20,entew,PSC,entew_Alex.wav,word,Write,f,72
+20,mixer,RSLC,mixer_Flo.wav,word,Write,f,4
+20,blaspheme,RLLS,blaspheme_Flo.wav,word,Write,f,24
+20,lirce,PSS,lirce_Rocko.wav,word,Write,f,47
+20,disappear,RLHC,disappear_Flo.wav,word,Write,f,63
+20,receiving,RLHC,receiving_Flo.wav,word,Write,f,107
+20,plars,PSC,plars_Rocko.wav,word,Write,f,267
+20,establish,RLHS,establish_Flo.wav,word,Write,f,426
+20,shears,RSLC,shears_Flo.wav,word,Write,f,176
+20,clinical,RLHC,clinical_Flo.wav,word,Write,f,122
+20,impolder,PLC,impolder_Flo.wav,word,Write,f,164
+20,currease,PLS,currease_Flo.wav,word,Write,f,142
+20,guitar,RSHS,guitar_Rocko.wav,word,Write,f,142
+20,ramble,RSLS,ramble_Flo.wav,word,Write,f,133
+20,disclosure,RLHC,disclosure_Rocko.wav,word,Write,f,54
+20,lore,RSLS,lore_Rocko.wav,word,Write,f,55
+20,orally,RSLC,orally_Flo.wav,word,Write,f,20
+20,shenanigan,RLLS,shenanigan_Flo.wav,word,Write,f,19
+20,deaths,RSHC,deaths_Daniel.wav,word,Write,f,823
+20,garadign,PLS,garadign_Daniel.wav,word,Write,f,393
+20,scepticism,RLLC,scepticism_Rocko.wav,word,Write,f,117
+20,hieroglyph,RLLS,hieroglyph_Rocko.wav,word,Write,f,514
+20,drall,PSS,drall_Flo.wav,word,Write,f,77
+20,distfully,PLC,distfully_Flo.wav,word,Write,f,24
+20,tescootous,PLS,tescootous_Rocko.wav,word,Write,f,93
+20,radio,RSHS,radio_Flo.wav,word,Write,f,187
+20,encask,PSC,encask_Rocko.wav,word,Write,f,113
+20,wrivol,PSS,wrivol_Flo.wav,word,Write,f,95
+20,straight,RLHS,straight_Rocko.wav,word,Write,f,86
+20,juns,PSC,juns_Flo.wav,word,Write,f,60
+20,infertile,RLLC,infertile_Daniel.wav,word,Write,f,91
+20,freasite,PLS,freasite_Rocko.wav,word,Write,f,93
+20,foab,PSS,foab_Flo.wav,word,Write,f,121
+20,insterday,PLS,insterday_Flo.wav,word,Write,f,64
+20,acorn,RSLS,acorn_Flo.wav,word,Write,f,18
+20,strong,RSHS,strong_Daniel.wav,word,Write,f,23
+20,boomelege,PLS,boomelege_Daniel.wav,word,Write,f,41
+20,unit,RSHC,unit_Daniel.wav,word,Write,f,33
+20,fumigate,RLLS,fumigate_Daniel.wav,word,Write,f,44
+20,mended,RSLC,mended_Rocko.wav,word,Write,f,53
+20,hyma,PSS,hyma_Rocko.wav,word,Write,f,66
+20,combs,RSLC,combs_Rocko.wav,word,Write,f,64
