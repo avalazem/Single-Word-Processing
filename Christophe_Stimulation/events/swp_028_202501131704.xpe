@@ -1,0 +1,35 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 17:04:33
+#sha1: 72f90d
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10732,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10732,design,logged,
+10732,Experiment,started
+10766,Stimulus,presented,2
+96329,Keyboard,received, ,wait_char
+96640,Stimulus,presented,3
+103324,Keyboard,received, ,wait_char
+103328,Stimulus,presented,4
+103832,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\garadign_Daniel.wav'
+104332,Stimulus,presented,6
+106665,Keyboard,received,f,wait_char
+114334,Stimulus,presented,7
+114840,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\tattooist_Rocko.wav'
+115067,Stimulus,presented,9
+116647,Keyboard,received,f,wait_char
+125072,Stimulus,presented,10
+125578,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\calendar_Rocko.wav'
+125806,Stimulus,presented,12
+126503,Keyboard,received,f,wait_char
+135809,Stimulus,presented,13
+136328,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\across_Flo.wav'
+136555,Stimulus,presented,15
+137103,Keyboard,received,q,wait_char
+137103,Experiment,ended
+137109,Data,saved
+137114,Stimulus,presented,16

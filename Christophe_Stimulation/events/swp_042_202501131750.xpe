@@ -1,0 +1,22 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 17:50:44
+#sha1: c6fcba
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10328,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10328,design,logged,
+10328,Experiment,started
+10366,Stimulus,presented,2
+11381,Keyboard,received, ,wait_char
+11392,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\pencil.png
+11396,Stimulus,presented,4
+11518,Stimulus,presented,3
+15985,Experiment,paused
+15989,Stimulus,presented,5
+16654,Keyboard,received,y,wait_char
+16654,Experiment,ended
+16660,Stimulus,presented,5

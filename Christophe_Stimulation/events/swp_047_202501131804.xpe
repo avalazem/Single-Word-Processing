@@ -1,0 +1,28 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 18:04:58
+#sha1: e7a7cc
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10268,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10268,design,logged,
+10268,Experiment,started
+10299,Stimulus,presented,2
+11625,Keyboard,received, ,wait_char
+11627,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\pencil.png
+11631,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\pencil.png
+11662,Stimulus,presented,3
+11671,Stimulus,presented,4
+16274,Keyboard,received, ,wait_char
+16277,Stimulus,presented,5
+16804,Stimulus,presented,6
+16831,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\currease_Flo.wav'
+17779,Stimulus,presented,6
+18046,Experiment,paused
+18050,Stimulus,presented,8
+18739,Keyboard,received,y,wait_char
+18739,Experiment,ended
+18749,Stimulus,presented,8

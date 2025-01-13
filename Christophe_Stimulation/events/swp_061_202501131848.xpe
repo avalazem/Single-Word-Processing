@@ -1,0 +1,23 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 18:48:21
+#sha1: f27e04
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10576,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10576,design,logged,
+10576,Experiment,started
+10621,Stimulus,presented,2
+11777,Keyboard,received, ,wait_char
+11786,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\closed_mouth.png
+11795,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\closed_mouth.png
+11818,stderr,received,'Traceback (most recent call last):'
+11818,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp.py", line 130, in <module>'
+11818,stderr,received,'    main_run_instructions.plot(image)  # This will overlay the image onto the text screen'
+11818,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+11818,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 918, in plot'
+11819,stderr,received,'    raise RuntimeError(Visual._exception_message.format('
+11819,stderr,received,'RuntimeError: Cannot call plot() on preloaded or compressed stimulus!'

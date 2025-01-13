@@ -1,0 +1,26 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 18:48:57
+#sha1: 168590
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10718,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10718,design,logged,
+10718,Experiment,started
+10800,Stimulus,presented,2
+11514,Keyboard,received, ,wait_char
+11516,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\pencil.png
+11559,Stimulus,presented,3
+12382,Keyboard,received, ,wait_char
+12385,Stimulus,presented,5
+12960,Stimulus,presented,6
+12967,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\audio_files_wav\\drall_Flo.wav'
+13880,Stimulus,presented,6
+14951,Experiment,paused
+14956,Stimulus,presented,8
+15842,Keyboard,received,y,wait_char
+15842,Experiment,ended
+15851,Stimulus,presented,8

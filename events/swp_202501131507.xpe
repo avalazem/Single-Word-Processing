@@ -1,0 +1,27 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 15:07:46
+#sha1: fc281a
+#modules: 
+#display: size=(1536, 960), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+6801,stderr,received,'Traceback (most recent call last):'
+6801,stderr,received,'  File "c:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp.py", line 29, in <module>'
+6802,stderr,received,'    materials = pandas.read_csv(stim_file)'
+6803,stderr,received,'                ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+6804,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py", line 1026, in read_csv'
+6833,stderr,received,'    return _read(filepath_or_buffer, kwds)'
+6834,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+6834,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py", line 620, in _read'
+6835,stderr,received,'    parser = TextFileReader(filepath_or_buffer, **kwds)'
+6836,stderr,received,'             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+6836,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py", line 1620, in __init__'
+6837,stderr,received,'    self._engine = self._make_engine(f, self.engine)'
+6837,stderr,received,'                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+6838,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py", line 1880, in _make_engine'
+6839,stderr,received,'    self.handles = get_handle('
+6839,stderr,received,'                   ^^^^^^^^^^^'
+6839,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\.venv\\Lib\\site-packages\\pandas\\io\\common.py", line 873, in get_handle'
+6858,stderr,received,'    handle = open('
+6859,stderr,received,'             ^^^^^'
+6859,stderr,received,"FileNotFoundError: [Errno 2] No such file or directory: 'Subject_One_en.csv'"

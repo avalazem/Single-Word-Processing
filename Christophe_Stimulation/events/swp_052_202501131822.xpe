@@ -1,0 +1,22 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 18:22:02
+#sha1: a8c417
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10126,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10126,design,logged,
+10126,Experiment,started
+10220,Stimulus,presented,2
+10899,Keyboard,received, ,wait_char
+10967,Stimulus,presented,3
+10973,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\closed_mouth.png
+10978,Stimulus,presented,4
+16874,Experiment,paused
+16878,Stimulus,presented,6
+17762,Keyboard,received,y,wait_char
+17762,Experiment,ended
+17770,Stimulus,presented,6

@@ -1,0 +1,27 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 10 2025 17:41:39
+#sha1: 0c3706
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+12366,design,log,
+#design: #exp: Single Word Processing with Audio
+#design: #dvn: word,condition,audio,stimulus_type,response_mode,response_key,reaction_time
+#design: block_cnt,block_id,trial_cnt,trial_id
+12366,design,logged,
+12366,Experiment,started
+12426,Stimulus,presented,1
+12950,Keyboard,received, ,wait_char
+12953,Stimulus,presented,0
+13473,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\audio_files_wav\\insterday_Flo.wav'
+14176,Stimulus,presented,5
+15399,Keyboard,received,f,wait_char
+19179,Stimulus,presented,0
+19682,Stimulus,presented,6
+20021,Stimulus,presented,7
+21024,Stimulus,presented,8
+21776,Keyboard,received,q,wait_char
+21776,Experiment,ended
+21781,Data,saved
+21785,Stimulus,presented,9

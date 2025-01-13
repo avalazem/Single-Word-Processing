@@ -1,0 +1,21 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 18:08:29
+#sha1: a46b2f
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10545,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10545,design,logged,
+10545,Experiment,started
+10651,Stimulus,presented,2
+11805,Keyboard,received, ,wait_char
+11811,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\closed_mouth.png
+11819,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\closed_mouth.png
+11826,stderr,received,'Traceback (most recent call last):'
+11826,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp.py", line 130, in <module>'
+11827,stderr,received,'    screen.add_stimulus(main_run_instructions)  # Add the instructions to the screen'
+11827,stderr,received,'    ^^^^^^^^^^^^^^^^^^^'
+11827,stderr,received,"AttributeError: 'BlankScreen' object has no attribute 'add_stimulus'. Did you mean: 'inside_stimulus'?"

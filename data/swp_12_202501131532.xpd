@@ -1,0 +1,11 @@
+#Expyriment 0.10.0 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Jan 13 2025 15:32:42
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: 41677d
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 12
+subject_id,word,condition,audio,stimulus_type,response_mode,response_key,reaction_time
