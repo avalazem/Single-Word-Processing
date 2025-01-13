@@ -1,0 +1,18 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 19:32:11
+#sha1: c519de
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5422,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x000001BA1B7DE660>'
+5422,stderr,received,'Traceback (most recent call last):'
+5423,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 263, in __del__'
+5426,stderr,received,'    if self._compression_filename is not None:'
+5426,stderr,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+5426,stderr,received,"AttributeError: 'TextScreen' object has no attribute '_compression_filename'"
+5426,stderr,received,'Traceback (most recent call last):'
+5427,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp_training.py", line 14, in <module>'
+5428,stderr,received,'    test_run_instructions = stimuli.TextScreen('
+5429,stderr,received,'                            ^^^^^^^^^^^^^^^^^^^'
+5429,stderr,received,"TypeError: TextScreen.__init__() missing 1 required positional argument: 'text'"

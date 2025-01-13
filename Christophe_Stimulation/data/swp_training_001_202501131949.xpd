@@ -1,0 +1,15 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Jan 13 2025 19:49:08
+#--EXPERIMENT INFO
+#e mainfile: swp_training.py
+#e sha1: 2d5926
+#e modules: 
+#e Experiment: Test Run
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,
+1,apple,Fruit,apple.wav,audio,Write,f,6391
+1,banana,Fruit,banana.wav,audio,Write,f,2150
+1,cherry,Fruit,cherry.wav,audio,Write,f,2299
+1,date,Fruit,date.wav,audio,Write,None,None

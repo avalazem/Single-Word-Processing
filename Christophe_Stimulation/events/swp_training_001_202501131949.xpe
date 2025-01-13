@@ -1,0 +1,31 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 19:49:08
+#sha1: 2d5926
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10794,design,log,
+#design: #exp: Test Run
+#design: block_cnt,block_id,trial_cnt,trial_id
+10794,design,logged,
+10794,Experiment,started
+10832,Stimulus,presented,0
+16543,Keyboard,received, ,wait_char
+16663,Stimulus,presented,2
+28124,Keyboard,received, ,wait_char
+28127,Stimulus,presented,3
+35018,Keyboard,received,f,wait_char
+35147,Stimulus,presented,4
+37798,Keyboard,received,f,wait_char
+37800,Stimulus,presented,5
+40599,Keyboard,received,f,wait_char
+40601,Stimulus,presented,6
+51102,Keyboard,received,None,wait_char
+51228,Stimulus,presented,7
+51232,stderr,received,'Traceback (most recent call last):'
+51233,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp_training.py", line 134, in <module>'
+51233,stderr,received,'    exp.clock.wait(BREAK_DURATION)'
+51234,stderr,received,'                   ^^^^^^^^^^^^^^'
+51234,stderr,received,"NameError: name 'BREAK_DURATION' is not defined"
+51237,Data,saved

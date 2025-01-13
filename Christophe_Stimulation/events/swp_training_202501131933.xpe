@@ -1,0 +1,19 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 13 2025 19:33:37
+#sha1: 5be0d5
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5662,Stimulus,presented,0
+16074,Keyboard,received, ,wait_char
+16084,Stimulus,presented,1
+16588,Stimulus,presented,2
+16850,Stimulus,presented,3
+17855,Stimulus,presented,4
+21831,Keyboard,received,f,wait_char
+27856,stderr,received,'Traceback (most recent call last):'
+27856,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp_training.py", line 93, in <module>'
+27857,stderr,received,'    exp.data.add([word, condition, audio, stimulus_type, response_mode, key, rt])'
+27857,stderr,received,'    ^^^^^^^^^^^^'
+27860,stderr,received,"AttributeError: 'NoneType' object has no attribute 'add'"
