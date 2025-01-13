@@ -1,0 +1,5 @@
+56202,stdout,received,'Traceback (most recent call last):'
+56202,stdout,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp_training.py", line 134, in <module>'
+56203,stdout,received,'    exp.clock.wait(BREAK_DURATION)'
+56203,stdout,received,'                   ^^^^^^^^^^^^^^'
+56204,stdout,received,"NameError: name 'BREAK_DURATION' is not defined"
