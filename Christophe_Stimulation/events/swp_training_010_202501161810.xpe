@@ -1,0 +1,23 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2025 18:10:54
+#sha1: b2febd
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10873,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10873,design,logged,
+10873,Experiment,started
+10878,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\test_instructions.png
+11055,Stimulus,presented,2
+15570,Keyboard,received, ,wait_char
+15579,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\audio_write.png
+15609,Stimulus,presented,3
+20894,Keyboard,received, ,wait_char
+20894,stderr,received,'Traceback (most recent call last):'
+20894,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp_training.py", line 101, in <module>'
+20895,stderr,received,'    for word, condition, audio, stimulus_type, response_mode in main_run_order:'
+20896,stderr,received,'        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+20896,stderr,received,'ValueError: too many values to unpack (expected 5)'

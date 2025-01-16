@@ -1,0 +1,100 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2025 18:03:15
+#sha1: 96ac90
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10781,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10781,design,logged,
+10781,Experiment,started
+10787,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\test_instructions.png
+11092,Stimulus,presented,2
+14230,Keyboard,received, ,wait_char
+14239,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\word_covert_speech.png
+14269,Stimulus,presented,3
+18065,Keyboard,received, ,wait_char
+18068,Stimulus,presented,4
+18572,Stimulus,presented,5
+19388,Stimulus,presented,6
+20569,Keyboard,received,f,wait_char
+20572,Stimulus,presented,7
+21076,Stimulus,presented,8
+21310,Stimulus,presented,9
+22895,Keyboard,received,f,wait_char
+22897,Stimulus,presented,10
+23401,Stimulus,presented,11
+23628,Stimulus,presented,12
+25067,Keyboard,received,f,wait_char
+25070,Stimulus,presented,13
+25573,Stimulus,presented,14
+25956,Stimulus,presented,15
+26588,Keyboard,received,f,wait_char
+26590,Stimulus,presented,16
+27094,Stimulus,presented,17
+27344,Stimulus,presented,18
+27906,Keyboard,received,f,wait_char
+27909,Stimulus,presented,19
+28412,Stimulus,presented,20
+28664,Stimulus,presented,21
+29186,Keyboard,received,f,wait_char
+29189,Stimulus,presented,22
+29692,Stimulus,presented,23
+29916,Stimulus,presented,24
+30297,Keyboard,received,f,wait_char
+30300,Stimulus,presented,25
+30803,Stimulus,presented,26
+31026,Stimulus,presented,27
+31324,Keyboard,received,f,wait_char
+31327,Stimulus,presented,28
+31830,Stimulus,presented,29
+32059,Stimulus,presented,30
+32330,Keyboard,received,f,wait_char
+32373,Stimulus,presented,31
+33435,Stimulus,presented,32
+34460,Stimulus,presented,33
+35483,Stimulus,presented,34
+36509,Stimulus,presented,35
+37533,Stimulus,presented,36
+38558,Stimulus,presented,37
+39582,Stimulus,presented,38
+40606,Stimulus,presented,39
+41632,Stimulus,presented,40
+42656,Stimulus,presented,41
+43681,Stimulus,presented,42
+44707,Stimulus,presented,43
+45738,Stimulus,presented,44
+46764,Stimulus,presented,45
+47789,Stimulus,presented,46
+48815,Stimulus,presented,47
+49839,Stimulus,presented,48
+50865,Stimulus,presented,49
+51891,Stimulus,presented,50
+52917,Stimulus,presented,51
+53947,Stimulus,presented,52
+54974,Stimulus,presented,53
+56002,Stimulus,presented,54
+57035,Stimulus,presented,55
+58062,Stimulus,presented,56
+59093,Stimulus,presented,57
+60125,Stimulus,presented,58
+61157,Stimulus,presented,59
+62189,Stimulus,presented,60
+63199,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\audio_covert_speech.png
+63301,Stimulus,presented,61
+69855,Keyboard,received, ,wait_char
+69869,Stimulus,presented,62
+70369,stderr,received,'Traceback (most recent call last):'
+70370,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp_training.py", line 148, in <module>'
+70373,stderr,received,'    audio_clip = AudioSegment.from_file(audio_path)'
+70373,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+70374,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pydub\\audio_segment.py", line 651, in from_file'
+70411,stderr,received,"    file, close_file = _fd_or_path_or_tempfile(file, 'rb', tempfile=False)"
+70411,stderr,received,'                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+70412,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pydub\\utils.py", line 60, in _fd_or_path_or_tempfile'
+70442,stderr,received,'    fd = open(fd, mode=mode)'
+70442,stderr,received,'         ^^^^^^^^^^^^^^^^^^^'
+70442,stderr,received,"FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ali_a\\\\Desktop\\\\Single_Word_Processing_Stage\\\\Single_Word_Processing\\\\Christophe_Stimulation\\\\Stimuli\\\\audio_files_wav\\\\quite.wav'"
+70447,Data,saved

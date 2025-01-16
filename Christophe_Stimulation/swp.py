@@ -9,10 +9,9 @@ Supervisor: Yair Lakretz
 
 '''
 
-
 import sys
 import random
-import pandas
+import pandas as pd
 from expyriment import design, control, stimuli
 import os
 from pydub import AudioSegment  # Import pydub for audio processing
@@ -42,10 +41,10 @@ exp = design.Experiment(name="Single Word Processing", text_size=40)
 control.initialize(exp)
 
 # Prepare the stimuli
-materials = pandas.read_csv(stim_file)
-words = materials['Word'].tolist()
-conditions = materials['Condition'].tolist()
-audio_files = materials['Audio'].tolist()
+materials_df = pd.read_csv(stim_file)
+words = materials_df['Word'].tolist()
+conditions = materials_df['Condition'].tolist()
+audio_files = materials_df['Audio'].tolist()
 
 # Create distinct runs
 runs = {
@@ -56,9 +55,9 @@ runs = {
 }
 
 for word, condition, audio in zip(words, conditions, audio_files):
-    runs["word_covert_speech"].append((word, condition, audio, 'word', 'Covert Speech'))
+    runs["word_covert_speech"].append((word, condition, audio, 'word', 'covert_speech'))
     runs["word_write"].append((word, condition, audio, 'word', 'write'))
-    runs["audio_covert_speech"].append((word, condition, audio, 'audio', 'Covert Speech'))
+    runs["audio_covert_speech"].append((word, condition, audio, 'audio', 'covert_speech'))
     runs["audio_write"].append((word, condition, audio, 'audio', 'write'))
 
 # Function to split runs into mini-runs
@@ -154,7 +153,7 @@ for i, (run_name, mini_run) in enumerate(shuffled_mini_runs):
             stimuli.BlankScreen().present()
 
         # Wait for participant response
-        response_time = SPEECH_WAIT_DURATION if response_mode == "Covert Speech" else WRITING_WAIT_DURATION
+        response_time = SPEECH_WAIT_DURATION if response_mode == "covert_speech" else WRITING_WAIT_DURATION
         start_time = exp.clock.time
         key, rt = exp.keyboard.wait_char([WORD_RESPONSE_KEY, QUIT_KEY], duration=response_time)
 

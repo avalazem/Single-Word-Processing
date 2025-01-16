@@ -1,0 +1,96 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2025 18:48:16
+#sha1: 9165ab
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10197,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10197,design,logged,
+10197,Experiment,started
+10203,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\test_instructions.png
+10292,Stimulus,presented,2
+11310,Keyboard,received, ,wait_char
+11318,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\word_covert_speech.png
+11345,Stimulus,presented,3
+12232,Keyboard,received, ,wait_char
+12235,Stimulus,presented,4
+12739,Stimulus,presented,5
+12968,Stimulus,presented,6
+15548,Keyboard,received,f,wait_char
+15551,Stimulus,presented,7
+16055,Stimulus,presented,8
+16288,Stimulus,presented,9
+16700,Keyboard,received,f,wait_char
+16702,Stimulus,presented,10
+17207,Stimulus,presented,11
+17456,Stimulus,presented,12
+17805,Keyboard,received,f,wait_char
+17808,Stimulus,presented,13
+18311,Stimulus,presented,14
+18546,Stimulus,presented,15
+18889,Keyboard,received,f,wait_char
+18892,Stimulus,presented,16
+19395,Stimulus,presented,17
+19625,Stimulus,presented,18
+19921,Keyboard,received,f,wait_char
+19924,Stimulus,presented,19
+20427,Stimulus,presented,20
+20652,Stimulus,presented,21
+20906,Keyboard,received,f,wait_char
+20909,Stimulus,presented,22
+21412,Stimulus,presented,23
+21679,Stimulus,presented,24
+21882,Keyboard,received,f,wait_char
+21885,Stimulus,presented,25
+22388,Stimulus,presented,26
+22620,Stimulus,presented,27
+22859,Keyboard,received,f,wait_char
+22862,Stimulus,presented,28
+23365,Stimulus,presented,29
+23599,Stimulus,presented,30
+23787,Keyboard,received,f,wait_char
+23790,Stimulus,presented,31
+24293,Stimulus,presented,32
+24523,Stimulus,presented,33
+24739,Keyboard,received,f,wait_char
+24741,Stimulus,presented,34
+25245,Stimulus,presented,35
+25471,Stimulus,presented,36
+25705,Keyboard,received,f,wait_char
+25707,Stimulus,presented,37
+26210,Stimulus,presented,38
+26434,Stimulus,presented,39
+26653,Keyboard,received,f,wait_char
+26655,Stimulus,presented,40
+27158,Stimulus,presented,41
+27383,Stimulus,presented,42
+27589,Keyboard,received,f,wait_char
+27592,Stimulus,presented,43
+28095,Stimulus,presented,44
+28320,Stimulus,presented,45
+28501,Keyboard,received,f,wait_char
+28504,Stimulus,presented,46
+29007,Stimulus,presented,47
+29233,Stimulus,presented,48
+29431,Keyboard,received,f,wait_char
+29434,Stimulus,presented,49
+29937,Stimulus,presented,50
+30163,Stimulus,presented,51
+30346,Keyboard,received,f,wait_char
+30349,Stimulus,presented,52
+30852,Stimulus,presented,53
+31078,Stimulus,presented,54
+31412,Keyboard,received,f,wait_char
+31415,Stimulus,presented,55
+31918,Stimulus,presented,56
+32145,Stimulus,presented,57
+32410,Keyboard,received,f,wait_char
+32411,stderr,received,'Traceback (most recent call last):'
+32411,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp_training.py", line 146, in <module>'
+32412,stderr,received,'    if i < len(runs) - 1:'
+32412,stderr,received,'       ^'
+32413,stderr,received,"NameError: name 'i' is not defined. Did you mean: 'id'?"
+32416,Data,saved

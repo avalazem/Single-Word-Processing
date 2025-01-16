@@ -1,0 +1,23 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2025 18:09:25
+#sha1: 867470
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10204,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10204,design,logged,
+10204,Experiment,started
+10210,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\test_instructions.png
+10618,Stimulus,presented,2
+12304,Keyboard,received, ,wait_char
+12314,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\audio_write.png
+12345,Stimulus,presented,3
+15408,Keyboard,received, ,wait_char
+15408,stderr,received,'Traceback (most recent call last):'
+15409,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp_training.py", line 101, in <module>'
+15410,stderr,received,'    for word, condition, audio, stimulus_type, response_mode in mini_run:'
+15410,stderr,received,'                                                                ^^^^^^^^'
+15410,stderr,received,"NameError: name 'mini_run' is not defined"
