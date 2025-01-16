@@ -1,7 +1,7 @@
 '''
 From Christophe Pallier's (Christophe@pallier.org) 
 lexdec_v3.py (https://github.com/chrplr/PCBS/blob/master/experiments/xpy_lexical_decision/lexdec_v3.py)
-using the expyriment module.
+using the expyriment module (https://github.com/chrplr/expyriment)
 
 Project: Single Word Processing (https://github.com/avalazem/Single-Word-Processing)
 Author: Ali Al-Azem
