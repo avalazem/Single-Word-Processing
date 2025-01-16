@@ -50,25 +50,25 @@ random.shuffle(main_run_order)
 
 # Instructions for each run type
 run_instructions_dict = {
-    "word_covert_speech": f"""You will now be presented with written words on the screen. 
+    "silent_reading": f"""You will now be presented with written words on the screen. 
     
 Your task is to read them silently (covertly), without moving your lips or making any sound, within 5 seconds.
 
 When finished, press '{WORD_RESPONSE_KEY}'.""",
 
-    "word_write": f"""You will now be presented with written words on the screen.
+    "silent_repetition": f"""You will now be presented with written words on the screen.
     
 Your task is to write them down on the provided sheet as quickly and accurately as possible, within 10 seconds.
 
 When finished, press '{WORD_RESPONSE_KEY}'.""",
 
-    "audio_covert_speech": f"""You will now hear spoken words through the audio system.
+    "copying": f"""You will now hear spoken words through the audio system.
      
 Your task is to listen carefully and repeat them silently (covertly), without moving your lips or making any sound, within 5 seconds.
 
 When finished, press '{WORD_RESPONSE_KEY}'.""",
 
-    "audio_write": f"""You will now hear spoken words through the audio system.
+    "spelling": f"""You will now hear spoken words through the audio system.
     
 Your task is to write them down on the provided sheet as quickly and accurately as possible, within 10 seconds.
 
@@ -167,9 +167,9 @@ for run_index, run_name in enumerate(main_run_order[:4], start=1):
 
     # Break between runs
     if run_index < 4:
-        for remaining_seconds in range(60, 0, -1):
+        for remaining_seconds in range(30, 0, -1):
             break_message = stimuli.TextScreen("Break",
-                f"Take a 1 minute break. Relax and prepare for the next part.\n\n"
+                f"Take a 30 second break. Relax and prepare for the next part.\n\n"
                 f"The next part will start automatically in {remaining_seconds} seconds.")
             break_message.present()
             exp.clock.wait(1000)  # Wait 1 second (1000 ms)

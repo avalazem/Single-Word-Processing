@@ -1,0 +1,18 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Tue Jan 14 2025 16:53:46
+#sha1: f16da3
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+6648,Stimulus,presented,0
+13536,Keyboard,received, ,wait_char
+13545,Stimulus,presented,1
+14073,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\reversed_theatrical_Flo.wav'
+14777,Stimulus,presented,3
+17951,Keyboard,received,f,wait_char
+24778,stderr,received,'Traceback (most recent call last):'
+24778,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp_localizer.py", line 84, in <module>'
+24781,stderr,received,'    exp.data.add([stimulus, stimulus_type, key, rt])'
+24781,stderr,received,'    ^^^^^^^^^^^^'
+24782,stderr,received,"AttributeError: 'NoneType' object has no attribute 'add'"

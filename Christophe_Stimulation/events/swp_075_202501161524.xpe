@@ -1,0 +1,121 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2025 15:24:24
+#sha1: a9d73f
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10097,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10097,design,logged,
+10097,Experiment,started
+10103,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\introduction.png
+10131,Stimulus,presented,2
+11750,Keyboard,received, ,wait_char
+11855,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\word_write.png
+12110,Stimulus,presented,3
+12267,Keyboard,received, ,wait_char
+12270,Stimulus,presented,4
+12773,Stimulus,presented,5
+13108,Stimulus,presented,6
+13954,Keyboard,received,f,wait_char
+13956,Stimulus,presented,7
+14461,Stimulus,presented,8
+14710,Stimulus,presented,9
+14793,Keyboard,received,f,wait_char
+14795,Stimulus,presented,10
+15298,Stimulus,presented,11
+15591,Stimulus,presented,12
+16427,Keyboard,received,f,wait_char
+16430,Stimulus,presented,13
+16933,Stimulus,presented,14
+17218,Stimulus,presented,15
+17610,Keyboard,received,f,wait_char
+17613,Stimulus,presented,16
+18116,Stimulus,presented,17
+18346,Stimulus,presented,18
+18358,Keyboard,received,f,wait_char
+18360,Stimulus,presented,19
+18863,Stimulus,presented,20
+19109,Stimulus,presented,21
+19808,Keyboard,received,f,wait_char
+19810,Stimulus,presented,22
+20313,Stimulus,presented,23
+20550,Stimulus,presented,24
+21075,Keyboard,received,f,wait_char
+21078,Stimulus,presented,25
+21582,Stimulus,presented,26
+21810,Stimulus,presented,27
+22218,Keyboard,received,f,wait_char
+22221,Stimulus,presented,28
+22725,Stimulus,presented,29
+22950,Stimulus,presented,30
+23208,Keyboard,received,f,wait_char
+23210,Stimulus,presented,31
+23713,Stimulus,presented,32
+23939,Stimulus,presented,33
+24180,Keyboard,received,f,wait_char
+24182,Stimulus,presented,34
+24686,Stimulus,presented,35
+24942,Stimulus,presented,36
+25019,Keyboard,received,f,wait_char
+25022,Stimulus,presented,37
+25525,Stimulus,presented,38
+25777,Stimulus,presented,39
+26026,Keyboard,received,f,wait_char
+26029,Stimulus,presented,40
+26532,Stimulus,presented,41
+26781,Stimulus,presented,42
+26947,Keyboard,received,f,wait_char
+26950,Stimulus,presented,43
+27453,Stimulus,presented,44
+27698,Stimulus,presented,45
+27882,Keyboard,received,f,wait_char
+27885,Stimulus,presented,46
+28388,Stimulus,presented,47
+28637,Stimulus,presented,48
+28791,Keyboard,received,f,wait_char
+28793,Stimulus,presented,49
+29296,Stimulus,presented,50
+29524,Stimulus,presented,51
+29897,Keyboard,received,f,wait_char
+29900,Stimulus,presented,52
+30403,Stimulus,presented,53
+30630,Stimulus,presented,54
+30969,Keyboard,received,f,wait_char
+30971,Stimulus,presented,55
+31474,Stimulus,presented,56
+31918,Stimulus,presented,57
+32308,Keyboard,received,f,wait_char
+32311,Stimulus,presented,58
+32814,Stimulus,presented,59
+33156,Stimulus,presented,60
+33422,Keyboard,received,f,wait_char
+33424,Stimulus,presented,61
+33927,Stimulus,presented,62
+34199,Stimulus,presented,63
+34816,Keyboard,received,f,wait_char
+34819,Stimulus,presented,64
+35322,Stimulus,presented,65
+35719,Stimulus,presented,66
+35825,Keyboard,received,f,wait_char
+35828,Stimulus,presented,67
+36331,Stimulus,presented,68
+36578,Stimulus,presented,69
+37094,Keyboard,received,f,wait_char
+37097,Stimulus,presented,70
+37600,Stimulus,presented,71
+37955,Stimulus,presented,72
+38132,Keyboard,received,f,wait_char
+38135,Stimulus,presented,73
+38639,Stimulus,presented,74
+38992,Stimulus,presented,75
+39522,Keyboard,received,f,wait_char
+39569,Stimulus,presented,76
+39570,stderr,received,'Traceback (most recent call last):'
+39570,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp.py", line 159, in <module>'
+39571,stderr,received,'    key, _ = exp.keyboard.check([QUIT_KEY], duration=29000)'
+39571,stderr,received,'             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+39571,stderr,received,"TypeError: Keyboard.check() got an unexpected keyword argument 'duration'"
+39575,Data,saved

@@ -1,0 +1,395 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Thu Jan 16 2025 16:04:47
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: 6dd671
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 84
+subject_id,
+84,insterday,PLS,insterday_Flo.wav,word,Write,f,523
+84,shears,RSLC,shears_Flo.wav,word,Write,f,289
+84,impolder,PLC,impolder_Flo.wav,word,Write,f,277
+84,criminals,RLHC,criminals_Rocko.wav,word,Write,f,260
+84,rederlity,PLC,rederlity_Flo.wav,word,Write,f,294
+84,gorgeous,RLHS,gorgeous_Rocko.wav,word,Write,f,263
+84,ramble,RSLS,ramble_Flo.wav,word,Write,f,120
+84,lauly,PSC,lauly_Rocko.wav,word,Write,f,210
+84,procreach,PLC,procreach_Flo.wav,word,Write,f,92
+84,calendar,RLHS,calendar_Rocko.wav,word,Write,f,92
+84,shenanigan,RLLS,shenanigan_Flo.wav,word,Write,f,615
+84,stars,RSHC,stars_Rocko.wav,word,Write,f,49
+84,character,RLHS,character_Rocko.wav,word,Write,f,57
+84,thildhoust,PLS,thildhoust_Flo.wav,word,Write,f,601
+84,unzip,RSLC,unzip_Flo.wav,word,Write,f,193
+84,phounching,PLC,phounching_Daniel.wav,word,Write,f,45
+84,boomelege,PLS,boomelege_Daniel.wav,word,Write,f,73
+84,trifle,RSLS,trifle_Flo.wav,word,Write,f,134
+84,mended,RSLC,mended_Rocko.wav,word,Write,f,12
+84,garadign,PLS,garadign_Daniel.wav,word,Write,f,206
+84,juns,PSC,juns_Flo.wav,word,Write,f,162
+84,unit,RSHC,unit_Daniel.wav,word,Write,f,90
+84,daip,PSS,daip_Alex.wav,word,Write,f,174
+84,drall,PSS,drall_Flo.wav,word,Write,f,349
+84,foab,PSS,foab_Flo.wav,audio,Write,f,1249
+84,rederlity,PLC,rederlity_Flo.wav,audio,Write,f,291
+84,drall,PSS,drall_Flo.wav,audio,Write,f,293
+84,sourness,RLLC,sourness_Flo.wav,audio,Write,f,52
+84,deaths,RSHC,deaths_Daniel.wav,audio,Write,f,259
+84,shenanigan,RLLS,shenanigan_Flo.wav,audio,Write,f,319
+84,puivon,PSS,puivon_Rocko.wav,audio,Write,f,224
+84,juns,PSC,juns_Flo.wav,audio,Write,f,255
+84,encask,PSC,encask_Rocko.wav,audio,Write,f,191
+84,across,RSHC,across_Flo.wav,audio,Write,f,169
+84,sprindly,PLC,sprindly_Rocko.wav,audio,Write,f,254
+84,heft,RSLS,heft_Rocko.wav,audio,Write,f,252
+84,receiving,RLHC,receiving_Flo.wav,audio,Write,f,250
+84,lirce,PSS,lirce_Rocko.wav,audio,Write,f,264
+84,thildhoust,PLS,thildhoust_Flo.wav,audio,Write,f,53
+84,hieroglyph,RLLS,hieroglyph_Rocko.wav,audio,Write,f,455
+84,daip,PSS,daip_Alex.wav,audio,Write,f,344
+84,acorn,RSLS,acorn_Flo.wav,audio,Write,f,231
+84,scepticism,RLLC,scepticism_Rocko.wav,audio,Write,f,352
+84,character,RLHS,character_Rocko.wav,audio,Write,f,283
+84,pods,RSLC,pods_Rocko.wav,audio,Write,f,255
+84,user,RSHC,user_Flo.wav,audio,Write,f,265
+84,tank,RSHS,tank_Flo.wav,audio,Write,f,252
+84,orally,RSLC,orally_Flo.wav,audio,Write,f,255
+84,conflite,PLS,conflite_Flo.wav,word,Covert Speech,f,439
+84,tattooist,RLLC,tattooist_Rocko.wav,word,Covert Speech,f,121
+84,combs,RSLC,combs_Rocko.wav,word,Covert Speech,f,211
+84,heft,RSLS,heft_Rocko.wav,word,Covert Speech,f,412
+84,disappear,RLHC,disappear_Flo.wav,word,Covert Speech,f,250
+84,acorn,RSLS,acorn_Flo.wav,word,Covert Speech,f,287
+84,writes,RSHC,writes_Alex.wav,word,Covert Speech,f,52
+84,counds,PSC,counds_Rocko.wav,word,Covert Speech,f,399
+84,lirce,PSS,lirce_Rocko.wav,word,Covert Speech,f,437
+84,foab,PSS,foab_Flo.wav,word,Covert Speech,f,1628
+84,radio,RSHS,radio_Flo.wav,word,Covert Speech,f,1251
+84,scrabble,RLLS,scrabble_Daniel.wav,word,Covert Speech,f,1485
+84,garadign,PLS,garadign_Daniel.wav,word,Covert Speech,f,561
+84,puivon,PSS,puivon_Rocko.wav,word,Covert Speech,f,399
+84,phenomenon,RLHS,phenomenon_Flo.wav,word,Covert Speech,f,113
+84,unzip,RSLC,unzip_Flo.wav,word,Covert Speech,f,1322
+84,rewn,PSC,rewn_Alex.wav,word,Covert Speech,f,1887
+84,chameleon,RLLS,chameleon_Flo.wav,word,Covert Speech,f,295
+84,large,RSHS,large_Flo.wav,word,Covert Speech,f,314
+84,shenanigan,RLLS,shenanigan_Flo.wav,word,Covert Speech,f,291
+84,insterday,PLS,insterday_Flo.wav,word,Covert Speech,f,538
+84,hyma,PSS,hyma_Rocko.wav,word,Covert Speech,f,250
+84,scepticism,RLLC,scepticism_Rocko.wav,word,Covert Speech,f,353
+84,establish,RLHS,establish_Flo.wav,word,Covert Speech,f,295
+84,lauly,PSC,lauly_Rocko.wav,word,Covert Speech,f,679
+84,encask,PSC,encask_Rocko.wav,word,Covert Speech,f,328
+84,tescootous,PLS,tescootous_Rocko.wav,word,Covert Speech,f,161
+84,disclosure,RLHC,disclosure_Rocko.wav,word,Covert Speech,f,750
+84,pictures,RLHC,pictures_Rocko.wav,word,Covert Speech,f,537
+84,beautiful,RLHC,beautiful_Flo.wav,word,Covert Speech,f,383
+84,sprindly,PLC,sprindly_Rocko.wav,word,Covert Speech,f,197
+84,hieroglyph,RLLS,hieroglyph_Rocko.wav,word,Covert Speech,f,252
+84,mended,RSLC,mended_Rocko.wav,word,Covert Speech,f,373
+84,trifle,RSLS,trifle_Flo.wav,word,Covert Speech,f,365
+84,vengefully,RLLC,vengefully_Flo.wav,word,Covert Speech,f,422
+84,clinical,RLHC,clinical_Flo.wav,word,Covert Speech,f,315
+84,alassfully,PLC,alassfully_Rocko.wav,word,Covert Speech,f,297
+84,blaspheme,RLLS,blaspheme_Flo.wav,word,Covert Speech,f,221
+84,plars,PSC,plars_Rocko.wav,word,Covert Speech,f,462
+84,gargoyle,RLLS,gargoyle_Daniel.wav,word,Covert Speech,f,390
+84,distfully,PLC,distfully_Flo.wav,word,Covert Speech,f,300
+84,character,RLHS,character_Rocko.wav,word,Covert Speech,f,378
+84,across,RSHC,across_Flo.wav,word,Covert Speech,f,352
+84,sourness,RLLC,sourness_Flo.wav,word,Covert Speech,f,252
+84,infertile,RLLC,infertile_Daniel.wav,word,Covert Speech,f,91
+84,onts,PSC,onts_Alex.wav,word,Covert Speech,f,193
+84,stars,RSHC,stars_Rocko.wav,word,Covert Speech,f,335
+84,orally,RSLC,orally_Flo.wav,word,Covert Speech,f,255
+84,sows,RSLC,sows_Rocko.wav,word,Write,f,508
+84,lore,RSLS,lore_Rocko.wav,word,Write,f,275
+84,freasite,PLS,freasite_Rocko.wav,word,Write,f,335
+84,disinherit,RLLC,disinherit_Flo.wav,word,Write,f,283
+84,deaths,RSHC,deaths_Daniel.wav,word,Write,f,191
+84,balk,RSLS,balk_Daniel.wav,word,Write,f,240
+84,adaptable,RLLC,adaptable_Flo.wav,word,Write,f,224
+84,hieroglyph,RLLS,hieroglyph_Rocko.wav,word,Write,f,258
+84,orally,RSLC,orally_Flo.wav,word,Write,f,216
+84,iron,RSHS,iron_Flo.wav,word,Write,f,384
+84,onts,PSC,onts_Alex.wav,word,Write,f,243
+84,guitar,RSHS,guitar_Rocko.wav,word,Write,f,123
+84,scepticism,RLLC,scepticism_Rocko.wav,word,Write,f,136
+84,egotistic,RLLC,egotistic_Rocko.wav,word,Write,f,237
+84,across,RSHC,across_Flo.wav,word,Write,f,26
+84,chameleon,RLLS,chameleon_Flo.wav,word,Write,f,72
+84,encask,PSC,encask_Rocko.wav,word,Write,f,100
+84,alassfully,PLC,alassfully_Rocko.wav,word,Write,f,256
+84,plars,PSC,plars_Rocko.wav,word,Write,f,101
+84,blaspheme,RLLS,blaspheme_Flo.wav,word,Write,f,252
+84,receiving,RLHC,receiving_Flo.wav,word,Write,f,284
+84,shoulder,RLHS,shoulder_Flo.wav,word,Write,f,18
+84,impossible,RLHC,impossible_Daniel.wav,word,Write,f,141
+84,dare,RSHS,dare_Rocko.wav,word,Write,f,289
+84,user,RSHC,user_Flo.wav,word,Covert Speech,f,2285
+84,tank,RSHS,tank_Flo.wav,word,Covert Speech,f,366
+84,hearts,RSHC,hearts_Daniel.wav,word,Covert Speech,f,281
+84,mingle,RSLS,mingle_Flo.wav,word,Covert Speech,f,247
+84,thildhoust,PLS,thildhoust_Flo.wav,word,Covert Speech,f,240
+84,unit,RSHC,unit_Daniel.wav,word,Covert Speech,f,247
+84,calendar,RLHS,calendar_Rocko.wav,word,Covert Speech,f,240
+84,entew,PSC,entew_Alex.wav,word,Covert Speech,f,170
+84,phone,RSHS,phone_Daniel.wav,word,Covert Speech,f,221
+84,procreach,PLC,procreach_Flo.wav,word,Covert Speech,f,269
+84,etiquette,RLLS,etiquette_Flo.wav,word,Covert Speech,f,193
+84,boomelege,PLS,boomelege_Daniel.wav,word,Covert Speech,f,247
+84,rearce,PSS,rearce_Rocko.wav,word,Covert Speech,f,249
+84,adaptable,RLLC,adaptable_Flo.wav,word,Covert Speech,f,820
+84,phounching,PLC,phounching_Daniel.wav,word,Covert Speech,f,290
+84,deaths,RSHC,deaths_Daniel.wav,word,Covert Speech,f,288
+84,architect,RLHS,architect_Flo.wav,word,Covert Speech,f,190
+84,shoulder,RLHS,shoulder_Flo.wav,word,Covert Speech,f,283
+84,disinherit,RLLC,disinherit_Flo.wav,word,Covert Speech,f,423
+84,daip,PSS,daip_Alex.wav,word,Covert Speech,f,323
+84,impossible,RLHC,impossible_Daniel.wav,word,Covert Speech,f,221
+84,fumigate,RLLS,fumigate_Daniel.wav,word,Covert Speech,f,188
+84,mixer,RSLC,mixer_Flo.wav,word,Covert Speech,f,223
+84,lore,RSLS,lore_Rocko.wav,word,Covert Speech,f,243
+84,criminals,RLHC,criminals_Rocko.wav,word,Covert Speech,f,190
+84,dare,RSHS,dare_Rocko.wav,word,Covert Speech,f,253
+84,impolder,PLC,impolder_Flo.wav,word,Covert Speech,f,388
+84,rederlity,PLC,rederlity_Flo.wav,word,Covert Speech,f,416
+84,pods,RSLC,pods_Rocko.wav,word,Covert Speech,f,220
+84,receiving,RLHC,receiving_Flo.wav,word,Covert Speech,f,235
+84,guitar,RSHS,guitar_Rocko.wav,word,Covert Speech,f,217
+84,strong,RSHS,strong_Daniel.wav,word,Covert Speech,f,258
+84,straight,RLHS,straight_Rocko.wav,word,Covert Speech,f,360
+84,egotistic,RLLC,egotistic_Rocko.wav,word,Covert Speech,f,228
+84,juns,PSC,juns_Flo.wav,word,Covert Speech,f,249
+84,actor,RSHC,actor_Alex.wav,word,Covert Speech,f,206
+84,balk,RSLS,balk_Daniel.wav,word,Covert Speech,f,217
+84,shears,RSLC,shears_Flo.wav,word,Covert Speech,f,252
+84,ramble,RSLS,ramble_Flo.wav,word,Covert Speech,f,288
+84,drall,PSS,drall_Flo.wav,word,Covert Speech,f,250
+84,currease,PLS,currease_Flo.wav,word,Covert Speech,f,309
+84,wrivol,PSS,wrivol_Flo.wav,word,Covert Speech,f,290
+84,rake,RSLS,rake_Rocko.wav,word,Covert Speech,f,149
+84,freasite,PLS,freasite_Rocko.wav,word,Covert Speech,f,257
+84,immerlize,PLC,immerlize_Rocko.wav,word,Covert Speech,f,198
+84,gorgeous,RLHS,gorgeous_Rocko.wav,word,Covert Speech,f,475
+84,sows,RSLC,sows_Rocko.wav,word,Covert Speech,f,121
+84,iron,RSHS,iron_Flo.wav,word,Covert Speech,f,274
+84,clinical,RLHC,clinical_Flo.wav,word,Write,f,228
+84,tescootous,PLS,tescootous_Rocko.wav,word,Write,f,224
+84,counds,PSC,counds_Rocko.wav,word,Write,f,240
+84,actor,RSHC,actor_Alex.wav,word,Write,f,62
+84,tank,RSHS,tank_Flo.wav,word,Write,f,190
+84,currease,PLS,currease_Flo.wav,word,Write,f,251
+84,hyma,PSS,hyma_Rocko.wav,word,Write,f,75
+84,hearts,RSHC,hearts_Daniel.wav,word,Write,f,114
+84,scrabble,RLLS,scrabble_Daniel.wav,word,Write,f,216
+84,foab,PSS,foab_Flo.wav,word,Write,f,278
+84,mingle,RSLS,mingle_Flo.wav,word,Write,f,222
+84,disclosure,RLHC,disclosure_Rocko.wav,word,Write,f,224
+84,rearce,PSS,rearce_Rocko.wav,word,Write,f,229
+84,puivon,PSS,puivon_Rocko.wav,word,Write,f,288
+84,architect,RLHS,architect_Flo.wav,word,Write,f,240
+84,sprindly,PLC,sprindly_Rocko.wav,word,Write,f,275
+84,combs,RSLC,combs_Rocko.wav,word,Write,f,253
+84,rewn,PSC,rewn_Alex.wav,word,Write,f,214
+84,mixer,RSLC,mixer_Flo.wav,word,Write,f,195
+84,wrivol,PSS,wrivol_Flo.wav,word,Write,f,454
+84,infertile,RLLC,infertile_Daniel.wav,word,Write,f,282
+84,entew,PSC,entew_Alex.wav,word,Write,f,322
+84,beautiful,RLHC,beautiful_Flo.wav,word,Write,f,251
+84,etiquette,RLLS,etiquette_Flo.wav,word,Write,f,295
+84,hyma,PSS,hyma_Rocko.wav,audio,Write,f,272
+84,counds,PSC,counds_Rocko.wav,audio,Write,f,263
+84,blaspheme,RLLS,blaspheme_Flo.wav,audio,Write,f,264
+84,immerlize,PLC,immerlize_Rocko.wav,audio,Write,f,291
+84,impolder,PLC,impolder_Flo.wav,audio,Write,f,276
+84,unzip,RSLC,unzip_Flo.wav,audio,Write,f,241
+84,criminals,RLHC,criminals_Rocko.wav,audio,Write,f,250
+84,chameleon,RLLS,chameleon_Flo.wav,audio,Write,f,233
+84,fumigate,RLLS,fumigate_Daniel.wav,audio,Write,f,292
+84,mended,RSLC,mended_Rocko.wav,audio,Write,f,238
+84,writes,RSHC,writes_Alex.wav,audio,Write,f,284
+84,tattooist,RLLC,tattooist_Rocko.wav,audio,Write,f,143
+84,plars,PSC,plars_Rocko.wav,audio,Write,f,259
+84,beautiful,RLHC,beautiful_Flo.wav,audio,Write,f,243
+84,hearts,RSHC,hearts_Daniel.wav,audio,Write,f,287
+84,freasite,PLS,freasite_Rocko.wav,audio,Write,f,1111
+84,pictures,RLHC,pictures_Rocko.wav,audio,Write,f,1133
+84,insterday,PLS,insterday_Flo.wav,audio,Write,f,235
+84,actor,RSHC,actor_Alex.wav,audio,Write,f,311
+84,rake,RSLS,rake_Rocko.wav,audio,Write,f,315
+84,iron,RSHS,iron_Flo.wav,audio,Write,f,254
+84,rewn,PSC,rewn_Alex.wav,audio,Write,f,380
+84,adaptable,RLLC,adaptable_Flo.wav,audio,Write,f,265
+84,garadign,PLS,garadign_Daniel.wav,audio,Write,f,514
+84,blaspheme,RLLS,blaspheme_Flo.wav,audio,Covert Speech,f,335
+84,infertile,RLLC,infertile_Daniel.wav,audio,Covert Speech,f,306
+84,freasite,PLS,freasite_Rocko.wav,audio,Covert Speech,f,259
+84,egotistic,RLLC,egotistic_Rocko.wav,audio,Covert Speech,f,267
+84,hearts,RSHC,hearts_Daniel.wav,audio,Covert Speech,f,256
+84,juns,PSC,juns_Flo.wav,audio,Covert Speech,f,225
+84,rearce,PSS,rearce_Rocko.wav,audio,Covert Speech,f,254
+84,actor,RSHC,actor_Alex.wav,audio,Covert Speech,f,342
+84,deaths,RSHC,deaths_Daniel.wav,audio,Covert Speech,f,394
+84,adaptable,RLLC,adaptable_Flo.wav,audio,Covert Speech,f,307
+84,acorn,RSLS,acorn_Flo.wav,audio,Covert Speech,f,805
+84,clinical,RLHC,clinical_Flo.wav,audio,Covert Speech,f,314
+84,lirce,PSS,lirce_Rocko.wav,audio,Covert Speech,f,271
+84,trifle,RSLS,trifle_Flo.wav,audio,Covert Speech,f,258
+84,shears,RSLC,shears_Flo.wav,audio,Covert Speech,f,279
+84,mended,RSLC,mended_Rocko.wav,audio,Covert Speech,f,162
+84,gargoyle,RLLS,gargoyle_Daniel.wav,audio,Covert Speech,f,941
+84,hieroglyph,RLLS,hieroglyph_Rocko.wav,audio,Covert Speech,f,351
+84,writes,RSHC,writes_Alex.wav,audio,Covert Speech,f,649
+84,gorgeous,RLHS,gorgeous_Rocko.wav,audio,Covert Speech,f,282
+84,lauly,PSC,lauly_Rocko.wav,audio,Covert Speech,f,360
+84,beautiful,RLHC,beautiful_Flo.wav,audio,Covert Speech,f,4170
+84,receiving,RLHC,receiving_Flo.wav,audio,Covert Speech,f,322
+84,daip,PSS,daip_Alex.wav,audio,Covert Speech,f,1121
+84,establish,RLHS,establish_Flo.wav,audio,Covert Speech,f,1699
+84,etiquette,RLLS,etiquette_Flo.wav,audio,Covert Speech,f,616
+84,chameleon,RLLS,chameleon_Flo.wav,audio,Covert Speech,f,4915
+84,hyma,PSS,hyma_Rocko.wav,audio,Covert Speech,f,363
+84,fumigate,RLLS,fumigate_Daniel.wav,audio,Covert Speech,f,281
+84,procreach,PLC,procreach_Flo.wav,audio,Covert Speech,f,518
+84,rewn,PSC,rewn_Alex.wav,audio,Covert Speech,f,1164
+84,strong,RSHS,strong_Daniel.wav,audio,Covert Speech,f,25
+84,disclosure,RLHC,disclosure_Rocko.wav,audio,Covert Speech,f,540
+84,radio,RSHS,radio_Flo.wav,audio,Covert Speech,f,1122
+84,phone,RSHS,phone_Daniel.wav,audio,Covert Speech,f,338
+84,large,RSHS,large_Flo.wav,audio,Covert Speech,f,364
+84,disappear,RLHC,disappear_Flo.wav,audio,Covert Speech,f,295
+84,unzip,RSLC,unzip_Flo.wav,audio,Covert Speech,f,171
+84,currease,PLS,currease_Flo.wav,audio,Covert Speech,f,685
+84,phounching,PLC,phounching_Daniel.wav,audio,Covert Speech,f,354
+84,across,RSHC,across_Flo.wav,audio,Covert Speech,f,334
+84,scepticism,RLLC,scepticism_Rocko.wav,audio,Covert Speech,f,527
+84,wrivol,PSS,wrivol_Flo.wav,audio,Covert Speech,f,342
+84,scrabble,RLLS,scrabble_Daniel.wav,audio,Covert Speech,f,1644
+84,architect,RLHS,architect_Flo.wav,audio,Covert Speech,f,278
+84,calendar,RLHS,calendar_Rocko.wav,audio,Covert Speech,f,1826
+84,vengefully,RLLC,vengefully_Flo.wav,audio,Covert Speech,f,91
+84,mingle,RSLS,mingle_Flo.wav,audio,Covert Speech,f,351
+84,shears,RSLC,shears_Flo.wav,audio,Write,f,349
+84,architect,RLHS,architect_Flo.wav,audio,Write,f,281
+84,clinical,RLHC,clinical_Flo.wav,audio,Write,f,256
+84,shoulder,RLHS,shoulder_Flo.wav,audio,Write,f,261
+84,etiquette,RLLS,etiquette_Flo.wav,audio,Write,f,295
+84,straight,RLHS,straight_Rocko.wav,audio,Write,f,271
+84,conflite,PLS,conflite_Flo.wav,audio,Write,f,247
+84,phenomenon,RLHS,phenomenon_Flo.wav,audio,Write,f,407
+84,disinherit,RLLC,disinherit_Flo.wav,audio,Write,f,272
+84,currease,PLS,currease_Flo.wav,audio,Write,f,173
+84,alassfully,PLC,alassfully_Rocko.wav,audio,Write,f,340
+84,combs,RSLC,combs_Rocko.wav,audio,Write,f,331
+84,ramble,RSLS,ramble_Flo.wav,audio,Write,f,251
+84,procreach,PLC,procreach_Flo.wav,audio,Write,f,370
+84,guitar,RSHS,guitar_Rocko.wav,audio,Write,f,396
+84,calendar,RLHS,calendar_Rocko.wav,audio,Write,f,306
+84,entew,PSC,entew_Alex.wav,audio,Write,f,393
+84,lauly,PSC,lauly_Rocko.wav,audio,Write,f,297
+84,rearce,PSS,rearce_Rocko.wav,audio,Write,f,303
+84,lore,RSLS,lore_Rocko.wav,audio,Write,f,312
+84,impossible,RLHC,impossible_Daniel.wav,audio,Write,f,388
+84,mingle,RSLS,mingle_Flo.wav,audio,Write,f,620
+84,establish,RLHS,establish_Flo.wav,audio,Write,f,437
+84,disclosure,RLHC,disclosure_Rocko.wav,audio,Write,f,33
+84,distfully,PLC,distfully_Flo.wav,word,Write,f,290
+84,writes,RSHC,writes_Alex.wav,word,Write,f,273
+84,fumigate,RLLS,fumigate_Daniel.wav,word,Write,f,161
+84,pictures,RLHC,pictures_Rocko.wav,word,Write,f,197
+84,sourness,RLLC,sourness_Flo.wav,word,Write,f,277
+84,lirce,PSS,lirce_Rocko.wav,word,Write,f,232
+84,straight,RLHS,straight_Rocko.wav,word,Write,f,266
+84,disappear,RLHC,disappear_Flo.wav,word,Write,f,247
+84,heft,RSLS,heft_Rocko.wav,word,Write,f,326
+84,establish,RLHS,establish_Flo.wav,word,Write,f,272
+84,tattooist,RLLC,tattooist_Rocko.wav,word,Write,f,317
+84,phone,RSHS,phone_Daniel.wav,word,Write,f,224
+84,user,RSHC,user_Flo.wav,word,Write,f,255
+84,pods,RSLC,pods_Rocko.wav,word,Write,f,215
+84,large,RSHS,large_Flo.wav,word,Write,f,282
+84,rake,RSLS,rake_Rocko.wav,word,Write,f,270
+84,phenomenon,RLHS,phenomenon_Flo.wav,word,Write,f,239
+84,conflite,PLS,conflite_Flo.wav,word,Write,f,289
+84,radio,RSHS,radio_Flo.wav,word,Write,f,215
+84,immerlize,PLC,immerlize_Rocko.wav,word,Write,f,228
+84,acorn,RSLS,acorn_Flo.wav,word,Write,f,224
+84,strong,RSHS,strong_Daniel.wav,word,Write,f,264
+84,vengefully,RLLC,vengefully_Flo.wav,word,Write,f,266
+84,gargoyle,RLLS,gargoyle_Daniel.wav,word,Write,f,323
+84,rederlity,PLC,rederlity_Flo.wav,audio,Covert Speech,f,279
+84,onts,PSC,onts_Alex.wav,audio,Covert Speech,f,282
+84,combs,RSLC,combs_Rocko.wav,audio,Covert Speech,f,399
+84,sows,RSLC,sows_Rocko.wav,audio,Covert Speech,f,340
+84,plars,PSC,plars_Rocko.wav,audio,Covert Speech,f,251
+84,sourness,RLLC,sourness_Flo.wav,audio,Covert Speech,f,224
+84,counds,PSC,counds_Rocko.wav,audio,Covert Speech,f,208
+84,heft,RSLS,heft_Rocko.wav,audio,Covert Speech,f,242
+84,tattooist,RLLC,tattooist_Rocko.wav,audio,Covert Speech,f,313
+84,puivon,PSS,puivon_Rocko.wav,audio,Covert Speech,f,392
+84,mixer,RSLC,mixer_Flo.wav,audio,Covert Speech,f,261
+84,pods,RSLC,pods_Rocko.wav,audio,Covert Speech,f,391
+84,drall,PSS,drall_Flo.wav,audio,Covert Speech,f,300
+84,dare,RSHS,dare_Rocko.wav,audio,Covert Speech,f,1067
+84,insterday,PLS,insterday_Flo.wav,audio,Covert Speech,f,468
+84,tescootous,PLS,tescootous_Rocko.wav,audio,Covert Speech,f,445
+84,sprindly,PLC,sprindly_Rocko.wav,audio,Covert Speech,f,279
+84,tank,RSHS,tank_Flo.wav,audio,Covert Speech,f,436
+84,character,RLHS,character_Rocko.wav,audio,Covert Speech,f,370
+84,ramble,RSLS,ramble_Flo.wav,audio,Covert Speech,f,506
+84,alassfully,PLC,alassfully_Rocko.wav,audio,Covert Speech,f,320
+84,immerlize,PLC,immerlize_Rocko.wav,audio,Covert Speech,f,365
+84,pictures,RLHC,pictures_Rocko.wav,audio,Covert Speech,f,424
+84,garadign,PLS,garadign_Daniel.wav,audio,Covert Speech,f,489
+84,conflite,PLS,conflite_Flo.wav,audio,Covert Speech,f,297
+84,orally,RSLC,orally_Flo.wav,audio,Covert Speech,f,333
+84,impossible,RLHC,impossible_Daniel.wav,audio,Covert Speech,f,300
+84,disinherit,RLLC,disinherit_Flo.wav,audio,Covert Speech,f,271
+84,lore,RSLS,lore_Rocko.wav,audio,Covert Speech,f,335
+84,balk,RSLS,balk_Daniel.wav,audio,Covert Speech,f,391
+84,stars,RSHC,stars_Rocko.wav,audio,Covert Speech,f,366
+84,user,RSHC,user_Flo.wav,audio,Covert Speech,f,312
+84,entew,PSC,entew_Alex.wav,audio,Covert Speech,f,330
+84,shoulder,RLHS,shoulder_Flo.wav,audio,Covert Speech,f,308
+84,encask,PSC,encask_Rocko.wav,audio,Covert Speech,f,378
+84,criminals,RLHC,criminals_Rocko.wav,audio,Covert Speech,f,266
+84,distfully,PLC,distfully_Flo.wav,audio,Covert Speech,f,239
+84,rake,RSLS,rake_Rocko.wav,audio,Covert Speech,f,392
+84,straight,RLHS,straight_Rocko.wav,audio,Covert Speech,f,253
+84,phenomenon,RLHS,phenomenon_Flo.wav,audio,Covert Speech,f,311
+84,iron,RSHS,iron_Flo.wav,audio,Covert Speech,f,411
+84,foab,PSS,foab_Flo.wav,audio,Covert Speech,f,305
+84,thildhoust,PLS,thildhoust_Flo.wav,audio,Covert Speech,f,459
+84,guitar,RSHS,guitar_Rocko.wav,audio,Covert Speech,f,589
+84,impolder,PLC,impolder_Flo.wav,audio,Covert Speech,f,1150
+84,unit,RSHC,unit_Daniel.wav,audio,Covert Speech,f,310
+84,boomelege,PLS,boomelege_Daniel.wav,audio,Covert Speech,f,313
+84,shenanigan,RLLS,shenanigan_Flo.wav,audio,Covert Speech,f,269
+84,egotistic,RLLC,egotistic_Rocko.wav,audio,Write,f,1190
+84,large,RSHS,large_Flo.wav,audio,Write,f,797
+84,onts,PSC,onts_Alex.wav,audio,Write,f,2473
+84,distfully,PLC,distfully_Flo.wav,audio,Write,f,6549
+84,strong,RSHS,strong_Daniel.wav,audio,Write,f,600
+84,gorgeous,RLHS,gorgeous_Rocko.wav,audio,Write,f,758
+84,sows,RSLC,sows_Rocko.wav,audio,Write,f,545
+84,scrabble,RLLS,scrabble_Daniel.wav,audio,Write,f,2767
+84,gargoyle,RLLS,gargoyle_Daniel.wav,audio,Write,f,2674
+84,unit,RSHC,unit_Daniel.wav,audio,Write,f,6122
+84,stars,RSHC,stars_Rocko.wav,audio,Write,f,1001
+84,tescootous,PLS,tescootous_Rocko.wav,audio,Write,f,423
+84,vengefully,RLLC,vengefully_Flo.wav,audio,Write,f,5546
+84,boomelege,PLS,boomelege_Daniel.wav,audio,Write,f,3219
+84,dare,RSHS,dare_Rocko.wav,audio,Write,f,875
+84,radio,RSHS,radio_Flo.wav,audio,Write,f,2005
+84,phone,RSHS,phone_Daniel.wav,audio,Write,f,1354
+84,infertile,RLLC,infertile_Daniel.wav,audio,Write,f,926
+84,mixer,RSLC,mixer_Flo.wav,audio,Write,f,3158
+84,trifle,RSLS,trifle_Flo.wav,audio,Write,f,304
+84,balk,RSLS,balk_Daniel.wav,audio,Write,f,111
+84,phounching,PLC,phounching_Daniel.wav,audio,Write,f,747
+84,disappear,RLHC,disappear_Flo.wav,audio,Write,f,247
+84,wrivol,PSS,wrivol_Flo.wav,audio,Write,f,476
