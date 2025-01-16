@@ -1,0 +1,20 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Thu Jan 16 2025 18:03:15
+#--EXPERIMENT INFO
+#e mainfile: swp_training.py
+#e sha1: 96ac90
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 7
+subject_id,
+7,bowtie,RSLC,bowtie.wav,word,Covert Speech,f,1181
+7,among,RSHC,among.wav,word,Covert Speech,f,1585
+7,emergenge,PLS,emergenge.wav,word,Covert Speech,f,1439
+7,mushroom,RLLS,mushroom.wav,word,Covert Speech,f,632
+7,repay,RSLC,repay.wav,word,Covert Speech,f,562
+7,cornbread,RLLC,cornbread.wav,word,Covert Speech,f,522
+7,solvable,RLLC,solvable.wav,word,Covert Speech,f,380
+7,refily,PSC,refily.wav,word,Covert Speech,f,297
+7,curtains,RLLC,curtains.wav,word,Covert Speech,f,270

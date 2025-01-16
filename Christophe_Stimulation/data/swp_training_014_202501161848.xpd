@@ -1,0 +1,29 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Thu Jan 16 2025 18:48:16
+#--EXPERIMENT INFO
+#e mainfile: swp_training.py
+#e sha1: 9165ab
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 14
+subject_id,
+14,solvable,RLLC,solvable.wav,word,covert_speech,f,2580
+14,mushroom,RLLS,mushroom.wav,word,covert_speech,f,412
+14,repay,RSLC,repay.wav,word,covert_speech,f,349
+14,quite,RSHS,quite.wav,word,covert_speech,f,342
+14,automatic,RLHS,automatic.wav,word,covert_speech,f,296
+14,quay,RSLS,quay.wav,word,covert_speech,f,254
+14,currently,RLHC,currently.wav,word,covert_speech,f,203
+14,among,RSHC,among.wav,word,covert_speech,f,239
+14,unshonor,PLC,unshonor.wav,word,covert_speech,f,188
+14,emergenge,PLS,emergenge.wav,word,covert_speech,f,216
+14,wrigin,PSS,wrigin.wav,word,covert_speech,f,234
+14,refily,PSC,refily.wav,word,covert_speech,f,219
+14,among,RSHC,among.wav,word,covert_speech,f,206
+14,bowtie,RSLC,bowtie.wav,word,covert_speech,f,181
+14,cornbread,RLLC,cornbread.wav,word,covert_speech,f,198
+14,curtains,RLLC,curtains.wav,word,covert_speech,f,183
+14,exhale,RSLC,exhale.wav,word,covert_speech,f,334
+14,trally,PSC,trally.wav,word,covert_speech,f,265

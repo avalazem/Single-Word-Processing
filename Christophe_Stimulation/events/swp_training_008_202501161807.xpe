@@ -1,0 +1,20 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2025 18:07:40
+#sha1: c625a8
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10713,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10713,design,logged,
+10713,Experiment,started
+10719,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\test_instructions.png
+10750,Stimulus,presented,2
+12441,Keyboard,received, ,wait_char
+12441,stderr,received,'Traceback (most recent call last):'
+12441,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp_training.py", line 86, in <module>'
+12442,stderr,received,'    for i, (run_name, mini_run) in enumerate(main_run_order):'
+12443,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^'
+12443,stderr,received,'ValueError: too many values to unpack (expected 2)'
