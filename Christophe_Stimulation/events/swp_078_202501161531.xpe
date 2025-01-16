@@ -1,0 +1,83 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2025 15:31:01
+#sha1: c3fcbe
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10167,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10167,design,logged,
+10167,Experiment,started
+10174,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\introduction.png
+10271,Stimulus,presented,2
+11464,Keyboard,received, ,wait_char
+11472,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\audio_write.png
+11511,Stimulus,presented,3
+13317,Keyboard,received, ,wait_char
+13326,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\word_write.png
+13362,Stimulus,presented,4
+14631,Keyboard,received, ,wait_char
+14640,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\audio_covert_speech.png
+14668,Stimulus,presented,5
+16768,Keyboard,received, ,wait_char
+16784,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\audio_write.png
+16819,Stimulus,presented,6
+17376,Keyboard,received, ,wait_char
+17385,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\word_write.png
+17413,Stimulus,presented,7
+17841,Keyboard,received, ,wait_char
+17850,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\audio_write.png
+17878,Stimulus,presented,8
+18428,Keyboard,received, ,wait_char
+18436,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\word_covert_speech.png
+18465,Stimulus,presented,9
+19287,Keyboard,received, ,wait_char
+19296,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\audio_covert_speech.png
+19325,Stimulus,presented,10
+20076,Keyboard,received, ,wait_char
+20085,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\word_write.png
+20115,Stimulus,presented,11
+21667,Keyboard,received, ,wait_char
+21675,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\audio_write.png
+21702,Stimulus,presented,12
+22308,Keyboard,received, ,wait_char
+22316,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\word_write.png
+22346,Stimulus,presented,13
+22799,Keyboard,received, ,wait_char
+22815,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\word_covert_speech.png
+22843,Stimulus,presented,14
+23470,Keyboard,received, ,wait_char
+23539,Stimulus,presented,15
+23659,Stimulus,presented,16
+23693,Stimulus,presented,17
+23726,Stimulus,presented,18
+23758,Stimulus,presented,19
+23787,Stimulus,presented,20
+23820,Stimulus,presented,21
+23857,Stimulus,presented,22
+23886,Stimulus,presented,23
+23919,Stimulus,presented,24
+23950,Stimulus,presented,25
+23980,Stimulus,presented,26
+24015,Stimulus,presented,27
+24045,Stimulus,presented,28
+24078,Stimulus,presented,29
+24112,Stimulus,presented,30
+24147,Stimulus,presented,31
+24180,Stimulus,presented,32
+24214,Stimulus,presented,33
+24245,Stimulus,presented,34
+24276,Stimulus,presented,35
+24307,Stimulus,presented,36
+24339,Stimulus,presented,37
+24370,Stimulus,presented,38
+24400,Stimulus,presented,39
+24431,Stimulus,presented,40
+24461,Stimulus,presented,41
+24491,Stimulus,presented,42
+24520,Stimulus,presented,43
+24552,Stimulus,presented,44
+24552,Experiment,ended
+24579,Stimulus,presented,45

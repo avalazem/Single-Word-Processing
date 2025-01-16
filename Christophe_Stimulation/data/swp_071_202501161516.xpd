@@ -1,0 +1,59 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Thu Jan 16 2025 15:16:40
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: a9d73f
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 71
+subject_id,
+71,across,RSHC,across_Flo.wav,word,Covert Speech,f,2119
+71,large,RSHS,large_Flo.wav,word,Covert Speech,f,557
+71,orally,RSLC,orally_Flo.wav,word,Covert Speech,f,344
+71,heft,RSLS,heft_Rocko.wav,word,Covert Speech,f,278
+71,hearts,RSHC,hearts_Daniel.wav,word,Covert Speech,f,243
+71,actor,RSHC,actor_Alex.wav,word,Covert Speech,f,239
+71,onts,PSC,onts_Alex.wav,word,Covert Speech,f,265
+71,hyma,PSS,hyma_Rocko.wav,word,Covert Speech,f,225
+71,shears,RSLC,shears_Flo.wav,word,Covert Speech,f,214
+71,guitar,RSHS,guitar_Rocko.wav,word,Covert Speech,f,96
+71,ramble,RSLS,ramble_Flo.wav,word,Covert Speech,f,143
+71,phone,RSHS,phone_Daniel.wav,word,Covert Speech,f,166
+71,mingle,RSLS,mingle_Flo.wav,word,Covert Speech,f,185
+71,radio,RSHS,radio_Flo.wav,word,Covert Speech,f,223
+71,pictures,RLHC,pictures_Rocko.wav,word,Covert Speech,f,221
+71,infertile,RLLC,infertile_Daniel.wav,word,Covert Speech,f,215
+71,conflite,PLS,conflite_Flo.wav,word,Covert Speech,f,183
+71,disinherit,RLLC,disinherit_Flo.wav,word,Covert Speech,f,173
+71,shenanigan,RLLS,shenanigan_Flo.wav,word,Covert Speech,f,171
+71,mended,RSLC,mended_Rocko.wav,word,Covert Speech,f,73
+71,tescootous,PLS,tescootous_Rocko.wav,word,Covert Speech,f,35
+71,sows,RSLC,sows_Rocko.wav,word,Covert Speech,f,134
+71,adaptable,RLLC,adaptable_Flo.wav,word,Covert Speech,f,227
+71,drall,PSS,drall_Flo.wav,word,Covert Speech,f,213
+71,rake,RSLS,rake_Rocko.wav,word,Covert Speech,f,227
+71,rederlity,PLC,rederlity_Flo.wav,word,Covert Speech,f,202
+71,sprindly,PLC,sprindly_Rocko.wav,word,Covert Speech,f,227
+71,calendar,RLHS,calendar_Rocko.wav,word,Covert Speech,f,246
+71,puivon,PSS,puivon_Rocko.wav,word,Covert Speech,f,219
+71,plars,PSC,plars_Rocko.wav,word,Covert Speech,f,204
+71,user,RSHC,user_Flo.wav,word,Covert Speech,f,251
+71,distfully,PLC,distfully_Flo.wav,word,Covert Speech,f,277
+71,hieroglyph,RLLS,hieroglyph_Rocko.wav,word,Covert Speech,f,260
+71,trifle,RSLS,trifle_Flo.wav,word,Covert Speech,f,221
+71,egotistic,RLLC,egotistic_Rocko.wav,word,Covert Speech,f,226
+71,combs,RSLC,combs_Rocko.wav,word,Covert Speech,f,237
+71,disappear,RLHC,disappear_Flo.wav,word,Covert Speech,f,220
+71,boomelege,PLS,boomelege_Daniel.wav,word,Covert Speech,f,211
+71,gorgeous,RLHS,gorgeous_Rocko.wav,word,Covert Speech,f,255
+71,acorn,RSLS,acorn_Flo.wav,word,Covert Speech,f,183
+71,juns,PSC,juns_Flo.wav,word,Covert Speech,f,195
+71,encask,PSC,encask_Rocko.wav,word,Covert Speech,f,154
+71,shoulder,RLHS,shoulder_Flo.wav,word,Covert Speech,f,199
+71,dare,RSHS,dare_Rocko.wav,word,Covert Speech,f,120
+71,daip,PSS,daip_Alex.wav,word,Covert Speech,f,139
+71,foab,PSS,foab_Flo.wav,word,Covert Speech,f,269
+71,insterday,PLS,insterday_Flo.wav,word,Covert Speech,f,220
+71,criminals,RLHC,criminals_Rocko.wav,word,Covert Speech,f,266

@@ -1,0 +1,41 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Tue Jan 14 2025 17:00:36
+#sha1: df9e25
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5229,Stimulus,presented,0
+11040,Keyboard,received, ,wait_char
+11044,Stimulus,presented,1
+11556,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\reversed_theatrical_Flo.wav'
+13559,Stimulus,presented,3
+14093,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\rvrs_guitar_Rocko.wav'
+16096,Stimulus,presented,5
+16618,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\rvrs_camera_Flo.wav'
+18621,Stimulus,presented,7
+19141,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\reversed_gorgeous_Flo.wav'
+21143,Stimulus,presented,9
+21660,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\rvrs_scrabble_Rocko.wav'
+23663,Stimulus,presented,11
+24180,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\rvrs_digrersher_Flo.wav'
+26182,Stimulus,presented,13
+26699,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\reversed_courch_Alex.wav'
+28701,Stimulus,presented,15
+29220,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\rvrs_whisperer_Rocko.wav'
+31222,Stimulus,presented,17
+31740,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\rvrs_experience_Flo.wav'
+33742,Stimulus,presented,19
+34260,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\reversed_counds_Daniel.wav'
+36262,Stimulus,presented,21
+36780,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\rvrs_courch_Flo.wav'
+38782,Stimulus,presented,23
+39304,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\reversed_gormassime_Rocko.wav'
+41307,Stimulus,presented,25
+41822,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\reversed_lets_Rocko.wav'
+43825,Stimulus,presented,27
+44347,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\reversed_shenanigan_Flo.wav'
+46349,Stimulus,presented,29
+46871,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\reversed_surfer_Rocko.wav'
+48871,Experiment,ended
+48877,Stimulus,presented,31

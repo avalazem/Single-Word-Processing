@@ -1,0 +1,35 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Thu Jan 16 2025 15:24:24
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: a9d73f
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 75
+subject_id,
+75,lauly,PSC,lauly_Rocko.wav,word,Write,f,846
+75,large,RSHS,large_Flo.wav,word,Write,f,83
+75,tescootous,PLS,tescootous_Rocko.wav,word,Write,f,835
+75,tattooist,RLLC,tattooist_Rocko.wav,word,Write,f,391
+75,hearts,RSHC,hearts_Daniel.wav,word,Write,f,12
+75,sourness,RLLC,sourness_Flo.wav,word,Write,f,699
+75,mingle,RSLS,mingle_Flo.wav,word,Write,f,525
+75,vengefully,RLLC,vengefully_Flo.wav,word,Write,f,408
+75,disappear,RLHC,disappear_Flo.wav,word,Write,f,258
+75,sprindly,PLC,sprindly_Rocko.wav,word,Write,f,241
+75,disinherit,RLLC,disinherit_Flo.wav,word,Write,f,77
+75,currease,PLS,currease_Flo.wav,word,Write,f,249
+75,ramble,RSLS,ramble_Flo.wav,word,Write,f,166
+75,lirce,PSS,lirce_Rocko.wav,word,Write,f,183
+75,establish,RLHS,establish_Flo.wav,word,Write,f,153
+75,insterday,PLS,insterday_Flo.wav,word,Write,f,372
+75,tank,RSHS,tank_Flo.wav,word,Write,f,339
+75,deaths,RSHC,deaths_Daniel.wav,word,Write,f,390
+75,mended,RSLC,mended_Rocko.wav,word,Write,f,266
+75,orally,RSLC,orally_Flo.wav,word,Write,f,617
+75,shenanigan,RLLS,shenanigan_Flo.wav,word,Write,f,105
+75,criminals,RLHC,criminals_Rocko.wav,word,Write,f,516
+75,character,RLHS,character_Rocko.wav,word,Write,f,177
+75,rewn,PSC,rewn_Alex.wav,word,Write,f,529
