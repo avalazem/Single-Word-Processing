@@ -1,0 +1,29 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 16 2025 17:45:34
+#sha1: 1ca29c
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10423,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10423,design,logged,
+10423,Experiment,started
+10429,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\instructions.png
+10457,Stimulus,presented,2
+14075,Keyboard,received, ,wait_char
+14083,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\word_write.png
+14110,Stimulus,presented,3
+18980,Keyboard,received, ,wait_char
+18983,Stimulus,presented,4
+19486,Stimulus,presented,5
+19719,Stimulus,presented,6
+21467,Keyboard,received,f,wait_char
+21470,Stimulus,presented,7
+21973,Stimulus,presented,8
+22199,Stimulus,presented,9
+23334,Keyboard,received,q,wait_char
+23334,Experiment,ended
+23340,Data,saved
+23345,Stimulus,presented,10
