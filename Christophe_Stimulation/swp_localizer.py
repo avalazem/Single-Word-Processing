@@ -140,7 +140,7 @@ for i, (run_name, run_data) in enumerate(runs.items()):
             if key == WORD_RESPONSE_KEY:
                 rt = exp.clock.time - start_time  # Record reaction time
 
-            # Save trial data (you can adjust the data saved here as needed)
+            # Collect data babee
             exp.data.add([stimulus, run_name, key, rt])
             
             
@@ -158,7 +158,7 @@ for i, (run_name, run_data) in enumerate(runs.items()):
             if key == WORD_RESPONSE_KEY:
                 rt = exp.clock.time - start_time  # Record reaction time
 
-            # Save trial data (you can adjust the data saved here as needed)
+            # Collect data babee
             exp.data.add([stimulus, run_name, key, rt])
 
     # Break between runs
