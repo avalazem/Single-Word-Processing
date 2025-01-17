@@ -1,0 +1,47 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Fri Jan 17 2025 19:21:41
+#--EXPERIMENT INFO
+#e mainfile: swp_training.py
+#e sha1: 2b3288
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 18
+subject_id,
+18,solvable,RLLC,solvable.wav,word,covert_speech,f,1123
+18,mushroom,RLLS,mushroom.wav,word,covert_speech,f,319
+18,repay,RSLC,repay.wav,word,covert_speech,f,426
+18,quite,RSHS,quite.wav,word,covert_speech,f,356
+18,automatic,RLHS,automatic.wav,word,covert_speech,f,356
+18,quay,RSLS,quay.wav,word,covert_speech,f,293
+18,currently,RLHC,currently.wav,word,covert_speech,f,287
+18,among,RSHC,among.wav,word,covert_speech,f,313
+18,unshonor,PLC,unshonor.wav,word,covert_speech,f,219
+18,emergenge,PLS,emergenge.wav,word,covert_speech,f,268
+18,wrigin,PSS,wrigin.wav,word,covert_speech,f,282
+18,refily,PSC,refily.wav,word,covert_speech,f,264
+18,among,RSHC,among.wav,word,covert_speech,f,326
+18,bowtie,RSLC,bowtie.wav,word,covert_speech,f,251
+18,cornbread,RLLC,cornbread.wav,word,covert_speech,f,301
+18,curtains,RLLC,curtains.wav,word,covert_speech,f,262
+18,exhale,RSLC,exhale.wav,word,covert_speech,f,265
+18,trally,PSC,trally.wav,word,covert_speech,f,322
+18,solvable,RLLC,solvable.wav,word,write,f,524
+18,mushroom,RLLS,mushroom.wav,word,write,f,187
+18,repay,RSLC,repay.wav,word,write,f,177
+18,quite,RSHS,quite.wav,word,write,f,137
+18,automatic,RLHS,automatic.wav,word,write,f,141
+18,quay,RSLS,quay.wav,word,write,f,259
+18,currently,RLHC,currently.wav,word,write,f,176
+18,among,RSHC,among.wav,word,write,f,128
+18,unshonor,PLC,unshonor.wav,word,write,f,135
+18,emergenge,PLS,emergenge.wav,word,write,f,80
+18,wrigin,PSS,wrigin.wav,word,write,f,178
+18,refily,PSC,refily.wav,word,write,f,180
+18,among,RSHC,among.wav,word,write,f,210
+18,bowtie,RSLC,bowtie.wav,word,write,f,160
+18,cornbread,RLLC,cornbread.wav,word,write,f,79
+18,curtains,RLLC,curtains.wav,word,write,f,207
+18,exhale,RSLC,exhale.wav,word,write,f,137
+18,trally,PSC,trally.wav,word,write,f,125

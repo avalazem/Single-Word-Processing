@@ -1,0 +1,83 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Fri Jan 17 2025 19:36:27
+#--EXPERIMENT INFO
+#e mainfile: swp_training.py
+#e sha1: e760c2
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 19
+subject_id,
+19,solvable,RLLC,solvable.wav,word,covert_speech,f,386
+19,mushroom,RLLS,mushroom.wav,word,covert_speech,f,50
+19,repay,RSLC,repay.wav,word,covert_speech,f,148
+19,quite,RSHS,quite.wav,word,covert_speech,f,165
+19,automatic,RLHS,automatic.wav,word,covert_speech,f,70
+19,quay,RSLS,quay.wav,word,covert_speech,f,162
+19,currently,RLHC,currently.wav,word,covert_speech,f,195
+19,among,RSHC,among.wav,word,covert_speech,f,73
+19,unshonor,PLC,unshonor.wav,word,covert_speech,f,115
+19,emergenge,PLS,emergenge.wav,word,covert_speech,f,86
+19,wrigin,PSS,wrigin.wav,word,covert_speech,f,31
+19,refily,PSC,refily.wav,word,covert_speech,f,8
+19,among,RSHC,among.wav,word,covert_speech,f,281
+19,bowtie,RSLC,bowtie.wav,word,covert_speech,f,79
+19,cornbread,RLLC,cornbread.wav,word,covert_speech,f,161
+19,curtains,RLLC,curtains.wav,word,covert_speech,f,59
+19,exhale,RSLC,exhale.wav,word,covert_speech,f,263
+19,trally,PSC,trally.wav,word,covert_speech,f,158
+19,solvable,RLLC,solvable.wav,word,write,f,41
+19,mushroom,RLLS,mushroom.wav,word,write,f,860
+19,repay,RSLC,repay.wav,word,write,f,3047
+19,quite,RSHS,quite.wav,word,write,f,638
+19,automatic,RLHS,automatic.wav,word,write,f,128
+19,quay,RSLS,quay.wav,word,write,f,297
+19,currently,RLHC,currently.wav,word,write,f,318
+19,among,RSHC,among.wav,word,write,f,271
+19,unshonor,PLC,unshonor.wav,word,write,f,168
+19,emergenge,PLS,emergenge.wav,word,write,f,345
+19,wrigin,PSS,wrigin.wav,word,write,f,312
+19,refily,PSC,refily.wav,word,write,f,152
+19,among,RSHC,among.wav,word,write,f,374
+19,bowtie,RSLC,bowtie.wav,word,write,f,443
+19,cornbread,RLLC,cornbread.wav,word,write,f,221
+19,curtains,RLLC,curtains.wav,word,write,f,213
+19,exhale,RSLC,exhale.wav,word,write,f,190
+19,trally,PSC,trally.wav,word,write,f,170
+19,solvable,RLLC,solvable.wav,audio,covert_speech,f,1124
+19,mushroom,RLLS,mushroom.wav,audio,covert_speech,f,960
+19,repay,RSLC,repay.wav,audio,covert_speech,f,507
+19,quite,RSHS,quite.wav,audio,covert_speech,f,396
+19,automatic,RLHS,automatic.wav,audio,covert_speech,f,336
+19,quay,RSLS,quay.wav,audio,covert_speech,f,352
+19,currently,RLHC,currently.wav,audio,covert_speech,f,284
+19,among,RSHC,among.wav,audio,covert_speech,f,348
+19,unshonor,PLC,unshonor.wav,audio,covert_speech,f,313
+19,emergenge,PLS,emergenge.wav,audio,covert_speech,f,261
+19,wrigin,PSS,wrigin.wav,audio,covert_speech,f,309
+19,refily,PSC,refily.wav,audio,covert_speech,f,309
+19,among,RSHC,among.wav,audio,covert_speech,f,333
+19,bowtie,RSLC,bowtie.wav,audio,covert_speech,f,309
+19,cornbread,RLLC,cornbread.wav,audio,covert_speech,f,275
+19,curtains,RLLC,curtains.wav,audio,covert_speech,f,451
+19,exhale,RSLC,exhale.wav,audio,covert_speech,f,644
+19,trally,PSC,trally.wav,audio,covert_speech,f,406
+19,solvable,RLLC,solvable.wav,audio,write,f,414
+19,mushroom,RLLS,mushroom.wav,audio,write,f,318
+19,repay,RSLC,repay.wav,audio,write,f,256
+19,quite,RSHS,quite.wav,audio,write,f,438
+19,automatic,RLHS,automatic.wav,audio,write,f,263
+19,quay,RSLS,quay.wav,audio,write,f,386
+19,currently,RLHC,currently.wav,audio,write,f,301
+19,among,RSHC,among.wav,audio,write,f,323
+19,unshonor,PLC,unshonor.wav,audio,write,f,328
+19,emergenge,PLS,emergenge.wav,audio,write,f,550
+19,wrigin,PSS,wrigin.wav,audio,write,f,514
+19,refily,PSC,refily.wav,audio,write,f,238
+19,among,RSHC,among.wav,audio,write,f,359
+19,bowtie,RSLC,bowtie.wav,audio,write,f,295
+19,cornbread,RLLC,cornbread.wav,audio,write,f,294
+19,curtains,RLLC,curtains.wav,audio,write,f,292
+19,exhale,RSLC,exhale.wav,audio,write,f,821
+19,trally,PSC,trally.wav,audio,write,f,627

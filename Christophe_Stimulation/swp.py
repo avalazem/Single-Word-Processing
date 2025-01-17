@@ -21,7 +21,7 @@ WORD_RESPONSE_KEY = 'f'
 QUIT_KEY = 'q'
 STIMULUS_DURATION = 200  # in milliseconds
 SPEECH_WAIT_DURATION = 5000  # in milliseconds
-WRITING_WAIT_DURATION = 10000  # in milliseconds
+WRITING_WAIT_DURATION = 7000  # in milliseconds
 
 # Check for correct usage
 if len(sys.argv) < 2:
@@ -180,7 +180,7 @@ for i, (run_name, mini_run) in enumerate(shuffled_mini_runs):
             exp.clock.wait(1000)  # Wait 1 second (1000 ms)
 
 
-# Display thank you instructions
+# Display thank you message
 thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\thank_you.png")
 thank_you_message.scale_to_fullscreen()
 thank_you_message.present()
