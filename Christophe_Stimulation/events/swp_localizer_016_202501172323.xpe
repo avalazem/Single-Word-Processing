@@ -1,0 +1,32 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2025 23:23:04
+#sha1: 53851a
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10766,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10766,design,logged,
+10766,Experiment,started
+10772,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\localizer_instructions.png
+10859,Stimulus,presented,2
+12657,Keyboard,received, ,wait_char
+12662,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\audio_instructions.png
+12692,Stimulus,presented,3
+13902,Keyboard,received, ,wait_char
+13905,Stimulus,presented,4
+14411,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\audio_instructions.png
+14438,Stimulus,presented,5
+16505,Keyboard,received, ,wait_char
+16515,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\Stimuli\\reversed_audio_files_wav\\reversed_theatrical_Flo.wav'
+17853,Stimulus,presented,7
+19856,Stimulus,presented,8
+20361,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\audio_instructions.png
+20385,Stimulus,presented,9
+21902,Experiment,paused
+21907,Stimulus,presented,10
+22731,Keyboard,received,y,wait_char
+22731,Experiment,ended
+22739,Stimulus,presented,10

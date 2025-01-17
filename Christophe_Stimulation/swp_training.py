@@ -22,7 +22,7 @@ WORD_RESPONSE_KEY = 'f'
 QUIT_KEY = 'q'
 STIMULUS_DURATION = 200  # in milliseconds
 SPEECH_WAIT_DURATION = 5000  # in milliseconds
-WRITING_WAIT_DURATION = 10000  # in milliseconds
+WRITING_WAIT_DURATION = 7000  # in milliseconds
 
 # Check for correct usage
 if len(sys.argv) < 2:
@@ -63,6 +63,7 @@ for word, condition, audio in zip(words, conditions, audio_files):
 
 # Path to the audio files
 audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Stimuli\audio_files_wav"
+
 
 # Path to instruction images
 instruction_image_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions"
@@ -155,7 +156,7 @@ for i, (run_name, run_data) in enumerate(runs.items()):
 
 
 # Display thank you instructions
-thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\thank_you.png")
+thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\end_of_training.png")
 thank_you_message.scale_to_fullscreen()
 thank_you_message.present()
 exp.keyboard.wait_char(" ")

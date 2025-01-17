@@ -1,0 +1,20 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2025 20:21:35
+#sha1: a051f5
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11008,design,log,
+#design: #exp: Single Word Processing Localizer
+#design: block_cnt,block_id,trial_cnt,trial_id
+11008,design,logged,
+11008,Experiment,started
+11019,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\localizer_instructions.png
+11057,Stimulus,presented,2
+12119,Keyboard,received, ,wait_char
+12120,stderr,received,'Traceback (most recent call last):'
+12121,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp_localizer.py", line 56, in <module>'
+12122,stderr,received,'    cue = stimuli.FixCross(size=(50, 50), line_width=4)'
+12122,stderr,received,'          ^^^^^^^^^^^^^^^^'
+12123,stderr,received,"AttributeError: 'int' object has no attribute 'FixCross'"

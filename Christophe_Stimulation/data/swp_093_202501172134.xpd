@@ -1,0 +1,12 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Fri Jan 17 2025 21:34:30
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: bfbc57
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 93
+subject_id,
+93,freasite,PLS,freasite_Rocko.wav,audio,write,f,1804

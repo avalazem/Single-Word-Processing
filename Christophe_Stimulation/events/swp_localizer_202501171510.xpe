@@ -1,0 +1,35 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2025 15:10:52
+#sha1: a32d6b
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5388,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\localizer_instructions.png
+5593,Stimulus,presented,0
+7099,Keyboard,received, ,wait_char
+7103,stderr,received,'Traceback (most recent call last):'
+7104,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py", line 3805, in get_loc'
+7144,stderr,received,'    return self._engine.get_loc(casted_key)'
+7144,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+7145,stderr,received,'  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc'
+7145,stderr,received,'  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc'
+7146,stderr,received,'  File "pandas\\\\_libs\\\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item'
+7147,stderr,received,'  File "pandas\\\\_libs\\\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item'
+7147,stderr,received,"KeyError: 'Stimuli_Type'"
+7147,stderr,received,''
+7147,stderr,received,'The above exception was the direct cause of the following exception:'
+7147,stderr,received,''
+7148,stderr,received,'Traceback (most recent call last):'
+7148,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp_localizer.py", line 48, in <module>'
+7148,stderr,received,"    stimulus_type = row['Stimuli_Type']"
+7149,stderr,received,'                    ~~~^^^^^^^^^^^^^^^^'
+7149,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\core\\series.py", line 1121, in __getitem__'
+7178,stderr,received,'    return self._get_value(key)'
+7178,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^'
+7178,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\core\\series.py", line 1237, in _get_value'
+7179,stderr,received,'    loc = self.index.get_loc(label)'
+7180,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^^^^^'
+7180,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\core\\indexes\\base.py", line 3812, in get_loc'
+7181,stderr,received,'    raise KeyError(key) from err'
+7182,stderr,received,"KeyError: 'Stimuli_Type'"

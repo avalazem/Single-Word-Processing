@@ -1,0 +1,30 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2025 23:08:56
+#sha1: 25547c
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10360,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10360,design,logged,
+10360,Experiment,started
+10365,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\localizer_instructions.png
+10434,Stimulus,presented,2
+11435,Keyboard,received, ,wait_char
+11454,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\audio_instructions.png
+11480,Stimulus,presented,3
+13323,Keyboard,received, ,wait_char
+13325,Stimulus,presented,4
+13825,stderr,received,'Traceback (most recent call last):'
+13826,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp_localizer.py", line 117, in <module>'
+13826,stderr,received,'    audio_clip = AudioSegment.from_file(audio_path)'
+13827,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+13827,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pydub\\audio_segment.py", line 651, in from_file'
+13847,stderr,received,"    file, close_file = _fd_or_path_or_tempfile(file, 'rb', tempfile=False)"
+13847,stderr,received,'                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+13848,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pydub\\utils.py", line 60, in _fd_or_path_or_tempfile'
+13869,stderr,received,'    fd = open(fd, mode=mode)'
+13870,stderr,received,'         ^^^^^^^^^^^^^^^^^^^'
+13871,stderr,received,"FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ali_a\\\\Desktop\\\\Single_Word_Processing_Stage\\\\Single_Word_Processing\\\\Christophe_Stimulation\\\\Stimuli\\\\audio_files_wav\\\\reversed_theatrical_Flo.wav'"

@@ -1,0 +1,23 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Jan 17 2025 20:24:14
+#sha1: 730821
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10756,design,log,
+#design: #exp: Single Word Processing Localizer
+#design: block_cnt,block_id,trial_cnt,trial_id
+10756,design,logged,
+10756,Experiment,started
+10763,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\localizer_instructions.png
+10791,Stimulus,presented,2
+11337,Keyboard,received, ,wait_char
+11341,Stimulus,presented,3
+11844,stderr,received,'Traceback (most recent call last):'
+11844,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Christophe_Stimulation\\swp_localizer.py", line 60, in <module>'
+11845,stderr,received,'    if stimulus_type == "Audio":'
+11846,stderr,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^'
+11846,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\core\\generic.py", line 1577, in __nonzero__'
+11847,stderr,received,'    raise ValueError('
+11847,stderr,received,'ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().'
