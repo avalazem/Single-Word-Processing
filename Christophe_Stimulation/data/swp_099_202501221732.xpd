@@ -1,0 +1,35 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Wed Jan 22 2025 17:32:11
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: a7eb93
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 99
+subject_id,
+99,impolder,PLC,impolder_Flo.wav,word,write,f,876
+99,calendar,RLHS,calendar_Rocko.wav,word,write,f,337
+99,gargoyle,RLLS,gargoyle_Daniel.wav,word,write,f,300
+99,heft,RSLS,heft_Rocko.wav,word,write,f,225
+99,iron,RSHS,iron_Flo.wav,word,write,f,311
+99,currease,PLS,currease_Flo.wav,word,write,f,250
+99,alassfully,PLC,alassfully_Rocko.wav,word,write,f,239
+99,scepticism,RLLC,scepticism_Rocko.wav,word,write,f,267
+99,foab,PSS,foab_Flo.wav,word,write,f,180
+99,disinherit,RLLC,disinherit_Flo.wav,word,write,f,121
+99,tescootous,PLS,tescootous_Rocko.wav,word,write,f,73
+99,beautiful,RLHC,beautiful_Flo.wav,word,write,f,120
+99,deaths,RSHC,deaths_Daniel.wav,word,write,f,114
+99,distfully,PLC,distfully_Flo.wav,word,write,f,153
+99,stars,RSHC,stars_Rocko.wav,word,write,f,117
+99,adaptable,RLLC,adaptable_Flo.wav,word,write,f,177
+99,pods,RSLC,pods_Rocko.wav,word,write,f,204
+99,writes,RSHC,writes_Alex.wav,word,write,f,245
+99,onts,PSC,onts_Alex.wav,word,write,f,250
+99,puivon,PSS,puivon_Rocko.wav,word,write,f,249
+99,receiving,RLHC,receiving_Flo.wav,word,write,f,82
+99,disclosure,RLHC,disclosure_Rocko.wav,word,write,f,198
+99,vengefully,RLLC,vengefully_Flo.wav,word,write,f,233
+99,sows,RSLC,sows_Rocko.wav,word,write,f,219

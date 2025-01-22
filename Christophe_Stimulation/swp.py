@@ -93,6 +93,10 @@ for run_name in main_run_order:
     mini_runs = split_into_mini_runs(runs[run_name], num_mini_runs)
     all_mini_runs.extend([(run_name, mini_run) for mini_run in mini_runs])
 
+# Shuffle the stimuli in each run
+for run_name in runs:
+    random.shuffle(runs[run_name])
+    
 # Shuffle all mini-runs while ensuring no repetition of the same run type
 random.shuffle(all_mini_runs)
 
@@ -105,6 +109,7 @@ while all_mini_runs:
     else:
         shuffled_mini_runs.append(next_run)
 
+    
 # Present all mini-runs
 for i, (run_name, mini_run) in enumerate(shuffled_mini_runs):
     # Display image-based instructions if available
@@ -118,35 +123,42 @@ for i, (run_name, mini_run) in enumerate(shuffled_mini_runs):
         instruction_screen = stimuli.TextScreen(f"Mini-Run", fallback_text)
         instruction_screen.present()
 
+    # Wait for the participant to start the mini-run
     exp.keyboard.wait_char(" ")
 
     # Present each trial in the mini-run
-    for word, condition, audio, stimulus_type, response_mode in mini_run:
+    for trial in mini_run:
+        word, condition, audio, stimulus_type, response_mode = trial
+
+        # Present fixation cross
         cue = stimuli.FixCross(size=(50, 50), line_width=4)
         cue.present()
         exp.clock.wait(500)  # Fixation duration (500 ms)
 
+        # Handle word stimulus
         if stimulus_type == "word":
             word_stimulus = stimuli.TextLine(word)
             word_stimulus.present()
-            
-            # Wait for STIMULUS_DURATION while checking for QUIT_KEY
+
+            # Wait for STIMULUS_DURATION while checking for quit key
             start_time = exp.clock.time
             while exp.clock.time - start_time < STIMULUS_DURATION:
                 key = exp.keyboard.check()
                 if key == QUIT_KEY:
                     control.end()
                     sys.exit()
-                    
-            # Clear cue/stimulus
-            blank_screen = stimuli.BlankScreen()
-            blank_screen.present()
-            
+
+            # Clear screen after stimulus
+            stimuli.BlankScreen().present()
+
+        # Handle audio stimulus
         elif stimulus_type == "audio":
             audio_path = os.path.join(audio_folder_path, audio)
+            if not os.path.exists(audio_path):
+                print(f"Audio file {audio_path} not found. Skipping trial.")
+                continue
             audio_clip = AudioSegment.from_file(audio_path)
             audio_duration = len(audio_clip)
-
             audio_stimulus = stimuli.Audio(audio_path)
             audio_stimulus.play()
             exp.clock.wait(audio_duration)
@@ -157,13 +169,14 @@ for i, (run_name, mini_run) in enumerate(shuffled_mini_runs):
         start_time = exp.clock.time
         key, rt = exp.keyboard.wait_char([WORD_RESPONSE_KEY, QUIT_KEY], duration=response_time)
 
+        # Handle quit key
         if key == QUIT_KEY:
             control.end()
             sys.exit()
 
+        # If a valid response is made, compute reaction time
         if key == WORD_RESPONSE_KEY:
-            rt = exp.clock.time - start_time  # Record reaction time (USE IF WANT TO SKIP THROUGH!!)
-            # exp.clock.wait(response_time - rt) # Record reaction time (USE FOR ACTUAL EXPERIMENT!!)
+            rt = exp.clock.time - start_time
 
         # Save trial data
         exp.data.add([word, condition, audio, stimulus_type, response_mode, key, rt])
@@ -187,3 +200,6 @@ thank_you_message.present()
 exp.keyboard.wait_char(" ")
 
 control.end()
+
+
+# Need to go through entire run and see if it saves data (only saves if i dont pass first run) !!!!!!!!!!!!
