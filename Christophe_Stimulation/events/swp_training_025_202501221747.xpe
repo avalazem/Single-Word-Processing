@@ -1,0 +1,67 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 22 2025 17:47:29
+#sha1: 423da2
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10696,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10696,design,logged,
+10696,Experiment,started
+10709,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\test_instructions.png
+10787,Stimulus,presented,2
+11446,Keyboard,received, ,wait_char
+11457,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\word_covert_speech.png
+11486,Stimulus,presented,3
+12044,Keyboard,received, ,wait_char
+12047,Stimulus,presented,4
+12550,Stimulus,presented,5
+12833,Stimulus,presented,6
+13466,Keyboard,received,f,wait_char
+13469,Stimulus,presented,7
+13972,Stimulus,presented,8
+14198,Stimulus,presented,9
+14441,Keyboard,received,f,wait_char
+14444,Stimulus,presented,10
+14947,Stimulus,presented,11
+15171,Stimulus,presented,12
+15470,Keyboard,received,f,wait_char
+15473,Stimulus,presented,13
+15976,Stimulus,presented,14
+16203,Stimulus,presented,15
+16412,Keyboard,received,f,wait_char
+16414,Stimulus,presented,16
+16917,Stimulus,presented,17
+17144,Stimulus,presented,18
+17334,Keyboard,received,f,wait_char
+17337,Stimulus,presented,19
+17840,Stimulus,presented,20
+18065,Stimulus,presented,21
+18256,Keyboard,received,f,wait_char
+18258,Stimulus,presented,22
+18763,Stimulus,presented,23
+18988,Stimulus,presented,24
+19186,Keyboard,received,f,wait_char
+19189,Stimulus,presented,25
+19692,Stimulus,presented,26
+20006,Stimulus,presented,27
+20076,Keyboard,received,f,wait_char
+20079,Stimulus,presented,28
+20582,Stimulus,presented,29
+20841,Stimulus,presented,30
+20976,Keyboard,received,f,wait_char
+20978,Stimulus,presented,31
+21481,Stimulus,presented,32
+21718,Stimulus,presented,33
+21938,Keyboard,received,f,wait_char
+21941,Stimulus,presented,34
+22444,Stimulus,presented,35
+22671,Stimulus,presented,36
+22839,Experiment,paused
+22845,Stimulus,presented,37
+23654,Keyboard,received,y,wait_char
+23654,Experiment,ended
+23660,Data,saved
+23665,Stimulus,presented,37

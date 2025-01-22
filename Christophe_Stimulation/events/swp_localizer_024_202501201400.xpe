@@ -1,0 +1,19 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Jan 20 2025 14:00:42
+#sha1: 876c21
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10531,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10531,design,logged,
+10531,Experiment,started
+10537,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\localizer_instructions.png
+10986,Stimulus,presented,2
+155269,Experiment,paused
+155274,Stimulus,presented,3
+155470,Keyboard,received,y,wait_char
+155470,Experiment,ended
+155479,Stimulus,presented,3

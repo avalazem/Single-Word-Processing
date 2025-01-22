@@ -61,6 +61,12 @@ for word, condition, audio in zip(words, conditions, audio_files):
     runs["audio_covert_speech"].append((word, condition, audio, 'audio', 'covert_speech'))
     runs["audio_write"].append((word, condition, audio, 'audio', 'write'))
 
+
+
+# Shuffle the stimuli in each run
+for run_name in runs:
+    random.shuffle(runs[run_name])
+        
 # Path to the audio files
 audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Stimuli\audio_files_wav"
 
