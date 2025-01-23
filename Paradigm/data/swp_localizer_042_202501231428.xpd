@@ -1,0 +1,20 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Thu Jan 23 2025 14:28:31
+#--EXPERIMENT INFO
+#e mainfile: swp_localizer.py
+#e sha1: c67b99
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 42
+subject_id,
+42,press,audio,f,645
+42,press,audio,f,655
+42,press,audio,f,464
+42,press,audio,f,389
+42,press,audio,f,772
+42,press,audio,f,403
+42,press,audio,f,380
+42,press,image,f,961
+42,press,image,f,1270

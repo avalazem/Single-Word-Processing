@@ -1,0 +1,19 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 23 2025 15:28:25
+#sha1: 5574e9
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10724,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10725,design,logged,
+10725,Experiment,started
+10740,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\audio_instructions.png
+10799,Stimulus,presented,2
+17938,Experiment,paused
+17943,Stimulus,presented,3
+18675,Keyboard,received,y,wait_char
+18675,Experiment,ended
+18683,Stimulus,presented,3
