@@ -34,24 +34,27 @@ stimuli_df = pd.read_csv(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\S
 runs = {
     "audio": [],
     "image": [],
-    "covert_speech": [],
-    "writing": []
+    "hand_movement": [],
+    "fist_movement": [],
+    "mouth_movement": []
 }
 
 # Iterate through each row of the CSV
 for _, row in stimuli_df.iterrows():
     stimulus = row['Stimuli']        # The stimulus (word, image, or audio file)
-    stimulus_type = row['Stimuli Type'].lower()  # The type of stimulus (audio, image, covert_speech, writing)
+    stimulus_type = row['Stimuli Type'].lower()  # The type of stimulus (audio, image, hand_movement, fist_movement, mouth_movement)
     
     # Add stimuli to appropriate run based on stimulus type
     if stimulus_type == 'audio':
         runs["audio"].append(stimulus)
     elif stimulus_type == 'image':
         runs["image"].append(stimulus)
-    elif stimulus_type == 'covert_speech':
-        runs["covert_speech"].append(stimulus)
+    elif stimulus_type == 'hand_movement':
+        runs["hand_movement"].append(stimulus)
     elif stimulus_type == 'writing':
-        runs["writing"].append(stimulus)
+        runs["fist_movement"].append(stimulus)
+    elif stimulus_type == 'mouth_movement':
+        runs["mouth_movement"].append(stimulus)
 
 # Path to the audio files
 audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Stimuli\reversed_audio_files_wav"
@@ -59,18 +62,8 @@ audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single
 # Path to image files
 image_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Localizer_Images"
 
-# Path to instruction images
-instruction_image_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions"
-
 # Start the experiment
 control.start(skip_ready_screen=True)
-
-# Display general instructions
-instructions = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\localizer_instructions.png")
-instructions.scale_to_fullscreen()
-instructions.present()
-exp.keyboard.wait_char(" ")
-
 
 # Path to "press.wav" audio file
 press_audio_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\audio_files_wav\press.wav"
@@ -82,12 +75,12 @@ visual_press_counter = 0
 # Present all runs
 for i, (run_name, run_data) in enumerate(runs.items()):
     # Display image-based instructions if available
-    image_path = os.path.join(instruction_image_folder, f"{run_name}_instructions.png")
+    image_path = os.path.join(image_folder_path, f"{run_name}_instructions.png")
     if os.path.exists(image_path):
         instructions = stimuli.Picture(image_path)
         instructions.scale_to_fullscreen()
         instructions.present()
-        exp.keyboard.wait_char(" ")
+        exp.keyboard.wait_char(WORD_RESPONSE_KEY)
 
     # Present each trial in the mini-run
     for index, stimulus in enumerate(run_data):
@@ -196,7 +189,7 @@ for i, (run_name, run_data) in enumerate(runs.items()):
             exp.clock.wait(2000)
 
         # Handle other stimulus types (covert_speech, writing)
-        elif run_name == "covert_speech":
+        elif run_name == "hand_movement":
             # Wait for participant response
             response_time = SPEECH_WAIT_DURATION
             start_time = exp.clock.time
@@ -212,7 +205,23 @@ for i, (run_name, run_data) in enumerate(runs.items()):
             # Collect data
             exp.data.add([stimulus, run_name, key, rt])
 
-        elif run_name == "writing":
+        elif run_name == "fist_movement":
+            # Wait for participant response
+            response_time = WRITING_WAIT_DURATION
+            start_time = exp.clock.time
+            key, rt = exp.keyboard.wait_char([WORD_RESPONSE_KEY, QUIT_KEY], duration=response_time)
+
+            if key == QUIT_KEY:
+                control.end()
+                sys.exit()
+
+            if key == WORD_RESPONSE_KEY:
+                rt = exp.clock.time - start_time  # Record reaction time
+
+            # Collect data
+            exp.data.add([stimulus, run_name, key, rt])
+            
+        elif run_name == "mouth_movement":
             # Wait for participant response
             response_time = WRITING_WAIT_DURATION
             start_time = exp.clock.time
@@ -240,9 +249,9 @@ for i, (run_name, run_data) in enumerate(runs.items()):
             exp.clock.wait(1000)  # Wait 1 second (1000 ms)
 
 # Display thank you instructions
-thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\end_of_localizer.png")
+thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Localizer_Images\end_of_localizer.png")
 thank_you_message.scale_to_fullscreen()
 thank_you_message.present()
-exp.keyboard.wait_char(" ")
+exp.keyboard.wait_char(WORD_RESPONSE_KEY)
 
 control.end()
