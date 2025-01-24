@@ -68,17 +68,17 @@ for run_name in runs:
     random.shuffle(runs[run_name])
         
 # Path to the audio files
-audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Stimuli\audio_files_wav"
+audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\audio_files_wav"
 
 
 # Path to instruction images
-instruction_image_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions"
+instruction_image_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions"
 
 # Start the experiment
 control.start(skip_ready_screen=True)
 
 # Display general instructions
-instructions = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\test_instructions.png")
+instructions = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\test_instructions.png")
 instructions.scale_to_fullscreen()
 instructions.present()
 exp.keyboard.wait_char(" ")
@@ -162,7 +162,7 @@ for i, (run_name, run_data) in enumerate(runs.items()):
 
 
 # Display thank you instructions
-thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\end_of_training.png")
+thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\end_of_training.png")
 thank_you_message.scale_to_fullscreen()
 thank_you_message.present()
 exp.keyboard.wait_char(" ")

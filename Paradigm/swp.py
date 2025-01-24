@@ -66,20 +66,20 @@ def split_into_mini_runs(trials, num_mini_runs):
     return [trials[i::num_mini_runs] for i in range(num_mini_runs)]
 
 # Path to the audio files
-audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Stimuli\audio_files_wav"
+audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\audio_files_wav"
 
 # Shuffle the main runs
 main_run_order = list(runs.keys())
 random.shuffle(main_run_order)
 
 # Path to instruction images
-instruction_image_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions"
+instruction_image_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions"
 
 # Start the experiment
 control.start(skip_ready_screen=True)
 
 # Display general instructions
-instructions = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\instructions.png")
+instructions = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\instructions.png")
 instructions.scale_to_fullscreen()
 instructions.present()
 exp.keyboard.wait_char(" ")
@@ -164,6 +164,9 @@ for i, (run_name, mini_run) in enumerate(shuffled_mini_runs):
             exp.clock.wait(audio_duration)
             stimuli.BlankScreen().present()
 
+        # Clear the keyboard buffer before waiting for participant response
+        exp.keyboard.clear()
+        
         # Wait for participant response
         response_time = SPEECH_WAIT_DURATION if response_mode == "covert_speech" else WRITING_WAIT_DURATION
         start_time = exp.clock.time
@@ -194,7 +197,7 @@ for i, (run_name, mini_run) in enumerate(shuffled_mini_runs):
 
 
 # Display thank you message
-thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Instructions\thank_you.png")
+thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\thank_you.png")
 thank_you_message.scale_to_fullscreen()
 thank_you_message.present()
 exp.keyboard.wait_char(" ")
