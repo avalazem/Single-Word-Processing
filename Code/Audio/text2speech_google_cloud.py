@@ -20,8 +20,8 @@ class APIKeyCredentials(Credentials):
     def apply(self, headers, token=None):
         headers['x-goog-api-key'] = self._api_key
 
-# Set API key
-api_key = "AIzaSyCf3Qe_n-jz2J2B97qt22VnnJArlPSJ7Kg"
+# Set API key (Thanks Louis!!)
+api_key = "LOUIS_API_KEY ;)"
 
 # Create credentials from the API key
 credentials = APIKeyCredentials(api_key)
@@ -29,15 +29,22 @@ credentials = APIKeyCredentials(api_key)
 # Instantiates a client with the API key
 client = texttospeech.TextToSpeechClient(credentials=credentials)
 
+
+# Set word babee
+word = "puivon"
+gender = "FEMALE_G"
+
+
 # Set the text input to be synthesized
-synthesis_input = texttospeech.SynthesisInput(text="noocantong")
+synthesis_input = texttospeech.SynthesisInput(text=word)
 
 # Build the voice request, select the language code ("en-US") and the ssml
 # voice gender ("neutral")
 voice = texttospeech.VoiceSelectionParams(
     language_code="en-US",
-    name="en-US-Wavenet-I"  # Specify the voice name 
+    name="en-US-Wavenet-G"  # Specify the voice name 
     # For English use I for male and G for female!!!
+    ## For English 'daip' proniunce 'p' D for male C for female 
     # For French use C for female and G for male!!!
 )
 
@@ -53,7 +60,9 @@ response = client.synthesize_speech(
 )
 
 # The response's audio_content is binary.
-with open("output.mp3", "wb") as out:
+output_path = f"{word}_{gender}.mp3"
+
+with open(output_path, "wb") as out:
     # Write the response to the output file.
     out.write(response.audio_content)
-    print('Audio content written to file "output.mp3"')
+    print(f'Audio content written to file "{output_path}"')
