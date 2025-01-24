@@ -1,0 +1,33 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Jan 23 2025 17:05:46
+#sha1: 28792a
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10508,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10508,design,logged,
+10508,Experiment,started
+10514,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\instructions.png
+10544,Stimulus,presented,2
+11601,Keyboard,received, ,wait_char
+11613,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\audio_write.png
+11645,Stimulus,presented,3
+12132,Keyboard,received, ,wait_char
+12135,Stimulus,presented,4
+12655,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\audio_files_wav\\insterday_Flo.wav'
+13801,Stimulus,presented,6
+14198,Keyboard,received,f,wait_char
+14201,Stimulus,presented,7
+14719,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\audio_files_wav\\alassfully_Rocko.wav'
+15914,Stimulus,presented,9
+16218,Keyboard,received,f,wait_char
+16221,Stimulus,presented,10
+16725,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\audio_files_wav\\garadign_Daniel.wav'
+17402,Stimulus,presented,12
+17750,Keyboard,received,q,wait_char
+17750,Experiment,ended
+17755,Data,saved
+17758,Stimulus,presented,13

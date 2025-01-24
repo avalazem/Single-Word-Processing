@@ -28,7 +28,7 @@ exp = design.Experiment(name="Single Word Processing", text_size=40)
 control.initialize(exp)
 
 # Import the localizer CSV file
-stimuli_df = pd.read_csv(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Stimuli\Localizer_en.csv")
+stimuli_df = pd.read_csv(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\Localizer_en.csv")
 
 # Initialize the runs dictionary with all necessary keys
 runs = {
@@ -57,16 +57,16 @@ for _, row in stimuli_df.iterrows():
         runs["mouth_movement"].append(stimulus)
 
 # Path to the audio files
-audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Stimuli\reversed_audio_files_wav"
+audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\reversed_audio_files_wav"
 
 # Path to image files
-image_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Localizer_Images"
+image_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Localizer_Images"
 
 # Start the experiment
 control.start(skip_ready_screen=True)
 
 # Path to "press.wav" audio file
-press_audio_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\audio_files_wav\press.wav"
+press_audio_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\audio_files_wav\press.wav"
 
 # Counter to track when to add "press" prompts
 audio_press_counter = 0
@@ -249,7 +249,7 @@ for i, (run_name, run_data) in enumerate(runs.items()):
             exp.clock.wait(1000)  # Wait 1 second (1000 ms)
 
 # Display thank you instructions
-thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Images\Localizer_Images\end_of_localizer.png")
+thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Localizer_Images\end_of_localizer.png")
 thank_you_message.scale_to_fullscreen()
 thank_you_message.present()
 exp.keyboard.wait_char(WORD_RESPONSE_KEY)
