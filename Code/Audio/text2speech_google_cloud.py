@@ -21,7 +21,7 @@ class APIKeyCredentials(Credentials):
         headers['x-goog-api-key'] = self._api_key
 
 # Set API key (Thanks Louis!!)
-api_key = "LOUIS_API_KEY ;)"
+api_key = "AIzaSyCf3Qe_n-jz2J2B97qt22VnnJArlPSJ7Kg"
 
 # Create credentials from the API key
 credentials = APIKeyCredentials(api_key)
