@@ -66,7 +66,7 @@ def split_into_mini_runs(trials, num_mini_runs):
     return [trials[i::num_mini_runs] for i in range(num_mini_runs)]
 
 # Path to the audio files
-audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\audio_files_wav"
+audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\Audio_Files_Google_Cloud"
 
 # Shuffle the main runs
 main_run_order = list(runs.keys())
@@ -82,7 +82,7 @@ control.start(skip_ready_screen=True)
 instructions = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\instructions.png")
 instructions.scale_to_fullscreen()
 instructions.present()
-exp.keyboard.wait_char(" ")
+exp.keyboard.wait_char(WORD_RESPONSE_KEY)
 
 
 # Collect all mini-runs into a single list
@@ -124,7 +124,7 @@ for i, (run_name, mini_run) in enumerate(shuffled_mini_runs):
         instruction_screen.present()
 
     # Wait for the participant to start the mini-run
-    exp.keyboard.wait_char(" ")
+    exp.keyboard.wait_char(WORD_RESPONSE_KEY)
 
     # Present each trial in the mini-run
     for trial in mini_run:
@@ -179,7 +179,8 @@ for i, (run_name, mini_run) in enumerate(shuffled_mini_runs):
 
         # If a valid response is made, compute reaction time
         if key == WORD_RESPONSE_KEY:
-            rt = exp.clock.time - start_time
+            # rt = exp.clock.time - start_time  # Record reaction time (USE IF WANT TO SKIP THROUGH!!)
+            exp.clock.wait(response_time - rt) # Record reaction time (USE FOR ACTUAL EXPERIMENT!!)
 
         # Save trial data
         exp.data.add([word, condition, audio, stimulus_type, response_mode, key, rt])
@@ -200,7 +201,7 @@ for i, (run_name, mini_run) in enumerate(shuffled_mini_runs):
 thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\thank_you.png")
 thank_you_message.scale_to_fullscreen()
 thank_you_message.present()
-exp.keyboard.wait_char(" ")
+exp.keyboard.wait_char(WORD_RESPONSE_KEY)
 
 control.end()
 

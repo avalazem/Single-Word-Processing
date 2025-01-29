@@ -1,0 +1,49 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Jan 29 2025 23:58:05
+#sha1: fae6c4
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.22631', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10742,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10743,design,logged,
+10743,Experiment,started
+10765,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\instructions.png
+11000,Stimulus,presented,2
+31803,Keyboard,received,f,wait_char
+31813,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\audio_write.png
+31993,Stimulus,presented,3
+33251,Keyboard,received,f,wait_char
+33254,Stimulus,presented,4
+33777,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\understand_MALE_D.wav'
+35142,Stimulus,presented,6
+42142,Keyboard,received,None,wait_char
+42145,Stimulus,presented,7
+42666,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\quiver_MALE_D.wav'
+43433,Stimulus,presented,9
+50433,Keyboard,received,None,wait_char
+50435,Stimulus,presented,10
+50958,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\tattooist_MALE_D.wav'
+51945,Stimulus,presented,12
+58946,Keyboard,received,None,wait_char
+58948,Stimulus,presented,13
+59462,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\straight_FEMALE_C.wav'
+60251,Stimulus,presented,15
+67251,Keyboard,received,None,wait_char
+67254,Stimulus,presented,16
+67780,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\alassfully_MALE_D.wav'
+68887,Stimulus,presented,18
+75887,Keyboard,received,None,wait_char
+75889,Stimulus,presented,19
+76404,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\courch_MALE_D.wav'
+77187,Stimulus,presented,21
+84187,Keyboard,received,None,wait_char
+84189,Stimulus,presented,22
+84705,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\chriniable_MALE_D.wav'
+85688,Stimulus,presented,24
+87363,Keyboard,received,q,wait_char
+87363,Experiment,ended
+87368,Data,saved
+87373,Stimulus,presented,25

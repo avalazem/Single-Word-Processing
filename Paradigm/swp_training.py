@@ -81,7 +81,7 @@ control.start(skip_ready_screen=True)
 instructions = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\test_instructions.png")
 instructions.scale_to_fullscreen()
 instructions.present()
-exp.keyboard.wait_char(" ")
+exp.keyboard.wait_char(WORD_RESPONSE_KEY)
 
 
 # Present all mini-runs
@@ -97,7 +97,7 @@ for i, (run_name, run_data) in enumerate(runs.items()):
         instruction_screen = stimuli.TextScreen(f"Mini-Run", fallback_text)
         instruction_screen.present()
 
-    exp.keyboard.wait_char(" ")
+    exp.keyboard.wait_char(WORD_RESPONSE_KEY)
 
     # Present each trial in the mini-run
     for word, condition, audio, stimulus_type, response_mode in run_data:
@@ -143,8 +143,8 @@ for i, (run_name, run_data) in enumerate(runs.items()):
             sys.exit()
 
         if key == WORD_RESPONSE_KEY:
-            rt = exp.clock.time - start_time  # Record reaction time (USE IF WANT TO SKIP THROUGH!!)
-            # exp.clock.wait(response_time - rt) # Record reaction time (USE FOR ACTUAL EXPERIMENT!!)
+            # rt = exp.clock.time - start_time  # Record reaction time (USE IF WANT TO SKIP THROUGH!!)
+            exp.clock.wait(response_time - rt) # Record reaction time (USE FOR ACTUAL EXPERIMENT!!)
 
         # Save trial data
         exp.data.add([word, condition, audio, stimulus_type, response_mode, key, rt])
@@ -165,6 +165,6 @@ for i, (run_name, run_data) in enumerate(runs.items()):
 thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\end_of_training.png")
 thank_you_message.scale_to_fullscreen()
 thank_you_message.present()
-exp.keyboard.wait_char(" ")
+exp.keyboard.wait_char(WORD_RESPONSE_KEY)
 
 control.end()

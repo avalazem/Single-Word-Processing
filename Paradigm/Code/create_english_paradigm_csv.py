@@ -3,7 +3,7 @@ import os
 
 # File paths
 visual_stimuli_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\English\English_Stimuli.csv"
-audio_files_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Auditory\English\Mac_MP3_Files"
+audio_files_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Audio_Files_Google_Cloud"
 
 # Load the visual stimuli CSV
 visual_stimuli_df = pd.read_csv(visual_stimuli_path)
@@ -18,7 +18,7 @@ audio_female = []
 # Iterate through each word in the visual stimuli and find the corresponding audio files
 for word in visual_stimuli_df['Word']:
     # Find files that start with the word in the audio directory
-    matching_files = [f for f in os.listdir(audio_files_path) if f.startswith(word) and f.endswith('.mp3')]
+    matching_files = [f for f in os.listdir(audio_files_path) if f.startswith(word) and f.endswith('.wav')]
     
     if matching_files:
         # Initialize male and female audio variables
@@ -26,9 +26,9 @@ for word in visual_stimuli_df['Word']:
         female_audio = None
         
         for file in matching_files:
-            if file.endswith(('Alex.mp3','Flo.mp3')):  # Female voice files
+            if file.endswith(('_FEMALE_C.wav')):  # Female voice files
                 female_audio = file
-            elif file.endswith(('Daniel.mp3', 'Rocko.mp3')):  # Male voice files
+            elif file.endswith(('_MALE_D.wav')):  # Male voice files
                 male_audio = file
         
         # Append the corresponding audio files to the lists
@@ -44,7 +44,7 @@ visual_stimuli_df['Audio_Male'] = audio_male
 visual_stimuli_df['Audio_Female'] = audio_female
 
 # Save the updated DataFrame to a new CSV
-output_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\en_paradigm.csv"
+output_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\en_paradigm.csv"
 visual_stimuli_df.to_csv(output_path, index=False)
 
 print(f"Updated CSV saved to {output_path}")

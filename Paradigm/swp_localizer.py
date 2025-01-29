@@ -21,7 +21,8 @@ QUIT_KEY = 'q'
 STIMULUS_DURATION = 200  # in milliseconds
 SPEECH_WAIT_DURATION = 5000  # in milliseconds
 WRITING_WAIT_DURATION = 7000  # in milliseconds
-VISUAL_WAIT_DURATION = 200
+VISUAL_WAIT_DURATION = 200 # "    "
+BETWEEN_STIMULI = 2000 # " "
 
 # Initialize the experiment
 exp = design.Experiment(name="Single Word Processing", text_size=40)
@@ -36,7 +37,7 @@ runs = {
     "image": [],
     "hand_movement": [],
     "fist_movement": [],
-    "mouth_movement": []
+    "humming": []
 }
 
 # Iterate through each row of the CSV
@@ -53,8 +54,8 @@ for _, row in stimuli_df.iterrows():
         runs["hand_movement"].append(stimulus)
     elif stimulus_type == 'writing':
         runs["fist_movement"].append(stimulus)
-    elif stimulus_type == 'mouth_movement':
-        runs["mouth_movement"].append(stimulus)
+    elif stimulus_type == 'humming':
+        runs['humming'].append(stimulus)
 
 # Path to the audio files
 audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\reversed_audio_files_wav"
@@ -130,9 +131,8 @@ for i, (run_name, run_data) in enumerate(runs.items()):
                 stimuli.BlankScreen().present()
                 
                 # Wait for 'press'
-                response_time = 5000 # Wait up to 5 seconds 
                 start_time = exp.clock.time
-                key, rt = exp.keyboard.wait_char([WORD_RESPONSE_KEY, QUIT_KEY], duration=response_time)
+                key, rt = exp.keyboard.wait_char([WORD_RESPONSE_KEY, QUIT_KEY], duration=BETWEEN_STIMULI)
 
                 if key == QUIT_KEY:
                     control.end()
@@ -142,8 +142,8 @@ for i, (run_name, run_data) in enumerate(runs.items()):
                 exp.data.add(['press', run_name, key, rt])
                 
                 
-            # Wait a few seconds between each stimuli
-            exp.clock.wait(2000)
+            else: # Wait a few seconds between each stimuli if not press
+                exp.clock.wait(BETWEEN_STIMULI)
 
         # Handle audio stimuli
         elif run_name == "audio":
@@ -174,9 +174,8 @@ for i, (run_name, run_data) in enumerate(runs.items()):
                 stimuli.BlankScreen().present()
 
                 # Wait for 'press'
-                response_time = 5000 # Wait up to 5 seconds 
                 start_time = exp.clock.time
-                key, rt = exp.keyboard.wait_char([WORD_RESPONSE_KEY, QUIT_KEY], duration=response_time)
+                key, rt = exp.keyboard.wait_char([WORD_RESPONSE_KEY, QUIT_KEY], duration=BETWEEN_STIMULI)
 
                 if key == QUIT_KEY:
                     control.end()
@@ -185,8 +184,8 @@ for i, (run_name, run_data) in enumerate(runs.items()):
                 # Save trial data
                 exp.data.add(['press', run_name, key, rt])
                     
-            # Wait a few seconds between each stimuli
-            exp.clock.wait(2000)
+            else: # Wait a few seconds between each stimuli
+                exp.clock.wait(BETWEEN_STIMULI)
 
         # Handle other stimulus types (covert_speech, writing)
         elif run_name == "hand_movement":
@@ -200,7 +199,8 @@ for i, (run_name, run_data) in enumerate(runs.items()):
                 sys.exit()
 
             if key == WORD_RESPONSE_KEY:
-                rt = exp.clock.time - start_time  # Record reaction time
+                # rt = exp.clock.time - start_time  # Record reaction time (USE IF WANT TO SKIP THROUGH!!)
+                exp.clock.wait(response_time - rt) # Record reaction time (USE FOR ACTUAL EXPERIMENT!!)
 
             # Collect data
             exp.data.add([stimulus, run_name, key, rt])
@@ -239,10 +239,10 @@ for i, (run_name, run_data) in enumerate(runs.items()):
 
     # Break between runs
     if i < len(runs) - 1:
-        for remaining_seconds in range(1, 0, -1):
+        for remaining_seconds in range(5, 0, -1):
             break_message = stimuli.TextScreen(
                 "Break",
-                f"Take a 30-second break. Relax and prepare for the next part.\n\n"
+                f"Take a 5-second break. Relax and prepare for the next part.\n\n"
                 f"The next part will start automatically in {remaining_seconds} seconds."
             )
             break_message.present()
@@ -250,6 +250,7 @@ for i, (run_name, run_data) in enumerate(runs.items()):
 
 # Display thank you instructions
 thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Localizer_Images\end_of_localizer.png")
+
 thank_you_message.scale_to_fullscreen()
 thank_you_message.present()
 exp.keyboard.wait_char(WORD_RESPONSE_KEY)

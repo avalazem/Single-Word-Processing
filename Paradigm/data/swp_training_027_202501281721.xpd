@@ -1,0 +1,47 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Tue Jan 28 2025 17:21:02
+#--EXPERIMENT INFO
+#e mainfile: swp_training.py
+#e sha1: 23ab43
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 27
+subject_id,
+27,cornbread,RLLC,cornbread.wav,word,covert_speech,None,None
+27,among,RSHC,among.wav,word,covert_speech,None,None
+27,repay,RSLC,repay.wav,word,covert_speech,None,None
+27,trally,PSC,trally.wav,word,covert_speech,None,None
+27,unshonor,PLC,unshonor.wav,word,covert_speech,None,None
+27,exhale,RSLC,exhale.wav,word,covert_speech,None,None
+27,among,RSHC,among.wav,word,covert_speech,None,None
+27,solvable,RLLC,solvable.wav,word,covert_speech,None,None
+27,quay,RSLS,quay.wav,word,covert_speech,None,None
+27,bowtie,RSLC,bowtie.wav,word,covert_speech,None,None
+27,mushroom,RLLS,mushroom.wav,word,covert_speech,None,None
+27,currently,RLHC,currently.wav,word,covert_speech,None,None
+27,curtains,RLLC,curtains.wav,word,covert_speech,None,None
+27,wrigin,PSS,wrigin.wav,word,covert_speech,None,None
+27,quite,RSHS,quite.wav,word,covert_speech,None,None
+27,refily,PSC,refily.wav,word,covert_speech,None,None
+27,emergenge,PLS,emergenge.wav,word,covert_speech,None,None
+27,automatic,RLHS,automatic.wav,word,covert_speech,None,None
+27,quite,RSHS,quite.wav,word,write,None,None
+27,curtains,RLLC,curtains.wav,word,write,None,None
+27,among,RSHC,among.wav,word,write,None,None
+27,refily,PSC,refily.wav,word,write,None,None
+27,quay,RSLS,quay.wav,word,write,None,None
+27,solvable,RLLC,solvable.wav,word,write,None,None
+27,cornbread,RLLC,cornbread.wav,word,write,None,None
+27,unshonor,PLC,unshonor.wav,word,write,None,None
+27,mushroom,RLLS,mushroom.wav,word,write,None,None
+27,among,RSHC,among.wav,word,write,None,None
+27,bowtie,RSLC,bowtie.wav,word,write,None,None
+27,emergenge,PLS,emergenge.wav,word,write,None,None
+27,wrigin,PSS,wrigin.wav,word,write,None,None
+27,trally,PSC,trally.wav,word,write,None,None
+27,exhale,RSLC,exhale.wav,word,write,None,None
+27,repay,RSLC,repay.wav,word,write,None,None
+27,automatic,RLHS,automatic.wav,word,write,None,None
+27,currently,RLHC,currently.wav,word,write,None,None

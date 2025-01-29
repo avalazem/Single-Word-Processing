@@ -1,0 +1,78 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Jan 27 2025 12:01:59
+#--EXPERIMENT INFO
+#e mainfile: swp_training.py
+#e sha1: 23ab43
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 26
+subject_id,
+26,refily,PSC,refily.wav,word,covert_speech,None,None
+26,bowtie,RSLC,bowtie.wav,word,covert_speech,None,None
+26,quay,RSLS,quay.wav,word,covert_speech,None,None
+26,curtains,RLLC,curtains.wav,word,covert_speech,None,None
+26,quite,RSHS,quite.wav,word,covert_speech,None,None
+26,exhale,RSLC,exhale.wav,word,covert_speech,None,None
+26,among,RSHC,among.wav,word,covert_speech,None,None
+26,mushroom,RLLS,mushroom.wav,word,covert_speech,None,None
+26,solvable,RLLC,solvable.wav,word,covert_speech,None,None
+26,cornbread,RLLC,cornbread.wav,word,covert_speech,None,None
+26,among,RSHC,among.wav,word,covert_speech,None,None
+26,automatic,RLHS,automatic.wav,word,covert_speech,None,None
+26,unshonor,PLC,unshonor.wav,word,covert_speech,None,None
+26,emergenge,PLS,emergenge.wav,word,covert_speech,None,None
+26,trally,PSC,trally.wav,word,covert_speech,None,None
+26,repay,RSLC,repay.wav,word,covert_speech,None,None
+26,currently,RLHC,currently.wav,word,covert_speech,None,None
+26,wrigin,PSS,wrigin.wav,word,covert_speech,None,None
+26,emergenge,PLS,emergenge.wav,word,write,None,None
+26,trally,PSC,trally.wav,word,write,None,None
+26,automatic,RLHS,automatic.wav,word,write,None,None
+26,repay,RSLC,repay.wav,word,write,None,None
+26,wrigin,PSS,wrigin.wav,word,write,None,None
+26,exhale,RSLC,exhale.wav,word,write,None,None
+26,quite,RSHS,quite.wav,word,write,None,None
+26,bowtie,RSLC,bowtie.wav,word,write,None,None
+26,curtains,RLLC,curtains.wav,word,write,None,None
+26,among,RSHC,among.wav,word,write,None,None
+26,cornbread,RLLC,cornbread.wav,word,write,None,None
+26,currently,RLHC,currently.wav,word,write,None,None
+26,unshonor,PLC,unshonor.wav,word,write,None,None
+26,among,RSHC,among.wav,word,write,None,None
+26,refily,PSC,refily.wav,word,write,None,None
+26,solvable,RLLC,solvable.wav,word,write,None,None
+26,quay,RSLS,quay.wav,word,write,None,None
+26,mushroom,RLLS,mushroom.wav,word,write,None,None
+26,bowtie,RSLC,bowtie.wav,audio,covert_speech,None,None
+26,curtains,RLLC,curtains.wav,audio,covert_speech,None,None
+26,currently,RLHC,currently.wav,audio,covert_speech,None,None
+26,unshonor,PLC,unshonor.wav,audio,covert_speech,None,None
+26,quite,RSHS,quite.wav,audio,covert_speech,None,None
+26,mushroom,RLLS,mushroom.wav,audio,covert_speech,None,None
+26,solvable,RLLC,solvable.wav,audio,covert_speech,None,None
+26,cornbread,RLLC,cornbread.wav,audio,covert_speech,None,None
+26,automatic,RLHS,automatic.wav,audio,covert_speech,None,None
+26,trally,PSC,trally.wav,audio,covert_speech,None,None
+26,exhale,RSLC,exhale.wav,audio,covert_speech,None,None
+26,refily,PSC,refily.wav,audio,covert_speech,None,None
+26,among,RSHC,among.wav,audio,covert_speech,None,None
+26,among,RSHC,among.wav,audio,covert_speech,None,None
+26,repay,RSLC,repay.wav,audio,covert_speech,None,None
+26,emergenge,PLS,emergenge.wav,audio,covert_speech,None,None
+26,quay,RSLS,quay.wav,audio,covert_speech,None,None
+26,wrigin,PSS,wrigin.wav,audio,covert_speech,None,None
+26,mushroom,RLLS,mushroom.wav,audio,write,None,None
+26,wrigin,PSS,wrigin.wav,audio,write,None,None
+26,exhale,RSLC,exhale.wav,audio,write,None,None
+26,repay,RSLC,repay.wav,audio,write,None,None
+26,automatic,RLHS,automatic.wav,audio,write,None,None
+26,among,RSHC,among.wav,audio,write,None,None
+26,quay,RSLS,quay.wav,audio,write,None,None
+26,curtains,RLLC,curtains.wav,audio,write,None,None
+26,emergenge,PLS,emergenge.wav,audio,write,None,None
+26,bowtie,RSLC,bowtie.wav,audio,write,None,None
+26,solvable,RLLC,solvable.wav,audio,write,None,None
+26,quite,RSHS,quite.wav,audio,write,None,None
+26,unshonor,PLC,unshonor.wav,audio,write,None,None

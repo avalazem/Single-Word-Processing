@@ -3,8 +3,8 @@ import random
 import os
 
 # File paths
-input_file = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Stimuli\en_paradigm.csv"
-output_dir = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Christophe_Stimulation\Stimuli\Subject_Sampled_Stimuli"
+input_file = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\en_paradigm.csv"
+output_dir = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\Subject_Sampled_Stimuli"
 
 # Read the original CSV file into a DataFrame
 df = pd.read_csv(input_file)
@@ -13,7 +13,7 @@ df = pd.read_csv(input_file)
 os.makedirs(output_dir, exist_ok=True)
 
 # Get a unique subject number (you can customize this if needed)
-subject_number = "Subject_one"  # Change this to dynamically generate if needed
+subject_number = "Subject_Ali"  # Change this to dynamically generate if needed
 
 # Initialize an empty DataFrame to collect the sampled rows
 sampled_data = pd.DataFrame()
