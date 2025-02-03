@@ -47,7 +47,7 @@ def count_phonemes(word):
     return None
 
 # Load the CSV file into a DataFrame
-file_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\French\french_stimuli_pseudo_sampled_edited.csv"
+file_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Pseudoword_Generation\Christophe_Generated_Pseudos\Christophe_PLX.csv"
 df = pd.read_csv(file_path)
 
 # Ensure 'Word' column exists

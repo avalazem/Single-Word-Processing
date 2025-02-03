@@ -8,7 +8,6 @@ Author: Ali Al-Azem
 Supervisor: Yair Lakretz
 
 '''
-
 import sys
 import random
 import pandas as pd
