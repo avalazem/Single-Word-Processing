@@ -4,6 +4,66 @@ import os
 import numpy as np
 from collections import defaultdict
 
+# Function to generate a 50/50 gender list
+
+def generate_gender_list(n_entries):
+    # Create an equal split of 'M' and 'F'
+    half = n_entries // 2
+    gender_list = ['M'] * half + ['F'] * half
+
+    # If n_entries is odd, randomly add one more 'M' or 'F'
+    if n_entries % 2 == 1:
+        gender_list.append(random.choice(['M', 'F']))
+        print("Warning: Odd Number of Stimuli - won't be 50/50!")
+        
+    # Shuffle the list for randomness
+    random.shuffle(gender_list)
+
+    return gender_list
+
+# Function to merge additional columns from English_Stimuli.csv
+def merge_additional_columns(df, stimuli_path):
+    # Read the English_Stimuli.csv file
+    stimuli_df = pd.read_csv(stimuli_path)
+
+    # Select the required columns
+    columns_to_merge = ['Word', 'Zipf Lemma Frequency', 'Lemma', 'Zipf Frequency', 'Phonemes', 'Part of Speech', 'Length']
+    stimuli_df = stimuli_df[columns_to_merge]
+
+    # Merge the DataFrame with the existing DataFrame based on the 'Word' column
+    merged_df = pd.merge(df, stimuli_df, on='Word', how='left')
+
+    # Reorder the columns to place the specified columns to the right of 'Condition'
+    condition_index = merged_df.columns.get_loc('Condition')
+    new_order = merged_df.columns.tolist()
+    for col in columns_to_merge[1:]:
+        new_order.insert(condition_index + 1, new_order.pop(new_order.index(col)))
+    merged_df = merged_df[new_order]
+
+    return merged_df
+
+# Function to update run type and assign audio files based on gender
+def assign_audio_gender(df, n_stimuli):
+    # Generate gender list
+    gender_list = generate_gender_list(n_stimuli)
+
+    # Assign Audio based on gender list
+    df['Audio File'] = [row.Audio_Male if gender == 'M' else row.Audio_Female for row, gender in zip(df.itertuples(), gender_list)]
+
+    # Set no value if Input Modality is not Audio
+    df.loc[df['Input Modality'] != 'Audio', 'Audio'] = None
+
+    # Drop the Audio_Male and Audio_Female columns
+    df.drop(columns=['Audio_Male', 'Audio_Female'], inplace=True)
+
+    # Reorder columns to place Audio to the left of Input Modality
+    columns = df.columns.tolist()
+    audio_index = columns.index('Audio File')
+    input_modality_index = columns.index('Input Modality')
+    columns.insert(input_modality_index, columns.pop(audio_index))
+    df = df[columns]
+    
+    return df
 
 # Define function to assign jitter durations based on an even distribtion
 
@@ -32,7 +92,7 @@ def assign_jitter_durations(n_stimuli, mean_soa=5, step=0.5, n_durations=5):
 input_csv = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\en_paradigm.csv"
 output_dir = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\Subject_Sampled_Stimuli"
 
-def create_subject_csvs(input_csv, output_dir, subject_name):
+def create_subject_csvs(input_csv, output_dir, stimuli_path, subject_name):
     # Load the CSV
     df = pd.read_csv(input_csv)
 
@@ -76,14 +136,28 @@ def create_subject_csvs(input_csv, output_dir, subject_name):
         ws_df["Jitter_Duration"] = assign_jitter_durations(n_stimuli)
         as_df["Jitter_Duration"] = assign_jitter_durations(n_stimuli)
 
+         # Add additional information from original csv
+        ws_df = merge_additional_columns(ws_df, stimuli_path)  # Merge additional columns
+        as_df = merge_additional_columns(as_df, stimuli_path)  # Merge additional columns
+
+
         # Assign run type
-        ws_df["Run_Type"] = "ws"
-        as_df["Run_Type"] = "as"
+        ws_df["Input Modality"] = "Word"
+        ws_df["Output Modality"] = "Speech"
+
+        as_df["Input Modality"] = "Audio"
+        as_df["Output Modality"] = "Speech"
+        
+        # Adjust audio to 50/50 Male/Female distribution
+        as_df = assign_audio_gender(as_df, len(as_df))  # Update run type and assign audio
+        ws_df = assign_audio_gender(ws_df, len(ws_df))  # Update run type and assign audio
+
 
         # Append them to run_dataframes
         run_dataframes.append(ws_df)
         run_dataframes.append(as_df)
-
+    
+       
     # Randomize the run indices (so runs aren't always in a set order)
     run_indices = np.random.permutation(6) + 1  # Generate 1-6 in random order
 
@@ -132,24 +206,26 @@ def validate_runs(subject_name, base_dir= r"C:\Users\ali_a\Desktop\Single_Word_P
     word_run_tracker = defaultdict(set)  # Dictionary to track {word: {run_types where it appears}}
 
     for file, df in run_data.items():
-        if "Run_Type" in df.columns:
+        if "Input Modality" in df.columns:
             for _, row in df.iterrows():
-                word_run_tracker[(row["Word"], row["Run_Type"])].add(file)
+                word_run_tracker[(row["Word"], row["Input Modality"])].add(file)
         else:
-            print(f"⚠️ {file} does not contain a 'Run_Type' column.")
+            print(f"⚠️ {file} does not contain a 'Input Modality' column.")
 
-    # Find words that appear in multiple runs with the same Run_Type
+    # Find words that appear in multiple runs with the same Input Modality
     overlapping_words = {word: runs for word, runs in word_run_tracker.items() if len(runs) > 1}
 
     if overlapping_words:
-        print("❌ Overlapping words found in multiple runs with the same Run_Type:")
+        print("❌ Overlapping words found in multiple runs with the same Input Modality:")
         for (word, run_type), runs in overlapping_words.items():
-            print(f"    - Word '{word}' (Run_Type: {run_type}) appears in {runs}")
+            print(f"    - Word '{word}' (Input Modality: {run_type}) appears in {runs}")
     else:
-        print("✅ No overlapping words between runs with the same Run_Type!")
+        print("✅ No overlapping words between runs with the same Input Modality!")
         
         
         
 # Test
-#create_subject_csvs(input_csv, output_dir, "Test_Subject_Two")
+stimuli_path= r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\English\English_Stimuli.csv"
+create_subject_csvs(input_csv, output_dir, stimuli_path, "Test_Subject_Two")
 validate_runs("Test_Subject_Two")
+

@@ -1,61 +1,61 @@
-Word,Condition,Audio_Male,Audio_Female,Jitter_Duration,Run_Type
-oxen,RSLC,oxen_MALE_D.wav,oxen_FEMALE_C.wav,5.0,ws
-surrifane,PLS,surrifane_MALE_D.wav,surrifane_FEMALE_C.wav,6.0,ws
-ajar,RSLS,ajar_MALE_D.wav,ajar_FEMALE_C.wav,6.0,ws
-mugs,RSLC,mugs_MALE_D.wav,mugs_FEMALE_C.wav,5.0,ws
-tattooist,RLLC,tattooist_MALE_D.wav,tattooist_FEMALE_C.wav,4.5,ws
-immediate,RLHS,immediate_MALE_D.wav,immediate_FEMALE_C.wav,5.5,ws
-unit,RSHC,unit_MALE_D.wav,unit_FEMALE_C.wav,4.0,ws
-calendar,RLHS,calendar_MALE_D.wav,calendar_FEMALE_C.wav,4.5,ws
-lore,RSLS,lore_MALE_D.wav,lore_FEMALE_C.wav,5.5,ws
-clinical,RLHC,clinical_MALE_D.wav,clinical_FEMALE_C.wav,5.5,ws
-criminals,RLHC,criminals_MALE_D.wav,criminals_FEMALE_C.wav,4.5,ws
-bear,RSHS,bear_MALE_D.wav,bear_FEMALE_C.wav,5.0,ws
-pods,RSLC,pods_MALE_D.wav,pods_FEMALE_C.wav,4.5,ws
-sourness,RLLC,sourness_MALE_D.wav,sourness_FEMALE_C.wav,4.5,ws
-plars,PSC,plars_MALE_D.wav,plars_FEMALE_C.wav,4.0,ws
-distfully,PLC,distfully_MALE_D.wav,distfully_FEMALE_C.wav,4.5,ws
-artillise,PLS,artillise_MALE_D.wav,artillise_FEMALE_C.wav,5.0,ws
-easy,RSHC,easy_MALE_D.wav,easy_FEMALE_C.wav,5.0,ws
-reodeness,PLC,reodeness_MALE_D.wav,reodeness_FEMALE_C.wav,5.5,ws
-tank,RSHS,tank_MALE_D.wav,tank_FEMALE_C.wav,5.0,ws
-rain,RSHS,rain_MALE_D.wav,rain_FEMALE_C.wav,4.0,ws
-damer,PSC,damer_MALE_D.wav,damer_FEMALE_C.wav,5.5,ws
-betor,PSC,betor_MALE_D.wav,betor_FEMALE_C.wav,4.0,ws
-procreach,PLC,procreach_MALE_D.wav,procreach_FEMALE_C.wav,5.0,ws
-lirce,PSS,lirce_MALE_D.wav,lirce_FEMALE_C.wav,5.0,ws
-iron,RSHS,iron_MALE_D.wav,iron_FEMALE_C.wav,4.5,ws
-entew,PSC,entew_MALE_D.wav,entew_FEMALE_C.wav,6.0,ws
-sandwich,RLHS,sandwich_MALE_D.wav,sandwich_FEMALE_C.wav,4.0,ws
-idly,RSLC,idly_MALE_D.wav,idly_FEMALE_C.wav,6.0,ws
-gargoyle,RLLS,gargoyle_MALE_D.wav,gargoyle_FEMALE_C.wav,5.0,ws
-boomelege,PLS,boomelege_MALE_D.wav,boomelege_FEMALE_C.wav,4.5,ws
-abosh,PSS,abosh_MALE_D.wav,abosh_FEMALE_C.wav,5.5,ws
-rederlity,PLC,rederlity_MALE_D.wav,rederlity_FEMALE_C.wav,6.0,ws
-woefully,RLLC,woefully_MALE_D.wav,woefully_FEMALE_C.wav,4.5,ws
-chamerane,PLS,chamerane_MALE_D.wav,chamerane_FEMALE_C.wav,5.5,ws
-immerlize,PLC,immerlize_MALE_D.wav,immerlize_FEMALE_C.wav,6.0,ws
-clect,PSS,clect_MALE_D.wav,clect_FEMALE_C.wav,4.0,ws
-dare,RSHS,dare_MALE_D.wav,dare_FEMALE_C.wav,5.5,ws
-drall,PSS,drall_MALE_D.wav,drall_FEMALE_C.wav,4.0,ws
-blaspheme,RLLS,blaspheme_MALE_D.wav,blaspheme_FEMALE_C.wav,4.0,ws
-gorgeous,RLHS,gorgeous_MALE_D.wav,gorgeous_FEMALE_C.wav,5.0,ws
-bryst,PSS,bryst_MALE_D.wav,bryst_FEMALE_C.wav,5.5,ws
-user,RSHC,user_MALE_D.wav,user_FEMALE_C.wav,4.0,ws
-lauly,PSC,lauly_MALE_D.wav,lauly_FEMALE_C.wav,6.0,ws
-quiver,RSLS,quiver_MALE_D.wav,quiver_FEMALE_C.wav,4.5,ws
-scrabble,RLLS,scrabble_MALE_D.wav,scrabble_FEMALE_C.wav,6.0,ws
-trains,RSHC,trains_MALE_D.wav,trains_FEMALE_C.wav,4.5,ws
-rake,RSLS,rake_MALE_D.wav,rake_FEMALE_C.wav,5.5,ws
-impolite,RLLC,impolite_MALE_D.wav,impolite_FEMALE_C.wav,5.0,ws
-disagree,RLHC,disagree_MALE_D.wav,disagree_FEMALE_C.wav,6.0,ws
-architect,RLHS,architect_MALE_D.wav,architect_FEMALE_C.wav,6.0,ws
-sows,RSLC,sows_MALE_D.wav,sows_FEMALE_C.wav,6.0,ws
-mentally,RLHC,mentally_MALE_D.wav,mentally_FEMALE_C.wav,6.0,ws
-insterday,PLS,insterday_MALE_D.wav,insterday_FEMALE_C.wav,5.0,ws
-boomerang,RLLS,boomerang_MALE_D.wav,boomerang_FEMALE_C.wav,4.0,ws
-receiving,RLHC,receiving_MALE_D.wav,receiving_FEMALE_C.wav,4.0,ws
-disembark,RLLC,disembark_MALE_D.wav,disembark_FEMALE_C.wav,5.5,ws
-worn,RSHC,worn_MALE_D.wav,worn_FEMALE_C.wav,5.5,ws
-balk,RSLS,balk_MALE_D.wav,balk_FEMALE_C.wav,4.5,ws
-trombone,RLLS,trombone_MALE_D.wav,trombone_FEMALE_C.wav,4.0,ws
+Word,Condition,Length,Part of Speech,Phonemes,Zipf Frequency,Lemma,Zipf Lemma Frequency,Jitter_Duration,Audio File,Input Modality,Output Modality,Audio
+icones,PSC,6,,"['IY1', 'K', 'OW0', 'N', 'Z']",,,,4.0,icones_FEMALE_C.wav,Audio,Speech,
+deaths,RSHC,6,NOUN,"['D', 'EH1', 'TH', 'S']",4.53,death,5.4,6.0,deaths_MALE_D.wav,Audio,Speech,
+mixer,RSLC,5,NOUN,"['M', 'IH1', 'K', 'S', 'ER0']",3.5,mix,4.71,5.5,mixer_FEMALE_C.wav,Audio,Speech,
+puivon,PSS,6,,"['P', 'W', 'IH1', 'V', 'AH0', 'N']",,,,5.5,puivon_FEMALE_C.wav,Audio,Speech,
+broom,RSLS,5,VERB,"['B', 'R', 'UW1', 'M']",3.42,broom,3.42,5.0,broom_MALE_D.wav,Audio,Speech,
+large,RSHS,5,ADJ,"['L', 'AA1', 'R', 'JH']",5.39,large,5.39,5.0,large_FEMALE_C.wav,Audio,Speech,
+translator,RLHC,10,NOUN,"['T', 'R', 'AE1', 'N', 'S', 'L', 'EY0', 'T', 'ER0']",3.93,translate,3.93,5.5,translator_MALE_D.wav,Audio,Speech,
+disclosure,RLHC,10,NOUN,"['D', 'IH0', 'S', 'K', 'L', 'OW1', 'ZH', 'ER0']",4.0,close,5.36,4.5,disclosure_FEMALE_C.wav,Audio,Speech,
+encask,PSC,6,,"['IH0', 'N', 'K', 'AA1', 'S', 'K']",,,,4.0,encask_FEMALE_C.wav,Audio,Speech,
+cherry,RSHS,6,NOUN,"['CH', 'EH1', 'R', 'IY0']",4.18,cherry,4.18,5.5,cherry_FEMALE_C.wav,Audio,Speech,
+inhale,RSLC,6,VERB,"['IH0', 'N', 'HH', 'EY1', 'L']",3.25,hale,3.6,5.0,inhale_MALE_D.wav,Audio,Speech,
+disinherit,RLLC,10,VERB,"['D', 'IH0', 'S', 'IH0', 'N', 'HH', 'EH1', 'R', 'IH0', 'T']",1.92,inherit,3.52,5.5,disinherit_MALE_D.wav,Audio,Speech,
+digrersher,PLC,10,,"['D', 'IH0', 'G', 'R', 'IH1', 'SH', 'ER0']",,,,4.0,digrersher_MALE_D.wav,Audio,Speech,
+chriniable,PLC,10,,"['K', 'R', 'IH0', 'N', 'IY1', 'AH0', 'B', 'AH0', 'L']",,,,6.0,chriniable_MALE_D.wav,Audio,Speech,
+boats,RSHC,5,NOUN,"['B', 'OW1', 'T', 'S']",4.25,boat,4.71,6.0,boats_FEMALE_C.wav,Audio,Speech,
+alassfully,PLC,10,,"['AH0', 'L', 'AE1', 'S', 'F', 'U0', 'L', 'IY0']",,,,6.0,alassfully_FEMALE_C.wav,Audio,Speech,
+mended,RSLC,6,VERB,"['M', 'EH1', 'N', 'D', 'IH0', 'D']",2.72,mend,3.33,5.5,mended_MALE_D.wav,Audio,Speech,
+vertically,RLHC,10,ADV,"['V', 'ER0', 'T', 'IH1', 'K', 'L', 'IY0']",3.46,vertical,4.15,6.0,vertically_FEMALE_C.wav,Audio,Speech,
+courch,PSS,6,,"['K', 'AO1', 'R', 'CH']",,,,5.0,courch_FEMALE_C.wav,Audio,Speech,
+truck,RSHS,5,NOUN,"['T', 'R', 'AH1', 'K']",4.64,truck,4.64,4.5,truck_FEMALE_C.wav,Audio,Speech,
+japhen,PSS,6,,"['JH', 'AE1', 'F', 'AH0', 'N']",,,,6.0,japhen_FEMALE_C.wav,Audio,Speech,
+invigorate,RLLC,10,VERB,"['IH2', 'N', 'V', 'IH1', 'G', 'ER0', 'EY2', 'T']",2.32,vigor,3.03,4.0,invigorate_FEMALE_C.wav,Audio,Speech,
+submingers,PLC,10,,"['S', 'AH0', 'B', 'M', 'IH1', 'N', 'JH', 'ER0', 'Z']",,,,6.0,submingers_MALE_D.wav,Audio,Speech,
+restaurant,RLHS,10,NOUN,"['R', 'EH1', 'S', 'T', 'AH0', 'R', 'AA0', 'N', 'T']",4.68,restaurant,4.68,4.0,restaurant_MALE_D.wav,Audio,Speech,
+phenomenon,RLHS,10,NOUN,"['F', 'AH0', 'N', 'AA1', 'M', 'AH0', 'N']",4.13,phenomenon,4.13,5.0,phenomenon_MALE_D.wav,Audio,Speech,
+rearce,PSS,6,,"['R', 'IY1', 'S']",,,,6.0,rearce_FEMALE_C.wav,Audio,Speech,
+thildhoust,PLS,10,,"['TH', 'IH1', 'L', 'D', 'HH', 'AW1', 'S', 'T']",,,,4.0,thildhoust_FEMALE_C.wav,Audio,Speech,
+radio,RSHS,5,NOUN,"['R', 'EY1', 'D', 'IY0', 'OW2']",5.01,radio,5.01,5.5,radio_MALE_D.wav,Audio,Speech,
+dritertoon,PLS,10,,"['D', 'R', 'IH1', 'T', 'ER0', 'N', 'UW1', 'N']",,,,6.0,dritertoon_MALE_D.wav,Audio,Speech,
+discipline,RLHS,10,NOUN,"['D', 'IH1', 'S', 'AH0', 'P', 'L', 'IH0', 'N']",4.23,discipline,4.23,4.5,discipline_MALE_D.wav,Audio,Speech,
+allurement,RLLC,10,NOUN,"['AH0', 'L', 'UH1', 'R', 'M', 'AH0', 'N', 'T']",1.39,allure,3.15,4.0,allurement_MALE_D.wav,Audio,Speech,
+lets,RSHC,4,VERB,"['L', 'EH1', 'T', 'S']",4.51,let,5.6,4.0,lets_MALE_D.wav,Audio,Speech,
+wrivol,PSS,6,,"['R', 'AY1', 'V', 'AH0', 'L']",,,,5.0,wrivol_MALE_D.wav,Audio,Speech,
+impossible,RLHC,10,ADJ,"['IH2', 'N', 'AE1', 'K', 'T', 'AH0', 'V', 'EY2', 'T']",4.78,possible,5.36,4.5,impossible_MALE_D.wav,Audio,Speech,
+scour,RSLS,5,VERB,"['S', 'K', 'AW1', 'ER0']",2.97,scour,2.97,4.5,scour_FEMALE_C.wav,Audio,Speech,
+flants,PSC,6,,"['F', 'L', 'AE1', 'N', 'T', 'S']",,,,5.0,flants_FEMALE_C.wav,Audio,Speech,
+stars,RSHC,5,NOUN,"['S', 'T', 'AA1', 'R', 'Z']",4.86,star,5.19,5.5,stars_FEMALE_C.wav,Audio,Speech,
+trifle,RSLS,6,VERB,"['B', 'UH1', 'L', 'AH0', 'T']",2.93,trifle,2.93,4.0,trifle_MALE_D.wav,Audio,Speech,
+scepticism,RLLC,10,NOUN,"['S', 'K', 'EH1', 'T', 'AH0', 'S', 'IH0', 'Z', 'AH0', 'M']",2.94,sceptic,2.5,6.0,scepticism_MALE_D.wav,Audio,Speech,
+hieroglyph,RLLS,10,NOUN,"['H', 'AY0', 'ER0', 'AH0', 'G', 'L', 'IH1', 'F']",1.98,hieroglyph,1.98,5.0,hieroglyph_FEMALE_C.wav,Audio,Speech,
+gormassime,PLS,10,,"['G', 'AO1', 'R', 'M', 'AE0', 'S', 'IH1', 'M']",,,,5.0,gormassime_FEMALE_C.wav,Audio,Speech,
+noocantong,PLS,10,,"['N', 'UW1', 'K', 'AE0', 'N', 'T', 'AO1', 'NG']",,,,4.5,noocantong_MALE_D.wav,Audio,Speech,
+counds,PSC,6,,"['K', 'AW1', 'N', 'D', 'Z']",,,,5.5,counds_MALE_D.wav,Audio,Speech,
+unzip,RSLC,5,VERB,"['AH0', 'N', 'Z', 'IH1', 'P']",2.55,zip,3.87,6.0,unzip_FEMALE_C.wav,Audio,Speech,
+shenanigan,RLLS,10,NOUN,"['SH', 'AH0', 'N', 'AE1', 'N', 'IH0', 'G', 'AH0', 'N']",1.53,shenanigan,1.53,4.0,shenanigan_MALE_D.wav,Audio,Speech,
+lamer,RSLC,5,NOUN,"['L', 'EY1', 'M', 'ER0']",2.17,lame,3.95,4.5,lamer_MALE_D.wav,Audio,Speech,
+phounching,PLC,10,,"['F', 'AW1', 'N', 'CH', 'IH0', 'NG']",,,,5.0,phounching_FEMALE_C.wav,Audio,Speech,
+palindrome,RLLS,10,NOUN,"['P', 'AE1', 'L', 'AH0', 'D', 'R', 'OW2', 'M']",2.7,palindrome,2.17,4.0,palindrome_FEMALE_C.wav,Audio,Speech,
+tescootous,PLS,10,,"['T', 'EH1', 'S', 'K', 'UW0', 'K', 'AH0', 'S']",,,,4.5,tescootous_FEMALE_C.wav,Audio,Speech,
+understand,RLHS,10,VERB,"['UH1', 'N', 'D', 'ER0', 'S', 'T', 'AE1', 'N', 'D']",5.37,understand,5.37,5.0,understand_MALE_D.wav,Audio,Speech,
+experience,RLHS,10,NOUN,"['IH0', 'K', 'S', 'P', 'IH1', 'R', 'IY0', 'AH0', 'N', 'S']",5.27,experience,5.27,4.5,experience_FEMALE_C.wav,Audio,Speech,
+leery,RSLS,5,ADJ,"['L', 'IH1', 'R', 'IY0']",2.58,leery,2.58,6.0,leery_FEMALE_C.wav,Audio,Speech,
+chinchilla,RLLS,10,NOUN,"['CH', 'IH0', 'N', 'CH', 'IH1', 'L', 'AH0']",2.57,chinchilla,2.57,4.5,chinchilla_MALE_D.wav,Audio,Speech,
+guitar,RSHS,6,NOUN,"['G', 'IH0', 'T', 'AA1', 'R']",4.48,guitar,4.48,5.0,guitar_MALE_D.wav,Audio,Speech,
+theatrical,RLHC,10,ADJ,"['TH', 'IH0', 'AE1', 'T', 'R', 'IH0', 'K', 'AH0', 'L']",3.68,theatre,4.52,5.5,theatrical_MALE_D.wav,Audio,Speech,
+heft,RSLS,4,NOUN,"['HH', 'EH1', 'F', 'T']",2.75,heft,2.75,4.0,heft_MALE_D.wav,Audio,Speech,
+lived,RSHC,5,VERB,"['L', 'AY1', 'V', 'D']",4.88,live,5.54,4.5,lived_MALE_D.wav,Audio,Speech,
+vengefully,RLLC,10,ADV,"['V', 'EH1', 'N', 'JH', 'F', 'AH0', 'L', 'IY0']",1.37,vengeful,1.62,5.5,vengefully_FEMALE_C.wav,Audio,Speech,
+misbar,PSC,6,,"['S', 'IH0', 'S', 'B', 'AA1', 'R']",,,,4.5,misbar_FEMALE_C.wav,Audio,Speech,
+leprechaun,RLLS,10,NOUN,"['L', 'EH1', 'P', 'R', 'AH0', 'K', 'AO1', 'N']",2.69,leprechaun,2.69,5.5,leprechaun_FEMALE_C.wav,Audio,Speech,
