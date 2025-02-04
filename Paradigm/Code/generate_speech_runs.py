@@ -51,15 +51,15 @@ def assign_audio_gender(df, n_stimuli):
     df['Audio File'] = [row.Audio_Male if gender == 'M' else row.Audio_Female for row, gender in zip(df.itertuples(), gender_list)]
 
     # Set no value if Input Modality is not Audio
-    df.loc[df['Input Modality'] != 'Audio', 'Audio'] = None
+    df.loc[df['Input Modality'] != 'Audio', 'Audio File'] = None
 
     # Drop the Audio_Male and Audio_Female columns
     df.drop(columns=['Audio_Male', 'Audio_Female'], inplace=True)
 
-    # Reorder columns to place Audio to the left of Input Modality
+    # Reorder columns to place Audio to the left of Jitter_Duration
     columns = df.columns.tolist()
     audio_index = columns.index('Audio File')
-    input_modality_index = columns.index('Input Modality')
+    input_modality_index = columns.index('Jitter_Duration')
     columns.insert(input_modality_index, columns.pop(audio_index))
     df = df[columns]
     
@@ -211,6 +211,19 @@ def validate_runs(subject_name, base_dir= r"C:\Users\ali_a\Desktop\Single_Word_P
                 word_run_tracker[(row["Word"], row["Input Modality"])].add(file)
         else:
             print(f"⚠️ {file} does not contain a 'Input Modality' column.")
+            
+    # 4 Check that Male/Female distribution is even 
+    for file, df in run_data.items():
+        if "Audio File" in df.columns:
+            df["Audio File"] = df["Audio File"].astype(str)  # Convert to string
+            male_count = df[df["Audio File"].str.contains("Male", na=False)].shape[0]
+            female_count = df[df["Audio File"].str.contains("Female", na=False)].shape[0]
+            if male_count != female_count:
+                print(f"❌ {file} does not have an even Male/Female distribution (Male: {male_count}, Female: {female_count})")
+            else:
+                print(f"✅ {file} has an even Male/Female distribution.")
+        else:
+            print(f"⚠️ {file} does not contain an 'Audio File' column.")
 
     # Find words that appear in multiple runs with the same Input Modality
     overlapping_words = {word: runs for word, runs in word_run_tracker.items() if len(runs) > 1}
