@@ -144,8 +144,8 @@ def create_subject_csvs(input_csv, output_dir, stimuli_path, subject_name):
 
         # Assign trial durations (Jitter Duration + 0.5 fixation) IMPORTANT TO SUBTRACT IN SCRIPT!!!
         n_stimuli = len(ws_df) # Same length for both ws and as
-        ws_df["Trial Duration"] = [duration + 0.5 for duration in assign_jitter_durations(n_stimuli)]
-        as_df["Trial Duration"] = [duration + 0.5 for duration in assign_jitter_durations(n_stimuli)]
+        ws_df["Trial Duration"] = assign_jitter_durations(n_stimuli)
+        as_df["Trial Duration"] = assign_jitter_durations(n_stimuli)
 
          # Add additional information from original csv
         ws_df = merge_additional_columns(ws_df, stimuli_path)  # Merge additional columns
@@ -202,14 +202,14 @@ def validate_runs(subject_name, base_dir= r"C:\Users\ali_a\Desktop\Single_Word_P
         else:
             print(f"✅ {file} has 5 of each condition.")
 
-    # 2. Check that the average trial duration is 5.5
+    # 2. Check that the average trial duration is 5.0
     for file, df in run_data.items():
         if "Trial Duration" in df.columns:
             avg_jitter = df["Trial Duration"].mean()
-            if round(avg_jitter, 2) != 5.5:
-                print(f"❌ {file} does not have an average trial duration of 5.5 (Actual: {avg_jitter})")
+            if round(avg_jitter, 2) != 5.0:
+                print(f"❌ {file} does not have an average trial duration of 5.0 (Actual: {avg_jitter})")
             else:
-                print(f"✅ {file} has an average trial duration of 5.5.")
+                print(f"✅ {file} has an average trial duration of 5.0.")
         else:
             print(f"⚠️ {file} does not contain a 'trial duration' column.")
 

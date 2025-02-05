@@ -1,0 +1,19 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Wed Feb 05 2025 15:25:04
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: e08904
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 115
+subject_id,
+115,unzip,Visual,Speech,None,None
+115,deaths,Visual,Speech,None,None
+115,dritertoon,Visual,Speech,None,None
+115,disclosure,Visual,Speech,None,None
+115,gormassime,Visual,Speech,None,None
+115,phenomenon,Visual,Speech,None,None
+115,chinchilla,Visual,Speech,None,None
+115,lamer,Visual,Speech,None,None

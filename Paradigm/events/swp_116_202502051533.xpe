@@ -1,0 +1,28 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Feb 05 2025 15:33:39
+#sha1: ab5492
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10377,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10377,design,logged,
+10377,Experiment,started
+10409,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions/Visual_Speech.png
+10436,Stimulus,presented,2
+14999,Keyboard,received, ,wait_char
+15003,Stimulus,presented,3
+15531,Stimulus,presented,4
+15548,Stimulus,presented,5
+15771,Stimulus,presented,6
+19571,Keyboard,received,None,wait_char
+19574,Stimulus,presented,7
+20108,Stimulus,presented,8
+20114,Stimulus,presented,9
+20347,Stimulus,presented,10
+21187,Keyboard,received,q,wait_char
+21187,Experiment,ended
+21196,Data,saved
+21201,Stimulus,presented,11

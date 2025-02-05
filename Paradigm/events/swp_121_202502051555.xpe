@@ -1,0 +1,20 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Feb 05 2025 15:55:00
+#sha1: c33442
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10208,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10208,design,logged,
+10208,Experiment,started
+10218,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions/Audio_Speech.png
+10244,Stimulus,presented,2
+15253,Keyboard,received, ,wait_char
+17570,Experiment,paused
+17576,Stimulus,presented,3
+18270,Keyboard,received,y,wait_char
+18270,Experiment,ended
+18284,Stimulus,presented,3

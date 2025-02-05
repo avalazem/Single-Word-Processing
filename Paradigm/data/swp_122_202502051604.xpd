@@ -1,0 +1,73 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Wed Feb 05 2025 16:04:59
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: c33442
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 122
+subject_id,
+122,t,17169
+122,Test_Subject_Two_Run_2,leery,Audio,Speech,y,1064
+122,Test_Subject_Two_Run_2,palindrome,Audio,Speech,y,69
+122,Test_Subject_Two_Run_2,wrivol,Audio,Speech,y,91
+122,Test_Subject_Two_Run_2,lets,Audio,Speech,None,None
+122,Test_Subject_Two_Run_2,encask,Audio,Speech,None,None
+122,Test_Subject_Two_Run_2,impossible,Audio,Speech,None,None
+122,Test_Subject_Two_Run_2,inhale,Audio,Speech,y,540
+122,Test_Subject_Two_Run_2,scepticism,Audio,Speech,y,1037
+122,Test_Subject_Two_Run_2,gormassime,Audio,Speech,y,834
+122,Test_Subject_Two_Run_2,chriniable,Audio,Speech,y,460
+122,Test_Subject_Two_Run_2,allurement,Audio,Speech,y,311
+122,Test_Subject_Two_Run_2,dritertoon,Audio,Speech,None,None
+122,Test_Subject_Two_Run_2,counds,Audio,Speech,y,64
+122,Test_Subject_Two_Run_2,japhen,Audio,Speech,y,1230
+122,Test_Subject_Two_Run_2,scour,Audio,Speech,y,773
+122,Test_Subject_Two_Run_2,radio,Audio,Speech,y,513
+122,Test_Subject_Two_Run_2,courch,Audio,Speech,y,471
+122,Test_Subject_Two_Run_2,discipline,Audio,Speech,y,839
+122,Test_Subject_Two_Run_2,experience,Audio,Speech,y,379
+122,Test_Subject_Two_Run_2,phounching,Audio,Speech,y,531
+122,Test_Subject_Two_Run_2,vertically,Audio,Speech,y,712
+122,Test_Subject_Two_Run_2,truck,Audio,Speech,y,1363
+122,Test_Subject_Two_Run_2,tescootous,Audio,Speech,y,818
+122,Test_Subject_Two_Run_2,vengefully,Audio,Speech,y,601
+122,Test_Subject_Two_Run_2,shenanigan,Audio,Speech,y,642
+122,Test_Subject_Two_Run_2,submingers,Audio,Speech,y,2118
+122,Test_Subject_Two_Run_2,translator,Audio,Speech,y,1389
+122,Test_Subject_Two_Run_2,broom,Audio,Speech,y,1487
+122,Test_Subject_Two_Run_2,lamer,Audio,Speech,y,831
+122,Test_Subject_Two_Run_2,leprechaun,Audio,Speech,y,1059
+122,Test_Subject_Two_Run_2,unzip,Audio,Speech,y,1199
+122,Test_Subject_Two_Run_2,boats,Audio,Speech,y,826
+122,Test_Subject_Two_Run_2,large,Audio,Speech,y,635
+122,Test_Subject_Two_Run_2,mended,Audio,Speech,y,704
+122,Test_Subject_Two_Run_2,alassfully,Audio,Speech,y,961
+122,Test_Subject_Two_Run_2,phenomenon,Audio,Speech,y,279
+122,Test_Subject_Two_Run_2,heft,Audio,Speech,y,375
+122,Test_Subject_Two_Run_2,cherry,Audio,Speech,y,695
+122,Test_Subject_Two_Run_2,guitar,Audio,Speech,y,668
+122,Test_Subject_Two_Run_2,disinherit,Audio,Speech,y,456
+122,Test_Subject_Two_Run_2,understand,Audio,Speech,y,847
+122,Test_Subject_Two_Run_2,puivon,Audio,Speech,None,None
+122,Test_Subject_Two_Run_2,trifle,Audio,Speech,y,1602
+122,Test_Subject_Two_Run_2,theatrical,Audio,Speech,y,437
+122,Test_Subject_Two_Run_2,thildhoust,Audio,Speech,y,1911
+122,Test_Subject_Two_Run_2,misbar,Audio,Speech,None,None
+122,Test_Subject_Two_Run_2,lived,Audio,Speech,y,1091
+122,Test_Subject_Two_Run_2,rearce,Audio,Speech,y,699
+122,Test_Subject_Two_Run_2,icones,Audio,Speech,y,685
+122,Test_Subject_Two_Run_2,mixer,Audio,Speech,y,401
+122,Test_Subject_Two_Run_2,flants,Audio,Speech,y,520
+122,Test_Subject_Two_Run_2,chinchilla,Audio,Speech,y,1135
+122,Test_Subject_Two_Run_2,stars,Audio,Speech,y,988
+122,Test_Subject_Two_Run_2,noocantong,Audio,Speech,y,825
+122,Test_Subject_Two_Run_2,deaths,Audio,Speech,y,950
+122,Test_Subject_Two_Run_2,hieroglyph,Audio,Speech,y,1201
+122,Test_Subject_Two_Run_2,invigorate,Audio,Speech,None,None
+122,Test_Subject_Two_Run_2,disclosure,Audio,Speech,y,523
+122,Test_Subject_Two_Run_2,restaurant,Audio,Speech,y,617
+122,Test_Subject_Two_Run_2,digrersher,Audio,Speech,y,735
+122,t,17169

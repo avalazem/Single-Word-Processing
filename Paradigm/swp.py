@@ -9,7 +9,6 @@ Supervisor: Yair Lakretz
 
 '''
 import sys
-import random
 import pandas as pd
 from expyriment import design, control, stimuli
 import os
@@ -19,6 +18,10 @@ from pydub import AudioSegment  # Import pydub for audio processing
 WORD_RESPONSE_KEY = 'y'
 QUIT_KEY = 'q'
 STIMULUS_DURATION = 200  # in milliseconds
+FIXATION_DURATION = 500 
+TRIGGER_KEY = 't' # For the fMRI machine
+CONTROLLER_KEY = ' ' # For who runs the paradigm
+WAIT_FOR_FINAL_TRIGGER = 10000 # 10 seconds
 
 # Check for correct usage
 if len(sys.argv) < 2:
@@ -33,160 +36,29 @@ where CSVFILE is a comma-separated file with columns:
 
 stim_file = sys.argv[1]  # Read second argument from command line
 
-# Initialize the experiment
-exp = design.Experiment(name="Single Word Processing", text_size=40)
-control.initialize(exp)
-
-# Prepare the stimuli
-materials_df = pd.read_csv(stim_file)
-words = materials_df['Word'].tolist()
-conditions = materials_df['Condition'].tolist()
-audio_files = materials_df['Audio'].tolist()
-
-# Create distinct runs
-runs = {
-    "word_covert_speech": [],
-    "word_write": [],
-    "audio_covert_speech": [],
-    "audio_write": []
-}
-
-for word, condition, audio in zip(words, conditions, audio_files):
-    runs["word_covert_speech"].append((word, condition, audio, 'word', 'covert_speech'))
-    runs["word_write"].append((word, condition, audio, 'word', 'write'))
-    runs["audio_covert_speech"].append((word, condition, audio, 'audio', 'covert_speech'))
-    runs["audio_write"].append((word, condition, audio, 'audio', 'write'))
-
-# Function to split runs into mini-runs
-def split_into_mini_runs(trials, num_mini_runs):
-    random.shuffle(trials)
-    return [trials[i::num_mini_runs] for i in range(num_mini_runs)]
 
 # Path to the audio files
 audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\Audio_Files_Google_Cloud"
 
-# Shuffle the main runs
-main_run_order = list(runs.keys())
-random.shuffle(main_run_order)
-
-# Path to instruction images
+# Path to run instructions image folder
 instruction_image_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions"
 
-# Start the experiment
-control.start(skip_ready_screen=True)
+# Path to Beginning Instructions
+welcome_instructions_png = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\instructions.png"
 
-# Display general instructions
-instructions = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\instructions.png")
-instructions.scale_to_fullscreen()
-instructions.present()
-exp.keyboard.wait_char(' ')
+# Path to Thank you ending picture
+thank_you_png = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\thank_you.png"
 
 
-# Collect all mini-runs into a single list
-all_mini_runs = []
-
-for run_name in main_run_order:
-    num_mini_runs = 4 if "write" in run_name else 2
-    mini_runs = split_into_mini_runs(runs[run_name], num_mini_runs)
-    all_mini_runs.extend([(run_name, mini_run) for mini_run in mini_runs])
-
-# Shuffle the stimuli in each run
-for run_name in runs:
-    random.shuffle(runs[run_name])
+# Function to display instructions based on modalities
+def display_instructions(exp, input_modality, output_modality, instructions_folder):
+    instruction_image_path = f"{instructions_folder}/{input_modality}_{output_modality}.png"
+    instructions = stimuli.Picture(instruction_image_path)
+    instructions.scale_to_fullscreen()
+    instructions.present()
     
-# Shuffle all mini-runs while ensuring no repetition of the same run type
-random.shuffle(all_mini_runs)
-
-# Ensure no consecutive mini-runs of the same type
-shuffled_mini_runs = [all_mini_runs.pop(0)]  # Start with the first mini-run
-while all_mini_runs:
-    next_run = all_mini_runs.pop(0)
-    if shuffled_mini_runs[-1][0] == next_run[0]:  # Same run type as previous
-        all_mini_runs.append(next_run)  # Push it to the end of the list
-    else:
-        shuffled_mini_runs.append(next_run)
-
-    
-# Present all mini-runs
-for i, (run_name, mini_run) in enumerate(shuffled_mini_runs):
-    # Display image-based instructions if available
-    image_path = os.path.join(instruction_image_folder, f"{run_name}.png")
-    if os.path.exists(image_path):
-        instructions = stimuli.Picture(image_path)
-        instructions.scale_to_fullscreen()
-        instructions.present()
-    else:
-        fallback_text = f"Instructions for {run_name.replace('_', ' ').capitalize()}\nPress SPACE to begin."
-        instruction_screen = stimuli.TextScreen(f"Mini-Run", fallback_text)
-        instruction_screen.present()
-
-    # Wait for the participant to start the mini-run
-    exp.keyboard.wait_char(' ')
-
-    # Present each trial in the mini-run
-    for trial in mini_run:
-        word, condition, audio, stimulus_type, response_mode = trial
-
-        # Present fixation cross
-        cue = stimuli.FixCross(size=(50, 50), line_width=4)
-        cue.present()
-        exp.clock.wait(500)  # Fixation duration (500 ms)
-
-        # Handle word stimulus
-        if stimulus_type == "word":
-            word_stimulus = stimuli.TextLine(word)
-            word_stimulus.present()
-
-            # Wait for STIMULUS_DURATION while checking for quit key
-            start_time = exp.clock.time
-            while exp.clock.time - start_time < STIMULUS_DURATION:
-                key = exp.keyboard.check()
-                if key == QUIT_KEY:
-                    control.end()
-                    sys.exit()
-
-            # Clear screen after stimulus
-            stimuli.BlankScreen().present()
-
-        # Handle audio stimulus
-        elif stimulus_type == "audio":
-            audio_path = os.path.join(audio_folder_path, audio)
-            if not os.path.exists(audio_path):
-                print(f"Audio file {audio_path} not found. Skipping trial.")
-                continue
-            audio_clip = AudioSegment.from_file(audio_path)
-            audio_duration = len(audio_clip)
-            audio_stimulus = stimuli.Audio(audio_path)
-            audio_stimulus.play()
-            exp.clock.wait(audio_duration)
-            stimuli.BlankScreen().present()
-
-        # Clear the keyboard buffer before waiting for participant response
-        exp.keyboard.clear()
-        
-        # Wait for participant response
-        response_time = SPEECH_WAIT_DURATION if response_mode == "covert_speech" else WRITING_WAIT_DURATION
-        start_time = exp.clock.time
-        key, rt = exp.keyboard.wait_char([WORD_RESPONSE_KEY, QUIT_KEY], duration=response_time)
-
-        # Handle quit key
-        if key == QUIT_KEY:
-            control.end()
-            sys.exit()
-
-        # If a valid response is made, compute reaction time
-        if key == WORD_RESPONSE_KEY:
-            # rt = exp.clock.time - start_time  # Record reaction time (USE IF WANT TO SKIP THROUGH!!)
-            exp.clock.wait(response_time - rt) # Record reaction time (USE FOR ACTUAL EXPERIMENT!!)
-
-        
-# Display thank you message
-thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\thank_you.png")
-thank_you_message.scale_to_fullscreen()
-thank_you_message.present()
-exp.keyboard.wait_char(' ')
-
-control.end()
+    # Wait for controller to press CONTROLLER_KEY
+    exp.keyboard.wait_char(CONTROLLER_KEY)
 
 
 # Function to display word or play audio
@@ -194,33 +66,49 @@ def display_or_play(exp, row):
     # Present fixation cross
     cue = stimuli.FixCross(size=(50, 50), line_width=4)
     cue.present()
-    exp.clock.wait(500)  # Fixation duration (500 ms)
+    exp.clock.wait(FIXATION_DURATION)  # Fixation duration (500 ms)
+    stimuli.BlankScreen().present()
 
-    if row['Input Modality'] == 'Word':
-        word_stimulus = stimuli.TextLine(word)
+    if row['Input Modality'] == 'Visual':
+        word_stimulus = stimuli.TextLine(row['Word'])
         word_stimulus.present()
+        
+        # Wait for STIMULUS_DURATION while checking for QUIT_KEY
+        start_time = exp.clock.time
+        while exp.clock.time - start_time < STIMULUS_DURATION:
+            key = exp.keyboard.check()
+            if key == QUIT_KEY:
+                control.end()
+                sys.exit()
+        stimuli.BlankScreen().present()
+                      
     elif row['Input Modality'] == 'Audio':
-        audio_path = os.path.join(audio_folder_path, audio)
+        audio_path = os.path.join(audio_folder_path, row['Audio File'])
         if not os.path.exists(audio_path):
             print(f"❌ Audio file {audio_path} not found.")
         audio_clip = AudioSegment.from_file(audio_path)
-        audio_duration = len(audio_clip)
+        AUDIO_DURATION = len(audio_clip)
         audio_stimulus = stimuli.Audio(audio_path)
         audio_stimulus.play()
-        exp.clock.wait(audio_duration)
+        
+        start_time = exp.clock.time
+        while exp.clock.time - start_time < AUDIO_DURATION:
+            key = exp.keyboard.check()
+            if key == QUIT_KEY:
+                control.end()
+                sys.exit()   
         stimuli.BlankScreen().present()
-
 
 # Function to handle participant response
 def handle_response(exp, row):
-    if row['Output Modality'] == 'Speech':
-        response_time = row['Jitter Duration'] - STIMULUS_DURATION # To ensure SOA is EXACTLY Jitter Duration
-    elif row['Output Modality'] == 'Write':
-        audio_path = os.path.join(audio_folder_path, audio)
+    if row['Input Modality'] == 'Visual':
+        response_time = 1000 * row['Trial Duration'] - (STIMULUS_DURATION + FIXATION_DURATION) # To ensure trial time
+    elif row['Input Modality'] == 'Audio':
+        audio_path = os.path.join(audio_folder_path, row['Audio File'])
         audio_clip = AudioSegment.from_file(audio_path)
-        audio_duration = len(audio_clip)
+        AUDIO_DURATION = len(audio_clip)
         # Define Response time To ensure SOA is EXACTLY Jitter Duration
-        response_time = row['Jitter Duration'] - audio_duration 
+        response_time = 1000 * row['Trial Duration'] - (AUDIO_DURATION + FIXATION_DURATION) # To ensure trial time
 
     key, rt = exp.keyboard.wait_char([WORD_RESPONSE_KEY, QUIT_KEY], duration=response_time)
     
@@ -232,3 +120,67 @@ def handle_response(exp, row):
     # If a valid response is made, compute reaction time
     if key == WORD_RESPONSE_KEY:
         exp.clock.wait(response_time - rt) # Record reaction time
+
+    # Extract the name of the stim_file to save
+    csv_name = os.path.basename(stim_file).replace('.csv', '')
+    
+    # Collect data babee
+    exp.data.add([csv_name, row['Word'], row['Input Modality'], row['Output Modality'], key, rt])
+    
+    
+    
+    
+# Main function to run the experiment
+def run_experiment(stim_file, audio_folder_path, instruction_image_folder):
+    # Initialize the experiment
+    exp = design.Experiment(name="Single Word Processing", text_size=40)
+    control.initialize(exp)
+    
+    # Read the CSV file
+    df = pd.read_csv(stim_file)
+
+    # Start the experiment
+    control.start(skip_ready_screen=True)
+
+    # Display run instructions based on the first row's modalities
+    first_row = df.iloc[0]
+    display_instructions(exp, first_row['Input Modality'], first_row['Output Modality'], instruction_image_folder)
+
+    # Wait for trigger to start
+    exp.keyboard.wait_char(TRIGGER_KEY)
+    
+    # Start a clock to keep track of time between first and last t (while fMRI is scanning)
+    start_time = exp.clock.time
+    
+    # Record time when first t is played
+    exp.data.add([TRIGGER_KEY, start_time])
+    
+    
+    # Iterate through each row of the CSV file
+    for _, row in df.iterrows():
+        # Clear the keyboard buffer before waiting for participant response
+        exp.keyboard.clear()
+
+        # Display word or play audio based on Input Modality
+        display_or_play(exp, row)
+
+        # Handle participant response based on Output Modality
+        handle_response(exp, row)
+
+
+    # Wait for trigger to end after final stimuli is played
+    exp.keyboard.wait_char(TRIGGER_KEY, duration = WAIT_FOR_FINAL_TRIGGER) # Wait one full TR after final stimulus
+    
+    # Record time when last t is played
+    end_time = exp.clock.time
+    duration = end_time - start_time
+    exp.data.add([TRIGGER_KEY, end_time])
+    exp.data.add(['Duration between Triggers: ', duration]) # Record Total duration of fMRI Scan
+
+    
+    # End the experiment
+    control.end()
+    
+    
+# Run experiment!!
+run_experiment(stim_file, audio_folder_path, instruction_image_folder)
