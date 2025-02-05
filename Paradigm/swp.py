@@ -16,11 +16,9 @@ import os
 from pydub import AudioSegment  # Import pydub for audio processing
 
 # Constants
-WORD_RESPONSE_KEY = 'f'
+WORD_RESPONSE_KEY = 'y'
 QUIT_KEY = 'q'
 STIMULUS_DURATION = 200  # in milliseconds
-SPEECH_WAIT_DURATION = 5000  # in milliseconds
-WRITING_WAIT_DURATION = 7000  # in milliseconds
 
 # Check for correct usage
 if len(sys.argv) < 2:
@@ -81,7 +79,7 @@ control.start(skip_ready_screen=True)
 instructions = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\instructions.png")
 instructions.scale_to_fullscreen()
 instructions.present()
-exp.keyboard.wait_char(WORD_RESPONSE_KEY)
+exp.keyboard.wait_char(' ')
 
 
 # Collect all mini-runs into a single list
@@ -123,7 +121,7 @@ for i, (run_name, mini_run) in enumerate(shuffled_mini_runs):
         instruction_screen.present()
 
     # Wait for the participant to start the mini-run
-    exp.keyboard.wait_char(WORD_RESPONSE_KEY)
+    exp.keyboard.wait_char(' ')
 
     # Present each trial in the mini-run
     for trial in mini_run:
@@ -181,28 +179,56 @@ for i, (run_name, mini_run) in enumerate(shuffled_mini_runs):
             # rt = exp.clock.time - start_time  # Record reaction time (USE IF WANT TO SKIP THROUGH!!)
             exp.clock.wait(response_time - rt) # Record reaction time (USE FOR ACTUAL EXPERIMENT!!)
 
-        # Save trial data
-        exp.data.add([word, condition, audio, stimulus_type, response_mode, key, rt])
-
-    # Break between mini-runs (skip for last mini-run)
-    if i < len(shuffled_mini_runs) - 1:
-        for remaining_seconds in range(30, 0, -1):
-            break_message = stimuli.TextScreen(
-                "Break",
-                f"Take a 30-second break. Relax and prepare for the next part.\n\n"
-                f"The next part will start automatically in {remaining_seconds} seconds."
-            )
-            break_message.present()
-            exp.clock.wait(1000)  # Wait 1 second (1000 ms)
-
-
+        
 # Display thank you message
 thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\thank_you.png")
 thank_you_message.scale_to_fullscreen()
 thank_you_message.present()
-exp.keyboard.wait_char(WORD_RESPONSE_KEY)
+exp.keyboard.wait_char(' ')
 
 control.end()
 
 
-# Need to go through entire run and see if it saves data (only saves if i dont pass first run) !!!!!!!!!!!!
+# Function to display word or play audio
+def display_or_play(exp, row):
+    # Present fixation cross
+    cue = stimuli.FixCross(size=(50, 50), line_width=4)
+    cue.present()
+    exp.clock.wait(500)  # Fixation duration (500 ms)
+
+    if row['Input Modality'] == 'Word':
+        word_stimulus = stimuli.TextLine(word)
+        word_stimulus.present()
+    elif row['Input Modality'] == 'Audio':
+        audio_path = os.path.join(audio_folder_path, audio)
+        if not os.path.exists(audio_path):
+            print(f"❌ Audio file {audio_path} not found.")
+        audio_clip = AudioSegment.from_file(audio_path)
+        audio_duration = len(audio_clip)
+        audio_stimulus = stimuli.Audio(audio_path)
+        audio_stimulus.play()
+        exp.clock.wait(audio_duration)
+        stimuli.BlankScreen().present()
+
+
+# Function to handle participant response
+def handle_response(exp, row):
+    if row['Output Modality'] == 'Speech':
+        response_time = row['Jitter Duration'] - STIMULUS_DURATION # To ensure SOA is EXACTLY Jitter Duration
+    elif row['Output Modality'] == 'Write':
+        audio_path = os.path.join(audio_folder_path, audio)
+        audio_clip = AudioSegment.from_file(audio_path)
+        audio_duration = len(audio_clip)
+        # Define Response time To ensure SOA is EXACTLY Jitter Duration
+        response_time = row['Jitter Duration'] - audio_duration 
+
+    key, rt = exp.keyboard.wait_char([WORD_RESPONSE_KEY, QUIT_KEY], duration=response_time)
+    
+    # Handle quit key
+    if key == QUIT_KEY:
+        control.end()
+        sys.exit()
+
+    # If a valid response is made, compute reaction time
+    if key == WORD_RESPONSE_KEY:
+        exp.clock.wait(response_time - rt) # Record reaction time

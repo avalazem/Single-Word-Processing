@@ -27,19 +27,23 @@ def merge_additional_columns(df, stimuli_path):
     stimuli_df = pd.read_csv(stimuli_path)
 
     # Select the required columns
-    columns_to_merge = ['Word', 'Zipf Lemma Frequency', 'Lemma', 'Zipf Frequency', 'Phonemes', 'Part of Speech', 'Length']
+    columns_to_merge = ['Word', 'Zipf Lemma Frequency', 'Lemma', 'Zipf Frequency', 'Part of Speech','Morphology', 'Length', 'Lexicality']
     stimuli_df = stimuli_df[columns_to_merge]
+
 
     # Merge the DataFrame with the existing DataFrame based on the 'Word' column
     merged_df = pd.merge(df, stimuli_df, on='Word', how='left')
 
-    # Reorder the columns to place the specified columns to the right of 'Condition'
-    condition_index = merged_df.columns.get_loc('Condition')
+    # Reorder the columns to place the specified columns to the right of 'Word'
+    condition_index = merged_df.columns.get_loc('Word')
     new_order = merged_df.columns.tolist()
     for col in columns_to_merge[1:]:
         new_order.insert(condition_index + 1, new_order.pop(new_order.index(col)))
     merged_df = merged_df[new_order]
 
+    # Replace Morphology with Morphological Complexity
+    merged_df.rename(columns={'Morphology': 'Morphological Complexity'}, inplace=True)
+    
     return merged_df
 
 # Function to update run type and assign audio files based on gender
@@ -59,8 +63,15 @@ def assign_audio_gender(df, n_stimuli):
     # Reorder columns to place Audio to the left of Jitter_Duration
     columns = df.columns.tolist()
     audio_index = columns.index('Audio File')
-    input_modality_index = columns.index('Jitter_Duration')
+    input_modality_index = columns.index('Trial Duration')
     columns.insert(input_modality_index, columns.pop(audio_index))
+    df = df[columns]
+    
+    # Reorder columns to place Condtion to the left of 'Part of Speech
+    columns = df.columns.tolist()
+    condition_index = columns.index('Condition')
+    input_modality_index = columns.index('Part of Speech')
+    columns.insert(input_modality_index, columns.pop(condition_index))
     df = df[columns]
     
     return df
@@ -131,10 +142,10 @@ def create_subject_csvs(input_csv, output_dir, stimuli_path, subject_name):
         ws_df = ws_df.sample(frac=1, random_state=None).reset_index(drop=True)
         as_df = as_df.sample(frac=1, random_state=None).reset_index(drop=True)
 
-        # Assign jitter durations
+        # Assign trial durations (Jitter Duration + 0.5 fixation) IMPORTANT TO SUBTRACT IN SCRIPT!!!
         n_stimuli = len(ws_df) # Same length for both ws and as
-        ws_df["Jitter_Duration"] = assign_jitter_durations(n_stimuli)
-        as_df["Jitter_Duration"] = assign_jitter_durations(n_stimuli)
+        ws_df["Trial Duration"] = [duration + 0.5 for duration in assign_jitter_durations(n_stimuli)]
+        as_df["Trial Duration"] = [duration + 0.5 for duration in assign_jitter_durations(n_stimuli)]
 
          # Add additional information from original csv
         ws_df = merge_additional_columns(ws_df, stimuli_path)  # Merge additional columns
@@ -142,7 +153,7 @@ def create_subject_csvs(input_csv, output_dir, stimuli_path, subject_name):
 
 
         # Assign run type
-        ws_df["Input Modality"] = "Word"
+        ws_df["Input Modality"] = "Visual"
         ws_df["Output Modality"] = "Speech"
 
         as_df["Input Modality"] = "Audio"
@@ -191,16 +202,16 @@ def validate_runs(subject_name, base_dir= r"C:\Users\ali_a\Desktop\Single_Word_P
         else:
             print(f"✅ {file} has 5 of each condition.")
 
-    # 2. Check that the average jitter_duration is 5.0
+    # 2. Check that the average trial duration is 5.5
     for file, df in run_data.items():
-        if "Jitter_Duration" in df.columns:
-            avg_jitter = df["Jitter_Duration"].mean()
-            if round(avg_jitter, 2) != 5.0:
-                print(f"❌ {file} does not have an average jitter_duration of 5.0 (Actual: {avg_jitter})")
+        if "Trial Duration" in df.columns:
+            avg_jitter = df["Trial Duration"].mean()
+            if round(avg_jitter, 2) != 5.5:
+                print(f"❌ {file} does not have an average trial duration of 5.5 (Actual: {avg_jitter})")
             else:
-                print(f"✅ {file} has an average jitter_duration of 5.0.")
+                print(f"✅ {file} has an average trial duration of 5.5.")
         else:
-            print(f"⚠️ {file} does not contain a 'jitter_duration' column.")
+            print(f"⚠️ {file} does not contain a 'trial duration' column.")
 
     # 3. Check for word overlap between runs with the same Run_Type
     word_run_tracker = defaultdict(set)  # Dictionary to track {word: {run_types where it appears}}

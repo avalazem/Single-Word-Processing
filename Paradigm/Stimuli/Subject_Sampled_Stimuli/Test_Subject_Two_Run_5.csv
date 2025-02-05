@@ -1,61 +1,61 @@
-Word,Condition,Length,Part of Speech,Phonemes,Zipf Frequency,Lemma,Zipf Lemma Frequency,Audio File,Jitter_Duration,Input Modality,Output Modality
-pictures,RLHC,8,NOUN,"['P', 'IH1', 'K', 'CH', 'ER0', 'Z']",4.92,picture,5.13,pictures_FEMALE_C.wav,6.0,Audio,Speech
-dishaven,PLC,8,,"['D', 'IH0', 'S', 'HH', 'EY1', 'V', 'AH0', 'N']",,,,dishaven_FEMALE_C.wav,5.5,Audio,Speech
-avalanche,RLLS,9,NOUN,"['AE1', 'V', 'AH0', 'L', 'AE2', 'N', 'CH']",3.48,avalanche,3.48,avalanche_MALE_D.wav,5.5,Audio,Speech
-acorn,RSLS,5,NOUN,"['EY1', 'K', 'AO0', 'R', 'N']",3.08,acorn,3.08,acorn_FEMALE_C.wav,6.0,Audio,Speech
-freasite,PLS,8,,"['F', 'R', 'IY1', 'Z', 'IH0', 'T']",,,,freasite_MALE_D.wav,6.0,Audio,Speech
-shyly,RSLC,5,ADV,"['SH', 'AY1', 'L', 'IY0']",2.42,shy,4.16,shyly_MALE_D.wav,4.0,Audio,Speech
-unkinter,PLC,8,,"['AH2', 'N', 'K', 'IH1', 'N', 'T', 'ER0']",,,,unkinter_FEMALE_C.wav,5.0,Audio,Speech
-daily,RSHC,5,ADV,"['D', 'EY1', 'L', 'IY0']",5.07,day,5.95,daily_MALE_D.wav,6.0,Audio,Speech
-infertile,RLLC,9,NOUN,"['IH2', 'N', 'F', 'ER1', 'T', 'AH0', 'L']",2.86,fertile,3.62,infertile_MALE_D.wav,4.0,Audio,Speech
-tartness,RLLC,8,NOUN,"['T', 'AA1', 'R', 'T', 'N', 'EH0', 'S']",1.86,tart,3.37,tartness_FEMALE_C.wav,4.5,Audio,Speech
-fumigate,RLLS,8,VERB,"['F', 'Y', 'UW1', 'M', 'AH0', 'G', 'EY2', 'T']",1.87,fumigate,1.87,fumigate_MALE_D.wav,4.5,Audio,Speech
-daip,PSS,4,,"['D', 'EY1', 'P']",,,,daip_FEMALE_C.wav,4.0,Audio,Speech
-egotistic,RLLC,8,ADJ,"['IY2', 'G', 'AH0', 'T', 'IH1', 'S', 'T', 'IH0', 'K']",1.98,ego,4.02,egotistic_FEMALE_C.wav,5.0,Audio,Speech
-shears,RSLC,6,NOUN,"['SH', 'IY1', 'R', 'Z']",2.9,shear,3.4,shears_FEMALE_C.wav,4.5,Audio,Speech
-rewn,PSC,4,,"['R', 'UW1', 'N']",,,,rewn_FEMALE_C.wav,6.0,Audio,Speech
-establish,RLHS,9,VERB,"['IH0', 'S', 'T', 'AE1', 'B', 'L', 'IH0', 'SH']",4.46,establish,4.46,establish_MALE_D.wav,5.5,Audio,Speech
-mingle,RSLS,6,VERB,"['M', 'IH1', 'NG', 'G', 'AH0', 'L']",3.21,mingle,3.21,mingle_MALE_D.wav,6.0,Audio,Speech
-camera,RSHS,6,NOUN,"['K', 'AE1', 'M', 'ER0', 'AH0']",4.87,camera,4.87,camera_FEMALE_C.wav,6.0,Audio,Speech
-straight,RLHS,8,ADJ,"['S', 'T', 'R', 'EY1', 'T']",5.04,straight,5.04,straight_FEMALE_C.wav,4.0,Audio,Speech
-satellite,RLHS,9,NOUN,"['S', 'AE1', 'T', 'AH0', 'L', 'AY2', 'T']",4.33,satellite,4.33,satellite_MALE_D.wav,5.5,Audio,Speech
-adaptable,RLLC,9,ADJ,"['AH0', 'D', 'AE1', 'P', 'T', 'AH0', 'B', 'AH0', 'L']",3.12,adapt,3.98,adaptable_FEMALE_C.wav,6.0,Audio,Speech
-seriously,RLHC,9,ADV,"['S', 'IH1', 'R', 'IY0', 'AH0', 'S', 'L', 'IY0']",4.94,serious,5.1,seriously_MALE_D.wav,4.0,Audio,Speech
-hexy,PSC,4,,"['HH', 'EH1', 'K', 'S', 'IY0']",,,,hexy_MALE_D.wav,5.5,Audio,Speech
-northern,RLHC,8,ADJ,"['N', 'AO1', 'R', 'DH', 'ER0', 'N']",4.85,north,5.34,northern_FEMALE_C.wav,5.5,Audio,Speech
-etiquette,RLLS,9,NOUN,"['EH1', 'T', 'AH0', 'K', 'AH0', 'T']",3.4,etiquette,3.4,etiquette_FEMALE_C.wav,6.0,Audio,Speech
-duid,PSS,4,,"['D', 'UW1', 'D']",,,,duid_MALE_D.wav,5.0,Audio,Speech
-chameleon,RLLS,9,NOUN,"['CH', 'AH0', 'M', 'EH1', 'L', 'IY0', 'AH0', 'N']",3.1,chameleon,3.1,chameleon_MALE_D.wav,5.5,Audio,Speech
-sprindly,PLC,8,,"['S', 'P', 'R', 'IH1', 'N', 'D', 'L', 'IY0']",,,,sprindly_FEMALE_C.wav,4.5,Audio,Speech
-beautiful,RLHC,9,ADJ,"['B', 'Y', 'UW1', 'T', 'IH0', 'F', 'AH0', 'L']",5.22,beauty,4.75,beautiful_FEMALE_C.wav,4.5,Audio,Speech
-hearts,RSHC,6,NOUN,"['HH', 'AA1', 'R', 'T', 'S']",4.44,heart,5.31,hearts_MALE_D.wav,5.0,Audio,Speech
-peddle,RSLS,6,VERB,"['P', 'EH1', 'D', 'AH0', 'L']",2.76,peddle,2.76,peddle_MALE_D.wav,4.0,Audio,Speech
-strong,RSHS,6,ADJ,"['S', 'T', 'R', 'AO1', 'NG']",5.22,strong,5.22,strong_MALE_D.wav,4.5,Audio,Speech
-writes,RSHC,6,VERB,"['R', 'AY1', 'T', 'S']",4.36,write,5.03,writes_MALE_D.wav,5.5,Audio,Speech
-alab,PSS,4,,"['AH0', 'L', 'AA1', 'B']",,,,alab_FEMALE_C.wav,4.0,Audio,Speech
-conflite,PLS,8,,"['K', 'AH0', 'N', 'F', 'L', 'AY1', 'T']",,,,conflite_MALE_D.wav,4.0,Audio,Speech
-across,RSHC,6,ADP,"['AH0', 'K', 'R', 'AO1', 'S']",5.25,cross,5.0,across_FEMALE_C.wav,5.5,Audio,Speech
-hospency,PLS,8,,"['HH', 'AA1', 'S', 'P', 'AH0', 'N', 'S', 'IY0']",,,,hospency_FEMALE_C.wav,4.0,Audio,Speech
-impolder,PLC,8,,"['IH0', 'M', 'P', 'OW1', 'L', 'D', 'ER0']",,,,impolder_FEMALE_C.wav,4.5,Audio,Speech
-sword,RSHS,5,NOUN,"['S', 'AO1', 'R', 'D']",4.37,sword,4.37,sword_FEMALE_C.wav,5.5,Audio,Speech
-hoist,RSLS,5,VERB,"['HH', 'OY1', 'S', 'T']",3.12,hoist,3.12,hoist_MALE_D.wav,5.0,Audio,Speech
-jersey,RSHS,6,NOUN,"['JH', 'ER1', 'Z', 'IY0']",4.66,jersey,4.66,jersey_MALE_D.wav,5.0,Audio,Speech
-juns,PSC,4,,"['JH', 'AH1', 'N', 'Z']",,,,juns_MALE_D.wav,4.0,Audio,Speech
-whisperer,RLLC,9,NOUN,"['W', 'IH1', 'S', 'P', 'ER0', 'ER0']",2.81,whisper,3.74,whisperer_MALE_D.wav,5.0,Audio,Speech
-onts,PSC,4,,"['AA1', 'N', 'T', 'S']",,,,onts_FEMALE_C.wav,5.0,Audio,Speech
-currease,PLS,8,,"['K', 'ER0', 'IY1', 'S']",,,,currease_MALE_D.wav,6.0,Audio,Speech
-hedgehog,RLLS,8,NOUN,"['HH', 'EH1', 'JH', 'HH', 'AA2', 'G']",3.25,hedgehog,3.25,hedgehog_MALE_D.wav,4.0,Audio,Speech
-hyma,PSS,4,,"['HH', 'AY1', 'M', 'AH0']",,,,hyma_FEMALE_C.wav,5.5,Audio,Speech
-shoulder,RLHS,8,NOUN,"['SH', 'OW1', 'L', 'D', 'ER0']",4.5,shoulder,4.5,shoulder_FEMALE_C.wav,5.0,Audio,Speech
-nory,PSC,4,,"['N', 'AO1', 'R', 'IY0']",,,,nory_MALE_D.wav,5.0,Audio,Speech
-orally,RSLC,6,ADV,"['AO1', 'R', 'AH0', 'L', 'IY0']",3.12,oral,4.26,orally_MALE_D.wav,4.5,Audio,Speech
-foab,PSS,4,,"['F', 'OW1', 'B']",,,,foab_FEMALE_C.wav,4.0,Audio,Speech
-disappear,RLHC,9,VERB,"['D', 'IH2', 'S', 'AH0', 'P', 'IH1', 'R']",4.09,appear,4.85,disappear_FEMALE_C.wav,4.5,Audio,Speech
-surfer,RSLC,6,NOUN,"['S', 'ER1', 'F', 'ER0']",3.3,surf,3.86,surfer_FEMALE_C.wav,5.5,Audio,Speech
-ramble,RSLS,6,VERB,"['R', 'AE1', 'M', 'B', 'AH0', 'L']",2.85,ramble,2.85,ramble_MALE_D.wav,5.0,Audio,Speech
-character,RLHS,9,NOUN,"['K', 'EH1', 'R', 'IH0', 'K', 'T', 'ER0']",5.11,character,5.11,character_FEMALE_C.wav,4.5,Audio,Speech
-combs,RSLC,5,NOUN,"['K', 'OW1', 'M', 'Z']",3.17,comb,3.52,combs_MALE_D.wav,6.0,Audio,Speech
-actor,RSHC,5,NOUN,"['AE1', 'K', 'T', 'ER0']",4.65,act,5.3,actor_FEMALE_C.wav,5.0,Audio,Speech
-garadign,PLS,8,,"['G', 'AE1', 'R', 'AH0', 'G', 'AH0', 'N', 'D']",,,,garadign_FEMALE_C.wav,6.0,Audio,Speech
-trustler,PLC,8,,"['T', 'R', 'AH1', 'S', 'T', 'ER0', 'L']",,,,trustler_MALE_D.wav,4.5,Audio,Speech
-phone,RSHS,5,NOUN,"['F', 'OW1', 'N']",5.3,phone,5.3,phone_MALE_D.wav,4.5,Audio,Speech
+Word,Lexicality,Length,Morphological Complexity,Condition,Part of Speech,Zipf Frequency,Lemma,Zipf Lemma Frequency,Audio File,Trial Duration,Input Modality,Output Modality
+dishaven,pseudo,8,complex,PLC,ADJ,,,,dishaven_MALE_D.wav,6.0,Audio,Speech
+garadign,pseudo,8,simple,PLS,NOUN,,,,garadign_MALE_D.wav,4.5,Audio,Speech
+establish,real,9,simple,RLHS,VERB,4.46,establish,4.46,establish_MALE_D.wav,4.5,Audio,Speech
+jersey,real,6,simple,RSHS,NOUN,4.66,jersey,4.66,jersey_FEMALE_C.wav,6.5,Audio,Speech
+egotistic,real,8,complex,RLLC,ADJ,1.98,ego,4.02,egotistic_MALE_D.wav,6.0,Audio,Speech
+hexy,pseudo,4,complex,PSC,ADJ,,,,hexy_MALE_D.wav,6.0,Audio,Speech
+hoist,real,5,simple,RSLS,VERB,3.12,hoist,3.12,hoist_FEMALE_C.wav,4.5,Audio,Speech
+infertile,real,9,complex,RLLC,NOUN,2.86,fertile,3.62,infertile_MALE_D.wav,6.0,Audio,Speech
+hedgehog,real,8,simple,RLLS,NOUN,3.25,hedgehog,3.25,hedgehog_FEMALE_C.wav,4.5,Audio,Speech
+daily,real,5,complex,RSHC,ADV,5.07,day,5.95,daily_MALE_D.wav,6.5,Audio,Speech
+actor,real,5,complex,RSHC,NOUN,4.65,act,5.3,actor_MALE_D.wav,6.0,Audio,Speech
+whisperer,real,9,complex,RLLC,NOUN,2.81,whisper,3.74,whisperer_FEMALE_C.wav,5.0,Audio,Speech
+rewn,pseudo,4,complex,PSC,VERB,,,,rewn_MALE_D.wav,6.0,Audio,Speech
+unkinter,pseudo,8,complex,PLC,VERB,,,,unkinter_FEMALE_C.wav,5.5,Audio,Speech
+shoulder,real,8,simple,RLHS,NOUN,4.5,shoulder,4.5,shoulder_MALE_D.wav,4.5,Audio,Speech
+surfer,real,6,complex,RSLC,NOUN,3.3,surf,3.86,surfer_FEMALE_C.wav,6.5,Audio,Speech
+peddle,real,6,simple,RSLS,VERB,2.76,peddle,2.76,peddle_FEMALE_C.wav,5.0,Audio,Speech
+across,real,6,complex,RSHC,ADP,5.25,cross,5.0,across_FEMALE_C.wav,5.5,Audio,Speech
+beautiful,real,9,complex,RLHC,ADJ,5.22,beauty,4.75,beautiful_FEMALE_C.wav,5.0,Audio,Speech
+currease,pseudo,8,simple,PLS,NOUN,,,,currease_MALE_D.wav,6.0,Audio,Speech
+impolder,pseudo,8,complex,PLC,VERB,,,,impolder_FEMALE_C.wav,4.5,Audio,Speech
+combs,real,5,complex,RSLC,NOUN,3.17,comb,3.52,combs_FEMALE_C.wav,6.5,Audio,Speech
+juns,pseudo,4,complex,PSC,NOUN,,,,juns_MALE_D.wav,6.5,Audio,Speech
+fumigate,real,8,simple,RLLS,VERB,1.87,fumigate,1.87,fumigate_FEMALE_C.wav,4.5,Audio,Speech
+freasite,pseudo,8,simple,PLS,NOUN,,,,freasite_MALE_D.wav,6.5,Audio,Speech
+northern,real,8,complex,RLHC,ADJ,4.85,north,5.34,northern_FEMALE_C.wav,5.5,Audio,Speech
+orally,real,6,complex,RSLC,ADV,3.12,oral,4.26,orally_MALE_D.wav,6.0,Audio,Speech
+shyly,real,5,complex,RSLC,ADV,2.42,shy,4.16,shyly_MALE_D.wav,6.0,Audio,Speech
+shears,real,6,complex,RSLC,NOUN,2.9,shear,3.4,shears_FEMALE_C.wav,5.0,Audio,Speech
+chameleon,real,9,simple,RLLS,NOUN,3.1,chameleon,3.1,chameleon_FEMALE_C.wav,5.0,Audio,Speech
+onts,pseudo,4,complex,PSC,NOUN,,,,onts_FEMALE_C.wav,4.5,Audio,Speech
+hyma,pseudo,4,simple,PSS,NOUN,,,,hyma_FEMALE_C.wav,6.5,Audio,Speech
+trustler,pseudo,8,complex,PLC,NOUN,,,,trustler_MALE_D.wav,5.0,Audio,Speech
+alab,pseudo,4,simple,PSS,NOUN,,,,alab_FEMALE_C.wav,5.5,Audio,Speech
+foab,pseudo,4,simple,PSS,NOUN,,,,foab_FEMALE_C.wav,5.5,Audio,Speech
+satellite,real,9,simple,RLHS,NOUN,4.33,satellite,4.33,satellite_FEMALE_C.wav,5.5,Audio,Speech
+sprindly,pseudo,8,complex,PLC,ADV,,,,sprindly_FEMALE_C.wav,6.5,Audio,Speech
+pictures,real,8,complex,RLHC,NOUN,4.92,picture,5.13,pictures_FEMALE_C.wav,5.0,Audio,Speech
+seriously,real,9,complex,RLHC,ADV,4.94,serious,5.1,seriously_MALE_D.wav,6.5,Audio,Speech
+acorn,real,5,simple,RSLS,NOUN,3.08,acorn,3.08,acorn_MALE_D.wav,5.5,Audio,Speech
+nory,pseudo,4,complex,PSC,ADJ,,,,nory_FEMALE_C.wav,5.5,Audio,Speech
+ramble,real,6,simple,RSLS,VERB,2.85,ramble,2.85,ramble_MALE_D.wav,5.5,Audio,Speech
+writes,real,6,complex,RSHC,VERB,4.36,write,5.03,writes_MALE_D.wav,6.5,Audio,Speech
+tartness,real,8,complex,RLLC,NOUN,1.86,tart,3.37,tartness_MALE_D.wav,5.0,Audio,Speech
+hearts,real,6,complex,RSHC,NOUN,4.44,heart,5.31,hearts_MALE_D.wav,5.5,Audio,Speech
+hospency,pseudo,8,simple,PLS,NOUN,,,,hospency_MALE_D.wav,6.0,Audio,Speech
+daip,pseudo,4,simple,PSS,NOUN,,,,daip_MALE_D.wav,5.0,Audio,Speech
+straight,real,8,simple,RLHS,ADJ,5.04,straight,5.04,straight_MALE_D.wav,6.0,Audio,Speech
+adaptable,real,9,complex,RLLC,ADJ,3.12,adapt,3.98,adaptable_FEMALE_C.wav,4.5,Audio,Speech
+duid,pseudo,4,simple,PSS,NOUN,,,,duid_MALE_D.wav,4.5,Audio,Speech
+camera,real,6,simple,RSHS,NOUN,4.87,camera,4.87,camera_FEMALE_C.wav,6.5,Audio,Speech
+avalanche,real,9,simple,RLLS,NOUN,3.48,avalanche,3.48,avalanche_MALE_D.wav,5.5,Audio,Speech
+mingle,real,6,simple,RSLS,VERB,3.21,mingle,3.21,mingle_MALE_D.wav,5.0,Audio,Speech
+phone,real,5,simple,RSHS,NOUN,5.3,phone,5.3,phone_FEMALE_C.wav,5.0,Audio,Speech
+strong,real,6,simple,RSHS,ADJ,5.22,strong,5.22,strong_FEMALE_C.wav,4.5,Audio,Speech
+character,real,9,simple,RLHS,NOUN,5.11,character,5.11,character_MALE_D.wav,6.0,Audio,Speech
+conflite,pseudo,8,simple,PLS,NOUN,,,,conflite_FEMALE_C.wav,5.5,Audio,Speech
+etiquette,real,9,simple,RLLS,NOUN,3.4,etiquette,3.4,etiquette_FEMALE_C.wav,4.5,Audio,Speech
+disappear,real,9,complex,RLHC,VERB,4.09,appear,4.85,disappear_MALE_D.wav,6.5,Audio,Speech
+sword,real,5,simple,RSHS,NOUN,4.37,sword,4.37,sword_FEMALE_C.wav,5.0,Audio,Speech

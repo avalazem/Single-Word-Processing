@@ -1,61 +1,61 @@
-Word,Condition,Length,Part of Speech,Phonemes,Zipf Frequency,Lemma,Zipf Lemma Frequency,Audio File,Jitter_Duration,Input Modality,Output Modality
-rederlity,PLC,9,,"['R', 'EH1', 'D', 'ER0', 'AH0', 'L', 'T', 'IY0']",,,,,4.5,Word,Speech
-reodeness,PLC,9,,"['R', 'IY1', 'AH0', 'D', 'IY2', 'N', 'S', 'AH0', 'Z']",,,,,5.0,Word,Speech
-architect,RLHS,9,NOUN,"['AA1', 'R', 'K', 'AH0', 'T', 'EH2', 'K', 'T']",4.08,architect,4.08,,5.5,Word,Speech
-oxen,RSLC,4,NOUN,"['AA1', 'K', 'S', 'AH0', 'N']",2.9,ox,3.47,,5.0,Word,Speech
-balk,RSLS,4,VERB,"['B', 'AO1', 'K']",2.72,balk,2.72,,4.0,Word,Speech
-trombone,RLLS,8,NOUN,"['T', 'R', 'AA0', 'M', 'B', 'OW1', 'N']",2.97,trombone,2.97,,4.0,Word,Speech
-clect,PSS,5,,"['K', 'L', 'EH1', 'K', 'T']",,,,,5.5,Word,Speech
-worn,RSHC,4,VERB,"['W', 'AO1', 'R', 'N']",4.26,wear,4.92,,6.0,Word,Speech
-lore,RSLS,4,NOUN,"['L', 'AO1', 'R']",3.55,lore,3.55,,5.0,Word,Speech
-clinical,RLHC,8,ADJ,"['K', 'L', 'IH1', 'N', 'AH0', 'K', 'AH0', 'L']",4.51,clinic,4.21,,4.0,Word,Speech
-scrabble,RLLS,8,NOUN,"['S', 'K', 'R', 'AE1', 'B', 'AH0', 'L']",3.04,scrabble,3.04,,4.0,Word,Speech
-immediate,RLHS,9,ADJ,"['IH0', 'M', 'IY1', 'D', 'IY0', 'AH0', 'T']",4.52,immediate,4.52,,6.0,Word,Speech
-unit,RSHC,4,NOUN,"['Y', 'UW1', 'N', 'AH0', 'T']",4.96,unit,4.95,,4.5,Word,Speech
-boomerang,RLLS,9,NOUN,"['B', 'UW1', 'M', 'ER0', 'AE2', 'NG']",3.06,boomerang,3.06,,6.0,Word,Speech
-woefully,RLLC,8,ADV,"['W', 'OW1', 'F', 'AH0', 'L', 'IY0']",2.92,woe,3.31,,4.0,Word,Speech
-mentally,RLHC,8,ADV,"['M', 'EH1', 'N', 'T', 'AH0', 'L', 'IY0']",4.2,mental,4.83,,6.0,Word,Speech
-tank,RSHS,4,NOUN,"['T', 'AE1', 'NG', 'K']",4.57,tank,4.57,,5.5,Word,Speech
-dare,RSHS,4,VERB,"['D', 'EH1', 'R']",4.31,dare,4.31,,6.0,Word,Speech
-insterday,PLS,9,,"['IH1', 'N', 'S', 'T', 'ER0', 'D', 'EY2']",,,,,5.0,Word,Speech
-impolite,RLLC,8,ADJ,"['IH0', 'M', 'P', 'AH0', 'L', 'AY2', 'T']",2.62,polite,3.92,,4.0,Word,Speech
-rain,RSHS,4,NOUN,"['R', 'EY1', 'N']",4.71,rain,4.71,,5.5,Word,Speech
-user,RSHC,4,NOUN,"['Y', 'UW1', 'Z', 'ER0']",4.69,use,5.81,,5.5,Word,Speech
-ajar,RSLS,4,ADJ,"['AH0', 'JH', 'AA1', 'R']",2.57,ajar,2.57,,5.5,Word,Speech
-surrifane,PLS,9,,"['S', 'ER1', 'AH0', 'K', 'EY2', 'N']",,,,,5.0,Word,Speech
-easy,RSHC,4,ADJ,"['IY1', 'Z', 'IY0']",5.29,ease,4.34,,4.5,Word,Speech
-idly,RSLC,4,ADV,"['AY1', 'D', 'L', 'IY0']",2.93,idle,3.7,,5.5,Word,Speech
-criminals,RLHC,9,NOUN,"['K', 'R', 'IH1', 'M', 'AH0', 'N', 'AH0', 'L', 'Z']",4.15,crime,4.89,,4.5,Word,Speech
-drall,PSS,5,,"['D', 'R', 'AO1', 'L']",,,,,6.0,Word,Speech
-sandwich,RLHS,8,NOUN,"['S', 'AE1', 'N', 'D', 'W', 'IH0', 'CH']",4.13,sandwich,4.13,,4.5,Word,Speech
-rake,RSLS,4,VERB,"['R', 'EY1', 'K']",3.38,rake,3.38,,4.5,Word,Speech
-sourness,RLLC,8,NOUN,"['S', 'AW1', 'R', 'N', 'AH0', 'S']",2.05,sour,3.88,,4.5,Word,Speech
-quiver,RSLS,6,NOUN,"['K', 'W', 'IH1', 'V', 'ER0']",2.84,quiver,2.84,,5.5,Word,Speech
-immerlize,PLC,9,,"['IH1', 'M', 'ER0', 'L', 'AY2', 'Z']",,,,,4.5,Word,Speech
-chamerane,PLS,9,,"['CH', 'AE1', 'M', 'ER0', 'N', 'EY2']",,,,,5.0,Word,Speech
-bear,RSHS,4,VERB,"['B', 'EH1', 'R']",4.71,bear,4.71,,4.0,Word,Speech
-entew,PSC,5,,"['EH1', 'N', 'T', 'W', 'IY0']",,,,,5.5,Word,Speech
-distfully,PLC,9,,"['D', 'IH1', 'S', 'T', 'F', 'AH0', 'L', 'IY0']",,,,,4.0,Word,Speech
-lauly,PSC,5,,"['L', 'AO1', 'L', 'IY0']",,,,,4.0,Word,Speech
-artillise,PLS,9,,"['AA1', 'R', 'T', 'AH0', 'L', 'AY2', 'Z']",,,,,4.0,Word,Speech
-calendar,RLHS,8,NOUN,"['K', 'AE1', 'L', 'AH0', 'N', 'D', 'ER0']",4.3,calendar,4.3,,6.0,Word,Speech
-receiving,RLHC,9,VERB,"['R', 'AH0', 'S', 'IY1', 'V', 'IH0', 'NG']",4.59,receive,4.85,,4.0,Word,Speech
-disembark,RLLC,9,VERB,"['D', 'IH0', 'S', 'IH0', 'M', 'B', 'AA1', 'R', 'K']",2.68,embark,3.4,,4.5,Word,Speech
-gargoyle,RLLS,8,NOUN,"['G', 'AA1', 'R', 'G', 'OY2', 'L']",2.63,gargoyle,2.63,,4.5,Word,Speech
-pods,RSLC,4,NOUN,"['P', 'AA1', 'D', 'Z']",3.45,pod,3.71,,6.0,Word,Speech
-bryst,PSS,5,,"['B', 'R', 'IH1', 'S', 'T']",,,,,4.5,Word,Speech
-mugs,RSLC,4,NOUN,"['M', 'AH1', 'G', 'Z']",3.24,mug,3.71,,5.0,Word,Speech
-trains,RSHC,6,NOUN,"['T', 'R', 'EY1', 'N', 'Z']",4.27,train,4.96,,4.5,Word,Speech
-damer,PSC,5,,"['D', 'EY1', 'M', 'ER0']",,,,,6.0,Word,Speech
-disagree,RLHC,8,VERB,"['D', 'IH0', 'S', 'AH0', 'G', 'R', 'IY1']",4.09,agree,4.97,,5.5,Word,Speech
-procreach,PLC,9,,"['P', 'R', 'OW1', 'K', 'R', 'IY0', 'AE2', 'K']",,,,,4.0,Word,Speech
-gorgeous,RLHS,8,ADJ,"['G', 'AO1', 'R', 'JH', 'AH0', 'S']",4.35,gorgeous,4.35,,5.0,Word,Speech
-lirce,PSS,5,,"['R', 'IH1', 'S']",,,,,5.0,Word,Speech
-iron,RSHS,4,NOUN,"['AY1', 'ER0', 'N']",4.74,iron,4.74,,6.0,Word,Speech
-sows,RSLC,4,VERB,"['S', 'OW1', 'Z']",2.59,sow,3.38,,6.0,Word,Speech
-blaspheme,RLLS,9,VERB,"['B', 'L', 'AE1', 'S', 'F', 'IY0', 'M']",2.16,blaspheme,2.16,,5.0,Word,Speech
-betor,PSC,5,,"['B', 'EH1', 'T', 'ER0']",,,,,5.5,Word,Speech
-boomelege,PLS,9,,"['B', 'UW1', 'M', 'AH0', 'L', 'AH0', 'JH']",,,,,5.5,Word,Speech
-plars,PSC,5,,"['P', 'L', 'AA1', 'R', 'Z']",,,,,6.0,Word,Speech
-tattooist,RLLC,9,NOUN,"['T', 'AE1', 'T', 'AH0', 'S', 'T']",1.99,tattoo,4.14,,5.0,Word,Speech
-abosh,PSS,5,,"['AH0', 'B', 'AA1', 'SH']",,,,,5.0,Word,Speech
+Word,Lexicality,Length,Morphological Complexity,Condition,Part of Speech,Zipf Frequency,Lemma,Zipf Lemma Frequency,Audio File,Trial Duration,Input Modality,Output Modality
+seriously,real,9,complex,RLHC,ADV,4.94,serious,5.1,,6.0,Visual,Speech
+tartness,real,8,complex,RLLC,NOUN,1.86,tart,3.37,,4.5,Visual,Speech
+satellite,real,9,simple,RLHS,NOUN,4.33,satellite,4.33,,6.0,Visual,Speech
+juns,pseudo,4,complex,PSC,NOUN,,,,,4.5,Visual,Speech
+peddle,real,6,simple,RSLS,VERB,2.76,peddle,2.76,,4.5,Visual,Speech
+unkinter,pseudo,8,complex,PLC,VERB,,,,,6.0,Visual,Speech
+daip,pseudo,4,simple,PSS,NOUN,,,,,4.5,Visual,Speech
+camera,real,6,simple,RSHS,NOUN,4.87,camera,4.87,,4.5,Visual,Speech
+daily,real,5,complex,RSHC,ADV,5.07,day,5.95,,5.5,Visual,Speech
+chameleon,real,9,simple,RLLS,NOUN,3.1,chameleon,3.1,,6.5,Visual,Speech
+impolder,pseudo,8,complex,PLC,VERB,,,,,6.0,Visual,Speech
+trustler,pseudo,8,complex,PLC,NOUN,,,,,5.0,Visual,Speech
+shyly,real,5,complex,RSLC,ADV,2.42,shy,4.16,,6.0,Visual,Speech
+fumigate,real,8,simple,RLLS,VERB,1.87,fumigate,1.87,,5.0,Visual,Speech
+whisperer,real,9,complex,RLLC,NOUN,2.81,whisper,3.74,,6.5,Visual,Speech
+alab,pseudo,4,simple,PSS,NOUN,,,,,6.0,Visual,Speech
+duid,pseudo,4,simple,PSS,NOUN,,,,,5.0,Visual,Speech
+dishaven,pseudo,8,complex,PLC,ADJ,,,,,6.0,Visual,Speech
+shears,real,6,complex,RSLC,NOUN,2.9,shear,3.4,,4.5,Visual,Speech
+hedgehog,real,8,simple,RLLS,NOUN,3.25,hedgehog,3.25,,6.0,Visual,Speech
+adaptable,real,9,complex,RLLC,ADJ,3.12,adapt,3.98,,5.5,Visual,Speech
+beautiful,real,9,complex,RLHC,ADJ,5.22,beauty,4.75,,4.5,Visual,Speech
+acorn,real,5,simple,RSLS,NOUN,3.08,acorn,3.08,,5.5,Visual,Speech
+strong,real,6,simple,RSHS,ADJ,5.22,strong,5.22,,4.5,Visual,Speech
+character,real,9,simple,RLHS,NOUN,5.11,character,5.11,,5.0,Visual,Speech
+currease,pseudo,8,simple,PLS,NOUN,,,,,5.0,Visual,Speech
+hospency,pseudo,8,simple,PLS,NOUN,,,,,6.5,Visual,Speech
+jersey,real,6,simple,RSHS,NOUN,4.66,jersey,4.66,,6.5,Visual,Speech
+etiquette,real,9,simple,RLLS,NOUN,3.4,etiquette,3.4,,6.0,Visual,Speech
+phone,real,5,simple,RSHS,NOUN,5.3,phone,5.3,,5.5,Visual,Speech
+avalanche,real,9,simple,RLLS,NOUN,3.48,avalanche,3.48,,6.5,Visual,Speech
+writes,real,6,complex,RSHC,VERB,4.36,write,5.03,,6.0,Visual,Speech
+garadign,pseudo,8,simple,PLS,NOUN,,,,,5.0,Visual,Speech
+northern,real,8,complex,RLHC,ADJ,4.85,north,5.34,,5.5,Visual,Speech
+surfer,real,6,complex,RSLC,NOUN,3.3,surf,3.86,,6.5,Visual,Speech
+straight,real,8,simple,RLHS,ADJ,5.04,straight,5.04,,6.5,Visual,Speech
+orally,real,6,complex,RSLC,ADV,3.12,oral,4.26,,5.5,Visual,Speech
+disappear,real,9,complex,RLHC,VERB,4.09,appear,4.85,,6.5,Visual,Speech
+combs,real,5,complex,RSLC,NOUN,3.17,comb,3.52,,5.5,Visual,Speech
+onts,pseudo,4,complex,PSC,NOUN,,,,,5.0,Visual,Speech
+actor,real,5,complex,RSHC,NOUN,4.65,act,5.3,,5.5,Visual,Speech
+pictures,real,8,complex,RLHC,NOUN,4.92,picture,5.13,,4.5,Visual,Speech
+freasite,pseudo,8,simple,PLS,NOUN,,,,,5.0,Visual,Speech
+sprindly,pseudo,8,complex,PLC,ADV,,,,,6.0,Visual,Speech
+conflite,pseudo,8,simple,PLS,NOUN,,,,,6.5,Visual,Speech
+sword,real,5,simple,RSHS,NOUN,4.37,sword,4.37,,5.0,Visual,Speech
+across,real,6,complex,RSHC,ADP,5.25,cross,5.0,,5.0,Visual,Speech
+hyma,pseudo,4,simple,PSS,NOUN,,,,,4.5,Visual,Speech
+ramble,real,6,simple,RSLS,VERB,2.85,ramble,2.85,,4.5,Visual,Speech
+establish,real,9,simple,RLHS,VERB,4.46,establish,4.46,,6.0,Visual,Speech
+foab,pseudo,4,simple,PSS,NOUN,,,,,5.5,Visual,Speech
+egotistic,real,8,complex,RLLC,ADJ,1.98,ego,4.02,,5.5,Visual,Speech
+hearts,real,6,complex,RSHC,NOUN,4.44,heart,5.31,,5.0,Visual,Speech
+nory,pseudo,4,complex,PSC,ADJ,,,,,4.5,Visual,Speech
+mingle,real,6,simple,RSLS,VERB,3.21,mingle,3.21,,5.5,Visual,Speech
+rewn,pseudo,4,complex,PSC,VERB,,,,,6.5,Visual,Speech
+hexy,pseudo,4,complex,PSC,ADJ,,,,,6.5,Visual,Speech
+hoist,real,5,simple,RSLS,VERB,3.12,hoist,3.12,,6.5,Visual,Speech
+shoulder,real,8,simple,RLHS,NOUN,4.5,shoulder,4.5,,5.0,Visual,Speech
+infertile,real,9,complex,RLLC,NOUN,2.86,fertile,3.62,,5.5,Visual,Speech

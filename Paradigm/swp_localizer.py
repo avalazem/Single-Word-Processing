@@ -16,7 +16,7 @@ import os
 from pydub import AudioSegment  # Import pydub for audio processing
 
 # Constants
-WORD_RESPONSE_KEY = 'f'
+WORD_RESPONSE_KEY = 'y'
 QUIT_KEY = 'q'
 STIMULUS_DURATION = 200  # in milliseconds
 SPEECH_WAIT_DURATION = 5000  # in milliseconds
@@ -81,7 +81,7 @@ for i, (run_name, run_data) in enumerate(runs.items()):
         instructions = stimuli.Picture(image_path)
         instructions.scale_to_fullscreen()
         instructions.present()
-        exp.keyboard.wait_char(WORD_RESPONSE_KEY)
+        exp.keyboard.wait_char(' ')
 
     # Present each trial in the mini-run
     for index, stimulus in enumerate(run_data):
@@ -253,6 +253,6 @@ thank_you_message = stimuli.Picture(r"C:\Users\ali_a\Desktop\Single_Word_Process
 
 thank_you_message.scale_to_fullscreen()
 thank_you_message.present()
-exp.keyboard.wait_char(WORD_RESPONSE_KEY)
+exp.keyboard.wait_char(' ')
 
 control.end()
