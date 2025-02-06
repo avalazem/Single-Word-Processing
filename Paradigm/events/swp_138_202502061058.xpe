@@ -1,0 +1,36 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Feb 06 2025 10:58:28
+#sha1: 5f0e6f
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11052,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+11052,design,logged,
+11052,Experiment,started
+11062,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions/Audio_Speech.png
+11088,Stimulus,presented,2
+12922,Keyboard,received, ,wait_char
+12928,Stimulus,presented,3
+14153,Keyboard,received,t,wait_char
+14185,Stimulus,presented,4
+14203,Stimulus,presented,5
+14206,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\leery_MALE_D.wav'
+19706,Keyboard,received,None,wait_char
+19711,Stimulus,presented,7
+19713,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\palindrome_FEMALE_C.wav'
+25213,Keyboard,received,None,wait_char
+25217,Stimulus,presented,9
+25219,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\wrivol_FEMALE_C.wav'
+30220,Keyboard,received,None,wait_char
+30223,Stimulus,presented,11
+30227,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\lets_MALE_D.wav'
+35227,Keyboard,received,None,wait_char
+35233,Stimulus,presented,13
+35252,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\encask_FEMALE_C.wav'
+38795,Keyboard,received,q,wait_char
+38795,Experiment,ended
+38805,Data,saved
+38810,Stimulus,presented,15

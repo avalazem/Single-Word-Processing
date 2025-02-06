@@ -1,0 +1,14 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Feb 06 2025 13:43:29
+#sha1: b316c6
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+4948,stderr,received,'Traceback (most recent call last):'
+4949,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp.py", line 214, in <module>'
+4951,stderr,received,'    run_experiment(stim_file, audio_folder_path, instruction_image_folder)'
+4951,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp.py", line 160, in run_experiment'
+4958,stderr,received,'    exp.add_subject_info(subject_name)'
+4958,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^'
+4958,stderr,received,"AttributeError: 'Experiment' object has no attribute 'add_subject_info'"

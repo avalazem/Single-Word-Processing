@@ -1,0 +1,13 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Thu Feb 06 2025 11:54:21
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: 7031f0
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 142
+subject_id,
+142,t,13655
+142,Test_Subject_Two_Run_2,leery,Audio,Speech,None,None

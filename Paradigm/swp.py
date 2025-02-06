@@ -30,12 +30,14 @@ if len(sys.argv) < 2:
 where CSVFILE is a comma-separated file with columns:
     - `Word` (containing a word)
     - `Condition` (containing one of 12 conditions)
-    - `Audio` (audio file name)
+    - `Audio File` (audio file name)
+    - `Trial Duration`
+    - `Input Modality` (Visual or Audio)
+    - `Output Modality  (Speech or Write)
     """)
     sys.exit(1)
 
 stim_file = sys.argv[1]  # Read second argument from command line
-
 
 # Path to the audio files
 audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\Audio_Files_Google_Cloud"
@@ -44,10 +46,10 @@ audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single
 instruction_image_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions"
 
 # Path to Beginning Instructions
-welcome_instructions_png = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\instructions.png"
+# welcome_instructions_png = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\instructions.png"
 
 # Path to Thank you ending picture
-thank_you_png = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\thank_you.png"
+# thank_you_png = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions\thank_you.png"
 
 
 # Function to display instructions based on modalities
@@ -63,13 +65,17 @@ def display_instructions(exp, input_modality, output_modality, instructions_fold
 
 # Function to display word or play audio
 def display_or_play(exp, row):
-    # Present fixation cross
-    cue = stimuli.FixCross(size=(50, 50), line_width=4)
-    cue.present()
-    exp.clock.wait(FIXATION_DURATION)  # Fixation duration (500 ms)
-    stimuli.BlankScreen().present()
+    
 
     if row['Input Modality'] == 'Visual':
+        
+        # Present fixation cross
+        cue = stimuli.FixCross(size=(40, 40), line_width=4)
+        cue.present()
+        exp.clock.wait(FIXATION_DURATION)  # Fixation duration (500 ms)
+        stimuli.BlankScreen().present()
+        
+        # Present Word 
         word_stimulus = stimuli.TextLine(row['Word'])
         word_stimulus.present()
         
@@ -81,8 +87,17 @@ def display_or_play(exp, row):
                 control.end()
                 sys.exit()
         stimuli.BlankScreen().present()
-                      
+        
+        # After word is displayed re-display  fixation cross
+        cue = stimuli.FixCross(size=(40, 40), line_width=4)
+        cue.present()
+               
     elif row['Input Modality'] == 'Audio':
+        
+        # Display fixation cross throughout audio trial duration (including when audio is being played)
+        cue = stimuli.FixCross(size=(40, 40), line_width=4)
+        cue.present()
+                    
         audio_path = os.path.join(audio_folder_path, row['Audio File'])
         if not os.path.exists(audio_path):
             print(f"❌ Audio file {audio_path} not found.")
@@ -91,13 +106,13 @@ def display_or_play(exp, row):
         audio_stimulus = stimuli.Audio(audio_path)
         audio_stimulus.play()
         
+        # Wait for AUDIO_DURATION while checking for QUIT_KEY
         start_time = exp.clock.time
         while exp.clock.time - start_time < AUDIO_DURATION:
             key = exp.keyboard.check()
             if key == QUIT_KEY:
                 control.end()
                 sys.exit()   
-        stimuli.BlankScreen().present()
 
 # Function to handle participant response
 def handle_response(exp, row):
@@ -127,7 +142,7 @@ def handle_response(exp, row):
     # Collect data babee
     exp.data.add([csv_name, row['Word'], row['Input Modality'], row['Output Modality'], key, rt])
     
-    
+
     
     
 # Main function to run the experiment
@@ -135,21 +150,30 @@ def run_experiment(stim_file, audio_folder_path, instruction_image_folder):
     # Initialize the experiment
     exp = design.Experiment(name="Single Word Processing", text_size=40)
     control.initialize(exp)
-    
+
+
     # Read the CSV file
     df = pd.read_csv(stim_file)
 
     # Start the experiment
     control.start(skip_ready_screen=True)
+    
 
     # Display run instructions based on the first row's modalities
     first_row = df.iloc[0]
     display_instructions(exp, first_row['Input Modality'], first_row['Output Modality'], instruction_image_folder)
 
+    # Display 'Get Ready...' 
+    word_stimulus = stimuli.TextLine('Get Ready...')
+    word_stimulus.present()
+    
     # Wait for trigger to start
     exp.keyboard.wait_char(TRIGGER_KEY)
     
-    # Start a clock to keep track of time between first and last t (while fMRI is scanning)
+    # Clear after trigger is sent
+    stimuli.BlankScreen().present()
+    
+    # Start a clock to keep track of time between first and last 't' (while fMRI is scanning)
     start_time = exp.clock.time
     
     # Record time when first t is played
@@ -181,6 +205,6 @@ def run_experiment(stim_file, audio_folder_path, instruction_image_folder):
     # End the experiment
     control.end()
     
-    
+
 # Run experiment!!
 run_experiment(stim_file, audio_folder_path, instruction_image_folder)

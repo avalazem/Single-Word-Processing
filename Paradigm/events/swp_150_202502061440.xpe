@@ -1,0 +1,30 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Feb 06 2025 14:40:16
+#sha1: 8dc03c
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10379,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10379,design,logged,
+10379,Experiment,started
+10388,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions/Audio_Speech.png
+10420,Stimulus,presented,2
+11645,Keyboard,received, ,wait_char
+11651,Stimulus,presented,3
+12254,Keyboard,received,t,wait_char
+12285,Stimulus,presented,4
+12297,Stimulus,presented,5
+12300,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\leery_MALE_D.wav'
+14804,Keyboard,received,y,wait_char
+17805,Stimulus,presented,7
+17808,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\palindrome_FEMALE_C.wav'
+18893,Keyboard,received,y,wait_char
+23312,Stimulus,presented,9
+23315,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\wrivol_FEMALE_C.wav'
+24442,Keyboard,received,q,wait_char
+24442,Experiment,ended
+24451,Data,saved
+24457,Stimulus,presented,11

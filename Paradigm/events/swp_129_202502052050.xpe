@@ -1,0 +1,45 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Feb 05 2025 20:50:56
+#sha1: 201af6
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10095,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10096,design,logged,
+10096,Experiment,started
+10105,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions/Visual_Speech.png
+10131,Stimulus,presented,2
+13269,Keyboard,received, ,wait_char
+13276,Stimulus,presented,3
+15646,Keyboard,received,t,wait_char
+15675,Stimulus,presented,4
+15692,Stimulus,presented,5
+16218,Stimulus,presented,6
+16235,Stimulus,presented,7
+16461,Stimulus,presented,8
+16478,Stimulus,presented,9
+20278,Keyboard,received,None,wait_char
+20282,Stimulus,presented,10
+20806,Stimulus,presented,11
+20823,Stimulus,presented,12
+21050,Stimulus,presented,13
+21067,Stimulus,presented,14
+24867,Keyboard,received,None,wait_char
+24870,Stimulus,presented,15
+25394,Stimulus,presented,16
+25410,Stimulus,presented,17
+25639,Stimulus,presented,18
+25656,Stimulus,presented,19
+29956,Keyboard,received,None,wait_char
+29961,Stimulus,presented,20
+30490,Stimulus,presented,21
+30507,Stimulus,presented,22
+30735,Stimulus,presented,23
+30752,Stimulus,presented,24
+32833,Keyboard,received,q,wait_char
+32833,Experiment,ended
+32842,Data,saved
+32850,Stimulus,presented,25

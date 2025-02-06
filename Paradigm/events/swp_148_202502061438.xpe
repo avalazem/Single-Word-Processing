@@ -1,0 +1,24 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Feb 06 2025 14:38:34
+#sha1: 8dc03c
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10874,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10874,design,logged,
+10874,Experiment,started
+10897,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions/Audio_Speech.png
+10922,Stimulus,presented,2
+12549,Keyboard,received, ,wait_char
+12553,Stimulus,presented,3
+13229,Keyboard,received,t,wait_char
+13255,Stimulus,presented,4
+13266,Stimulus,presented,5
+13273,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\leery_MALE_D.wav'
+17535,Keyboard,received,q,wait_char
+17535,Experiment,ended
+17545,Data,saved
+17550,Stimulus,presented,7

@@ -249,7 +249,8 @@ def validate_runs(subject_name, base_dir= r"C:\Users\ali_a\Desktop\Single_Word_P
         
         
 # Test
+SUBJECT_NAME = 'Christophe_Test'
 stimuli_path= r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\English\English_Stimuli.csv"
-create_subject_csvs(input_csv, output_dir, stimuli_path, "Test_Subject_Two")
-validate_runs("Test_Subject_Two")
+create_subject_csvs(input_csv, output_dir, stimuli_path, SUBJECT_NAME)
+validate_runs(SUBJECT_NAME)
 

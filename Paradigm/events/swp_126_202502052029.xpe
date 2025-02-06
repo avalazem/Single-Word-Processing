@@ -1,0 +1,22 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Feb 05 2025 20:29:38
+#sha1: 25a1b3
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10354,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10354,design,logged,
+10354,Experiment,started
+10365,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions/Visual_Speech.png
+10397,Stimulus,presented,2
+14696,Keyboard,received, ,wait_char
+14700,stderr,received,'Traceback (most recent call last):'
+14700,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp.py", line 191, in <module>'
+14701,stderr,received,'    run_experiment(stim_file, audio_folder_path, instruction_image_folder)'
+14702,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp.py", line 148, in run_experiment'
+14702,stderr,received,"    word_stimulus = stimuli.TextLine(row['Get Ready...'])"
+14703,stderr,received,'                                     ^^^'
+14703,stderr,received,"UnboundLocalError: cannot access local variable 'row' where it is not associated with a value"

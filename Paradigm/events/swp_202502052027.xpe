@@ -1,0 +1,29 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Feb 05 2025 20:27:43
+#sha1: 25a1b3
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+4715,stderr,received,'Traceback (most recent call last):'
+4715,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp.py", line 191, in <module>'
+4719,stderr,received,'    run_experiment(stim_file, audio_folder_path, instruction_image_folder)'
+4719,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp.py", line 138, in run_experiment'
+4720,stderr,received,'    df = pd.read_csv(stim_file)'
+4720,stderr,received,'         ^^^^^^^^^^^^^^^^^^^^^^'
+4721,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py", line 1026, in read_csv'
+4762,stderr,received,'    return _read(filepath_or_buffer, kwds)'
+4763,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+4763,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py", line 620, in _read'
+4764,stderr,received,'    parser = TextFileReader(filepath_or_buffer, **kwds)'
+4764,stderr,received,'             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+4765,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py", line 1620, in __init__'
+4766,stderr,received,'    self._engine = self._make_engine(f, self.engine)'
+4766,stderr,received,'                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+4766,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py", line 1880, in _make_engine'
+4767,stderr,received,'    self.handles = get_handle('
+4768,stderr,received,'                   ^^^^^^^^^^^'
+4768,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\pandas\\io\\common.py", line 873, in get_handle'
+4796,stderr,received,'    handle = open('
+4797,stderr,received,'             ^^^^^'
+4797,stderr,received,"OSError: [Errno 22] Invalid argument: 'Test_Subject_Two_Run_1.csv\\\\'"

@@ -1,0 +1,74 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Thu Feb 06 2025 11:43:31
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: 7031f0
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 140
+subject_id,
+140,t,57380
+140,Test_Subject_Two_Run_1,unzip,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,deaths,Visual,Speech,y,1732
+140,Test_Subject_Two_Run_1,dritertoon,Visual,Speech,y,1494
+140,Test_Subject_Two_Run_1,disclosure,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,gormassime,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,phenomenon,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,chinchilla,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,lamer,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,phounching,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,encask,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,palindrome,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,mended,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,large,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,vengefully,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,mixer,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,shenanigan,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,alassfully,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,stars,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,rearce,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,misbar,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,lived,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,wrivol,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,radio,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,heft,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,chriniable,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,vertically,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,leery,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,puivon,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,hieroglyph,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,theatrical,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,submingers,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,counds,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,thildhoust,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,truck,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,japhen,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,broom,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,noocantong,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,courch,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,guitar,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,icones,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,trifle,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,invigorate,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,scepticism,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,digrersher,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,leprechaun,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,inhale,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,tescootous,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,restaurant,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,scour,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,experience,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,disinherit,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,translator,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,flants,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,allurement,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,discipline,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,impossible,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,lets,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,cherry,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,understand,Visual,Speech,None,None
+140,Test_Subject_Two_Run_1,boats,Visual,Speech,None,None
+140,t,373176
+140,Duration between Triggers: ,315796

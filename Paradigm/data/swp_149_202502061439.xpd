@@ -1,0 +1,18 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Thu Feb 06 2025 14:39:13
+#--EXPERIMENT INFO
+#e mainfile: swp.py
+#e sha1: 8dc03c
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 149
+subject_id,
+149,t,19091
+149,Test_Subject_Two_Run_2,leery,Audio,Speech,y,4534
+149,Test_Subject_Two_Run_2,palindrome,Audio,Speech,y,771
+149,Test_Subject_Two_Run_2,wrivol,Audio,Speech,y,818
+149,Test_Subject_Two_Run_2,lets,Audio,Speech,y,818
+149,Test_Subject_Two_Run_2,encask,Audio,Speech,y,1333
+149,Test_Subject_Two_Run_2,impossible,Audio,Speech,y,291

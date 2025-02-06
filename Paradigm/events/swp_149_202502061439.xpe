@@ -1,0 +1,44 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Feb 06 2025 14:39:13
+#sha1: 8dc03c
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10151,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10151,design,logged,
+10151,Experiment,started
+10168,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Images\Instructions/Audio_Speech.png
+10202,Stimulus,presented,2
+16151,Keyboard,received, ,wait_char
+16158,Stimulus,presented,3
+19053,Keyboard,received,t,wait_char
+19091,Stimulus,presented,4
+19105,Stimulus,presented,5
+19109,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\leery_MALE_D.wav'
+24413,Keyboard,received,y,wait_char
+24614,Stimulus,presented,7
+24620,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\palindrome_FEMALE_C.wav'
+26357,Keyboard,received,y,wait_char
+30124,Stimulus,presented,9
+30130,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\wrivol_FEMALE_C.wav'
+31589,Keyboard,received,y,wait_char
+35134,Stimulus,presented,11
+35140,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\lets_MALE_D.wav'
+36649,Keyboard,received,y,wait_char
+40145,Stimulus,presented,13
+40157,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\encask_FEMALE_C.wav'
+42409,Keyboard,received,y,wait_char
+44161,Stimulus,presented,15
+44175,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\impossible_MALE_D.wav'
+45471,Keyboard,received,y,wait_char
+49679,Stimulus,presented,17
+49686,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Stimuli\\Audio_Files_Google_Cloud\\inhale_FEMALE_C.wav'
+50691,Experiment,paused
+50698,Stimulus,presented,19
+51158,Keyboard,received,y,wait_char
+51158,Experiment,ended
+51170,Data,saved
+51177,Stimulus,presented,19
