@@ -1,0 +1,27 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Feb 10 2025 14:14:49
+#sha1: 9eae00
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+831,stdout,received,'Total number of events:  60'
+834,stdout,received,'Expected Total duration:  312.0 s'
+848,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+848,design,logged,
+848,Experiment,started
+855,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input Data\Images\Instructions_FR\Audio_Speech.png
+869,Stimulus,presented,62
+3545,Keyboard,received, ,wait_char
+3551,Stimulus,presented,63
+4455,Keyboard,received,t,wait_char
+4473,Stimulus,presented,0
+6456,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\leery_MALE_D.wav'
+6659,Stimulus,presented,0
+6660,stdout,received,'0: Scheduled: 2000 Actual: 2001 delta: 1'
+8626,Experiment,paused
+8631,Stimulus,presented,64
+9427,Keyboard,received,y,wait_char
+9427,Experiment,ended

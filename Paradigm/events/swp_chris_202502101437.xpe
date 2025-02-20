@@ -1,0 +1,14 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Feb 10 2025 14:37:52
+#sha1: 8f1e60
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+826,stderr,received,'Traceback (most recent call last):'
+826,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp_chris.py", line 65, in <module>'
+829,stderr,received,'    b.add_trials_from_csv_file(stim_file)'
+830,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\design\\_structure.py", line 1569, in add_trials_from_csv_file'
+834,stderr,received,"    with open(filename, 'r') as fl:"
+834,stderr,received,'         ^^^^^^^^^^^^^^^^^^^'
+835,stderr,received,"FileNotFoundError: [Errno 2] No such file or directory: 'Test_Subject_Two_Run_3.csv'"

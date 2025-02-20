@@ -1,0 +1,54 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Feb 10 2025 17:12:52
+#sha1: e5dee2
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+4997,stdout,received,'Total number of events:  60'
+4997,stdout,received,'Expected Total duration:  312.0 s'
+10995,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10996,design,logged,
+10996,Experiment,started
+11004,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input Data\Images\Instructions_FR\Audio_Speech.png
+11032,Stimulus,presented,63
+24366,Keyboard,received, ,wait_char
+24371,Stimulus,presented,64
+27316,Keyboard,received,t,wait_char
+27335,Stimulus,presented,0
+29316,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\sourness_MALE_D.wav'
+29519,Stimulus,presented,0
+29520,stdout,received,'0: Scheduled: 2000 Actual: 2000 delta: 0'
+34120,Keyboard,received,None,wait_char
+34123,Stimulus,presented,0
+34316,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\plars_FEMALE_C.wav'
+34518,Stimulus,presented,0
+34522,stdout,received,'1: Scheduled: 7000.0 Actual: 7000 delta: 0.0'
+40122,Keyboard,received,None,wait_char
+40125,Stimulus,presented,0
+40316,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\unit_MALE_D.wav'
+40518,Stimulus,presented,0
+40519,stdout,received,'2: Scheduled: 13000.0 Actual: 13000 delta: 0.0'
+44619,Keyboard,received,None,wait_char
+44622,Stimulus,presented,0
+44816,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\abosh_FEMALE_C.wav'
+45019,Stimulus,presented,0
+45020,stdout,received,'3: Scheduled: 17500.0 Actual: 17500 delta: 0.0'
+49120,Keyboard,received,None,wait_char
+49123,Stimulus,presented,0
+49316,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\rake_MALE_D.wav'
+49519,Stimulus,presented,0
+49520,stdout,received,'4: Scheduled: 22000.0 Actual: 22000 delta: 0.0'
+53120,Keyboard,received,None,wait_char
+53123,Stimulus,presented,0
+53316,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\gargoyle_MALE_D.wav'
+53518,Stimulus,presented,0
+53528,stdout,received,'5: Scheduled: 26000.0 Actual: 26000 delta: 0.0'
+56335,Experiment,paused
+56341,Stimulus,presented,65
+56741,Keyboard,received,y,wait_char
+56741,Experiment,ended
+56749,Data,saved
+56753,Stimulus,presented,65

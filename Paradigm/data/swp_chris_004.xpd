@@ -1,0 +1,72 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Fri Feb 07 2025 17:34:42
+#--EXPERIMENT INFO
+#e mainfile: swp_chris.py
+#e sha1: 75d484
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#e Stimfile: Test_Subject_Two_Run_1.csv
+#--SUBJECT INFO
+#s id: 4
+subject_id,modality,item,target_timestamp,actual_timestamp,key,rt
+4,Visual,unzip,2000,2007,None,None
+4,Visual,deaths,6500.0,6504,None,None
+4,Visual,dritertoon,11000.0,11003,None,None
+4,Visual,disclosure,16000.0,16003,None,None
+4,Visual,gormassime,22000.0,22003,None,None
+4,Visual,phenomenon,28000.0,28002,None,None
+4,Visual,chinchilla,34000.0,34003,None,None
+4,Visual,lamer,40000.0,40003,None,None
+4,Visual,phounching,46000.0,46003,None,None
+4,Visual,encask,50500.0,50503,None,None
+4,Visual,palindrome,56000.0,56005,None,None
+4,Visual,mended,61500.0,61503,None,None
+4,Visual,large,67500.0,67503,None,None
+4,Visual,vengefully,73000.0,73003,None,None
+4,Visual,mixer,77000.0,77003,None,None
+4,Visual,shenanigan,81000.0,81003,None,None
+4,Visual,alassfully,85000.0,85003,None,None
+4,Visual,stars,90000.0,90003,None,None
+4,Visual,rearce,94000.0,94004,None,None
+4,Visual,misbar,99500.0,99506,None,None
+4,Visual,lived,104500.0,104503,None,None
+4,Visual,wrivol,108500.0,108504,None,None
+4,Visual,radio,114000.0,114004,None,None
+4,Visual,heft,118500.0,118505,None,None
+4,Visual,chriniable,123500.0,123504,None,None
+4,Visual,vertically,129000.0,129003,None,None
+4,Visual,leery,135000.0,135003,None,None
+4,Visual,puivon,140000.0,140004,None,None
+4,Visual,hieroglyph,146000.0,146004,None,None
+4,Visual,theatrical,151500.0,151503,None,None
+4,Visual,submingers,155500.0,155502,None,None
+4,Visual,counds,159500.0,159503,None,None
+4,Visual,thildhoust,164500.0,164503,None,None
+4,Visual,truck,168500.0,168503,None,None
+4,Visual,japhen,174500.0,174504,None,None
+4,Visual,broom,180000.0,180004,None,None
+4,Visual,noocantong,184000.0,184003,None,None
+4,Visual,courch,189000.0,189006,None,None
+4,Visual,guitar,195000.0,195003,None,None
+4,Visual,icones,199000.0,199003,None,None
+4,Visual,trifle,204000.0,204003,None,None
+4,Visual,invigorate,209500.0,209503,None,None
+4,Visual,scepticism,213500.0,213503,None,None
+4,Visual,digrersher,219000.0,219003,None,None
+4,Visual,leprechaun,224000.0,224003,None,None
+4,Visual,inhale,228500.0,228506,None,None
+4,Visual,tescootous,234500.0,234504,None,None
+4,Visual,restaurant,239500.0,239503,None,None
+4,Visual,scour,245500.0,245503,None,None
+4,Visual,experience,249500.0,249503,None,None
+4,Visual,disinherit,254000.0,254004,None,None
+4,Visual,translator,259500.0,259504,None,None
+4,Visual,flants,264000.0,264003,None,None
+4,Visual,allurement,268500.0,268503,None,None
+4,Visual,discipline,273000.0,273003,None,None
+4,Visual,impossible,277500.0,277503,None,None
+4,Visual,lets,282000.0,282003,None,None
+4,Visual,cherry,287000.0,287003,None,None
+4,Visual,understand,291500.0,291503,None,None
+4,Visual,boats,297000.0,297003,None,None

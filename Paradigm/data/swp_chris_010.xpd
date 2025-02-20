@@ -1,0 +1,72 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Feb 10 2025 14:30:15
+#--EXPERIMENT INFO
+#e mainfile: swp_chris.py
+#e sha1: 9eae00
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#e Stimfile: Test_Subject_Two_Run_2.csv
+#--SUBJECT INFO
+#s id: 10
+subject_id,modality,item,target_timestamp,actual_timestamp,key,rt
+10,Audio,leery,2000,2002,None,None
+10,Audio,palindrome,8000.0,8002,None,None
+10,Audio,wrivol,14000.0,14001,None,None
+10,Audio,lets,19500.0,19501,None,None
+10,Audio,encask,25000.0,25002,None,None
+10,Audio,impossible,29500.0,29503,None,None
+10,Audio,inhale,35500.0,35504,None,None
+10,Audio,scepticism,41500.0,41503,None,None
+10,Audio,gormassime,45500.0,45504,None,None
+10,Audio,chriniable,50500.0,50504,None,None
+10,Audio,allurement,55500.0,55505,None,None
+10,Audio,dritertoon,60000.0,60003,None,None
+10,Audio,counds,64000.0,64004,None,None
+10,Audio,japhen,69500.0,69502,None,None
+10,Audio,scour,74000.0,74004,None,None
+10,Audio,radio,78000.0,78004,None,None
+10,Audio,courch,83500.0,83504,None,None
+10,Audio,discipline,88500.0,88504,None,None
+10,Audio,experience,93000.0,93004,None,None
+10,Audio,phounching,97500.0,97502,None,None
+10,Audio,vertically,102500.0,102504,None,None
+10,Audio,truck,106500.0,106503,None,None
+10,Audio,tescootous,112000.0,112005,None,None
+10,Audio,vengefully,117000.0,117005,None,None
+10,Audio,shenanigan,121000.0,121004,None,None
+10,Audio,submingers,125500.0,125505,None,None
+10,Audio,translator,130500.0,130504,None,None
+10,Audio,broom,136000.0,136003,None,None
+10,Audio,lamer,140500.0,140503,None,None
+10,Audio,leprechaun,145500.0,145504,None,None
+10,Audio,unzip,151000.0,151004,None,None
+10,Audio,boats,156000.0,156005,None,None
+10,Audio,large,162000.0,162003,None,None
+10,Audio,mended,168000.0,168004,None,None
+10,Audio,alassfully,173500.0,173505,None,None
+10,Audio,phenomenon,177500.0,177504,None,None
+10,Audio,heft,181500.0,181505,None,None
+10,Audio,cherry,186500.0,186503,None,None
+10,Audio,guitar,190500.0,190503,None,None
+10,Audio,disinherit,195000.0,195003,None,None
+10,Audio,understand,200000.0,200005,None,None
+10,Audio,puivon,205000.0,205004,None,None
+10,Audio,trifle,211000.0,211003,None,None
+10,Audio,theatrical,216500.0,216503,None,None
+10,Audio,thildhoust,220500.0,220504,None,None
+10,Audio,misbar,226500.0,226504,None,None
+10,Audio,lived,231000.0,231003,None,None
+10,Audio,rearce,236500.0,236504,None,None
+10,Audio,icones,242000.0,242005,None,None
+10,Audio,mixer,246500.0,246504,None,None
+10,Audio,flants,250500.0,250505,None,None
+10,Audio,chinchilla,256500.0,256504,None,None
+10,Audio,stars,260500.0,260504,None,None
+10,Audio,noocantong,266500.0,266504,None,None
+10,Audio,deaths,271500.0,271504,None,None
+10,Audio,hieroglyph,277500.0,277504,None,None
+10,Audio,invigorate,282000.0,282003,None,None
+10,Audio,disclosure,286500.0,286504,None,None
+10,Audio,restaurant,290500.0,290504,None,None
+10,Audio,digrersher,296500.0,296504,None,None

@@ -1,0 +1,322 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Feb 10 2025 15:16:23
+#sha1: 6df99e
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5015,stdout,received,'Total number of events:  60'
+5016,stdout,received,'Expected Total duration:  312.0 s'
+10466,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10466,design,logged,
+10466,Experiment,started
+10478,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input Data\Images\Instructions_FR\Audio_Speech.png
+10501,Stimulus,presented,63
+18336,Keyboard,received, ,wait_char
+18341,Stimulus,presented,64
+22077,Keyboard,received,t,wait_char
+22097,Stimulus,presented,0
+24077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\theatrical_MALE_D.wav'
+24282,Stimulus,presented,0
+24283,stdout,received,'0: Scheduled: 2000 Actual: 2000 delta: 0'
+28883,Keyboard,received,None,wait_char
+28886,Stimulus,presented,0
+29077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\chinchilla_MALE_D.wav'
+29279,Stimulus,presented,0
+29280,stdout,received,'1: Scheduled: 7000.0 Actual: 7000 delta: 0.0'
+34880,Keyboard,received,None,wait_char
+34884,Stimulus,presented,0
+35077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\submingers_MALE_D.wav'
+35280,Stimulus,presented,0
+35281,stdout,received,'2: Scheduled: 13000.0 Actual: 13000 delta: 0.0'
+38881,Keyboard,received,None,wait_char
+38884,Stimulus,presented,0
+39077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\truck_FEMALE_C.wav'
+39280,Stimulus,presented,0
+39280,stdout,received,'3: Scheduled: 17000.0 Actual: 17000 delta: 0.0'
+44880,Keyboard,received,None,wait_char
+44884,Stimulus,presented,0
+45077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\disclosure_FEMALE_C.wav'
+45280,Stimulus,presented,0
+45280,stdout,received,'4: Scheduled: 23000.0 Actual: 23000 delta: 0.0'
+49880,Keyboard,received,None,wait_char
+49884,Stimulus,presented,0
+50077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\lived_FEMALE_C.wav'
+50280,Stimulus,presented,0
+50281,stdout,received,'5: Scheduled: 28000.0 Actual: 28000 delta: 0.0'
+54881,Keyboard,received,None,wait_char
+54884,Stimulus,presented,0
+55077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\restaurant_FEMALE_C.wav'
+55280,Stimulus,presented,0
+55280,stdout,received,'6: Scheduled: 33000.0 Actual: 33000 delta: 0.0'
+59880,Keyboard,received,None,wait_char
+59884,Stimulus,presented,0
+60077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\thildhoust_FEMALE_C.wav'
+60280,Stimulus,presented,0
+60281,stdout,received,'7: Scheduled: 38000.0 Actual: 38000 delta: 0.0'
+65381,Keyboard,received,None,wait_char
+65384,Stimulus,presented,0
+65577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\palindrome_MALE_D.wav'
+65780,Stimulus,presented,0
+65780,stdout,received,'8: Scheduled: 43500.0 Actual: 43500 delta: 0.0'
+69380,Keyboard,received,None,wait_char
+69384,Stimulus,presented,0
+69577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\radio_MALE_D.wav'
+69779,Stimulus,presented,0
+69782,stdout,received,'9: Scheduled: 47500.0 Actual: 47500 delta: 0.0'
+74382,Keyboard,received,None,wait_char
+74385,Stimulus,presented,0
+74577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\hieroglyph_MALE_D.wav'
+74780,Stimulus,presented,0
+74780,stdout,received,'10: Scheduled: 52500.0 Actual: 52500 delta: 0.0'
+78880,Keyboard,received,None,wait_char
+78884,Stimulus,presented,0
+79077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\broom_FEMALE_C.wav'
+79280,Stimulus,presented,0
+79281,stdout,received,'11: Scheduled: 57000.0 Actual: 57000 delta: 0.0'
+83381,Keyboard,received,None,wait_char
+83384,Stimulus,presented,0
+83577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\leprechaun_FEMALE_C.wav'
+83779,Stimulus,presented,0
+83780,stdout,received,'12: Scheduled: 61500.0 Actual: 61500 delta: 0.0'
+87880,Keyboard,received,None,wait_char
+87883,Stimulus,presented,0
+88077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\scepticism_FEMALE_C.wav'
+88279,Stimulus,presented,0
+88281,stdout,received,'13: Scheduled: 66000.0 Actual: 66000 delta: 0.0'
+93881,Keyboard,received,None,wait_char
+93884,Stimulus,presented,0
+94077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\scour_FEMALE_C.wav'
+94279,Stimulus,presented,0
+94280,stdout,received,'14: Scheduled: 72000.0 Actual: 72000 delta: 0.0'
+97880,Keyboard,received,None,wait_char
+97883,Stimulus,presented,0
+98077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\allurement_MALE_D.wav'
+98280,Stimulus,presented,0
+98281,stdout,received,'15: Scheduled: 76000.0 Actual: 76000 delta: 0.0'
+101881,Keyboard,received,None,wait_char
+101884,Stimulus,presented,0
+102077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\shenanigan_FEMALE_C.wav'
+102280,Stimulus,presented,0
+102280,stdout,received,'16: Scheduled: 80000.0 Actual: 80000 delta: 0.0'
+107881,Keyboard,received,None,wait_char
+107884,Stimulus,presented,0
+108077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\invigorate_FEMALE_C.wav'
+108280,Stimulus,presented,0
+108281,stdout,received,'17: Scheduled: 86000.0 Actual: 86000 delta: 0.0'
+113881,Keyboard,received,None,wait_char
+113885,Stimulus,presented,0
+114077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\boats_FEMALE_C.wav'
+114280,Stimulus,presented,0
+114281,stdout,received,'18: Scheduled: 92000.0 Actual: 92000 delta: 0.0'
+119381,Keyboard,received,None,wait_char
+119384,Stimulus,presented,0
+119577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\tescootous_MALE_D.wav'
+119780,Stimulus,presented,0
+119780,stdout,received,'19: Scheduled: 97500.0 Actual: 97500 delta: 0.0'
+124880,Keyboard,received,None,wait_char
+124885,Stimulus,presented,0
+125077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\discipline_FEMALE_C.wav'
+125280,Stimulus,presented,0
+125280,stdout,received,'20: Scheduled: 103000.0 Actual: 103000 delta: 0.0'
+130880,Keyboard,received,None,wait_char
+130884,Stimulus,presented,0
+131077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\mended_FEMALE_C.wav'
+131280,Stimulus,presented,0
+131280,stdout,received,'21: Scheduled: 109000.0 Actual: 109000 delta: 0.0'
+135880,Keyboard,received,None,wait_char
+135884,Stimulus,presented,0
+136077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\large_MALE_D.wav'
+136280,Stimulus,presented,0
+136281,stdout,received,'22: Scheduled: 114000.0 Actual: 114000 delta: 0.0'
+139881,Keyboard,received,None,wait_char
+139885,Stimulus,presented,0
+140077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\noocantong_FEMALE_C.wav'
+140280,Stimulus,presented,0
+140280,stdout,received,'23: Scheduled: 118000.0 Actual: 118000 delta: 0.0'
+144380,Keyboard,received,None,wait_char
+144384,Stimulus,presented,0
+144577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\flants_MALE_D.wav'
+144781,Stimulus,presented,0
+144782,stdout,received,'24: Scheduled: 122500.0 Actual: 122500 delta: 0.0'
+149882,Keyboard,received,None,wait_char
+149886,Stimulus,presented,0
+150077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\disinherit_FEMALE_C.wav'
+150280,Stimulus,presented,0
+150280,stdout,received,'25: Scheduled: 128000.0 Actual: 128000 delta: 0.0'
+154380,Keyboard,received,None,wait_char
+154384,Stimulus,presented,0
+154577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\rearce_FEMALE_C.wav'
+154780,Stimulus,presented,0
+154781,stdout,received,'26: Scheduled: 132500.0 Actual: 132500 delta: 0.0'
+158881,Keyboard,received,None,wait_char
+158885,Stimulus,presented,0
+159077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\phenomenon_MALE_D.wav'
+159280,Stimulus,presented,0
+159281,stdout,received,'27: Scheduled: 137000.0 Actual: 137000 delta: 0.0'
+164381,Keyboard,received,None,wait_char
+164384,Stimulus,presented,0
+164577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\impossible_MALE_D.wav'
+164779,Stimulus,presented,0
+164780,stdout,received,'28: Scheduled: 142500.0 Actual: 142500 delta: 0.0'
+170380,Keyboard,received,None,wait_char
+170383,Stimulus,presented,0
+170577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\leery_MALE_D.wav'
+170780,Stimulus,presented,0
+170780,stdout,received,'29: Scheduled: 148500.0 Actual: 148500 delta: 0.0'
+174380,Keyboard,received,None,wait_char
+174384,Stimulus,presented,0
+174577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\lamer_FEMALE_C.wav'
+174780,Stimulus,presented,0
+174781,stdout,received,'30: Scheduled: 152500.0 Actual: 152500 delta: 0.0'
+179881,Keyboard,received,None,wait_char
+179884,Stimulus,presented,0
+180077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\gormassime_FEMALE_C.wav'
+180280,Stimulus,presented,0
+180280,stdout,received,'31: Scheduled: 158000.0 Actual: 158000 delta: 0.0'
+185880,Keyboard,received,None,wait_char
+185884,Stimulus,presented,0
+186077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\stars_FEMALE_C.wav'
+186280,Stimulus,presented,0
+186280,stdout,received,'32: Scheduled: 164000.0 Actual: 164000 delta: 0.0'
+189881,Keyboard,received,None,wait_char
+189884,Stimulus,presented,0
+190077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\mixer_MALE_D.wav'
+190280,Stimulus,presented,0
+190281,stdout,received,'33: Scheduled: 168000.0 Actual: 168000 delta: 0.0'
+194881,Keyboard,received,None,wait_char
+194884,Stimulus,presented,0
+195077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\chriniable_FEMALE_C.wav'
+195280,Stimulus,presented,0
+195281,stdout,received,'34: Scheduled: 173000.0 Actual: 173000 delta: 0.0'
+199381,Keyboard,received,None,wait_char
+199384,Stimulus,presented,0
+199577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\misbar_MALE_D.wav'
+199780,Stimulus,presented,0
+199780,stdout,received,'35: Scheduled: 177500.0 Actual: 177500 delta: 0.0'
+205380,Keyboard,received,None,wait_char
+205384,Stimulus,presented,0
+205577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\puivon_MALE_D.wav'
+205780,Stimulus,presented,0
+205781,stdout,received,'36: Scheduled: 183500.0 Actual: 183500 delta: 0.0'
+210881,Keyboard,received,None,wait_char
+210885,Stimulus,presented,0
+211077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\guitar_MALE_D.wav'
+211280,Stimulus,presented,0
+211281,stdout,received,'37: Scheduled: 189000.0 Actual: 189000 delta: 0.0'
+215381,Keyboard,received,None,wait_char
+215385,Stimulus,presented,0
+215577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\courch_MALE_D.wav'
+215780,Stimulus,presented,0
+215781,stdout,received,'38: Scheduled: 193500.0 Actual: 193500 delta: 0.0'
+220881,Keyboard,received,None,wait_char
+220884,Stimulus,presented,0
+221077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\inhale_MALE_D.wav'
+221280,Stimulus,presented,0
+221281,stdout,received,'39: Scheduled: 199000.0 Actual: 199000 delta: 0.0'
+226881,Keyboard,received,None,wait_char
+226885,Stimulus,presented,0
+227077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\icones_MALE_D.wav'
+227280,Stimulus,presented,0
+227280,stdout,received,'40: Scheduled: 205000.0 Actual: 205000 delta: 0.0'
+230881,Keyboard,received,None,wait_char
+230884,Stimulus,presented,0
+231077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\lets_FEMALE_C.wav'
+231280,Stimulus,presented,0
+231281,stdout,received,'41: Scheduled: 209000.0 Actual: 209000 delta: 0.0'
+234881,Keyboard,received,None,wait_char
+234885,Stimulus,presented,0
+235077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\experience_FEMALE_C.wav'
+235280,Stimulus,presented,0
+235280,stdout,received,'42: Scheduled: 213000.0 Actual: 213000 delta: 0.0'
+239380,Keyboard,received,None,wait_char
+239385,Stimulus,presented,0
+239577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\phounching_MALE_D.wav'
+239780,Stimulus,presented,0
+239780,stdout,received,'43: Scheduled: 217500.0 Actual: 217500 delta: 0.0'
+243380,Keyboard,received,None,wait_char
+243384,Stimulus,presented,0
+243577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\vertically_MALE_D.wav'
+243780,Stimulus,presented,0
+243780,stdout,received,'44: Scheduled: 221500.0 Actual: 221500 delta: 0.0'
+249380,Keyboard,received,None,wait_char
+249384,Stimulus,presented,0
+249577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\trifle_MALE_D.wav'
+249780,Stimulus,presented,0
+249781,stdout,received,'45: Scheduled: 227500.0 Actual: 227500 delta: 0.0'
+254881,Keyboard,received,None,wait_char
+254884,Stimulus,presented,0
+255077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\heft_MALE_D.wav'
+255280,Stimulus,presented,0
+255280,stdout,received,'46: Scheduled: 233000.0 Actual: 233000 delta: 0.0'
+259380,Keyboard,received,None,wait_char
+259384,Stimulus,presented,0
+259577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\counds_MALE_D.wav'
+259780,Stimulus,presented,0
+259781,stdout,received,'47: Scheduled: 237500.0 Actual: 237500 delta: 0.0'
+264381,Keyboard,received,None,wait_char
+264384,Stimulus,presented,0
+264577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\unzip_MALE_D.wav'
+264780,Stimulus,presented,0
+264781,stdout,received,'48: Scheduled: 242500.0 Actual: 242500 delta: 0.0'
+269881,Keyboard,received,None,wait_char
+269884,Stimulus,presented,0
+270077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\vengefully_MALE_D.wav'
+270280,Stimulus,presented,0
+270280,stdout,received,'49: Scheduled: 248000.0 Actual: 248000 delta: 0.0'
+274380,Keyboard,received,None,wait_char
+274383,Stimulus,presented,0
+274577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\dritertoon_FEMALE_C.wav'
+274779,Stimulus,presented,0
+274780,stdout,received,'50: Scheduled: 252500.0 Actual: 252500 delta: 0.0'
+279880,Keyboard,received,None,wait_char
+279883,Stimulus,presented,0
+280077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\encask_MALE_D.wav'
+280280,Stimulus,presented,0
+280280,stdout,received,'51: Scheduled: 258000.0 Actual: 258000 delta: 0.0'
+284380,Keyboard,received,None,wait_char
+284384,Stimulus,presented,0
+284577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\wrivol_FEMALE_C.wav'
+284780,Stimulus,presented,0
+284780,stdout,received,'52: Scheduled: 262500.0 Actual: 262500 delta: 0.0'
+288380,Keyboard,received,None,wait_char
+288383,Stimulus,presented,0
+288577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\translator_FEMALE_C.wav'
+288780,Stimulus,presented,0
+288780,stdout,received,'53: Scheduled: 266500.0 Actual: 266500 delta: 0.0'
+293380,Keyboard,received,None,wait_char
+293384,Stimulus,presented,0
+293577,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\understand_FEMALE_C.wav'
+293780,Stimulus,presented,0
+293781,stdout,received,'54: Scheduled: 271500.0 Actual: 271500 delta: 0.0'
+298881,Keyboard,received,None,wait_char
+298884,Stimulus,presented,0
+299077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\deaths_FEMALE_C.wav'
+299280,Stimulus,presented,0
+299281,stdout,received,'55: Scheduled: 277000.0 Actual: 277000 delta: 0.0'
+304881,Keyboard,received,None,wait_char
+304884,Stimulus,presented,0
+305077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\digrersher_FEMALE_C.wav'
+305279,Stimulus,presented,0
+305280,stdout,received,'56: Scheduled: 283000.0 Actual: 283000 delta: 0.0'
+309880,Keyboard,received,None,wait_char
+309883,Stimulus,presented,0
+310077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\cherry_MALE_D.wav'
+310279,Stimulus,presented,0
+310280,stdout,received,'57: Scheduled: 288000.0 Actual: 288000 delta: 0.0'
+314880,Keyboard,received,None,wait_char
+314883,Stimulus,presented,0
+315077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\japhen_MALE_D.wav'
+315280,Stimulus,presented,0
+315281,stdout,received,'58: Scheduled: 293000.0 Actual: 293000 delta: 0.0'
+319881,Keyboard,received,None,wait_char
+319884,Stimulus,presented,0
+320077,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files\\alassfully_FEMALE_C.wav'
+320280,Stimulus,presented,0
+320280,stdout,received,'59: Scheduled: 298000.0 Actual: 298000 delta: 0.0'
+323881,Keyboard,received,None,wait_char
+334077,Experiment,ended
+334087,Data,saved
+334092,Stimulus,presented,65

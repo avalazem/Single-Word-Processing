@@ -12,7 +12,7 @@ df = pd.read_csv(input_file)
 # Create the output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
 
-# Get a unique subject number (you can customize this if needed)
+# Get a unique subject number (customize this as needed)
 subject_number = "Subject_Ali"  # Change this to dynamically generate if needed
 
 # Initialize an empty DataFrame to collect the sampled rows

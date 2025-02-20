@@ -1,0 +1,26 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Feb 10 2025 11:19:36
+#--EXPERIMENT INFO
+#e mainfile: swp_chris.py
+#e sha1: 75d484
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#e Stimfile: Test_Subject_Two_Run_2.csv
+#--SUBJECT INFO
+#s id: 5
+subject_id,modality,item,target_timestamp,actual_timestamp,key,rt
+5,Audio,leery,2000,2005,None,None
+5,Audio,palindrome,8000.0,8003,None,None
+5,Audio,wrivol,14000.0,14003,None,None
+5,Audio,lets,19500.0,19503,None,None
+5,Audio,encask,25000.0,25004,None,None
+5,Audio,impossible,29500.0,29504,None,None
+5,Audio,inhale,35500.0,35504,None,None
+5,Audio,scepticism,41500.0,42817,None,None
+5,Audio,gormassime,45500.0,46628,None,None
+5,Audio,chriniable,50500.0,51438,None,None
+5,Audio,allurement,55500.0,56254,None,None
+5,Audio,dritertoon,60000.0,60565,None,None
+5,Audio,counds,64000.0,64375,None,None
+5,Audio,japhen,69500.0,73860,None,None

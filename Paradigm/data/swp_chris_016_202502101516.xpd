@@ -1,0 +1,72 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Feb 10 2025 15:16:23
+#--EXPERIMENT INFO
+#e mainfile: swp_chris.py
+#e sha1: 6df99e
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#e Stimfile: Christophe_Test_Run_6.csv
+#--SUBJECT INFO
+#s id: 16
+subject_id,modality,item,target_timestamp,actual_timestamp,key,rt
+16,Audio,theatrical,2000,2000,None,None
+16,Audio,chinchilla,7000.0,7000,None,None
+16,Audio,submingers,13000.0,13000,None,None
+16,Audio,truck,17000.0,17000,None,None
+16,Audio,disclosure,23000.0,23000,None,None
+16,Audio,lived,28000.0,28000,None,None
+16,Audio,restaurant,33000.0,33000,None,None
+16,Audio,thildhoust,38000.0,38000,None,None
+16,Audio,palindrome,43500.0,43500,None,None
+16,Audio,radio,47500.0,47500,None,None
+16,Audio,hieroglyph,52500.0,52500,None,None
+16,Audio,broom,57000.0,57000,None,None
+16,Audio,leprechaun,61500.0,61500,None,None
+16,Audio,scepticism,66000.0,66000,None,None
+16,Audio,scour,72000.0,72000,None,None
+16,Audio,allurement,76000.0,76000,None,None
+16,Audio,shenanigan,80000.0,80000,None,None
+16,Audio,invigorate,86000.0,86000,None,None
+16,Audio,boats,92000.0,92000,None,None
+16,Audio,tescootous,97500.0,97500,None,None
+16,Audio,discipline,103000.0,103000,None,None
+16,Audio,mended,109000.0,109000,None,None
+16,Audio,large,114000.0,114000,None,None
+16,Audio,noocantong,118000.0,118000,None,None
+16,Audio,flants,122500.0,122500,None,None
+16,Audio,disinherit,128000.0,128000,None,None
+16,Audio,rearce,132500.0,132500,None,None
+16,Audio,phenomenon,137000.0,137000,None,None
+16,Audio,impossible,142500.0,142500,None,None
+16,Audio,leery,148500.0,148500,None,None
+16,Audio,lamer,152500.0,152500,None,None
+16,Audio,gormassime,158000.0,158000,None,None
+16,Audio,stars,164000.0,164000,None,None
+16,Audio,mixer,168000.0,168000,None,None
+16,Audio,chriniable,173000.0,173000,None,None
+16,Audio,misbar,177500.0,177500,None,None
+16,Audio,puivon,183500.0,183500,None,None
+16,Audio,guitar,189000.0,189000,None,None
+16,Audio,courch,193500.0,193500,None,None
+16,Audio,inhale,199000.0,199000,None,None
+16,Audio,icones,205000.0,205000,None,None
+16,Audio,lets,209000.0,209000,None,None
+16,Audio,experience,213000.0,213000,None,None
+16,Audio,phounching,217500.0,217500,None,None
+16,Audio,vertically,221500.0,221500,None,None
+16,Audio,trifle,227500.0,227500,None,None
+16,Audio,heft,233000.0,233000,None,None
+16,Audio,counds,237500.0,237500,None,None
+16,Audio,unzip,242500.0,242500,None,None
+16,Audio,vengefully,248000.0,248000,None,None
+16,Audio,dritertoon,252500.0,252500,None,None
+16,Audio,encask,258000.0,258000,None,None
+16,Audio,wrivol,262500.0,262500,None,None
+16,Audio,translator,266500.0,266500,None,None
+16,Audio,understand,271500.0,271500,None,None
+16,Audio,deaths,277000.0,277000,None,None
+16,Audio,digrersher,283000.0,283000,None,None
+16,Audio,cherry,288000.0,288000,None,None
+16,Audio,japhen,293000.0,293000,None,None
+16,Audio,alassfully,298000.0,298000,None,None

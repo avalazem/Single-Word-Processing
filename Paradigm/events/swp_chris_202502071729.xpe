@@ -1,0 +1,23 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Feb 07 2025 17:29:01
+#sha1: f17151
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1154,stdout,received,'Warning: Failed to find font Inconsolata.ttf!'
+1155,stderr,received,'Traceback (most recent call last):'
+1156,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_textline.py", line 91, in __init__'
+1174,stderr,received,"    with open(self._text_font, 'rb') as f:"
+1174,stderr,received,'         ^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+1174,stderr,received,"FileNotFoundError: [Errno 2] No such file or directory: ''"
+1175,stderr,received,''
+1175,stderr,received,'During handling of the above exception, another exception occurred:'
+1175,stderr,received,''
+1175,stderr,received,'Traceback (most recent call last):'
+1175,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp_chris.py", line 77, in <module>'
+1176,stderr,received,"    trial.add_stimulus(stimuli.TextLine(trial.get_factor('Word'),"
+1177,stderr,received,'                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+1177,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_textline.py", line 94, in __init__'
+1178,stderr,received,'    raise IOError("Font \'{0}\' not found!".format(text_font))'
+1178,stderr,received,"OSError: Font 'Inconsolata.ttf' not found!"

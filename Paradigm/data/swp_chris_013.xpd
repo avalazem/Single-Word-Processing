@@ -1,0 +1,72 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Feb 10 2025 14:49:24
+#--EXPERIMENT INFO
+#e mainfile: swp_chris.py
+#e sha1: 8f1e60
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#e Stimfile: Christophe_Test_Run_4.csv
+#--SUBJECT INFO
+#s id: 13
+subject_id,modality,item,target_timestamp,actual_timestamp,key,rt
+13,Visual,lore,2000,2004,None,None
+13,Visual,damer,6000.0,6548,None,None
+13,Visual,entew,10000.0,10360,None,None
+13,Visual,lirce,16000.0,16177,None,None
+13,Visual,trombone,22000.0,22003,None,None
+13,Visual,rake,28000.0,28004,None,None
+13,Visual,sourness,32000.0,32003,None,None
+13,Visual,mentally,36000.0,36003,None,None
+13,Visual,boomelege,42000.0,42003,None,None
+13,Visual,immediate,47000.0,47003,None,None
+13,Visual,easy,53000.0,53003,None,None
+13,Visual,receiving,58000.0,58004,None,None
+13,Visual,boomerang,63000.0,63004,None,None
+13,Visual,artillise,67000.0,67003,None,None
+13,Visual,tattooist,71500.0,71503,None,None
+13,Visual,tank,77500.0,77503,None,None
+13,Visual,bryst,83500.0,83503,None,None
+13,Visual,woefully,88500.0,88503,None,None
+13,Visual,impolite,94500.0,94504,None,None
+13,Visual,worn,100500.0,100504,None,None
+13,Visual,chamerane,104500.0,104505,None,None
+13,Visual,unit,109000.0,109003,None,None
+13,Visual,lauly,115000.0,115004,None,None
+13,Visual,mugs,119500.0,119506,None,None
+13,Visual,blaspheme,123500.0,123503,None,None
+13,Visual,rain,127500.0,127503,None,None
+13,Visual,surrifane,133000.0,133007,None,None
+13,Visual,betor,137500.0,137503,None,None
+13,Visual,scrabble,142000.0,142004,None,None
+13,Visual,gargoyle,147500.0,147504,None,None
+13,Visual,rederlity,153000.0,153003,None,None
+13,Visual,clect,158000.0,158003,None,None
+13,Visual,abosh,163500.0,163504,None,None
+13,Visual,architect,169000.0,169003,None,None
+13,Visual,insterday,173500.0,173506,None,None
+13,Visual,immerlize,178500.0,178504,None,None
+13,Visual,idly,183000.0,183003,None,None
+13,Visual,bear,187500.0,187503,None,None
+13,Visual,balk,192500.0,192503,None,None
+13,Visual,quiver,198000.0,198003,None,None
+13,Visual,gorgeous,204000.0,204004,None,None
+13,Visual,procreach,208500.0,208503,None,None
+13,Visual,pods,214000.0,214004,None,None
+13,Visual,iron,219000.0,219003,None,None
+13,Visual,distfully,224000.0,224007,None,None
+13,Visual,ajar,228000.0,228003,None,None
+13,Visual,disagree,232500.0,232503,None,None
+13,Visual,clinical,236500.0,236503,None,None
+13,Visual,calendar,242000.0,242003,None,None
+13,Visual,criminals,247000.0,247003,None,None
+13,Visual,disembark,253000.0,253003,None,None
+13,Visual,dare,257500.0,257503,None,None
+13,Visual,sandwich,263000.0,263003,None,None
+13,Visual,oxen,268000.0,268003,None,None
+13,Visual,reodeness,272000.0,272003,None,None
+13,Visual,trains,277500.0,277503,None,None
+13,Visual,drall,283000.0,283003,None,None
+13,Visual,user,287500.0,287503,None,None
+13,Visual,plars,292500.0,292503,None,None
+13,Visual,sows,296500.0,296503,None,None

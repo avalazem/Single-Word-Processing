@@ -1,0 +1,35 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Feb 10 2025 14:40:01
+#--EXPERIMENT INFO
+#e mainfile: swp_chris.py
+#e sha1: 8f1e60
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#e Stimfile: Christophe_Test_Run_3.csv
+#--SUBJECT INFO
+#s id: 12
+subject_id,modality,item,target_timestamp,actual_timestamp,key,rt
+12,Audio,tartness,2000,2005,None,None
+12,Audio,alab,7000.0,7004,None,None
+12,Audio,sprindly,11500.0,11506,None,None
+12,Audio,orally,16500.0,16504,None,None
+12,Audio,pictures,20500.0,20505,None,None
+12,Audio,hospency,26000.0,26005,None,None
+12,Audio,mingle,30000.0,30004,None,None
+12,Audio,etiquette,35500.0,35504,None,None
+12,Audio,strong,41500.0,41503,None,None
+12,Audio,avalanche,47500.0,47504,None,None
+12,Audio,conflite,52000.0,52006,None,None
+12,Audio,juns,56500.0,56504,None,None
+12,Audio,garadign,60500.0,60504,None,None
+12,Audio,shoulder,66000.0,66004,y,3342
+12,Audio,northern,72000.0,72004,y,1741
+12,Audio,straight,76500.0,76505,y,1329
+12,Audio,currease,81500.0,81506,y,3658
+12,Audio,egotistic,86000.0,86005,y,2381
+12,Audio,camera,92000.0,92004,y,1009
+12,Audio,hearts,97500.0,97504,y,616
+12,Audio,daip,103500.0,103503,y,1368
+12,Audio,character,109000.0,109002,y,2115
+12,Audio,across,114500.0,114504,y,753

@@ -1,0 +1,31 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Feb 10 2025 14:15:11
+#--EXPERIMENT INFO
+#e mainfile: swp_chris.py
+#e sha1: 9eae00
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#e Stimfile: Test_Subject_Two_Run_1.csv
+#--SUBJECT INFO
+#s id: 8
+subject_id,modality,item,target_timestamp,actual_timestamp,key,rt
+8,Visual,unzip,2000,2008,None,None
+8,Visual,deaths,6500.0,6504,None,None
+8,Visual,dritertoon,11000.0,11879,None,None
+8,Visual,disclosure,16000.0,16704,None,None
+8,Visual,gormassime,22000.0,22520,None,None
+8,Visual,phenomenon,28000.0,28337,None,None
+8,Visual,chinchilla,34000.0,34153,None,None
+8,Visual,lamer,40000.0,40002,None,None
+8,Visual,phounching,46000.0,46003,y,3266
+8,Visual,encask,50500.0,50504,None,None
+8,Visual,palindrome,56000.0,56003,None,None
+8,Visual,mended,61500.0,61503,None,None
+8,Visual,large,67500.0,67503,None,None
+8,Visual,vengefully,73000.0,73003,None,None
+8,Visual,mixer,77000.0,77003,None,None
+8,Visual,shenanigan,81000.0,81004,None,None
+8,Visual,alassfully,85000.0,85003,None,None
+8,Visual,stars,90000.0,90003,None,None
+8,Visual,rearce,94000.0,94003,None,None

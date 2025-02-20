@@ -1,0 +1,23 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Feb 07 2025 17:30:02
+#sha1: 365816
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+745,stdout,received,'Total number of events:  60'
+746,stdout,received,'Expected Total duration:  312.0 s'
+762,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+762,design,logged,
+762,Experiment,started
+762,stderr,received,'Traceback (most recent call last):'
+763,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp_chris.py", line 102, in <module>'
+763,stderr,received,'    display_instructions(input_modality, output_modality, instruction_image_folder)'
+764,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp_chris.py", line 55, in display_instructions'
+764,stderr,received,'    instructions = stimuli.Picture(str(instruction_image_path))'
+765,stderr,received,'                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+765,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_picture.py", line 43, in __init__'
+787,stderr,received,'    raise IOError(u"The picture file \'{0}\' does not exist".format('
+787,stderr,received,"OSError: The picture file 'Instruction_Images\\Visual_Speech.png' does not exist"

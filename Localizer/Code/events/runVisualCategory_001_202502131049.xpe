@@ -1,0 +1,295 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Feb 13 2025 10:49:46
+#sha1: df4998
+#modules: generateSubjectCsv.py (dda15b)
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5691,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body01.png
+5707,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body01.png
+5719,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body02.png
+5739,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body02.png
+5752,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body03.png
+5762,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body03.png
+5786,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body04.png
+5796,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body04.png
+5807,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body05.png
+5815,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body05.png
+5825,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body06.png
+5839,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body06.png
+5849,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body07.png
+5858,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body07.png
+5867,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body08.png
+5876,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body08.png
+5886,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body09.png
+5896,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body09.png
+5910,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body10.png
+5919,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body10.png
+5929,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body11.png
+5939,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body11.png
+5949,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body12.png
+5958,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body12.png
+5970,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body13.png
+5980,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body13.png
+5990,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body14.png
+6003,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body14.png
+6014,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body15.png
+6023,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body15.png
+6038,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body16.png
+6048,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body16.png
+6059,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body17.png
+6070,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body17.png
+6082,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body18.png
+6091,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body18.png
+6105,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body19.png
+6115,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body19.png
+6125,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body20.png
+6135,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body20.png
+6147,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face01.png
+6156,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face01.png
+6169,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face02.png
+6178,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face02.png
+6189,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face03.png
+6198,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face03.png
+6207,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face04.png
+6217,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face04.png
+6228,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face05.png
+6238,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face05.png
+6261,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face06.png
+6270,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face06.png
+6283,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face07.png
+6292,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face07.png
+6304,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face08.png
+6313,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face08.png
+6323,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face09.png
+6332,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face09.png
+6342,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face10.png
+6351,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face10.png
+6361,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face11.png
+6376,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face11.png
+6388,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face12.png
+6396,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face12.png
+6406,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face13.png
+6416,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face13.png
+6426,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face14.png
+6435,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face14.png
+6445,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face15.png
+6455,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face15.png
+6466,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face16.png
+6475,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face16.png
+6485,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face17.png
+6493,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face17.png
+6503,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face18.png
+6512,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face18.png
+6524,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face19.png
+6532,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face19.png
+6542,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face20.png
+6551,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\face20.png
+6563,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house01.png
+6573,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house01.png
+6583,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house02.png
+6591,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house02.png
+6601,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house03.png
+6609,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house03.png
+6622,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house04.png
+6630,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house04.png
+6639,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house05.png
+6648,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house05.png
+6657,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house06.png
+6665,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house06.png
+6675,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house07.png
+6685,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house07.png
+6694,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house08.png
+6704,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house08.png
+6714,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house09.png
+6722,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house09.png
+6731,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house10.png
+6740,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house10.png
+6750,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house11.png
+6760,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house11.png
+6769,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house12.png
+6778,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house12.png
+6788,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house13.png
+6796,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house13.png
+6806,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house14.png
+6814,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house14.png
+6824,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house15.png
+6832,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house15.png
+6843,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house16.png
+6852,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house16.png
+6861,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house17.png
+6871,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house17.png
+6880,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house18.png
+6889,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house18.png
+6900,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house19.png
+6908,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house19.png
+6919,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house20.png
+6927,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\house20.png
+6940,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool01.png
+6953,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool01.png
+6971,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool02.png
+6986,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool02.png
+6996,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool03.png
+7006,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool03.png
+7016,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool04.png
+7026,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool04.png
+7040,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool05.png
+7056,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool05.png
+7070,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool06.png
+7086,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool06.png
+7097,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool07.png
+7112,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool07.png
+7126,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool08.png
+7145,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool08.png
+7158,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool09.png
+7183,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool09.png
+7310,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool10.png
+7330,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool10.png
+7347,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool11.png
+7365,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool11.png
+7377,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool12.png
+7390,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool12.png
+7401,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool13.png
+7410,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool13.png
+7421,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool14.png
+7431,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool14.png
+7440,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool15.png
+7450,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool15.png
+7459,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool16.png
+7471,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool16.png
+7482,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool17.png
+7492,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool17.png
+7502,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool18.png
+7513,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool18.png
+7522,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool19.png
+7531,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool19.png
+7543,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool20.png
+7553,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\tool20.png
+7565,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number01.png
+7575,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number01.png
+7585,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number02.png
+7595,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number02.png
+7611,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number03.png
+7626,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number03.png
+7661,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number04.png
+7674,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number04.png
+7687,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number05.png
+7698,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number05.png
+7708,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number06.png
+7719,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number06.png
+7738,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number07.png
+7748,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number07.png
+7759,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number08.png
+7771,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number08.png
+7782,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number09.png
+7795,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number09.png
+7806,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number10.png
+7816,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number10.png
+7827,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number11.png
+7842,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number11.png
+7853,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number12.png
+7861,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number12.png
+7875,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number13.png
+7886,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number13.png
+7896,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number14.png
+7907,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number14.png
+7916,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number15.png
+7924,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number15.png
+7935,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number16.png
+7945,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number16.png
+7954,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number17.png
+7964,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number17.png
+7973,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number18.png
+7984,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number18.png
+7994,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number19.png
+8004,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number19.png
+8013,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number20.png
+8021,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\number20.png
+8027,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF01.png
+8032,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF01.png
+8037,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF02.png
+8042,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF02.png
+8046,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF03.png
+8050,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF03.png
+8054,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF04.png
+8059,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF04.png
+8063,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF05.png
+8067,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF05.png
+8072,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF06.png
+8078,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF06.png
+8083,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF07.png
+8088,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF07.png
+8091,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF08.png
+8097,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF08.png
+8101,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF09.png
+8106,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF09.png
+8110,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF10.png
+8115,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF10.png
+8119,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF11.png
+8124,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF11.png
+8128,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF12.png
+8132,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF12.png
+8136,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF13.png
+8141,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF13.png
+8146,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF14.png
+8150,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF14.png
+8154,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF15.png
+8159,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF15.png
+8163,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF16.png
+8168,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF16.png
+8172,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF17.png
+8176,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF17.png
+8180,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF18.png
+8185,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF18.png
+8188,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF19.png
+8193,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF19.png
+8197,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF20.png
+8208,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\wordEF20.png
+10882,design,log,
+#design: #exp: VisualCategory_iCORTEX
+#design: #dvn: trial_id,target_time,start_time,end_time,is_late,cond,hasStar,stim
+#design: block_cnt,block_id,trial_cnt,trial_id,cond,hasStar,onset,rest,stimuli,trial_id
+#design: 0,0,0,0,body,1,6000,4000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,0
+#design: 0,0,1,1,body,1,16000,4000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,1
+#design: 0,0,2,2,body,0,26000,4000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,2
+#design: 0,0,3,3,body,0,36000,4000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,3
+#design: 0,0,4,4,body,0,46000,4000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,4
+#design: 0,0,5,5,body,0,56000,4000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,5
+#design: 0,0,6,6,face,1,66000,4000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,6
+#design: 0,0,7,7,face,1,76000,4000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,7
+#design: 0,0,8,8,face,0,86000,4000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,8
+#design: 0,0,9,9,face,0,96000,4000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,9
+#design: 0,0,10,10,face,0,106000,4000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,10
+#design: 0,0,11,11,face,0,116000,4000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,11
+#design: 0,0,12,12,house,1,126000,8000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,12
+#design: 0,0,13,13,house,1,140000,8000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,13
+#design: 0,0,14,14,house,0,154000,8000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,14
+#design: 0,0,15,15,house,0,168000,8000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,15
+#design: 0,0,16,16,house,0,182000,8000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,16
+#design: 0,0,17,17,house,0,196000,8000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,17
+#design: 0,0,18,18,tool,1,210000,8000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,18
+#design: 0,0,19,19,tool,1,224000,8000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,19
+#design: 0,0,20,20,tool,0,238000,8000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,20
+#design: 0,0,21,21,tool,0,252000,8000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,21
+#design: 0,0,22,22,tool,0,266000,8000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,22
+#design: 0,0,23,23,tool,0,280000,8000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,23
+#design: 0,0,24,24,number,1,294000,6000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,24
+#design: 0,0,25,25,number,1,306000,6000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,25
+#design: 0,0,26,26,number,0,318000,6000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,26
+#design: 0,0,27,27,number,0,330000,6000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,27
+#design: 0,0,28,28,number,0,342000,6000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,28
+#design: 0,0,29,29,number,0,354000,6000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,29
+#design: 0,0,30,30,wordEF,1,366000,6000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,30
+#design: 0,0,31,31,wordEF,1,378000,6000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,31
+#design: 0,0,32,32,wordEF,0,390000,6000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,32
+#design: 0,0,33,33,wordEF,0,402000,6000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,33
+#design: 0,0,34,34,wordEF,0,414000,6000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,34
+#design: 0,0,35,35,wordEF,0,426000,6000,01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20,35
+10883,design,logged,
+10883,Experiment,started
+10889,Stimulus,presented,3
+31318,Experiment,paused
+31327,Stimulus,presented,127
+32068,Keyboard,received,y,wait_char
+32069,Experiment,ended
+32074,Stimulus,presented,127

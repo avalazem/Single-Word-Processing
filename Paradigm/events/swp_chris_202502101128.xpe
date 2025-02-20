@@ -1,0 +1,14 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Feb 10 2025 11:28:13
+#sha1: 75d484
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+740,stderr,received,'Traceback (most recent call last):'
+742,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp_chris.py", line 83, in <module>'
+748,stderr,received,'    trial.add_stimulus(stimuli.Audio(str(audiofile)))'
+751,stderr,received,'                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+751,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_audio.py", line 51, in __init__'
+752,stderr,received,'    raise IOError(u"The audio file {0} does not exists".format('
+753,stderr,received,'OSError: The audio file C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\leery_MALE_D.wav does not exists'

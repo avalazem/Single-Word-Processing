@@ -1,0 +1,98 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Feb 10 2025 11:19:36
+#sha1: 75d484
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1079,stdout,received,'Total number of events:  60'
+1079,stdout,received,'Expected Total duration:  312.0 s'
+1091,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+1091,design,logged,
+1091,Experiment,started
+1103,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input Data\Images\Instructions\Audio_Speech.png
+1121,Stimulus,presented,62
+5986,Keyboard,received, ,wait_char
+5992,Stimulus,presented,63
+7330,Keyboard,received,t,wait_char
+7337,Stimulus,presented,0
+9335,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\leery_MALE_D.wav'
+9539,Stimulus,presented,0
+9539,stdout,received,'0: Scheduled: 2000 Actual: 2005 delta: 5'
+15139,Keyboard,received,None,wait_char
+15142,Stimulus,presented,0
+15333,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\palindrome_FEMALE_C.wav'
+15536,Stimulus,presented,0
+15545,stdout,received,'1: Scheduled: 8000.0 Actual: 8003 delta: 3.0'
+21145,Keyboard,received,None,wait_char
+21148,Stimulus,presented,0
+21333,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\wrivol_FEMALE_C.wav'
+21535,Stimulus,presented,0
+21536,stdout,received,'2: Scheduled: 14000.0 Actual: 14003 delta: 3.0'
+26636,Keyboard,received,None,wait_char
+26638,Stimulus,presented,0
+26833,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\lets_MALE_D.wav'
+27036,Stimulus,presented,0
+27042,stdout,received,'3: Scheduled: 19500.0 Actual: 19503 delta: 3.0'
+32142,Keyboard,received,None,wait_char
+32145,Stimulus,presented,0
+32334,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\encask_FEMALE_C.wav'
+32536,Stimulus,presented,0
+32538,stdout,received,'4: Scheduled: 25000.0 Actual: 25004 delta: 4.0'
+36638,Keyboard,received,None,wait_char
+36641,Stimulus,presented,0
+36834,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\impossible_MALE_D.wav'
+37036,Stimulus,presented,0
+37037,stdout,received,'5: Scheduled: 29500.0 Actual: 29504 delta: 4.0'
+42637,Keyboard,received,None,wait_char
+42641,Stimulus,presented,0
+42834,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\inhale_FEMALE_C.wav'
+43037,Stimulus,presented,0
+43037,stdout,received,'6: Scheduled: 35500.0 Actual: 35504 delta: 4.0'
+50136,Keyboard,received,None,wait_char
+50139,Stimulus,presented,0
+50147,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\scepticism_FEMALE_C.wav'
+50350,Stimulus,presented,0
+50351,stdout,received,'7: Scheduled: 41500.0 Actual: 42817 delta: 1317.0'
+53951,Keyboard,received,None,wait_char
+53954,Stimulus,presented,0
+53958,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\gormassime_MALE_D.wav'
+54160,Stimulus,presented,0
+54161,stdout,received,'8: Scheduled: 45500.0 Actual: 46628 delta: 1128.0'
+58761,Keyboard,received,None,wait_char
+58764,Stimulus,presented,0
+58768,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\chriniable_FEMALE_C.wav'
+58970,Stimulus,presented,0
+58971,stdout,received,'9: Scheduled: 50500.0 Actual: 51438 delta: 938.0'
+63571,Keyboard,received,None,wait_char
+63573,Stimulus,presented,0
+63584,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\allurement_MALE_D.wav'
+63787,Stimulus,presented,0
+63788,stdout,received,'10: Scheduled: 55500.0 Actual: 56254 delta: 754.0'
+67888,Keyboard,received,None,wait_char
+67890,Stimulus,presented,0
+67895,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\dritertoon_MALE_D.wav'
+68097,Stimulus,presented,0
+68098,stdout,received,'11: Scheduled: 60000.0 Actual: 60565 delta: 565.0'
+71698,Keyboard,received,None,wait_char
+71701,Stimulus,presented,0
+71705,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\counds_FEMALE_C.wav'
+71907,Stimulus,presented,0
+71911,stdout,received,'12: Scheduled: 64000.0 Actual: 64375 delta: 375.0'
+81161,Keyboard,received,None,wait_char
+81176,Stimulus,presented,0
+81190,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\japhen_FEMALE_C.wav'
+81393,Stimulus,presented,0
+81394,stdout,received,'13: Scheduled: 69500.0 Actual: 73860 delta: 4360.0'
+85494,Keyboard,received,None,wait_char
+85497,Stimulus,presented,0
+85502,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input Data\\Audio_Files_Google_Cloud\\scour_MALE_D.wav'
+85706,Stimulus,presented,0
+85706,stdout,received,'14: Scheduled: 74000.0 Actual: 78172 delta: 4172.0'
+86974,Experiment,paused
+86979,Stimulus,presented,64
+87626,Keyboard,received,y,wait_char
+87626,Experiment,ended
+87636,Data,saved
