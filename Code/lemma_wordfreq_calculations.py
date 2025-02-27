@@ -5,21 +5,25 @@ import spacy
 from wordfreq import zipf_frequency
 
 #load csv
-# csv_file_path = r'C:\Users\ali_a\Desktop\Single Word Processing Stage\Single Word Processing\Data\French Data\french_stimuli_real.csv'
-# df_stimuli = pd.read_csv(csv_file_path)
+csv_file_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\French\French_Reals_Filtered.csv"
+df_stimuli = pd.read_csv(csv_file_path)
 
 # add lemmas from simple words
-# df_stimuli.loc[df_stimuli['Morphology'] == 'simple','Lemma'] = df_stimuli['Word']
+df_stimuli.loc[df_stimuli['Morphology'] == 'simple','Lemma'] = df_stimuli['Word']
 
-               
+# Calculate zipf frequencies of the words, then add to a new column
+df_stimuli['Zipf Frequency'] = df_stimuli['Word'].apply(lambda word: zipf_frequency(word, 'fr'))
+
 # calculate zipf frequecies of the lemmas, then add to a new column
-# df_stimuli['Zipf Lemma Frequency'] = df_stimuli['Lemma'].apply(lambda lemma: zipf_frequency(lemma, 'fr'))
+df_stimuli['Zipf Lemma Frequency'] = df_stimuli['Lemma'].apply(lambda lemma: zipf_frequency(lemma, 'fr'))
 
 # test
 #print(df_stimuli)
 
 # export
-#df_stimuli.to_csv(csv_file_path, index=False)
+csv_output_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\French\French_Reals_Filtered_Frequencies.csv"
+#df_stimuli = df_stimuli[['Zipf Frequency', 'Zipf Lemma Frequency']]
+#df_stimuli.to_csv(csv_output_path, index=False)
 
 
 # Testing Lemma frequencies (English)
@@ -33,6 +37,6 @@ print(f"Word: '{word}'\nFrequency: '{freq}'")
 
 # Testing Lemma frequencies (French)
 
-word='Dévaluant'
+word='nage'
 freq = zipf_frequency(word,'fr')
 print(f"Word: '{word}'\nFrequency: '{freq}'")

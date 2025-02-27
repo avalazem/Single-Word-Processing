@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-csv_input_path=r'C:/Users/ali_a/Desktop/Single Word Processing Stage/Single Word Processing/Data/French Data/deliane_french_real/french_stimuli_real.csv'
+csv_input_path=r'C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\French\French_Reals_Filtered.csv'
 
 stimuli_df = pd.read_csv(csv_input_path)
 
@@ -44,7 +44,7 @@ scatter = sns.scatterplot(
 )
 
 
-plt.title('Comparison of Length and Word Frequency Across 8 Conditions (French Stimuli)', y=1.06)
+plt.title('Comparison of Length and Frequency Across 8 Conditions (French Stimuli)', y=1.06)
 plt.legend(loc='upper left', bbox_to_anchor=(1, 1), title='Legend')
 plt.show()
 

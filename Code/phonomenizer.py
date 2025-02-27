@@ -48,9 +48,11 @@ def count_syllables(word):
 
 
 # Read the CSV file
-input_csv_path = r"C:\Users\ali_a\Downloads\French_Stimuli_Options.xlsx"
+input_csv_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\French\french_stimuli - french_stimuli_real_edited (1).csv"
 sheet_page = "RSHS_samples"
-df = pd.read_excel(input_csv_path, sheet_page)
+#df = pd.read_excel(input_csv_path, sheet_page)
+# Only reading CSV files for now
+df = pd.read_csv(input_csv_path)
 
 # Ensure 'Word' column exists
 if 'Word' not in df.columns:
@@ -60,13 +62,13 @@ if 'Word' not in df.columns:
 df['Phonemes'] = df['Word'].apply(phonemize_word)
 
 # Add a column for the length of phonemes
-df['Phoneme_Length'] = df['Phonemes'].apply(phoneme_length)
+df['n_phonemes'] = df['Phonemes'].apply(phoneme_length)
 
 # Add a column for the number of syllables
 df['n_syllables'] = df['Word'].apply(count_syllables)
 
 # Add a column for the difference between Phoneme_Length and n_syllables
-df['Difference'] = df['Phoneme_Length'] - df['n_syllables']
+df['Difference'] = df['n_phonemes'] - df['n_syllables']
 
 # Move 'Length' to the left of 'prs'
 cols = df.columns.tolist()
@@ -81,6 +83,6 @@ if 'n_morphemes' in cols and 'n_syllables' in cols:
     df = df[cols]
 
 # Save the updated DataFrame back to csv file
-output_path = r"C:\Users\ali_a\Downloads\RSHS_samples.csv"
+output_path = input_csv_path # Update original file
 df.to_csv(output_path, index=False)
 print(f"Updated DataFrame saved to {output_path}")

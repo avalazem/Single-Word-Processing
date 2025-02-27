@@ -2,7 +2,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-stimuli_df = pd.read_csv(r'C:\Users\ali_a\Desktop\Single Word Processing Stage\Single Word Processing\Data\english_sample_stimuli.csv')
+#stimuli_df = pd.read_csv(r'C:\Users\ali_a\Desktop\Single Word Processing Stage\Single Word Processing\Data\english_sample_stimuli.csv')
+stimuli_df = pd.read_csv(r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\French\French_Reals_Filtered.csv")
 
 # Scatter Plot:
 
