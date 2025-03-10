@@ -34,7 +34,7 @@ stimuli_df['Custom Color'] = stimuli_df.apply(get_custom_color, axis=1)
 scatter = sns.scatterplot(
     data=stimuli_df,
     x="Wordlength", 
-    y="Zipf Frequency", 
+    y="Zipf Lemma Frequency", # Toggle between Zipf Frequency and Zipf Lemma Frequency
     hue="Condition",  # For color legend
     style="Morphology",  # For shape legend
     style_order=['simple', 'complex'], 
@@ -44,7 +44,7 @@ scatter = sns.scatterplot(
 )
 
 
-plt.title('Comparison of Length and Frequency Across 8 Conditions (French Stimuli)', y=1.06)
+plt.title('Comparison of Length and Lemma Frequency Across 8 Conditions (French Stimuli)', y=1.06) # Toggle between Length and Lemma Length
 plt.legend(loc='upper left', bbox_to_anchor=(1, 1), title='Legend')
 plt.show()
 

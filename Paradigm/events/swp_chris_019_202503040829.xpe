@@ -1,0 +1,54 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Tue Mar 04 2025 08:29:56
+#sha1: 7b6eed
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5273,stdout,received,'Total number of events:  60'
+5274,stdout,received,'Expected Total duration:  312.0 s'
+10245,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10245,design,logged,
+10245,Experiment,started
+10274,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input Data\Images\Instructions_FR\Visual_Speech.png
+10307,Stimulus,presented,63
+21950,Keyboard,received, ,wait_char
+21955,Stimulus,presented,64
+29485,Keyboard,received,t,wait_char
+29491,Stimulus,presented,0
+31487,Stimulus,presented,1
+31689,Stimulus,presented,0
+31689,stdout,received,'0: Scheduled: 2000 Actual: 2002 delta: 2'
+36287,Keyboard,received,None,wait_char
+36290,Stimulus,presented,0
+36486,Stimulus,presented,2
+36688,Stimulus,presented,0
+36689,stdout,received,'1: Scheduled: 7000.0 Actual: 7001 delta: 1.0'
+41288,Keyboard,received,None,wait_char
+41291,Stimulus,presented,0
+41486,Stimulus,presented,3
+41688,Stimulus,presented,0
+41689,stdout,received,'2: Scheduled: 12000.0 Actual: 12001 delta: 1.0'
+45288,Keyboard,received,None,wait_char
+45291,Stimulus,presented,0
+45486,Stimulus,presented,4
+45688,Stimulus,presented,0
+45689,stdout,received,'3: Scheduled: 16000.0 Actual: 16001 delta: 1.0'
+51288,Keyboard,received,None,wait_char
+51290,Stimulus,presented,0
+51486,Stimulus,presented,5
+51688,Stimulus,presented,0
+51689,stdout,received,'4: Scheduled: 22000.0 Actual: 22001 delta: 1.0'
+56788,Keyboard,received,None,wait_char
+56791,Stimulus,presented,0
+56986,Stimulus,presented,6
+57188,Stimulus,presented,0
+57188,stdout,received,'5: Scheduled: 27500.0 Actual: 27501 delta: 1.0'
+58195,Experiment,paused
+58199,Stimulus,presented,65
+58893,Keyboard,received,y,wait_char
+58893,Experiment,ended
+58916,Data,saved
+58921,Stimulus,presented,65

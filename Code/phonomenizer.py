@@ -48,7 +48,7 @@ def count_syllables(word):
 
 
 # Read the CSV file
-input_csv_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\French\french_stimuli - french_stimuli_real_edited (1).csv"
+input_csv_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\French\french_stimuli - French_Stimuli_Real_Options.csv"
 sheet_page = "RSHS_samples"
 #df = pd.read_excel(input_csv_path, sheet_page)
 # Only reading CSV files for now
@@ -83,6 +83,6 @@ if 'n_morphemes' in cols and 'n_syllables' in cols:
     df = df[cols]
 
 # Save the updated DataFrame back to csv file
-output_path = input_csv_path # Update original file
+output_path = input_csv_path.replace('.csv', '_phonemes.csv')
 df.to_csv(output_path, index=False)
 print(f"Updated DataFrame saved to {output_path}")

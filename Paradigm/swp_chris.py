@@ -43,7 +43,7 @@ where CSVFILE is a comma-separated file with columns:
 stim_file = sys.argv[1]  # Read second argument from command line
 
 # Path to the audio files
-audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input Data\Audio_Files"
+audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input Data\Audio_Files\English"
 
 # Path to run instructions image folder
 instruction_image_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input Data\Images\Instructions_FR"

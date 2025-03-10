@@ -61,10 +61,8 @@ MAX_BLOCK_DURATION = 438000  # time in milliseconds
 MRI_SYNC_KEY = expyriment.misc.constants.K_t
 
 KEY_TRANSLATION = {
-    expyriment.misc.constants.K_b : 'b',
-    expyriment.misc.constants.K_y : 'y',
-    expyriment.misc.constants.K_g : 'g',
-    expyriment.misc.constants.K_r : 'r'}
+    expyriment.misc.constants.K_y: 'y' # Changed to only allow 'y' (left hand button presses in fMRI scanner)
+}
 AUTHORIZED_KEYS = KEY_TRANSLATION.keys()
 KEYPRESS_DELAY = 100
 
@@ -73,7 +71,7 @@ CONDITIONS = [ 'face',
                'body',
                'tool',
                'house',
-               'wordF',
+               'wordEF',
                'number'
                ]
 

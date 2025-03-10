@@ -18,22 +18,21 @@ french_words = set(wordlist('fr', 50000)) # Put French lexicon (~50k words) into
 #english_words = set(words.words())
 
 # Step 2: Load the CSV file
-input_csv = r'C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\French\French_Stimuli_Options - PSC_samples.csv'
+input_csv = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\French\french_stimuli - French_Stimuli_Pseudo_Options.csv"
 df = pd.read_csv(input_csv)
-
 # Step 3: Define a function to calculate minimum Levenshtein distance
 def min_levenshtein(word, lexicon):
     return min(distance(word, lex_word) for lex_word in lexicon) # loops through all lex_word s in lexicon
 
 # Step 4: Calculate the minimum distance for each word in the dataframe
-df['Levenshtein Distance'] = df['Word'].apply(lambda w: min_levenshtein(w, french_words))
+df['Levenshtein Distance'] = df['Word'].apply(lambda w: min_levenshtein(w, french_words) if pd.notna(w) else float('nan'))
 
 
 # Step 5: Divide Levenshein distance by word length for 'Normalized Levenshtein Distance'
-df['Normalized Levenshtein Distance'] = df['Levenshtein Distance'] / df['Word'].apply(len)
+df['Normalized Levenshtein Distance'] = df.apply(lambda row: row['Levenshtein Distance'] / len(row['Word']) if pd.notna(row['Word']) else float('nan'), axis=1)
 
 # Step 6: Remove words with a minimum distance of less than 0.2
-df = df[df['Normalized Levenshtein Distance'] > 0.2]
+#df = df[df['Normalized Levenshtein Distance'] >= 0.2]
 
 # Step 7: Save the updated dataframe to a new CSV file
 output_csv = input_csv.replace('.csv', '_Levenshtein.csv')

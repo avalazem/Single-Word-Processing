@@ -1,0 +1,72 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Tue Mar 04 2025 08:37:29
+#--EXPERIMENT INFO
+#e mainfile: swp_chris.py
+#e sha1: 7b6eed
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#e Stimfile: Christophe_Test_Run_1.csv
+#--SUBJECT INFO
+#s id: 20
+subject_id,modality,item,target_timestamp,actual_timestamp,key,rt
+20,Visual,character,2000,2003,y,1584
+20,Visual,impolder,7000.0,7002,y,1342
+20,Visual,satellite,12000.0,12002,y,1259
+20,Visual,fumigate,16000.0,16002,y,1323
+20,Visual,rewn,22000.0,22002,y,1784
+20,Visual,hearts,27500.0,27502,y,1480
+20,Visual,hyma,31500.0,31502,y,1019
+20,Visual,writes,37500.0,37502,y,1019
+20,Visual,peddle,41500.0,41503,y,1172
+20,Visual,acorn,47500.0,47502,y,1148
+20,Visual,seriously,53000.0,53003,y,1403
+20,Visual,juns,57500.0,57502,y,733
+20,Visual,hexy,63500.0,63503,y,799
+20,Visual,shoulder,69500.0,69503,y,508
+20,Visual,jersey,74500.0,74503,y,595
+20,Visual,camera,80000.0,80002,y,930
+20,Visual,actor,84000.0,84002,y,933
+20,Visual,avalanche,88500.0,88502,y,1242
+20,Visual,freasite,94000.0,94002,y,1781
+20,Visual,adaptable,98500.0,98503,y,1077
+20,Visual,conflite,103500.0,103502,y,1495
+20,Visual,across,109000.0,109003,y,1131
+20,Visual,hoist,113500.0,113503,y,1340
+20,Visual,combs,118000.0,118002,y,822
+20,Visual,sprindly,122500.0,122503,y,957
+20,Visual,shears,127500.0,127502,y,1236
+20,Visual,northern,133000.0,133002,y,952
+20,Visual,straight,138500.0,138503,y,885
+20,Visual,beautiful,143500.0,143502,y,816
+20,Visual,alab,147500.0,147502,y,1214
+20,Visual,surfer,152500.0,152502,y,1136
+20,Visual,mingle,157000.0,157003,y,1098
+20,Visual,shyly,161500.0,161502,y,1083
+20,Visual,tartness,167000.0,167002,y,1232
+20,Visual,unkinter,173000.0,173004,y,1179
+20,Visual,whisperer,179000.0,179004,y,1325
+20,Visual,ramble,184500.0,184502,y,874
+20,Visual,dishaven,188500.0,188502,y,1402
+20,Visual,hedgehog,193500.0,193502,y,960
+20,Visual,garadign,198000.0,198002,y,2204
+20,Visual,daip,203000.0,203003,y,1188
+20,Visual,sword,209000.0,209003,y,1016
+20,Visual,establish,215000.0,215003,y,1346
+20,Visual,etiquette,220500.0,220503,y,1184
+20,Visual,chameleon,225500.0,225502,y,1594
+20,Visual,onts,231000.0,231002,y,1012
+20,Visual,orally,235000.0,235002,y,1020
+20,Visual,infertile,239000.0,239002,y,977
+20,Visual,foab,243500.0,243502,y,812
+20,Visual,duid,248000.0,248002,y,1379
+20,Visual,pictures,254000.0,254003,y,1202
+20,Visual,strong,259500.0,259502,y,1397
+20,Visual,disappear,264500.0,264502,y,667
+20,Visual,nory,269500.0,269502,y,945
+20,Visual,trustler,274000.0,274002,y,1279
+20,Visual,egotistic,280000.0,280002,y,1759
+20,Visual,phone,284000.0,284002,y,1552
+20,Visual,daily,288000.0,288002,y,986
+20,Visual,hospency,294000.0,294003,y,1441
+20,Visual,currease,298000.0,298003,y,935
