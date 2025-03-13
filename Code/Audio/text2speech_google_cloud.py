@@ -22,7 +22,7 @@ class APIKeyCredentials(Credentials):
         headers['x-goog-api-key'] = self._api_key
 
 # Set API key (Thanks Louis!!)
-api_key = "API_Key"
+api_key = "API_KEY"
 
 # Create credentials from the API key
 credentials = APIKeyCredentials(api_key)
@@ -31,9 +31,65 @@ credentials = APIKeyCredentials(api_key)
 client = texttospeech.TextToSpeechClient(credentials=credentials)
 
 
+
+# Read the CSV file
+input_csv_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\French\french_stimuli - French_Stimuli_Real_Options.csv"
+df = pd.read_csv(input_csv_path)
+
+# # For all words in the dataframe!!!
+
+# # Iterate over each row in the 'Word' column of the dataframe
+# for index, row in df.iterrows():
+#     word = row['Word']
+#     gender = "MALE_G" # Set gender
+
+#     # Set the text input to be synthesized
+#     synthesis_input = texttospeech.SynthesisInput(text=word)
+
+#     # Build the voice request, select the language code ("en-US") and the ssml
+#     # voice gender ("neutral")
+#     voice = texttospeech.VoiceSelectionParams(
+#         language_code="fr-FR", # 'en-US' for English 'fr-FR' for French
+#         name="fr-FR-Wavenet-G"  # Specify the voice name 
+#         # For English use I for male and G for female!!!
+#         ## For English 'daip' pronounce 'p' D for male C for female 
+#         # For French use C for female and G for male!!!
+#     )
+
+#     # Select the type of audio file you want returned
+#     audio_config = texttospeech.AudioConfig(
+#         audio_encoding=texttospeech.AudioEncoding.LINEAR16
+#     )
+
+#     # Perform the text-to-speech request on the text input with the selected
+#     # voice parameters and audio file type
+#     response = client.synthesize_speech(
+#         input=synthesis_input, voice=voice, audio_config=audio_config
+#     )
+
+#     # The response's audio_content is binary.
+#     output_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Auditory\French\Google_Cloud_French"
+#     output_path = os.path.join(output_folder, f"{word}_{gender}.wav")
+
+#     with open(output_path, "wb") as out:
+#     # Write the response to the output file
+
+#         out.write(response.audio_content)
+#         print(f'Audio content written to file "{output_path}!"')
+
+#     # Output directory
+#     output_audio_dir = r'C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Audio_Files_Google_Cloud'
+#     os.makedirs(output_audio_dir, exist_ok=True)
+
+    
+      
+   
+# For indivudual words!!!
+
 # Set word babee
-word = "press"
-gender = "FEMALE_C"
+word = "rapinume"
+#gender = "FEMALE_C"
+gender = "MALE_G"
 
 
 # Set the text input to be synthesized
@@ -42,8 +98,9 @@ synthesis_input = texttospeech.SynthesisInput(text=word)
 # Build the voice request, select the language code ("en-US") and the ssml
 # voice gender ("neutral")
 voice = texttospeech.VoiceSelectionParams(
-    language_code="en-uS", # 'en-US' for English 'fr-FR' for French
-    name="en-US-Wavenet-C"  # Specify the voice name 
+    language_code="fr-FR", # 'en-US' for English 'fr-FR' for French
+    #name="fr-FR-Wavenet-C" # Specify the voice name (FEMALE)
+    name="fr-FR-Wavenet-G" # MALE 
     # For English use I for male and G for female!!!
     ## For English 'daip' pronounce 'p' D for male C for female 
     # For French use C for female and G for male!!!
@@ -51,7 +108,7 @@ voice = texttospeech.VoiceSelectionParams(
 
 # Select the type of audio file you want returned
 audio_config = texttospeech.AudioConfig(
-    audio_encoding=texttospeech.AudioEncoding.MP3
+    audio_encoding=texttospeech.AudioEncoding.LINEAR16
 )
 
 # Perform the text-to-speech request on the text input with the selected
@@ -61,18 +118,14 @@ response = client.synthesize_speech(
 )
 
 # The response's audio_content is binary.
-output_folder = r'C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Audio_Files_Google_Cloud'
+output_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Audio\Scrambled_Words"
 output_path = os.path.join(output_folder, f"{word}_{gender}.wav")
 
 with open(output_path, "wb") as out:
-# Write the response to the output file.
-#
+# Write the response to the output file
+
     out.write(response.audio_content)
     print(f'Audio content written to file "{output_path}!"')
-
-# Read the CSV file
-input_csv_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\English\English_Stimuli.csv"
-df = pd.read_csv(input_csv_path)
 
 # Output directory
 output_audio_dir = r'C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Audio_Files_Google_Cloud'

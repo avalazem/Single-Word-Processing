@@ -96,8 +96,7 @@ STAR_ID = 0
 
 #condition_file = f"StimuliOrder/sub-{SUBJ_ID:03}_stimuli.csv"
 # Commented out for testing and added the following csv path
-condition_file = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\CSVs\ordered_stimuli.csv"
-
+condition_file = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\visual_categories_localizer.zip\CategoryLocalizer\StimuliOrder\sub-001_stimuli.csv"
 
 if (GENERATE_PARTICIPANT_CSV or (not (os.path.isfile(condition_file)))) :
     orderded_stimuli_file = 'ordered_stimuli.csv'

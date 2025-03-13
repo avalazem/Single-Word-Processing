@@ -1,0 +1,14 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Mar 13 2025 18:44:41
+#sha1: 78e802
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+4998,stderr,received,'Traceback (most recent call last):'
+4998,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp_chris.py", line 85, in <module>'
+4999,stderr,received,'    stim = stimuli.Audio(str(audiofile))'
+4999,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+4999,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_audio.py", line 51, in __init__'
+5000,stderr,received,'    raise IOError(u"The audio file {0} does not exists".format('
+5000,stderr,received,'OSError: The audio file C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input_Data\\Audio_Files\\French\\noblesse_FEMALE_C.wav does not exists'

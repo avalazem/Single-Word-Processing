@@ -25,23 +25,22 @@ def min_levenshtein(word, lexicon):
     return min(distance(word, lex_word) for lex_word in lexicon) # loops through all lex_word s in lexicon
 
 # Step 4: Calculate the minimum distance for each word in the dataframe
-df['Levenshtein Distance'] = df['Word'].apply(lambda w: min_levenshtein(w, french_words) if pd.notna(w) else float('nan'))
+#df['Levenshtein Distance'] = df['Word'].apply(lambda w: min_levenshtein(w, french_words) if pd.notna(w) else float('nan'))
 
 
 # Step 5: Divide Levenshein distance by word length for 'Normalized Levenshtein Distance'
-df['Normalized Levenshtein Distance'] = df.apply(lambda row: row['Levenshtein Distance'] / len(row['Word']) if pd.notna(row['Word']) else float('nan'), axis=1)
+#df['Normalized Levenshtein Distance'] = df.apply(lambda row: row['Levenshtein Distance'] / len(row['Word']) if pd.notna(row['Word']) else float('nan'), axis=1)
 
 # Step 6: Remove words with a minimum distance of less than 0.2
 #df = df[df['Normalized Levenshtein Distance'] >= 0.2]
 
 # Step 7: Save the updated dataframe to a new CSV file
 output_csv = input_csv.replace('.csv', '_Levenshtein.csv')
-df.to_csv(output_csv, index=False)
+#df.to_csv(output_csv, index=False)
 print(f"Output saved to {output_csv}")
 
-'''
+
 # To test individual words
-word = 'lauly'
-min_distance = min_levenshtein(word, english_words)
+word = 'tésin'
+min_distance = min_levenshtein(word, french_words)
 print(min_distance)
-'''

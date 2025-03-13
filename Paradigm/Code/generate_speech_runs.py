@@ -99,10 +99,6 @@ def assign_jitter_durations(n_stimuli, mean_soa=5, step=0.5, n_durations=5):
     return assigned_durations
 
 
-# File paths
-input_csv = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\en_paradigm.csv"
-output_dir = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\Subject_Sampled_Stimuli"
-
 def create_subject_csvs(input_csv, output_dir, stimuli_path, subject_name):
     # Load the CSV
     df = pd.read_csv(input_csv)
@@ -125,6 +121,7 @@ def create_subject_csvs(input_csv, output_dir, stimuli_path, subject_name):
         for condition in conditions:
             # Select 5 words for this batch
             condition_words = df[df["Condition"] == condition].copy()
+        
             
             if len(condition_words) < 15:
                 raise ValueError(f"Not enough words in condition {condition}, need at least 15.")
@@ -147,7 +144,7 @@ def create_subject_csvs(input_csv, output_dir, stimuli_path, subject_name):
         ws_df["Trial Duration"] = assign_jitter_durations(n_stimuli)
         as_df["Trial Duration"] = assign_jitter_durations(n_stimuli)
 
-         # Add additional information from original csv
+        # Add additional information from original csv
         ws_df = merge_additional_columns(ws_df, stimuli_path)  # Merge additional columns
         as_df = merge_additional_columns(as_df, stimuli_path)  # Merge additional columns
 
@@ -159,6 +156,7 @@ def create_subject_csvs(input_csv, output_dir, stimuli_path, subject_name):
         as_df["Input Modality"] = "Audio"
         as_df["Output Modality"] = "Speech"
         
+        print(as_df.head())
         # Adjust audio to 50/50 Male/Female distribution
         as_df = assign_audio_gender(as_df, len(as_df))  # Update run type and assign audio
         ws_df = assign_audio_gender(ws_df, len(ws_df))  # Update run type and assign audio
@@ -249,8 +247,13 @@ def validate_runs(subject_name, base_dir= r"C:\Users\ali_a\Desktop\Single_Word_P
         
         
 # Test
-SUBJECT_NAME = 'Christophe_Test'
+# File paths
+input_csv = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\English\en_paradigm.csv"
+output_dir = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Stimuli\Subject_Sampled_Stimuli"
 stimuli_path= r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\English\English_Stimuli.csv"
+
+
+SUBJECT_NAME = 'Christophe_Test'
 create_subject_csvs(input_csv, output_dir, stimuli_path, SUBJECT_NAME)
 validate_runs(SUBJECT_NAME)
 

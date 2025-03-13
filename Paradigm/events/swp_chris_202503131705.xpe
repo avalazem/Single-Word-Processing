@@ -1,0 +1,17 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Mar 13 2025 17:05:44
+#sha1: f92cbd
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5285,stderr,received,'Traceback (most recent call last):'
+5285,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp_chris.py", line 69, in <module>'
+5286,stderr,received,'    b.add_trials_from_csv_file(stim_file)'
+5286,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\design\\_structure.py", line 1570, in add_trials_from_csv_file'
+5287,stderr,received,'    first_line = fl.readline()'
+5288,stderr,received,'                 ^^^^^^^^^^^^^'
+5288,stderr,received,'  File "C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp1252.py", line 23, in decode'
+5289,stderr,received,'    return codecs.charmap_decode(input,self.errors,decoding_table)[0]'
+5289,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+5289,stderr,received,"UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 90: character maps to <undefined>"

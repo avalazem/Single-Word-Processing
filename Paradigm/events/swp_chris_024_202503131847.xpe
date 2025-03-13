@@ -1,0 +1,28 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Mar 13 2025 18:47:51
+#sha1: 52ed81
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5584,stdout,received,'Total number of events:  48'
+5586,stdout,received,'Expected Total duration:  492.0 s'
+11017,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+11017,design,logged,
+11017,Experiment,started
+11023,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Instructions_FR\Audio_Type.png
+11050,Stimulus,presented,51
+26069,Keyboard,received, ,wait_char
+26075,Stimulus,presented,52
+27599,Keyboard,received,t,wait_char
+27618,Stimulus,presented,0
+29599,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input_Data\\French\\Audio_Files\\French\\noblesse_FEMALE_C.wav'
+29804,Stimulus,presented,0
+29804,stdout,received,'0: Scheduled: 2000 Actual: 2000 delta: 0'
+33948,Experiment,paused
+33955,Stimulus,presented,53
+35229,Keyboard,received,y,wait_char
+35229,Experiment,ended
+35261,Stimulus,presented,53

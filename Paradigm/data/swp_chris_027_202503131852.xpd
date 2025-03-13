@@ -1,0 +1,30 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Thu Mar 13 2025 18:52:24
+#--EXPERIMENT INFO
+#e mainfile: swp_chris.py
+#e sha1: 52ed81
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#e Stimfile: Pilot_Run_1.csv
+#--SUBJECT INFO
+#s id: 27
+subject_id,modality,item,target_timestamp,actual_timestamp,key,rt
+27,Visual,slageÃÅ,2000,2003,None,None
+27,Visual,enfui,6500.0,6502,None,None
+27,Visual,rancolat,10500.0,10503,None,None
+27,Visual,vithe,16000.0,16001,None,None
+27,Visual,nageur,20000.0,20002,None,None
+27,Visual,rÈcortune,26000.0,26002,None,None
+27,Visual,persil,31500.0,31501,None,None
+27,Visual,cliard,36500.0,36501,None,None
+27,Visual,complexe,41000.0,41002,None,None
+27,Visual,emeraude,47000.0,47001,None,None
+27,Visual,salpÍtre,52500.0,52502,None,None
+27,Visual,mielleux,57500.0,57501,None,None
+27,Visual,h‚tif,63000.0,63002,None,None
+27,Visual,surestimÈ,67500.0,67501,None,None
+27,Visual,spaghetti,73000.0,73002,None,None
+27,Visual,amitiÈ,77000.0,77001,None,None
+27,Visual,catalogue,83000.0,83002,None,None
+27,Visual,ambre,87500.0,87502,None,None

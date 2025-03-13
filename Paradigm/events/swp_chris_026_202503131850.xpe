@@ -1,0 +1,84 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Mar 13 2025 18:50:52
+#sha1: 52ed81
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5038,stdout,received,'Total number of events:  48'
+5042,stdout,received,'Expected Total duration:  252.0 s'
+10228,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10228,design,logged,
+10228,Experiment,started
+10235,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Instructions_FR\Visual_Speech.png
+10260,Stimulus,presented,51
+18128,Keyboard,received, ,wait_char
+18134,Stimulus,presented,52
+20218,Keyboard,received,t,wait_char
+20231,Stimulus,presented,0
+22221,Stimulus,presented,1
+22424,Stimulus,presented,0
+22424,stdout,received,'0: Scheduled: 2000 Actual: 2003 delta: 3'
+26521,Keyboard,received,None,wait_char
+26525,Stimulus,presented,0
+26720,Stimulus,presented,2
+26922,Stimulus,presented,0
+26923,stdout,received,'1: Scheduled: 6500.0 Actual: 6502 delta: 2.0'
+30521,Keyboard,received,None,wait_char
+30524,Stimulus,presented,0
+30720,Stimulus,presented,3
+30922,Stimulus,presented,0
+30923,stdout,received,'2: Scheduled: 10500.0 Actual: 10502 delta: 2.0'
+36021,Keyboard,received,None,wait_char
+36025,Stimulus,presented,0
+36220,Stimulus,presented,4
+36423,Stimulus,presented,0
+36424,stdout,received,'3: Scheduled: 16000.0 Actual: 16002 delta: 2.0'
+40022,Keyboard,received,None,wait_char
+40026,Stimulus,presented,0
+40219,Stimulus,presented,5
+40422,Stimulus,presented,0
+40422,stdout,received,'4: Scheduled: 20000.0 Actual: 20001 delta: 1.0'
+46021,Keyboard,received,None,wait_char
+46024,Stimulus,presented,0
+46219,Stimulus,presented,6
+46422,Stimulus,presented,0
+46422,stdout,received,'5: Scheduled: 26000.0 Actual: 26001 delta: 1.0'
+51521,Keyboard,received,None,wait_char
+51524,Stimulus,presented,0
+51720,Stimulus,presented,7
+51923,Stimulus,presented,0
+51923,stdout,received,'6: Scheduled: 31500.0 Actual: 31502 delta: 2.0'
+56521,Keyboard,received,None,wait_char
+56524,Stimulus,presented,0
+56720,Stimulus,presented,8
+56923,Stimulus,presented,0
+56929,stdout,received,'7: Scheduled: 36500.0 Actual: 36502 delta: 2.0'
+61027,Keyboard,received,None,wait_char
+61030,Stimulus,presented,0
+61220,Stimulus,presented,9
+61422,Stimulus,presented,0
+61423,stdout,received,'8: Scheduled: 41000.0 Actual: 41002 delta: 2.0'
+67021,Keyboard,received,None,wait_char
+67024,Stimulus,presented,0
+67220,Stimulus,presented,10
+67422,Stimulus,presented,0
+67423,stdout,received,'9: Scheduled: 47000.0 Actual: 47002 delta: 2.0'
+72521,Keyboard,received,None,wait_char
+72524,Stimulus,presented,0
+72720,Stimulus,presented,11
+72923,Stimulus,presented,0
+72923,stdout,received,'10: Scheduled: 52500.0 Actual: 52502 delta: 2.0'
+77521,Keyboard,received,None,wait_char
+77524,Stimulus,presented,0
+77720,Stimulus,presented,12
+77923,Stimulus,presented,0
+77940,stdout,received,'11: Scheduled: 57500.0 Actual: 57502 delta: 2.0'
+81776,Experiment,paused
+81781,Stimulus,presented,53
+82634,Keyboard,received,y,wait_char
+82634,Experiment,ended
+82652,Data,saved
+82657,Stimulus,presented,53

@@ -43,10 +43,10 @@ where CSVFILE is a comma-separated file with columns:
 stim_file = sys.argv[1]  # Read second argument from command line
 
 # Path to the audio files
-audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input Data\Audio_Files\English"
+audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Audio_Files\French"
 
 # Path to run instructions image folder
-instruction_image_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input Data\Images\Instructions_FR"
+instruction_image_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Instructions_FR"
 
 
 # Function to display instructions based on modalities
@@ -66,7 +66,7 @@ control.initialize(exp)
 cue = stimuli.FixCross(size=(40, 40), line_width=4)
 
 b = design.Block()
-b.add_trials_from_csv_file(stim_file)
+b.add_trials_from_csv_file(stim_file, encoding='utf-8')
 
 prev_onset = INITIAL_WAIT
 
@@ -107,7 +107,7 @@ display_instructions(input_modality, output_modality, instruction_image_folder)
 # Wait for CONTROLLER_KEY
 exp.keyboard.wait_char(CONTROLLER_KEY)
 
-stimuli.TextLine('Get Ready...').present()
+stimuli.TextLine('Préparez-vous...').present()
 # Wait for trigger signal
 exp.keyboard.wait_char(TRIGGER_KEY)
 

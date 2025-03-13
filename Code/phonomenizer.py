@@ -44,9 +44,6 @@ def count_syllables(word):
 
 
 
-
-
-
 # Read the CSV file
 input_csv_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Visual\French\french_stimuli - French_Stimuli_Real_Options.csv"
 sheet_page = "RSHS_samples"
@@ -59,16 +56,16 @@ if 'Word' not in df.columns:
     raise ValueError("The CSV file must contain a 'Word' column.")
 
 # Add a column for phonemes
-df['Phonemes'] = df['Word'].apply(phonemize_word)
+#df['Phonemes'] = df['Word'].apply(phonemize_word)
 
 # Add a column for the length of phonemes
-df['n_phonemes'] = df['Phonemes'].apply(phoneme_length)
+#df['n_phonemes'] = df['Phonemes'].apply(phoneme_length)
 
 # Add a column for the number of syllables
-df['n_syllables'] = df['Word'].apply(count_syllables)
+#df['n_syllables'] = df['Word'].apply(count_syllables)
 
 # Add a column for the difference between Phoneme_Length and n_syllables
-df['Difference'] = df['n_phonemes'] - df['n_syllables']
+#df['Difference'] = df['n_phonemes'] - df['n_syllables']
 
 # Move 'Length' to the left of 'prs'
 cols = df.columns.tolist()
@@ -84,5 +81,10 @@ if 'n_morphemes' in cols and 'n_syllables' in cols:
 
 # Save the updated DataFrame back to csv file
 output_path = input_csv_path.replace('.csv', '_phonemes.csv')
-df.to_csv(output_path, index=False)
-print(f"Updated DataFrame saved to {output_path}")
+#df.to_csv(output_path, index=False)
+#print(f"Updated DataFrame saved to {output_path}")
+
+
+# To test individual words
+
+print(phonemize_word("tésin"))
