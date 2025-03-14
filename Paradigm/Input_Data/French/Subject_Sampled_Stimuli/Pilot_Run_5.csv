@@ -1,0 +1,25 @@
+Word,Condition,Wordlength,Audio File,Input Modality,Output Modality,Trial Duration
+parallèle,RLHS,9,parallèle_MALE_G.wav,Audio,Write,10.0
+récortune,PLC,9,récortune_FEMALE_C.wav,Audio,Write,10.5
+nèche,PSS,5,nèche_MALE_G.wav,Audio,Write,10.0
+argent,RSHS,6,argent_FEMALE_C.wav,Audio,Write,10.0
+revue,RSHC,5,revue_MALE_G.wav,Audio,Write,11.0
+roduillon,PLS,9,roduillon_MALE_G.wav,Audio,Write,10.5
+désla,PSC,5,désla_FEMALE_C.wav,Audio,Write,9.0
+instagne,PLC,8,instagne_MALE_G.wav,Audio,Write,10.0
+terasse,RLHS,8,terasse_MALE_G.wav,Audio,Write,9.0
+rasage,RSLC,6,rasage_FEMALE_C.wav,Audio,Write,9.5
+supplice,RLLS,8,supplice_FEMALE_C.wav,Audio,Write,11.0
+plivie,PSS,6,plivie_FEMALE_C.wav,Audio,Write,10.5
+matricule,RLLS,9,matricule_FEMALE_C.wav,Audio,Write,9.0
+besogneux,RLLC,9,besogneux_MALE_G.wav,Audio,Write,10.5
+annuel,RSHC,6,annuel_MALE_G.wav,Audio,Write,11.0
+lapin,RSHS,5,lapin_FEMALE_C.wav,Audio,Write,11.0
+ambre,RSLS,5,ambre_MALE_G.wav,Audio,Write,9.0
+remporté,RLHC,8,remporté_MALE_G.wav,Audio,Write,9.5
+dégel,RSLC,5,dégel_FEMALE_C.wav,Audio,Write,10.0
+marmot,RSLS,6,marmot_FEMALE_C.wav,Audio,Write,9.5
+chanteuse,RLHC,9,chanteuse_MALE_G.wav,Audio,Write,10.0
+rudement,RLLC,8,rudement_MALE_G.wav,Audio,Write,10.0
+apleté,PSC,6,apleté_FEMALE_C.wav,Audio,Write,10.0
+cibourot,PLS,8,cibourot_FEMALE_C.wav,Audio,Write,9.5

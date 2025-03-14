@@ -1,0 +1,44 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Fri Mar 14 2025 12:15:43
+#sha1: 52ed81
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5285,stdout,received,'Total number of events:  48'
+5285,stdout,received,'Expected Total duration:  492.0 s'
+10205,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10205,design,logged,
+10205,Experiment,started
+10232,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Instructions_FR\Audio_Type.png
+10265,Stimulus,presented,51
+51208,Keyboard,received, ,wait_char
+51213,Stimulus,presented,52
+54417,Keyboard,received,t,wait_char
+54436,Stimulus,presented,0
+56417,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input_Data\\French\\Audio_Files\\French\\noblesse_FEMALE_C.wav'
+56636,Stimulus,presented,0
+56636,stdout,received,'0: Scheduled: 2000 Actual: 2000 delta: 0'
+67237,Keyboard,received,None,wait_char
+67464,Stimulus,presented,0
+67464,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input_Data\\French\\Audio_Files\\French\\fre\xcc\x81moule_FEMALE_C.wav'
+68125,Stimulus,presented,0
+68126,stdout,received,'1: Scheduled: 13000.0 Actual: 13047 delta: 47.0!!!'
+77679,Keyboard,received,None,wait_char
+78486,Stimulus,presented,0
+78487,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input_Data\\French\\Audio_Files\\French\\champagne_MALE_G.wav'
+79065,Stimulus,presented,0
+79065,stdout,received,'2: Scheduled: 23000.0 Actual: 24070 delta: 1070.0!!!'
+86596,Keyboard,received,None,wait_char
+87430,Stimulus,presented,0
+87430,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input_Data\\French\\Audio_Files\\French\\cr\xc3\xa8me_FEMALE_C.wav'
+87759,Stimulus,presented,0
+87760,stdout,received,'3: Scheduled: 32000.0 Actual: 33013 delta: 1013.0!!!'
+96205,Experiment,paused
+97031,Stimulus,presented,53
+101761,Keyboard,received,y,wait_char
+101761,Experiment,ended
+101779,Data,saved
+102635,Stimulus,presented,53

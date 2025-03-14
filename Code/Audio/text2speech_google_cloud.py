@@ -87,10 +87,9 @@ df = pd.read_csv(input_csv_path)
 # For indivudual words!!!
 
 # Set word babee
-word = "rapinume"
-#gender = "FEMALE_C"
-gender = "MALE_G"
-
+word = "étoile"
+gender = "FEMALE_C"
+#gender = "MALE_G"
 
 # Set the text input to be synthesized
 synthesis_input = texttospeech.SynthesisInput(text=word)
@@ -99,8 +98,8 @@ synthesis_input = texttospeech.SynthesisInput(text=word)
 # voice gender ("neutral")
 voice = texttospeech.VoiceSelectionParams(
     language_code="fr-FR", # 'en-US' for English 'fr-FR' for French
-    #name="fr-FR-Wavenet-C" # Specify the voice name (FEMALE)
-    name="fr-FR-Wavenet-G" # MALE 
+    name="fr-FR-Wavenet-C" # Specify the voice name (FEMALE)
+    #name="fr-FR-Wavenet-G" # MALE 
     # For English use I for male and G for female!!!
     ## For English 'daip' pronounce 'p' D for male C for female 
     # For French use C for female and G for male!!!
@@ -118,7 +117,7 @@ response = client.synthesize_speech(
 )
 
 # The response's audio_content is binary.
-output_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Audio\Scrambled_Words"
+output_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Auditory\French\Google_Cloud_French"
 output_path = os.path.join(output_folder, f"{word}_{gender}.wav")
 
 with open(output_path, "wb") as out:
@@ -128,5 +127,5 @@ with open(output_path, "wb") as out:
     print(f'Audio content written to file "{output_path}!"')
 
 # Output directory
-output_audio_dir = r'C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Audio_Files_Google_Cloud'
+output_audio_dir = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Stimuli\Auditory\French\Google_Cloud_French"
 os.makedirs(output_audio_dir, exist_ok=True)

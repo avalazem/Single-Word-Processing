@@ -87,4 +87,4 @@ output_path = input_csv_path.replace('.csv', '_phonemes.csv')
 
 # To test individual words
 
-print(phonemize_word("tésin"))
+print(phonemize_word("ancré"))
