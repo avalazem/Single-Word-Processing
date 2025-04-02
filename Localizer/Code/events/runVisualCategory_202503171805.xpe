@@ -1,0 +1,52 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Mar 17 2025 18:05:46
+#sha1: 65d311
+#modules: generateSubjectCsv.py (dda15b)
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+4906,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body01.png
+4915,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body01.png
+4925,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body03.png
+4937,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body03.png
+4947,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body06.png
+4960,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body06.png
+4985,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body08.png
+4996,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body08.png
+5006,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body16.png
+5020,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body16.png
+5041,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body12.png
+5053,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body12.png
+5067,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body19.png
+5077,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body19.png
+5087,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body15.png
+5097,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body15.png
+5110,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body14.png
+5123,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body14.png
+5134,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body17.png
+5146,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body17.png
+5165,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body11.png
+5175,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body11.png
+5186,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body09.png
+5195,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body09.png
+5206,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body02.png
+5219,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body02.png
+5241,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body07.png
+5254,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body07.png
+5277,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body04.png
+5290,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body04.png
+5302,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body10.png
+5312,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body10.png
+5323,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body13.png
+5345,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body13.png
+5358,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body05.png
+5375,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body05.png
+5394,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body18.png
+5411,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\Stimuli\Images\body18.png
+5415,stderr,received,'Traceback (most recent call last):'
+5415,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Localizer\\Code\\runVisualCategory.py", line 201, in <module>'
+5416,stderr,received,'    mappict[picture] = stimuli.Picture(os.path.join('
+5416,stderr,received,'                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+5416,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_picture.py", line 43, in __init__'
+5417,stderr,received,'    raise IOError(u"The picture file \'{0}\' does not exist".format('
+5417,stderr,received,"OSError: The picture file 'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Localizer\\Stimuli\\Images\\body20.png' does not exist"

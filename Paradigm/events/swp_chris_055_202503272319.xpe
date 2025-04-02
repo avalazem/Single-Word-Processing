@@ -1,0 +1,103 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Mar 27 2025 23:19:19
+#sha1: fb20e0
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5202,stdout,received,'Total number of events:  48'
+5202,stdout,received,'Expected Total duration:  434.0 s'
+10904,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10904,design,logged,
+10904,Experiment,started
+10911,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Instructions_FR\instructions.png
+10941,Stimulus,presented,51
+11809,Keyboard,received, ,wait_char
+11815,Stimulus,presented,52
+12661,Keyboard,received,t,wait_char
+12671,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Cues\Speech.png
+12698,Stimulus,presented,53
+18703,Stimulus,presented,0
+20662,Stimulus,presented,1
+20865,Stimulus,presented,0
+20866,stdout,received,'0: Scheduled: 8000 Actual: 8001 delta: 1'
+24965,Keyboard,received,None,wait_char
+24968,Stimulus,presented,0
+25163,Stimulus,presented,2
+25365,Stimulus,presented,0
+25366,stdout,received,'1: Scheduled: 12500.0 Actual: 12502 delta: 2.0'
+30464,Keyboard,received,None,wait_char
+30466,Stimulus,presented,0
+30663,Stimulus,presented,3
+30866,Stimulus,presented,0
+30866,stdout,received,'2: Scheduled: 18000.0 Actual: 18002 delta: 2.0'
+35464,Keyboard,received,None,wait_char
+35467,Stimulus,presented,0
+35663,Stimulus,presented,4
+35865,Stimulus,presented,0
+35866,stdout,received,'3: Scheduled: 23000.0 Actual: 23002 delta: 2.0'
+39464,Keyboard,received,None,wait_char
+39467,Stimulus,presented,0
+39662,Stimulus,presented,5
+39866,Stimulus,presented,0
+39866,stdout,received,'4: Scheduled: 27000.0 Actual: 27002 delta: 2.0'
+45464,Keyboard,received,None,wait_char
+45467,Stimulus,presented,0
+45663,Stimulus,presented,6
+45865,Stimulus,presented,0
+45866,stdout,received,'5: Scheduled: 33000.0 Actual: 33002 delta: 2.0'
+50464,Keyboard,received,None,wait_char
+50466,Stimulus,presented,0
+50662,Stimulus,presented,7
+50864,Stimulus,presented,0
+50864,stdout,received,'6: Scheduled: 38000.0 Actual: 38001 delta: 1.0'
+55964,Keyboard,received,None,wait_char
+55966,Stimulus,presented,0
+56163,Stimulus,presented,8
+56365,Stimulus,presented,0
+56366,stdout,received,'7: Scheduled: 43500.0 Actual: 43502 delta: 2.0'
+60964,Keyboard,received,None,wait_char
+60967,Stimulus,presented,0
+61163,Stimulus,presented,9
+61365,Stimulus,presented,0
+61365,stdout,received,'8: Scheduled: 48500.0 Actual: 48502 delta: 2.0'
+64963,Keyboard,received,None,wait_char
+64967,Stimulus,presented,0
+65162,Stimulus,presented,10
+65364,Stimulus,presented,0
+65365,stdout,received,'9: Scheduled: 52500.0 Actual: 52501 delta: 1.0'
+70964,Keyboard,received,None,wait_char
+70967,Stimulus,presented,0
+71162,Stimulus,presented,11
+71365,Stimulus,presented,0
+71366,stdout,received,'10: Scheduled: 58500.0 Actual: 58501 delta: 1.0'
+75966,Keyboard,received,None,wait_char
+75969,Stimulus,presented,0
+76162,Stimulus,presented,12
+76365,Stimulus,presented,0
+76366,stdout,received,'11: Scheduled: 63500.0 Actual: 63501 delta: 1.0'
+80465,Keyboard,received,None,wait_char
+80473,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Cues\Type.png
+80500,Stimulus,presented,54
+86504,Stimulus,presented,0
+96661,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input_Data\\French\\Audio_Files\\French\\final_MALE_G.wav'
+96869,Stimulus,presented,0
+96871,stdout,received,'12: Scheduled: 84000.0 Actual: 84000 delta: 0.0'
+105471,Keyboard,received,None,wait_char
+105666,Stimulus,presented,0
+105667,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input_Data\\French\\Audio_Files\\French\\historien_FEMALE_C.wav'
+105869,Stimulus,presented,0
+105870,stdout,received,'13: Scheduled: 85000.0 Actual: 93006 delta: 8006.0!!!'
+107464,Keyboard,received,None,wait_char
+107467,Stimulus,presented,0
+107661,Stimulus,played,b'C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\Input_Data\\French\\Audio_Files\\French\\iris\xc3\xa9_FEMALE_C.wav'
+107863,Stimulus,presented,0
+107864,stdout,received,'14: Scheduled: 95000.0 Actual: 95000 delta: 0.0'
+113374,Experiment,paused
+113379,Stimulus,presented,55
+113924,Keyboard,received,y,wait_char
+113924,Experiment,ended
+113951,Data,saved
+113956,Stimulus,presented,55

@@ -1,0 +1,21 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Mar 27 2025 18:03:29
+#sha1: 39231a
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+6008,stdout,received,'Total number of events:  48'
+6008,stdout,received,'Expected Total duration:  372.0 s'
+10567,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10567,design,logged,
+10567,Experiment,started
+10573,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Cues\speech.png
+10639,Stimulus,presented,51
+18721,Experiment,paused
+18728,Stimulus,presented,52
+19112,Keyboard,received,y,wait_char
+19112,Experiment,ended
+19136,Stimulus,presented,52

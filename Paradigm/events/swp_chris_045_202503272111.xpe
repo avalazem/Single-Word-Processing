@@ -1,0 +1,46 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Mar 27 2025 21:11:12
+#sha1: edbdfa
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5958,stdout,received,'Total number of events:  48'
+5958,stdout,received,'Expected Total duration:  404.0 s'
+10255,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10255,design,logged,
+10255,Experiment,started
+10264,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Instructions_FR\instructions.png
+10329,Stimulus,presented,51
+17594,Keyboard,received, ,wait_char
+17601,Stimulus,presented,52
+18688,Keyboard,received,t,wait_char
+18703,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Cues\Speech.png
+18729,Stimulus,presented,53
+26733,Stimulus,presented,0
+28691,Stimulus,presented,1
+28894,Stimulus,presented,0
+28894,stdout,received,'0: Scheduled: 10000 Actual: 10003 delta: 3'
+32991,Keyboard,received,None,wait_char
+32994,Stimulus,presented,0
+33190,Stimulus,presented,2
+33393,Stimulus,presented,0
+33393,stdout,received,'1: Scheduled: 14500.0 Actual: 14502 delta: 2.0'
+33821,Keyboard,received,y,wait_char
+33825,Stimulus,presented,0
+38691,Stimulus,presented,3
+38894,Stimulus,presented,0
+38894,stdout,received,'2: Scheduled: 20000.0 Actual: 20003 delta: 3.0'
+39291,Keyboard,received,y,wait_char
+39295,Stimulus,presented,0
+43693,Stimulus,presented,4
+43896,Stimulus,presented,0
+43898,stdout,received,'3: Scheduled: 25000.0 Actual: 25005 delta: 5.0'
+43972,Experiment,paused
+43976,Stimulus,presented,54
+44484,Keyboard,received,y,wait_char
+44484,Experiment,ended
+44503,Data,saved
+44508,Stimulus,presented,54

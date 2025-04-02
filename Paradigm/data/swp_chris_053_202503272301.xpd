@@ -1,0 +1,52 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Thu Mar 27 2025 23:01:57
+#--EXPERIMENT INFO
+#e mainfile: swp_chris.py
+#e sha1: 75f6aa
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#e Stimfile: sub1_run_3.csv
+#--SUBJECT INFO
+#s id: 53
+subject_id,modality,item,target_timestamp,actual_timestamp,key,rt
+53,Visual,usage,8000,8002,None,None
+53,Visual,Ègalement,12500.0,12501,None,None
+53,Visual,fuselÈ,18000.0,18001,None,None
+53,Visual,surestimÈ,23000.0,23001,None,None
+53,Visual,viande,27000.0,27001,None,None
+53,Visual,marathon,33000.0,33001,None,None
+53,Visual,nacre,38000.0,38002,None,None
+53,Visual,emeraude,43500.0,43501,None,None
+53,Visual,duage,48500.0,48501,None,None
+53,Visual,cabariste,52500.0,52501,None,None
+53,Visual,arcove,58500.0,58501,None,None
+53,Visual,pacheril,63500.0,63501,None,None
+53,Audio,final,76000.0,76000,None,None
+53,Audio,historien,77000.0,84806,None,None
+53,Audio,irisÈ,87000.0,87000,None,None
+53,Audio,besogneux,96500.0,96500,None,None
+53,Audio,soleil,107000.0,107000,None,None
+53,Audio,complexe,117000.0,117000,None,None
+53,Audio,marmot,127000.0,127000,None,None
+53,Audio,samouraÔ,136500.0,136500,None,None
+53,Audio,eÃÅtoda,146500.0,146500,None,None
+53,Audio,instagne,157000.0,157000,None,None
+53,Audio,jaren,166000.0,166000,None,None
+53,Audio,roupiote,177000.0,177000,None,None
+53,Visual,rachat,196000.0,196002,None,None
+53,Visual,ignorance,198500.0,206318,None,None
+53,Visual,ancrÈ,208500.0,208501,None,None
+53,Visual,dÈtraquÈ,218500.0,218501,None,None
+53,Visual,jardin,227500.0,227501,None,None
+53,Visual,chocolat,236500.0,236501,None,None
+53,Visual,nectar,247500.0,247501,None,None
+53,Visual,esclandre,258500.0,258501,None,None
+53,Visual,cliard,268000.0,268001,None,None
+53,Visual,bransier,278500.0,278501,None,None
+53,Visual,lacËle,288500.0,288501,None,None
+53,Visual,roduillon,298500.0,298501,None,None
+53,Audio,s˚retÈ,316000.0,316000,None,None
+53,Audio,peinture,313000.0,320808,None,None
+53,Audio,usitÈ,318000.0,321017,None,None
+53,Audio,salivant,323000.0,323000,None,None

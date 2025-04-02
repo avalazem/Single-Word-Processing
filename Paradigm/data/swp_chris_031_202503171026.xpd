@@ -1,0 +1,21 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Mar 17 2025 10:26:42
+#--EXPERIMENT INFO
+#e mainfile: swp_chris.py
+#e sha1: 52ed81
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#e Stimfile: Pilot_Run_1.csv
+#--SUBJECT INFO
+#s id: 31
+subject_id,modality,item,target_timestamp,actual_timestamp,key,rt
+31,Visual,deuxième,2000,2003,None,None
+31,Visual,jaren,7000.0,7001,None,None
+31,Visual,intellect,11000.0,11001,None,None
+31,Visual,nageur,16000.0,16001,None,None
+31,Visual,grillagée,21500.0,21501,None,None
+31,Visual,catalogue,25500.0,25501,None,None
+31,Visual,frime,29500.0,29501,None,None
+31,Visual,problème,34500.0,34501,None,None
+31,Visual,duage,40500.0,40501,None,None

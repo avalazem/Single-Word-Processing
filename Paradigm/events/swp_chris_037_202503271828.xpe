@@ -1,0 +1,24 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Mar 27 2025 18:28:59
+#sha1: cc7e2d
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5235,stdout,received,'Total number of events:  48'
+5235,stdout,received,'Expected Total duration:  404.0 s'
+10502,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10502,design,logged,
+10502,Experiment,started
+10534,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Instructions_FR\instructions.png
+10560,Stimulus,presented,51
+17576,Keyboard,received, ,wait_char
+17583,Stimulus,presented,52
+19206,Keyboard,received,t,wait_char
+19208,stderr,received,'Traceback (most recent call last):'
+19209,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp_chris.py", line 149, in <module>'
+19210,stderr,received,'    if (previous_input_modality is not None and previous_output_modality is not None and'
+19210,stderr,received,'        ^^^^^^^^^^^^^^^^^^^^^^^'
+19213,stderr,received,"NameError: name 'previous_input_modality' is not defined. Did you mean: 'current_input_modality'?"

@@ -1,0 +1,11 @@
+Word,Condition,Wordlength,Audio File,Input Modality,Output Modality,Trial Duration
+cornet,RSLC,6,,Visual,Speech,4.5
+tribunal,RLHC,8,,Visual,Speech,5.0
+bagari,PSS,6,,Visual,Speech,6.0
+vorubile,PLS,9,,Visual,Speech,5.5
+boulrique,PLS,9,,Visual,Speech,4.0
+barricade,RLHS,9,barricade_FEMALE_C.wav,Audio,Write,9.0
+climat,RSHS,6,climat_FEMALE_C.wav,Audio,Write,10.5
+pollai,PSS,6,pollai_MALE_G.wav,Audio,Write,11.0
+crégneuse,PLC,6,crégneuse_FEMALE_C.wav,Audio,Write,9.5
+ablège,PSS,6,ablège_MALE_G.wav,Audio,Write,10.0

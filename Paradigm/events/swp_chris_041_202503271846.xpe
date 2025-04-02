@@ -1,0 +1,30 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Mar 27 2025 18:46:38
+#sha1: 5fe9f2
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5212,stdout,received,'Total number of events:  48'
+5212,stdout,received,'Expected Total duration:  404.0 s'
+10217,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10217,design,logged,
+10217,Experiment,started
+10224,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Instructions_FR\instructions.png
+10266,Stimulus,presented,51
+10876,Keyboard,received, ,wait_char
+10880,Stimulus,presented,52
+11744,Keyboard,received,t,wait_char
+11760,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Cues\Type.png
+11793,Stimulus,presented,53
+11808,Stimulus,presented,0
+13747,Stimulus,presented,1
+13950,Stimulus,presented,0
+13950,stdout,received,'0: Scheduled: 2000 Actual: 2003 delta: 3'
+14978,Experiment,paused
+14985,Stimulus,presented,54
+16349,Keyboard,received,y,wait_char
+16349,Experiment,ended
+16380,Stimulus,presented,54

@@ -1,0 +1,18 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Mon Mar 31 2025 23:20:40
+#--EXPERIMENT INFO
+#e mainfile: swp_train_1.py
+#e sha1: 4113a0
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#e Stimfile: training_run_1.csv
+#--SUBJECT INFO
+#s id: 3
+subject_id,modality,item,target_timestamp,actual_timestamp,key,rt
+3,Visual,cornet,5000,5001,None,None
+3,Visual,tribunal,9500.0,9501,None,None
+3,Visual,bagari,14500.0,14501,None,None
+3,Visual,vorubile,20500.0,20501,None,None
+3,Visual,boulrique,26000.0,26001,None,None
+3,Audio,barricade,34000.0,34000,None,None

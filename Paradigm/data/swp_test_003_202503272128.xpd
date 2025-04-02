@@ -1,0 +1,60 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Thu Mar 27 2025 21:28:39
+#--EXPERIMENT INFO
+#e mainfile: swp_test.py
+#e sha1: aa1092
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#e Stimfile: sub1_run_3.csv
+#--SUBJECT INFO
+#s id: 3
+subject_id,modality,item,target_timestamp,actual_timestamp,key,rt
+3,Visual,usage,2000,2003,None,None
+3,Visual,Ègalement,6500.0,6502,None,None
+3,Visual,fuselÈ,12000.0,12002,None,None
+3,Visual,surestimÈ,17000.0,17002,None,None
+3,Visual,viande,21000.0,21002,None,None
+3,Visual,marathon,27000.0,27002,None,None
+3,Visual,nacre,32000.0,32002,None,None
+3,Visual,emeraude,37500.0,37502,None,None
+3,Visual,duage,42500.0,42501,None,None
+3,Visual,cabariste,46500.0,46502,None,None
+3,Visual,arcove,52500.0,52502,None,None
+3,Visual,pacheril,57500.0,57502,None,None
+3,Audio,final,62000.0,62000,None,None
+3,Audio,historien,71000.0,71000,None,None
+3,Audio,irisÈ,81000.0,81000,None,None
+3,Audio,besogneux,90500.0,90500,None,None
+3,Audio,soleil,101000.0,101000,None,None
+3,Audio,complexe,111000.0,111000,None,None
+3,Audio,marmot,121000.0,121000,None,None
+3,Audio,samouraÔ,130500.0,130500,None,None
+3,Audio,eÃÅtoda,140500.0,140500,None,None
+3,Audio,instagne,151000.0,151000,None,None
+3,Audio,jaren,160000.0,160000,None,None
+3,Audio,roupiote,171000.0,171000,None,None
+3,Visual,rachat,182000.0,182002,None,None
+3,Visual,ignorance,192500.0,192502,None,None
+3,Visual,ancrÈ,202500.0,202502,None,None
+3,Visual,dÈtraquÈ,212500.0,212502,None,None
+3,Visual,jardin,221500.0,221502,None,None
+3,Visual,chocolat,230500.0,230502,None,None
+3,Visual,nectar,241500.0,241502,None,None
+3,Visual,esclandre,252500.0,252502,None,None
+3,Visual,cliard,262000.0,262002,None,None
+3,Visual,bransier,272500.0,272502,None,None
+3,Visual,lacËle,282500.0,282502,None,None
+3,Visual,roduillon,292500.0,292502,None,None
+3,Audio,s˚retÈ,302000.0,302000,None,None
+3,Audio,peinture,307000.0,307000,None,None
+3,Audio,usitÈ,312000.0,312000,None,None
+3,Audio,salivant,317000.0,317000,None,None
+3,Audio,moulin,323000.0,323000,None,None
+3,Audio,satellite,328500.0,328500,None,None
+3,Audio,prune,334500.0,334500,None,None
+3,Audio,salpÍtre,339000.0,339000,None,None
+3,Audio,rÈcumi,343000.0,343000,None,None
+3,Audio,cirlement,347500.0,347500,None,None
+3,Audio,vithe,353000.0,353000,None,None
+3,Audio,tÈralemet,358000.0,358000,None,None

@@ -1,0 +1,69 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Mar 31 2025 23:20:40
+#sha1: 4113a0
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+4448,stdout,received,'Total number of events:  10'
+4448,stdout,received,'Expected Total duration:  86.0 s'
+10455,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10455,design,logged,
+10455,Experiment,started
+10459,Picture,loaded,Input_Data\Instructions\speech.png
+10475,Stimulus,presented,13
+13161,Keyboard,received, ,wait_char
+13165,Picture,loaded,Input_Data\Instructions\write.png
+13185,Stimulus,presented,14
+16268,Keyboard,received, ,wait_char
+16272,Picture,loaded,Input_Data\Instructions\instructions.png
+16288,Stimulus,presented,15
+19676,Keyboard,received, ,wait_char
+19679,Stimulus,presented,16
+21055,Keyboard,received,t,wait_char
+21068,Picture,loaded,Input_Data\Cues\Speech.png
+21083,Stimulus,presented,17
+24086,Stimulus,presented,0
+26056,Stimulus,presented,1
+26257,Stimulus,presented,0
+26258,stdout,received,'0: Scheduled: 5000 Actual: 5001 delta: 1'
+30357,Keyboard,received,None,wait_char
+30359,Stimulus,presented,0
+30556,Stimulus,presented,2
+30757,Stimulus,presented,0
+30757,stdout,received,'1: Scheduled: 9500.0 Actual: 9501 delta: 1.0'
+35356,Keyboard,received,None,wait_char
+35358,Stimulus,presented,0
+35556,Stimulus,presented,3
+35758,Stimulus,presented,0
+35758,stdout,received,'2: Scheduled: 14500.0 Actual: 14501 delta: 1.0'
+41357,Keyboard,received,None,wait_char
+41359,Stimulus,presented,0
+41556,Stimulus,presented,4
+41757,Stimulus,presented,0
+41758,stdout,received,'3: Scheduled: 20500.0 Actual: 20501 delta: 1.0'
+46857,Keyboard,received,None,wait_char
+46858,Stimulus,presented,0
+47056,Stimulus,presented,5
+47257,Stimulus,presented,0
+47258,stdout,received,'4: Scheduled: 26000.0 Actual: 26001 delta: 1.0'
+50857,Keyboard,received,None,wait_char
+50863,Picture,loaded,Input_Data\Cues\Write.png
+50897,Stimulus,presented,18
+53900,Stimulus,presented,0
+55055,Stimulus,played,b'Input_Data\\Audio_Files\\barricade_FEMALE_C.wav'
+55257,Stimulus,presented,0
+55257,stdout,received,'5: Scheduled: 34000.0 Actual: 34000 delta: 0.0'
+63857,Keyboard,received,None,wait_char
+63859,Stimulus,presented,0
+64055,Stimulus,played,b'Input_Data\\Audio_Files\\climat_FEMALE_C.wav'
+64256,Stimulus,presented,0
+64257,stdout,received,'6: Scheduled: 43000.0 Actual: 43000 delta: 0.0'
+66217,Experiment,paused
+66227,Stimulus,presented,19
+66396,Keyboard,received,y,wait_char
+66396,Experiment,ended
+66406,Data,saved
+66409,Stimulus,presented,19

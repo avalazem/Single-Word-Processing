@@ -1,0 +1,14 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Mar 27 2025 21:23:02
+#sha1: b5e36e
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5137,stderr,received,'Traceback (most recent call last):'
+5137,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp_test.py", line 85, in <module>'
+5139,stderr,received,'    stim = stimuli.Audio(str(audiofile))'
+5140,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+5140,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\.venv\\Lib\\site-packages\\expyriment\\stimuli\\_audio.py", line 51, in __init__'
+5164,stderr,received,'    raise IOError(u"The audio file {0} does not exists".format('
+5164,stderr,received,'OSError: The audio file RUN_ME_Pilot_1\\main_exp\\Input_Data\\Audio_Files\\final_MALE_G.wav does not exists'

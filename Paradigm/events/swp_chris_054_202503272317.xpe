@@ -1,0 +1,31 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Thu Mar 27 2025 23:17:34
+#sha1: 98ef21
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5733,stdout,received,'Total number of events:  48'
+5733,stdout,received,'Expected Total duration:  434.0 s'
+10248,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10248,design,logged,
+10248,Experiment,started
+10256,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Instructions_FR\instructions.png
+10315,Stimulus,presented,51
+11136,Keyboard,received, ,wait_char
+11142,Stimulus,presented,52
+12105,Keyboard,received,t,wait_char
+12119,Picture,loaded,C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Cues\Speech.png
+12154,Stimulus,presented,53
+18159,Stimulus,presented,0
+20106,Stimulus,presented,1
+20308,Stimulus,presented,0
+20309,stdout,received,'0: Scheduled: 8000 Actual: 8001 delta: 1'
+24408,Keyboard,received,None,wait_char
+24408,stderr,received,'Traceback (most recent call last):'
+24408,stderr,received,'  File "C:\\Users\\ali_a\\Desktop\\Single_Word_Processing_Stage\\Single_Word_Processing\\Paradigm\\swp_chris.py", line 209, in <module>'
+24412,stderr,received,"    t.get_factor('Word', encoding ='utf-8'),"
+24413,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+24413,stderr,received,"TypeError: Trial.get_factor() got an unexpected keyword argument 'encoding'"

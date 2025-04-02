@@ -1,0 +1,24 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Mon Mar 31 2025 23:19:23
+#sha1: 4113a0
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+4471,stdout,received,'Total number of events:  10'
+4471,stdout,received,'Expected Total duration:  86.0 s'
+10128,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10129,design,logged,
+10129,Experiment,started
+10132,Picture,loaded,Input_Data\Instructions\speech.png
+10146,Stimulus,presented,13
+19896,Keyboard,received, ,wait_char
+19899,Picture,loaded,Input_Data\Instructions\write.png
+19913,Stimulus,presented,14
+39982,Experiment,paused
+39986,Stimulus,presented,15
+40227,Keyboard,received,y,wait_char
+40227,Experiment,ended
+40240,Stimulus,presented,15

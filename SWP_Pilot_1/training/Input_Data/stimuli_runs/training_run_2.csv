@@ -1,0 +1,21 @@
+Word,Condition,Wordlength,Audio File,Input Modality,Output Modality,Trial Duration
+promulase,PLC,9,,Visual,Write,9.0
+soirée,RSHC,6,,Visual,Write,10.5
+dédoyez,PLC,7,,Visual,Write,11.0
+pignon,RLLC,6,,Visual,Write,9.5
+levécu,PLC,6,,Visual,Write,10.0
+dictature,RLHC,9,dictature_MALE_G.wav,Audio,Speech,5.5
+rapinume,PLS,8,rapinume_FEMALE_C.wav,Audio,Speech,4.5
+salonter,PLC,8,salonter_FEMALE_C.wav,Audio,Speech,5.0
+concierge,RLHS,9,concierge_MALE_G.wav,Audio,Speech,6.0
+marinade,RLHS,8,marinade_FEMALE_C.wav,Audio,Speech,4.0
+signature,RLHS,9,,Visual,Speech,4.0
+prénom,RSHC,6,,Visual,Speech,6.0
+décédé,RSHC,6,,Visual,Speech,4.5
+léthargie,RLLS,9,,Visual,Speech,5.5
+convolisé,PLC,9,,Visual,Speech,5.0
+larkane,PLS,7,larkane_FEMALE_C.wav,Audio,Write,9.0
+président,RLHC,9,président_MALE_G.wav,Audio,Write,10.5
+japorise,PLS,8,japorise_FEMALE_C.wav,Audio,Write,11.0
+treize,PLC,6,treize_MALE_G.wav,Audio,Write,9.5
+enjeux,RSHC,6,enjeux_MALE_G.wav,Audio,Write,10.0

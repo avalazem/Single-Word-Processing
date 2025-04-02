@@ -94,9 +94,7 @@ STAR_ID = 0
 # Defining files to load : instruction and stimuli list in a csv file
 ##############################################################################
 
-#condition_file = f"StimuliOrder/sub-{SUBJ_ID:03}_stimuli.csv"
-# Commented out for testing and added the following csv path
-condition_file = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Localizer\visual_categories_localizer.zip\CategoryLocalizer\StimuliOrder\sub-001_stimuli.csv"
+condition_file = f"StimuliOrder/sub-{SUBJ_ID:03}_stimuli.csv"
 
 if (GENERATE_PARTICIPANT_CSV or (not (os.path.isfile(condition_file)))) :
     orderded_stimuli_file = 'ordered_stimuli.csv'
@@ -243,13 +241,13 @@ def check_key_until(target_time):
             key = KEY_TRANSLATION[code]
             time = exp.clock.stopwatch_time
             exp.data.add([
-                'keypressed',
+                'button pressed',
                 target_time,
                 time,
                 time + KEYPRESS_DELAY,
-                'keypressed',
+                'button pressed',
                 key,
-                'keypressed',
+                'button pressed',
                 key])
         
         # exp.clock.wait(1)

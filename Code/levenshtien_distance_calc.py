@@ -41,6 +41,6 @@ print(f"Output saved to {output_csv}")
 
 
 # To test individual words
-word = 'tésin'
+word = 'césin'
 min_distance = min_levenshtein(word, french_words)
 print(min_distance)

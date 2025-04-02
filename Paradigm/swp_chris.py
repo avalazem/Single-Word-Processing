@@ -23,6 +23,10 @@ TEXT_SIZE = 50
 TEXT_FONT = 'Inconsolata-Regular.ttf'  # make sure you know which font is used
 RESPONSE_KEY = 'y'
 STIMULUS_DURATION = 200  # in milliseconds
+CUE_DURATION = 3000  # in milliseconds
+INTERBLOCK_DURATION = 15000  # in milliseconds
+PRE_STIMULUS_FIXATION_DURATION = 2000  # in milliseconds
+NUM_BLOCKS = 4
 TRIGGER_KEY = 't' # For the fMRI machine
 CONTROLLER_KEY = ' ' # For who runs the paradigm
 
@@ -48,14 +52,25 @@ audio_folder_path = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single
 # Path to run instructions image folder
 instruction_image_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Instructions_FR"
 
+# Path to the cue folder
+cue_folder = r"C:\Users\ali_a\Desktop\Single_Word_Processing_Stage\Single_Word_Processing\Paradigm\Input_Data\French\Images\Cues"
+
 
 # Function to display instructions based on modalities
-def display_instructions(input_modality, output_modality, instructions_folder):
-    instruction_image_path = Path(instructions_folder) / f"{input_modality}_{output_modality}.png"
+def display_instructions(instructions_folder):
+    instruction_image_path = Path(instructions_folder) / "instructions.png"
     instructions = stimuli.Picture(str(instruction_image_path))
     instructions.scale_to_fullscreen()
     instructions.present()
-    
+
+# Function to display cues based on output modalities
+def display_cue(cue_folder, output_modality):
+    cue_image_path = Path(cue_folder) / f"{output_modality}.png"
+    cue = stimuli.Picture(str(cue_image_path))
+    cue.scale_to_fullscreen()
+    cue.present()
+
+
 ################  Setup   ##########################################
 exp = design.Experiment(name="Single Word Processing", text_size=40)
 if DEBUG:
@@ -68,9 +83,10 @@ cue = stimuli.FixCross(size=(40, 40), line_width=4)
 b = design.Block()
 b.add_trials_from_csv_file(stim_file, encoding='utf-8')
 
-prev_onset = INITIAL_WAIT
+prev_onset = INITIAL_WAIT + CUE_DURATION
 
-for trial in b.trials:
+
+for i, trial in enumerate(b.trials):
     modality = trial.get_factor('Input Modality')
     
     if modality == 'Visual':
@@ -88,22 +104,26 @@ for trial in b.trials:
 
     duration = float(trial.get_factor('Trial Duration'))
     new_onset = prev_onset + duration * 1000
+
+    # Add INTERBLOCK_DURATION every 12 stimuli except the last block
+    if (i + 1) % 12 == 0 and (i + 1) < len(b.trials) - 1:
+        new_onset += INTERBLOCK_DURATION
+
     trial.set_factor('target_onset_time', prev_onset)
     prev_onset = new_onset
-    #if DEBUG:
-    #    print(trial.factors_as_text)
 
-total_duration = prev_onset + FINAL_WAIT
+total_duration = prev_onset + FINAL_WAIT # ignore first cue
 print("Total number of events: ", len(b.trials))
 print("Expected Total duration: ", total_duration/1000.0, "s")
 
 ######## Instructions ########################################
 control.start(skip_ready_screen=True)
     
-# Display instructions based on the first row's modalities
-input_modality = b.trials[0].get_factor('Input Modality')
-output_modality = b.trials[0].get_factor('Output Modality')
-display_instructions(input_modality, output_modality, instruction_image_folder)
+# Display instructions 
+#input_modality = b.trials[0].get_factor('Input Modality') # remove since modalities are mixed in runs
+#output_modality = b.trials[0].get_factor('Output Modality')
+display_instructions(instruction_image_folder)
+
 # Wait for CONTROLLER_KEY
 exp.keyboard.wait_char(CONTROLLER_KEY)
 
@@ -112,7 +132,6 @@ stimuli.TextLine('Préparez-vous...').present()
 exp.keyboard.wait_char(TRIGGER_KEY)
 
 start_time = exp.clock.time
-
 exp.screen.clear()
 exp.screen.update()
 
@@ -125,11 +144,50 @@ exp.data.add_variable_names(['modality',
                              'rt'])
 
 ########### main loop ##############################
+# Initialize previous modalities
+previous_input_modality = None
+previous_output_modality = None
+
 end_time = 0
 for itrial, t in enumerate(b.trials):
+    # Display cue (picture) if before each block
+    # Get current modalities
+    current_input_modality = t.get_factor("Input Modality")
+    current_output_modality = t.get_factor("Output Modality")
+    
+    run_start = (previous_input_modality is None and previous_output_modality is None)
+    changed_blocks = (previous_input_modality is not None and previous_output_modality is not None and
+                      (current_input_modality != previous_input_modality or current_output_modality != previous_output_modality))
+    
+
+    if run_start:
+        # Display transition image
+        display_cue(cue_folder, current_output_modality)
+
+        # Wait for the cue duration
+        exp.clock.wait(CUE_DURATION)
+
+        
+    if changed_blocks:
+        # Display blank screen
+        exp.screen.clear()
+        exp.screen.update()
+        
+        exp.clock.wait(INTERBLOCK_DURATION-CUE_DURATION-PRE_STIMULUS_FIXATION_DURATION)
+        
+        # Display cue image
+        display_cue(cue_folder, current_output_modality)
+
+        # Wait for the cue duration
+        exp.clock.wait(CUE_DURATION)
+        
+    # Update previous modalities
+    previous_input_modality = current_input_modality
+    previous_output_modality = current_output_modality
+    
     cue.present()
 
-    target_onset_time = t.get_factor("target_onset_time")
+    target_onset_time = t.get_factor("target_onset_time") 
     current_time = exp.clock.time - start_time
     delta = target_onset_time - current_time
     
@@ -167,8 +225,7 @@ for itrial, t in enumerate(b.trials):
                   key,
                   rt])
 
-# wait for FINAL_WAIT before closing
-# and record potential TRIGGER timestamps    
+# wait for FINAL_WAIT (in total_duration already) before closing and record potential TRIGGER timestamps    
 while exp.clock.time - start_time < total_duration:
     if exp.keyboard.check(TRIGGER_KEY):
         exp.data.add([exp.clock.time, exp.clock.time,'TRIGGER'])

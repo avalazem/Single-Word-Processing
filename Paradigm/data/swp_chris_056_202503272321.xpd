@@ -1,0 +1,36 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpd-file, coding: cp1252
+#date: Thu Mar 27 2025 23:21:46
+#--EXPERIMENT INFO
+#e mainfile: swp_chris.py
+#e sha1: 8eb8bb
+#e modules: 
+#e Experiment: Single Word Processing
+#e no between subject factors
+#e Stimfile: sub1_run_3.csv
+#--SUBJECT INFO
+#s id: 56
+subject_id,modality,item,target_timestamp,actual_timestamp,key,rt
+56,Visual,usage,8000,8001,None,None
+56,Visual,Ègalement,12500.0,12501,None,None
+56,Visual,fuselÈ,18000.0,18001,None,None
+56,Visual,surestimÈ,23000.0,23001,None,None
+56,Visual,viande,27000.0,27001,None,None
+56,Visual,marathon,33000.0,33001,None,None
+56,Visual,nacre,38000.0,38001,None,None
+56,Visual,emeraude,43500.0,43501,None,None
+56,Visual,duage,48500.0,48501,None,None
+56,Visual,cabariste,52500.0,52501,None,None
+56,Visual,arcove,58500.0,58502,None,None
+56,Visual,pacheril,63500.0,63501,None,None
+56,Audio,final,76000.0,76000,None,None
+56,Audio,historien,85000.0,85000,None,None
+56,Audio,irisÈ,95000.0,95000,None,None
+56,Audio,besogneux,104500.0,104500,None,None
+56,Audio,soleil,115000.0,115000,None,None
+56,Audio,complexe,125000.0,125000,None,None
+56,Audio,marmot,135000.0,135000,None,None
+56,Audio,samouraÔ,144500.0,144500,None,None
+56,Audio,eÃÅtoda,154500.0,154500,None,None
+56,Audio,instagne,165000.0,165000,None,None
+56,Audio,jaren,174000.0,174000,None,None
+56,Audio,roupiote,185000.0,185000,None,None
