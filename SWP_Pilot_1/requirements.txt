@@ -1,3 +1,0 @@
-pandas
-argparse
-git+https://github.com/expyriment/expyriment
